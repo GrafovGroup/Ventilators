@@ -1,0 +1,94 @@
+Nov 17, 2026, 17:35
+Close
+Details of submission 171867031
+
+_subject
+
+Ventilators.ca — Médical (FR)
+
+category
+
+Demande de soutien technique
+
+category_id
+
+technical-support
+
+consent
+
+yes
+
+consent_text
+
+J’ai lu l’avis de confidentialité et je consens au traitement de mes coordonnées professionnelles et de ma demande par Ventilators.ca et Formspree afin de répondre à cette demande.
+
+consent_timestamp
+
+2026-11-17T17:35:59.434Z
+
+consent_version
+
+2026-11-17-formspree-v1
+
+details
+
+Essai du site VCA-ACCEPTANCE-20261117-FR. Exemple de demande professionnelle : une équipe d’approvisionnement institutionnel prépare la documentation pour le soutien technique d’un appareil de ventilation. Elle peut fournir le fabricant, le modèle exact et les références des accessoires. Quels documents seraient nécessaires pour vérifier la portée du service et la compatibilité des pièces? Essai synthétique seulement; aucune soumission ni intervention réelle demandée.
+
+division
+
+medical
+
+email
+
+info@ventilators.ca
+
+locale
+
+fr-CA
+
+message
+
+Essai du site VCA-ACCEPTANCE-20261117-FR. Exemple de demande professionnelle : une équipe d’approvisionnement institutionnel prépare la documentation pour le soutien technique d’un appareil de ventilation. Elle peut fournir le fabricant, le modèle exact et les références des accessoires. Quels documents seraient nécessaires pour vérifier la portée du service et la compatibilité des pièces? Essai synthétique seulement; aucune soumission ni intervention réelle demandée.
+
+model
+
+name
+
+Vérification du site Ventilators.ca FR
+
+organization
+
+Grafov Group — assurance qualité
+
+page
+
+https://ventilators.ca/fr/demande-de-soumission/
+
+phone
+
+province
+
+QC
+
+quantity
+
+1
+
+request_id
+
+VCA-1e15ca5f-78e9-464e-adae-616522497aa4
+
+specification
+
+timeline
+
+Planification / budget
+
+urgency
+
+Planification courante
+
+_status
+
+info@ventilators.ca:
+delivered

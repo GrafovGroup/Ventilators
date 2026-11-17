@@ -1,5 +1,13 @@
 # QA report
 
+## Spam-protection review — 2026-11-17
+
+Reviewed on owner request after the initial bilingual delivery tests. Formshield and the hidden honeypot remain active. Advanced sensitivity and classifier controls require Formspree Professional or higher and are locked on the current plan; no purchase or provider setting change was made. No custom blocking rules or project domain restriction was present. Live referrer policy and the empty, hidden honeypot were checked; no website filtering defect was found.
+
+Two new realistic, explicitly synthetic business inquiries reached the regular Formspree inbox without manual spam review, with Spam (0): English industrial repair `VCA-7cb846a0-ae78-40b5-905c-11aa74584024` / submission `171866931`, and French medical technical support `VCA-1e15ca5f-78e9-464e-adae-616522497aa4` / submission `171867031`. Formspree marked both notifications delivered to info@ventilators.ca. Evidence: `qa/evidence/spam-review/`. These are bounded examples, not a guarantee of zero future false positives. The earlier flagged test's cause is not exposed by the dashboard.
+
+The recovery process and paid-control limitation are documented in `docs/RFQ_ENDPOINT.md`. No runtime code changed or new release was needed; existing source/build checks still apply. No persistent monitoring, broad safe-sender rule or account upgrade was created.
+
 ## Formspree integration — 2026-11-17
 
 The owner requested connection and testing of form `mvkaapjj`. The current React implementation and WHC CSP support explicit submission after review. Formspree's enabled Email workflow was inspected and targets info@ventilators.ca; existing archive and Formshield controls remain enabled, with no account changes. Release `2026-11-17-formspree-1` is live from clean source `8ae4beb1e98996ada2013452a8044c66b61dded9`. All 487 public files match the artifact, and both authorized live tests reached Formspree. See the delivery details below.

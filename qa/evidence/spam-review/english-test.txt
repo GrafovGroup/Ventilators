@@ -1,0 +1,96 @@
+Nov 17, 2026, 17:35
+Close
+Details of submission 171866931
+
+_subject
+
+Ventilators.ca — Industrial (EN)
+
+category
+
+Fan repair inquiry
+
+category_id
+
+repair
+
+consent
+
+yes
+
+consent_text
+
+I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.
+
+consent_timestamp
+
+2026-11-17T17:35:34.238Z
+
+consent_version
+
+2026-11-17-formspree-v1
+
+details
+
+Website acceptance test VCA-ACCEPTANCE-20261117-EN. Example business inquiry: a warehouse facilities team needs to plan repair or replacement of one roof exhaust fan. They can provide the motor nameplate, dimensions and existing airflow requirements for review. Please identify the technical information normally needed to assess this scope. This is a synthetic test only; no quotation or service visit is requested.
+
+division
+
+industrial
+
+email
+
+info@ventilators.ca
+
+locale
+
+en-CA
+
+message
+
+Website acceptance test VCA-ACCEPTANCE-20261117-EN. Example business inquiry: a warehouse facilities team needs to plan repair or replacement of one roof exhaust fan. They can provide the motor nameplate, dimensions and existing airflow requirements for review. Please identify the technical information normally needed to assess this scope. This is a synthetic test only; no quotation or service visit is requested.
+
+model
+
+name
+
+Ventilators.ca acceptance check EN
+
+organization
+
+Grafov Group website QA
+
+page
+
+https://ventilators.ca/en/request-a-quote/
+
+phone
+
+province
+
+ON
+
+quantity
+
+1
+
+request_id
+
+VCA-7cb846a0-ae78-40b5-905c-11aa74584024
+
+specification
+
+Example requirement: 5,000 CFM; equipment rating to be confirmed
+
+timeline
+
+Planning / budget
+
+urgency
+
+Standard planning
+
+_status
+
+info@ventilators.ca:
+delivered

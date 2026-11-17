@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-11-17T17:37:47.731230+00:00",
+  "formId": "mvkaapjj",
+  "liveRelease": "2026-11-17-formspree-1",
+  "providerSettingsChanged": false,
+  "runtimeCodeChanged": false,
+  "formshield": true,
+  "submissionArchive": true,
+  "smartFilter": true,
+  "sensitivitySliderValue": 50,
+  "sensitivityInterpretation": "midpoint, consistent with Neutral",
+  "advancedControlsLocked": true,
+  "requiredPlanForTuning": "Professional or higher",
+  "classifierSettings": {
+    "profanity": false,
+    "crypto": true,
+    "drugs": true,
+    "fraud": true,
+    "porn": true,
+    "spammyPhrases": true,
+    "spammyUrls": true,
+    "spammyEmails": false
+  },
+  "customRules": "not configured in available UI",
+  "projectDomainRestriction": "empty",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "honeypot": {
+    "present": true,
+    "hidden": true,
+    "emptyDuringBusinessTest": true,
+    "autocomplete": "off"
+  },
+  "spamInboxCount": 0,
+  "tests": [
+    {
+      "locale": "en-CA",
+      "division": "industrial",
+      "category": "repair",
+      "reference": "VCA-7cb846a0-ae78-40b5-905c-11aa74584024",
+      "submissionId": "171866931",
+      "marker": "VCA-ACCEPTANCE-20261117-EN",
+      "publicSuccess": true,
+      "regularInbox": true,
+      "manualSpamReview": false,
+      "notificationRecipient": "info@ventilators.ca",
+      "providerDeliveryStatus": "delivered"
+    },
+    {
+      "locale": "fr-CA",
+      "division": "medical",
+      "category": "technical-support",
+      "reference": "VCA-1e15ca5f-78e9-464e-adae-616522497aa4",
+      "submissionId": "171867031",
+      "marker": "VCA-ACCEPTANCE-20261117-FR",
+      "publicSuccess": true,
+      "regularInbox": true,
+      "manualSpamReview": false,
+      "notificationRecipient": "info@ventilators.ca",
+      "providerDeliveryStatus": "delivered"
+    }
+  ],
+  "limitations": [
+    "Two realistic, labeled synthetic cases; not a guarantee for all future messages.",
+    "No provider reason exposed for the earlier flagged synthetic French message.",
+    "Delivery is provider-reported for these two new tests; no additional owner receipt confirmation requested.",
+    "No paid upgrade, mailbox exemption, CAPTCHA change or scheduled monitoring."
+  ],
+  "references": [
+    "https://help.formspree.io/articles/advanced-features/advanced-spam-filtering",
+    "https://help.formspree.io/articles/form-and-project-settings/restrict-to-domain",
+    "https://help.formspree.io/articles/building-your-form/honeypot-spam-filtering"
+  ]
+}
