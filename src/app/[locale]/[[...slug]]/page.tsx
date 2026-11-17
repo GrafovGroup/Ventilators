@@ -53,7 +53,7 @@ export default async function Page({ params }: Props) {
       </>
     );
   else content = <ArticlePage locale={locale} page={page as ArticleKey} />;
-  return (
+  const rendered = (
     <>
       <Header locale={locale} page={page} alternate={alternatePath(route)} />
       <main id="main">
@@ -83,4 +83,5 @@ export default async function Page({ params }: Props) {
       />
     </>
   );
+  return page === 'home' ? <div className="airgrid-home">{rendered}</div> : rendered;
 }

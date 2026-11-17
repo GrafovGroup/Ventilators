@@ -1,5 +1,9 @@
 # Design system — Precision Airflow
 
+## Owner-selected homepage variation — 2026-11-17
+
+The AirGrid layout is approved for the English and French homepages while retaining all existing production logo assets. Homepage-only tokens are warm paper `#f4f3ee`, charcoal `#20211f` and rust `#b33f29`. The hero uses bold filled/outlined uppercase type and the existing industrial photograph. Square calls to action, thin editorial rules and a vertical preparation sequence carry the visual style through the page. The original blue wordmark remains intact. Other routes keep the original design tokens. See `src/app/airgrid.css` and `src/components/home.tsx`; print/forced-colour modes render solid headline text.
+
 Implemented for review, 2026-11-17. Owner approval remains pending (Gate A).
 
 ## Identity

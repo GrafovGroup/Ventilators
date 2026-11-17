@@ -1,0 +1,1615 @@
+{
+  "method": "Sum of gzip-compressed initial external scripts/styles in static HTML; image file bytes. Excludes deferred inquiry SDK. Not field performance timing.",
+  "routes": [
+    {
+      "route": "/en/",
+      "htmlBytes": 31960,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industrial/",
+      "htmlBytes": 36352,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/medical/",
+      "htmlBytes": 29509,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/products/",
+      "htmlBytes": 33105,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/services/",
+      "htmlBytes": 29821,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industries/",
+      "htmlBytes": 30547,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/resources/",
+      "htmlBytes": 29372,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/about/",
+      "htmlBytes": 23639,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/contact/",
+      "htmlBytes": 22554,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/request-a-quote/",
+      "htmlBytes": 19966,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/faq/",
+      "htmlBytes": 24310,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/privacy/",
+      "htmlBytes": 25377,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/terms/",
+      "htmlBytes": 23565,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/accessibility/",
+      "htmlBytes": 22149,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industrial/roof-ventilators/",
+      "htmlBytes": 31858,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industrial/axial-fans/",
+      "htmlBytes": 31138,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industrial/centrifugal-fans/",
+      "htmlBytes": 31615,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industrial/exhaust-fans/",
+      "htmlBytes": 31602,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industrial/supply-fans/",
+      "htmlBytes": 31437,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industrial/blowers/",
+      "htmlBytes": 30672,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industrial/parts-and-replacements/",
+      "htmlBytes": 31637,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/medical/invasive-ventilators/",
+      "htmlBytes": 29198,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/medical/non-invasive-ventilators/",
+      "htmlBytes": 29234,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/medical/respiratory-accessories/",
+      "htmlBytes": 28920,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/medical/institutional-procurement/",
+      "htmlBytes": 28608,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/services/industrial-fan-repair/",
+      "htmlBytes": 29072,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/services/ventilation-maintenance/",
+      "htmlBytes": 29075,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/services/installation-coordination/",
+      "htmlBytes": 29304,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/services/equipment-replacement/",
+      "htmlBytes": 29082,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/services/medical-technical-support/",
+      "htmlBytes": 29452,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industries/warehouses/",
+      "htmlBytes": 29486,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industries/manufacturing/",
+      "htmlBytes": 29713,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industries/commercial-facilities/",
+      "htmlBytes": 29737,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industries/hospitals/",
+      "htmlBytes": 29723,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industries/clinics/",
+      "htmlBytes": 29494,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/industries/institutional-buyers/",
+      "htmlBytes": 28902,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/resources/industrial-specification-guide/",
+      "htmlBytes": 32691,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/resources/replacement-planning-guide/",
+      "htmlBytes": 31670,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/resources/medical-procurement-guide/",
+      "htmlBytes": 32540,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/en/resources/accessory-identification-guide/",
+      "htmlBytes": 29135,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/",
+      "htmlBytes": 32743,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/industriel/",
+      "htmlBytes": 38075,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/medical/",
+      "htmlBytes": 30670,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/produits/",
+      "htmlBytes": 35479,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/services/",
+      "htmlBytes": 30720,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/secteurs/",
+      "htmlBytes": 31308,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/ressources/",
+      "htmlBytes": 30445,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/a-propos/",
+      "htmlBytes": 24332,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/contact/",
+      "htmlBytes": 23103,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/demande-de-soumission/",
+      "htmlBytes": 20603,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/faq/",
+      "htmlBytes": 25376,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/confidentialite/",
+      "htmlBytes": 26798,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/conditions/",
+      "htmlBytes": 24368,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/accessibilite/",
+      "htmlBytes": 23055,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/industriel/ventilateurs-de-toit/",
+      "htmlBytes": 33643,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/industriel/ventilateurs-axiaux/",
+      "htmlBytes": 32493,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/industriel/ventilateurs-centrifuges/",
+      "htmlBytes": 33173,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/industriel/ventilateurs-extraction/",
+      "htmlBytes": 33028,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/industriel/ventilateurs-soufflage/",
+      "htmlBytes": 32771,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/industriel/soufflantes/",
+      "htmlBytes": 32022,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/industriel/pieces-et-remplacement/",
+      "htmlBytes": 32982,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/medical/ventilateurs-invasifs/",
+      "htmlBytes": 30304,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/medical/ventilateurs-non-invasifs/",
+      "htmlBytes": 30293,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/medical/accessoires-respiratoires/",
+      "htmlBytes": 29996,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/medical/approvisionnement-institutionnel/",
+      "htmlBytes": 29653,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/services/reparation-ventilateurs-industriels/",
+      "htmlBytes": 30308,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/services/entretien-ventilation/",
+      "htmlBytes": 30224,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/services/coordination-installation/",
+      "htmlBytes": 30288,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/services/remplacement-equipement/",
+      "htmlBytes": 30179,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/services/soutien-technique-medical/",
+      "htmlBytes": 30587,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/secteurs/entrepots/",
+      "htmlBytes": 30397,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/secteurs/fabrication/",
+      "htmlBytes": 30651,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/secteurs/batiments-commerciaux/",
+      "htmlBytes": 30854,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/secteurs/hopitaux/",
+      "htmlBytes": 30751,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/secteurs/cliniques/",
+      "htmlBytes": 30172,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/secteurs/acheteurs-institutionnels/",
+      "htmlBytes": 29783,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/ressources/guide-specifications-industrielles/",
+      "htmlBytes": 34111,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/ressources/guide-planification-remplacement/",
+      "htmlBytes": 32676,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/ressources/guide-approvisionnement-medical/",
+      "htmlBytes": 33795,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    },
+    {
+      "route": "/fr/ressources/guide-identification-accessoires/",
+      "htmlBytes": 30186,
+      "initialJavaScriptGzipBytes": 191293,
+      "cssGzipBytes": 7713,
+      "scripts": [
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3hcdfg9qoigns.js",
+        "/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "/_next/static/chunks/1pcw6gskne7pf.js"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "source": "/images/clinics.webp",
+      "src": "/images/responsive/clinics-480.webp",
+      "width": 480,
+      "bytes": 16122,
+      "originalBytes": 101082
+    },
+    {
+      "source": "/images/clinics.webp",
+      "src": "/images/responsive/clinics-800.webp",
+      "width": 800,
+      "bytes": 31940,
+      "originalBytes": 101082
+    },
+    {
+      "source": "/images/clinics.webp",
+      "src": "/images/responsive/clinics-1200.webp",
+      "width": 1200,
+      "bytes": 51078,
+      "originalBytes": 101082
+    },
+    {
+      "source": "/images/commercial.webp",
+      "src": "/images/responsive/commercial-480.webp",
+      "width": 480,
+      "bytes": 27946,
+      "originalBytes": 183614
+    },
+    {
+      "source": "/images/commercial.webp",
+      "src": "/images/responsive/commercial-800.webp",
+      "width": 800,
+      "bytes": 59602,
+      "originalBytes": 183614
+    },
+    {
+      "source": "/images/commercial.webp",
+      "src": "/images/responsive/commercial-1200.webp",
+      "width": 1200,
+      "bytes": 101834,
+      "originalBytes": 183614
+    },
+    {
+      "source": "/images/hospitals.webp",
+      "src": "/images/responsive/hospitals-480.webp",
+      "width": 480,
+      "bytes": 12410,
+      "originalBytes": 116886
+    },
+    {
+      "source": "/images/hospitals.webp",
+      "src": "/images/responsive/hospitals-800.webp",
+      "width": 800,
+      "bytes": 30340,
+      "originalBytes": 116886
+    },
+    {
+      "source": "/images/hospitals.webp",
+      "src": "/images/responsive/hospitals-1200.webp",
+      "width": 1200,
+      "bytes": 55170,
+      "originalBytes": 116886
+    },
+    {
+      "source": "/images/industrial-hub.webp",
+      "src": "/images/responsive/industrial-hub-480.webp",
+      "width": 480,
+      "bytes": 8510,
+      "originalBytes": 80062
+    },
+    {
+      "source": "/images/industrial-hub.webp",
+      "src": "/images/responsive/industrial-hub-800.webp",
+      "width": 800,
+      "bytes": 18958,
+      "originalBytes": 80062
+    },
+    {
+      "source": "/images/industrial-hub.webp",
+      "src": "/images/responsive/industrial-hub-1200.webp",
+      "width": 1200,
+      "bytes": 34996,
+      "originalBytes": 80062
+    },
+    {
+      "source": "/images/industrial.webp",
+      "src": "/images/responsive/industrial-480.webp",
+      "width": 480,
+      "bytes": 29868,
+      "originalBytes": 337982
+    },
+    {
+      "source": "/images/industrial.webp",
+      "src": "/images/responsive/industrial-800.webp",
+      "width": 800,
+      "bytes": 79562,
+      "originalBytes": 337982
+    },
+    {
+      "source": "/images/industrial.webp",
+      "src": "/images/responsive/industrial-1200.webp",
+      "width": 1200,
+      "bytes": 158896,
+      "originalBytes": 337982
+    },
+    {
+      "source": "/images/manufacturing.webp",
+      "src": "/images/responsive/manufacturing-480.webp",
+      "width": 480,
+      "bytes": 25588,
+      "originalBytes": 209174
+    },
+    {
+      "source": "/images/manufacturing.webp",
+      "src": "/images/responsive/manufacturing-800.webp",
+      "width": 800,
+      "bytes": 55646,
+      "originalBytes": 209174
+    },
+    {
+      "source": "/images/manufacturing.webp",
+      "src": "/images/responsive/manufacturing-1200.webp",
+      "width": 1200,
+      "bytes": 98904,
+      "originalBytes": 209174
+    },
+    {
+      "source": "/images/medical.webp",
+      "src": "/images/responsive/medical-480.webp",
+      "width": 480,
+      "bytes": 34190,
+      "originalBytes": 182724
+    },
+    {
+      "source": "/images/medical.webp",
+      "src": "/images/responsive/medical-800.webp",
+      "width": 800,
+      "bytes": 72136,
+      "originalBytes": 182724
+    },
+    {
+      "source": "/images/medical.webp",
+      "src": "/images/responsive/medical-1200.webp",
+      "width": 1200,
+      "bytes": 146602,
+      "originalBytes": 182724
+    },
+    {
+      "source": "/images/warehouses.webp",
+      "src": "/images/responsive/warehouses-480.webp",
+      "width": 480,
+      "bytes": 58756,
+      "originalBytes": 390664
+    },
+    {
+      "source": "/images/warehouses.webp",
+      "src": "/images/responsive/warehouses-800.webp",
+      "width": 800,
+      "bytes": 123242,
+      "originalBytes": 390664
+    },
+    {
+      "source": "/images/warehouses.webp",
+      "src": "/images/responsive/warehouses-1200.webp",
+      "width": 1200,
+      "bytes": 208212,
+      "originalBytes": 390664
+    }
+  ]
+}

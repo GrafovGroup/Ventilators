@@ -1,5 +1,17 @@
 # QA report
 
+## AirGrid homepage with original logo — 2026-11-17
+
+Owner-selected option 03 styling applied to `/en/` and `/fr/`, retaining the existing production logo. New styles are scoped to the homepage wrapper; all other routes retain their original styling. Both existing homepage photographs remain uniquely assigned to that logical page. No new product claim, provider configuration, form handler or spam rule is introduced.
+
+- ESLint, TypeScript, 21 existing tests, public build, all 80 exported pages and asset/metadata checks pass. Initial script payload stays within the 200 KB gzip budget (191,293 bytes); CSS and all responsive photo budgets pass.
+- English/French homepages at 320, 375, 768, 1024 and 1440 px: ten automated accessibility/layout checks with zero violations or horizontal overflow. Contrast items left incomplete by axe still require human review; full accessibility certification is not claimed.
+- All seven files in `public/brand/` match their pre-change SHA-256 values and Git HEAD contents. The existing header and reversed footer logos are rendered. No AirGrid concept logo enters the public export.
+- Industrial and medical homepage inquiry links preselect the correct division; the form language switch preserves that context. French mobile menu/Escape behavior passes. Directory and inquiry-page regression audits at 375 px also pass (12 page/width audits total). No real inquiry was sent.
+- Evidence in `qa/evidence/airgrid/`: build/lint/typecheck/test/export logs, responsive screenshots, `brand-hashes.json`, `performance.json` and browser observations. Local LCP/CLS observations are unthrottled lab samples and do not establish field Core Web Vitals.
+
+Deployment verification will be appended after WHC activation. The previous discovery release remains available for rollback.
+
 ## Five logo and homepage alternatives — 2026-11-17
 
 Requested after completion of the discovery release. `designs/2026-11-17/` contains five original vector identities and five complete, bilingual, responsive homepage concepts, plus comparison boards, PNG/SVG downloads and the self-contained gallery. They are review artifacts and are not in the live document root or Next.js export.
