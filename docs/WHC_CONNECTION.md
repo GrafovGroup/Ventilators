@@ -1,8 +1,20 @@
 # WHC connection — 2026-11-17
 
-## Current AirGrid homepage release
+## Current site-wide AirGrid release
 
-Release `2026-11-17-airgrid-1` is live at https://ventilators.ca/ from clean source `333be83e9a720c6e34e4afdf4f41af5e08fd1836` on `codex/phase-1a`. The owner selected the AirGrid homepage style and retained the original production logo. English and French homepages use the new layout; the catalogue remains inquiry-only.
+Release `2026-11-17-airgrid-site-1` is live at https://ventilators.ca/ from clean source `045209015a0e1c526f9f3e5b632321ecb19437f3` on `codex/phase-1a`. AirGrid now covers all 80 localized routes with fluid containers and the original production logo. The language-choice gateway is removed: the root and `/index.html` return 301 directly to `/en/`, preserving queries. French remains available through equivalent-page header links.
+
+- Active document root: `/home/nvfglyl5/ventilators-release-2026-11-17-airgrid-site-1`.
+- Immediate rollback: `/home/nvfglyl5/ventilators-release-2026-11-17-airgrid-1`; earlier roots remain intact.
+- ZIP: `2026-11-17-airgrid-site-1.zip`, 5,203,992 bytes, SHA-256 `7f53e00716e82005a604d25470b40d242951a186f294b311c444dc0dec8db9a7`.
+- Uploaded/extracted into a new root; hidden `.htaccess`, index and both locale directories inspected. ZIP moved to `/home/nvfglyl5/2026-11-17-airgrid-site-1.zip` before activation.
+- cPanel confirmed the new root. All 511 directly served public files match the manifest. Two `.htaccess` files are private; root fallback HTML is covered by build checks and public redirect probes. HTTP/www/root/query redirects, headers, robots and 404 pass. Public archive and review gallery return 404.
+- Live English at 1920px and French at 375px: original logo, fluid container sizing, mobile navigation, form hydration and inquiry language continuity pass with no console errors. No real inquiries were sent. Evidence: `qa/evidence/airgrid-site/`.
+- Rollback: restore `ventilators-release-2026-11-17-airgrid-1` in cPanel Domains → Manage ventilators.ca → New Document Root → Update, then verify its prior manifest and gateway behavior. This also restores the earlier language-choice entry page. No DNS, mail, hosting-plan or spam-control changes occurred.
+
+## Historical AirGrid homepage release
+
+Release `2026-11-17-airgrid-1` was published at https://ventilators.ca/ from clean source `333be83e9a720c6e34e4afdf4f41af5e08fd1836` on `codex/phase-1a`. The owner selected the AirGrid homepage style and retained the original production logo. English and French homepages use the new layout; the catalogue remains inquiry-only.
 
 - Active document root: `/home/nvfglyl5/ventilators-release-2026-11-17-airgrid-1`.
 - Immediate rollback: `/home/nvfglyl5/ventilators-release-2026-11-17-discovery-1`; older Formspree, initial public and holding roots remain intact.

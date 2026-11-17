@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/2026-11-17-airgrid-site-1.zip",
+    "status": 404,
+    "expected": 404,
+    "matches": true
+  },
+  {
+    "path": "/designs/2026-11-17/",
+    "status": 404,
+    "expected": 404,
+    "matches": true
+  }
+]

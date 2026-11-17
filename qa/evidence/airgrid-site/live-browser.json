@@ -1,0 +1,63 @@
+{
+  "release": "2026-11-17-airgrid-site-1",
+  "checkedAt": "2026-11-17T19:08:53.123Z",
+  "checks": [
+    {
+      "containerWidth": 1824,
+      "heading": "MOVE AIR.MOVE FORWARD.",
+      "logo": "/brand/logo.svg",
+      "logoLoaded": true,
+      "name": "Direct public entry",
+      "scrollWidth": 1920,
+      "url": "https://ventilators.ca/en/",
+      "width": 1920
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "buttonRadius": "0px",
+      "containerWidth": 1824,
+      "headingWeight": "800",
+      "logo": "/brand/logo.svg",
+      "name": "Wide industrial page",
+      "scrollWidth": 1920,
+      "url": "https://ventilators.ca/en/industrial/",
+      "width": 1920
+    },
+    {
+      "containerWidth": 343,
+      "lang": "fr-CA",
+      "logo": "/brand/logo.svg",
+      "logoLoaded": true,
+      "name": "French mobile interior",
+      "scrollWidth": 375,
+      "url": "https://ventilators.ca/fr/industriel/",
+      "width": 375
+    },
+    {
+      "name": "French mobile menu opens",
+      "pass": true
+    },
+    {
+      "name": "French menu closes with Escape",
+      "pass": true
+    },
+    {
+      "division": "industrial",
+      "form": true,
+      "name": "French industrial inquiry loads",
+      "scrollWidth": 375,
+      "url": "https://ventilators.ca/fr/demande-de-soumission/?division=industrial",
+      "width": 375
+    },
+    {
+      "division": "industrial",
+      "name": "Inquiry language switch preserves division",
+      "url": "https://ventilators.ca/en/request-a-quote/?division=industrial"
+    }
+  ],
+  "console": [],
+  "notes": [
+    "No real form submissions sent.",
+    "All 511 directly served public files match the release manifest; root redirect verified separately."
+  ]
+}
