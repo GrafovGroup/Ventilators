@@ -1,0 +1,272 @@
+[
+  {
+    "id": "home-industrial",
+    "page": "home",
+    "source": "https://www.pexels.com/photo/massive-ventilators-of-industrial-building-5502720/",
+    "credit": "Mike van Schoonderwalt",
+    "file": "public/images/industrial.webp",
+    "bytes": 337982,
+    "sha256": "9ddf6199f4efeb6a2c5e11e5eabc31e0dfb82dac95a02405bcf0eef1a93db3be"
+  },
+  {
+    "id": "home-medical",
+    "page": "home",
+    "source": "https://www.pexels.com/photo/equipment-at-hospital-13697732/",
+    "credit": "Jonathan Borba",
+    "file": "public/images/medical.webp",
+    "bytes": 182724,
+    "sha256": "0f0cd9378c1e917461863a8130d96dcb8242a259bd344a25ec9255ff18bab580"
+  },
+  {
+    "id": "industrial",
+    "page": "industrial",
+    "source": "https://www.pexels.com/photo/industrial-interior-with-exposed-hvac-ductwork-30749458/",
+    "credit": "Jakub Zerdzicki",
+    "file": "public/images/industrial-hub.webp",
+    "bytes": 80062,
+    "sha256": "0ef5a0aaf4f784375446f705fc9de274698872ee2a11defdf7a854521e819ac1"
+  },
+  {
+    "id": "warehouses",
+    "page": "warehouses",
+    "source": "https://www.pexels.com/photo/shelves-on-a-warehouse-4483608/",
+    "credit": "Tiger Lily",
+    "file": "public/images/warehouses.webp",
+    "bytes": 390664,
+    "sha256": "5b22fddc81a0680b2300db082df25ae86e1cb94f5eb219e9e5d30d64a2679973"
+  },
+  {
+    "id": "manufacturing",
+    "page": "manufacturing",
+    "source": "https://www.pexels.com/photo/factory-production-line-13974251/",
+    "credit": "Frans van Heerden",
+    "file": "public/images/manufacturing.webp",
+    "bytes": 209174,
+    "sha256": "a900fc2f1e549b39b9e3f326dc2678f4704341a144f133b58caae898863b2206"
+  },
+  {
+    "id": "commercial",
+    "page": "commercial",
+    "source": "https://www.pexels.com/photo/modern-glass-facade-of-office-building-33719777/",
+    "credit": "Zulfugar Karimov",
+    "file": "public/images/commercial.webp",
+    "bytes": 183614,
+    "sha256": "34470c95274f89cc1567bea677ff0d5beed871bc4132405e4719c55d54775cfb"
+  },
+  {
+    "id": "hospitals",
+    "page": "hospitals",
+    "source": "https://www.pexels.com/photo/hospital-beds-in-the-hallway-11660582/",
+    "credit": "adrian vieriu",
+    "file": "public/images/hospitals.webp",
+    "bytes": 116886,
+    "sha256": "874752a0564d58fda82f41a453baa66981f6541027ebfd0692f16b0d7706e033"
+  },
+  {
+    "id": "clinics",
+    "page": "clinics",
+    "source": "https://www.pexels.com/photo/a-hospital-bed-near-the-window-14267571/",
+    "credit": "Viktorya Sergeeva",
+    "file": "public/images/clinics.webp",
+    "bytes": 101082,
+    "sha256": "f090b2aac7b0cd9fc8d539f192b062545fd2db6a88d88866fe8beafabc6fdfb6"
+  },
+  {
+    "id": "roof",
+    "page": "roof",
+    "source": "original:roof",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/roof.svg",
+    "bytes": 2887,
+    "sha256": "0bcce19f7569acb923c190179bd2067ab2048424ae0046760623c3ddda304065"
+  },
+  {
+    "id": "axial",
+    "page": "axial",
+    "source": "original:axial",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/axial.svg",
+    "bytes": 3275,
+    "sha256": "7a9e6ebc8a98e808d1e4cf9abdeb0fca11de94ad80912aa351e7d048c7413e2e"
+  },
+  {
+    "id": "centrifugal",
+    "page": "centrifugal",
+    "source": "original:centrifugal",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/centrifugal.svg",
+    "bytes": 3678,
+    "sha256": "d1a3c6db29523cdc45def6c2d54c12bf7dfdfb54ba61ba73315d00b1bdc1704b"
+  },
+  {
+    "id": "exhaust",
+    "page": "exhaust",
+    "source": "original:exhaust",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/exhaust.svg",
+    "bytes": 3114,
+    "sha256": "dcb80a982cd2b11b49850240a3698661da01b11c85001f514b9bf4bb644a7b19"
+  },
+  {
+    "id": "supply",
+    "page": "supply",
+    "source": "original:supply",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/supply.svg",
+    "bytes": 4011,
+    "sha256": "e4c46a0c3da9db07ae0ea0408e9b385aac3209fd6955911b353142de45f17396"
+  },
+  {
+    "id": "blowers",
+    "page": "blowers",
+    "source": "original:blowers",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/blowers.svg",
+    "bytes": 2433,
+    "sha256": "c561d56bdce889aecf4e112563b101b90a9ed62c5fbafd895581f3bbf716ed17"
+  },
+  {
+    "id": "parts",
+    "page": "parts",
+    "source": "original:parts",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/parts.svg",
+    "bytes": 4219,
+    "sha256": "14857a0c01e6ebe5c2a8369ed42822c56de8612fe828b0eb2986a93bc8fac80c"
+  },
+  {
+    "id": "medical",
+    "page": "medical",
+    "source": "original:medical",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/medical.svg",
+    "bytes": 3254,
+    "sha256": "625a30c360ced34dc687b4bf290c1d0c2012b245f6315aa4dbab66b3905cbccc"
+  },
+  {
+    "id": "invasive",
+    "page": "invasive",
+    "source": "original:invasive",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/invasive.svg",
+    "bytes": 2939,
+    "sha256": "01a12d1b0344013320655ebc8f2187975cfb635eb365521fb6d52a52d791e9c0"
+  },
+  {
+    "id": "noninvasive",
+    "page": "noninvasive",
+    "source": "original:noninvasive",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/noninvasive.svg",
+    "bytes": 2067,
+    "sha256": "ff7001614bb0eccc6817ff27e68d74b2b7efae4e105f21cd1ab12038f77249e6"
+  },
+  {
+    "id": "accessories",
+    "page": "accessories",
+    "source": "original:accessories",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/accessories.svg",
+    "bytes": 2437,
+    "sha256": "bea9ea69e8c0a9dbdd1664ddbe4bf8ca86fc6ccbf269f268034239204b7bdb40"
+  },
+  {
+    "id": "procurement",
+    "page": "procurement",
+    "source": "original:procurement",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/procurement.svg",
+    "bytes": 2430,
+    "sha256": "4a3ad3a9d3d896c45bc380cd7be0ba9d7927150a36917a836e8fb78172d03d4b"
+  },
+  {
+    "id": "repair",
+    "page": "repair",
+    "source": "original:repair",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/repair.svg",
+    "bytes": 2620,
+    "sha256": "afe42bc4a3d29b72574821c22b0ec21110bf716dfd474c9b1a90aa1b99a85b21"
+  },
+  {
+    "id": "maintenance",
+    "page": "maintenance",
+    "source": "original:maintenance",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/maintenance.svg",
+    "bytes": 3112,
+    "sha256": "c8564bcca5464a05474e6f2f374bc2130b8d848899a2af6ba42a5b9e46c215d5"
+  },
+  {
+    "id": "installation",
+    "page": "installation",
+    "source": "original:installation",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/installation.svg",
+    "bytes": 3368,
+    "sha256": "b2ffa760725c440ac4e3fca8e7165b511bb38eb70912608ce0599dc1b10460a9"
+  },
+  {
+    "id": "replacement",
+    "page": "replacement",
+    "source": "original:replacement",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/replacement.svg",
+    "bytes": 4145,
+    "sha256": "e5383b9d47e282e099ebeccb6c270dabe03703b91148c1bc1c2159507972805a"
+  },
+  {
+    "id": "technical-support",
+    "page": "technical-support",
+    "source": "original:technical-support",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/technical-support.svg",
+    "bytes": 3278,
+    "sha256": "5d63ea6603f8f32959aa60580431de3097c45fdc0d27eaed574b90e41e9fa22e"
+  },
+  {
+    "id": "institutions",
+    "page": "institutions",
+    "source": "original:institutions",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/institutions.svg",
+    "bytes": 3636,
+    "sha256": "d575037fae0eddfec84ff0ec861b80f2924d0826ea5b0c0090c3cdb8ae6dd50b"
+  },
+  {
+    "id": "industrial-specifications",
+    "page": "industrial-specifications",
+    "source": "original:industrial-specifications",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/industrial-specifications.svg",
+    "bytes": 2613,
+    "sha256": "2b9bced6f3c5192f70ceaaa04c328d21a2db352b4e93cfa7d07670b642522cee"
+  },
+  {
+    "id": "replacement-guide",
+    "page": "replacement-guide",
+    "source": "original:replacement-guide",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/replacement-guide.svg",
+    "bytes": 3112,
+    "sha256": "24d73f9bf0f0f3a4c44040c89c6220aca6df3aeb41089c2f58478440a3974836"
+  },
+  {
+    "id": "medical-procurement-guide",
+    "page": "medical-procurement-guide",
+    "source": "original:medical-procurement-guide",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/medical-procurement-guide.svg",
+    "bytes": 2953,
+    "sha256": "e871e6cade04a2b70a4034826539106ac6f32317c81f2c238a071bfc23c7a110"
+  },
+  {
+    "id": "accessory-guide",
+    "page": "accessory-guide",
+    "source": "original:accessory-guide",
+    "credit": "Ventilators.ca — original vector illustration",
+    "file": "public/images/diagrams/accessory-guide.svg",
+    "bytes": 2427,
+    "sha256": "a7abc9645a4e8c4b6e6edf57e1054471cdc912377f440dc8d49bee202516f795"
+  }
+]

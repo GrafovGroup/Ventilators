@@ -1,0 +1,42 @@
+Ventilators.ca
+
+Build a traceable medical procurement file.
+
+Organize an institutional request around the exact device, the approved specification and the evidence your reviewers need.
+
+Identify the exact requested device
+
+Use the institution’s approved specification and purchasing reference. A broad category name does not identify a specific configuration or demonstrate suitability.
+
+[ ] Manufacturer, model and device identifier where available
+
+[ ] Requested configuration and separately listed accessories
+
+[ ] Quantity, receiving province and procurement deadline
+
+Review current evidence
+
+Health Canada provides active and archived licence searches and recommends checking the current status when a purchase is considered. Have your regulatory reviewer determine which records apply to the exact device and supply activity.
+
+[ ] Current device-specific evidence and date checked
+
+[ ] Supplier identity, written authority and scope
+
+[ ] Separate review of establishment obligations, exceptions and applicable requirements
+
+Define the handover requirements
+
+Keep clinical decisions with qualified healthcare professionals. Record the procurement evidence and acceptance process without including patient information in the inquiry.
+
+[ ] Document language, revision and traceability requirements
+
+[ ] Required receiving checks defined by the institution
+
+[ ] Separate approval of any training, installation or service scope
+
+Health Canada — Medical device licence searches
+https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/licences/overview.html
+
+Preparation checklist only. No product, service or delivery commitment. Do not include patient information.
+
+(833) 696-9996 | info@ventilators.ca

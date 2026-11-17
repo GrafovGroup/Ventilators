@@ -3,6 +3,7 @@ import { resolve, extname } from 'node:path';
 import assert from 'node:assert/strict';
 import { routes, alternatePath } from '../src/lib/routes';
 import { siteUrl } from '../src/lib/seo';
+import { media } from '../src/content/media';
 
 const root = resolve('out');
 const failures: string[] = [];
@@ -38,6 +39,26 @@ for (const { route, html } of htmlFiles) {
     );
     assert.match(html, /name="robots" content="noindex, nofollow"/);
     assert.ok(html.includes('/favicon.svg'), 'favicon');
+    if (route.page === 'quote') {
+      assert.ok(
+        !html.includes('<form'),
+        'unhydrated preview cannot submit personal data with a native GET',
+      );
+      assert.ok(html.includes('mailto:info@ventilators.ca'), 'no-JavaScript contact fallback');
+    }
+    const pageId = route.detail?.id ?? route.category?.id ?? route.page;
+    const expectedImages = media
+      .filter((m) => m.page === pageId)
+      .map((m) => m.src)
+      .sort();
+    const actualImages = [...html.matchAll(/<img\b[^>]*\bsrc="(\/images\/[^"]+)"[^>]*>/g)]
+      .map((m) => m[1])
+      .sort();
+    assert.deepEqual(
+      actualImages,
+      expectedImages,
+      'only the unique images assigned to this page are rendered',
+    );
     const json = html.match(/<script type="application\/ld\+json">(.*?)<\/script>/)?.[1];
     assert.ok(json, 'JSON-LD present');
     const data = JSON.parse(json!);

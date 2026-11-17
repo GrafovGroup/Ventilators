@@ -2,6 +2,10 @@ import Image from 'next/image';
 import { dictionaries, pathFor, quotePath, type Locale, type Division } from '@/content/site';
 import { categories, categoryPath, type Category } from '@/content/catalog';
 import { articles, type ArticleKey } from '@/content/pages';
+import { detailPages, detailPath } from '@/content/details';
+import { DetailIndex } from './detail-content';
+import { PageVisual } from './page-visual';
+import { categoryGuides } from '@/content/category-guides';
 
 export function ProjectCTA({ locale, division }: { locale: Locale; division?: Division }) {
   const d = dictionaries[locale];
@@ -112,17 +116,16 @@ export function Home({ locale }: { locale: Locale }) {
           <p className="eyebrow">{d.home.sectorsLabel}</p>
           <h2>{d.home.sectorsTitle}</h2>
           <div className="sector-list">
-            {d.home.sectors.map((sector, index) => (
-              <a
-                href={`${pathFor(locale, 'industries')}#${index < 2 ? 'section-1' : index === 2 ? 'section-2' : 'section-3'}`}
-                key={sector}
-              >
-                <span className="sector-mark" aria-hidden="true">
-                  {String(index + 1).padStart(2, '0')}
-                </span>
-                {sector}
-              </a>
-            ))}
+            {detailPages
+              .filter((p) => p.group === 'industries')
+              .map((sector, index) => (
+                <a href={detailPath(locale, sector)} key={sector.id}>
+                  <span className="sector-mark" aria-hidden="true">
+                    {String(index + 1).padStart(2, '0')}
+                  </span>
+                  {d.home.sectors[index]}
+                </a>
+              ))}
           </div>
         </div>
       </section>
@@ -131,12 +134,20 @@ export function Home({ locale }: { locale: Locale }) {
   );
 }
 
-export function CategoryList({ locale, division }: { locale: Locale; division: Division }) {
+export function CategoryList({
+  locale,
+  division,
+  exclude,
+}: {
+  locale: Locale;
+  division: Division;
+  exclude?: string;
+}) {
   const d = dictionaries[locale];
   return (
     <div className="category-list">
       {categories
-        .filter((c) => c.division === division)
+        .filter((c) => c.division === division && c.id !== exclude)
         .map((category, index) => (
           <a href={categoryPath(locale, category)} key={category.id} className="category-row">
             <span className="category-index">{String(index + 1).padStart(2, '0')}</span>
@@ -165,24 +176,7 @@ export function DivisionHub({ locale, division }: { locale: Locale; division: Di
             {c.cta}
           </a>
         </div>
-        <figure>
-          <Image
-            src={`/images/${division}.webp`}
-            alt={
-              locale === 'en'
-                ? division === 'industrial'
-                  ? 'Industrial ventilation fans'
-                  : 'Clinical equipment, shown for context'
-                : division === 'industrial'
-                  ? 'Ventilateurs industriels'
-                  : 'Équipement clinique présenté à titre illustratif'
-            }
-            width={1200}
-            height={1000}
-            priority
-          />
-          <figcaption>{d.common.notice}</figcaption>
-        </figure>
+        <PageVisual id={division} locale={locale} priority />
       </section>
       <section className="container section-space">
         <div className="section-intro">
@@ -216,6 +210,10 @@ export function DivisionHub({ locale, division }: { locale: Locale; division: Di
           </div>
         </div>
       </section>
+      <section className="container section-space">
+        <h2>{d.nav.services}</h2>
+        <DetailIndex locale={locale} group="services" division={division} />
+      </section>
       <ProjectCTA locale={locale} division={division} />
     </>
   );
@@ -223,13 +221,21 @@ export function DivisionHub({ locale, division }: { locale: Locale; division: Di
 
 export function CategoryPage({ locale, category }: { locale: Locale; category: Category }) {
   const d = dictionaries[locale];
+  const guide = categoryGuides[category.id];
   return (
     <>
-      <section className="container article-hero">
-        <p className="eyebrow">{d.nav[category.division]}</p>
-        <h1>{category.name[locale]}</h1>
-        <p className="lead">{category.summary[locale]}</p>
-        <span className="inquiry-badge">{d.form.status}</span>
+      <section className="container hub-hero detail-hero">
+        <div>
+          <p className="eyebrow">{d.nav[category.division]}</p>
+          <h1>{category.name[locale]}</h1>
+          <p className="lead">{category.summary[locale]}</p>
+          <span className="inquiry-badge">{d.form.status}</span>
+        </div>
+        <PageVisual id={category.id} locale={locale} priority />
+      </section>
+      <section className="container category-context">
+        <h2>{guide.title[locale]}</h2>
+        <p>{guide.body[locale]}</p>
       </section>
       <section className="container article-grid">
         <div>
@@ -246,16 +252,42 @@ export function CategoryPage({ locale, category }: { locale: Locale; category: C
           </a>
         </div>
         <aside className="scope-note">
-          <h2>{d[category.division].scopeTitle}</h2>
-          <p>{d[category.division].scopeText}</p>
-          <a className="text-link" href={pathFor(locale, 'resources')}>
-            {d.nav.resources}
+          <h2>{guide.checkTitle[locale]}</h2>
+          <p>{guide.check[locale]}</p>
+          <a
+            className="text-link"
+            href={detailPath(
+              locale,
+              detailPages.find((p) => p.id === guide.resource)!,
+            )}
+          >
+            {locale === 'en' ? 'Read the preparation guide' : 'Lire le guide de préparation'}
           </a>
         </aside>
       </section>
+      <section className="preparation">
+        <div className="container preparation-grid">
+          <div>
+            <h2>{d[category.division].scopeTitle}</h2>
+            <p>{d[category.division].scopeText}</p>
+          </div>
+          <div>
+            <p className="eyebrow">{d.nav.services}</p>
+            <div className="related-links">
+              {detailPages
+                .filter((p) => p.group === 'services' && p.relatedCategories.includes(category.id))
+                .map((p) => (
+                  <a href={detailPath(locale, p)} key={p.id}>
+                    {p.title[locale]} <span aria-hidden="true">↗</span>
+                  </a>
+                ))}
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="container section-space">
         <h2>{d.common.categories}</h2>
-        <CategoryList locale={locale} division={category.division} />
+        <CategoryList locale={locale} division={category.division} exclude={category.id} />
       </section>
     </>
   );
@@ -300,6 +332,24 @@ export function ArticlePage({ locale, page }: { locale: Locale; page: ArticleKey
           </div>
         )}
       </section>
+      {(['services', 'industries', 'resources'] as string[]).includes(page) && (
+        <section className="container section-space detail-directory" aria-label={d.nav[page]}>
+          <h2>
+            {locale === 'en'
+              ? page === 'services'
+                ? 'Explore service scopes'
+                : page === 'industries'
+                  ? 'Find your facility type'
+                  : 'Guides for your next inquiry'
+              : page === 'services'
+                ? 'Explorez les portées de service'
+                : page === 'industries'
+                  ? 'Trouvez votre type d’établissement'
+                  : 'Guides pour votre prochaine demande'}
+          </h2>
+          <DetailIndex locale={locale} group={page as 'services' | 'industries' | 'resources'} />
+        </section>
+      )}
       <div className={`container article-sections ${page === 'faq' ? 'faq-list' : ''}`}>
         {article.sections.map((section, index) =>
           page === 'faq' ? (

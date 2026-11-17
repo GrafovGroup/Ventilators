@@ -1,10 +1,12 @@
 'use client';
 import { useState } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { categories } from '@/content/catalog';
+
 import { dictionaries, pathFor, type Division, type Locale } from '@/content/site';
 import {
   provinceCodes,
+  inquiryOptions,
+  type InquiryInput,
   readInquiry,
   validateInquiry,
   type InquiryErrors,
@@ -50,11 +52,11 @@ export function InquiryForm({ locale }: { locale: Locale }) {
     query.get('division') === 'medical' ? 'medical' : 'industrial',
   );
   const [errors, setErrors] = useState<InquiryErrors>({});
-  const [reviewed, setReviewed] = useState(false);
+  const [review, setReview] = useState<InquiryInput | null>(null);
   const d = dictionaries[locale];
   const t = d.form;
   const categoryDefault =
-    categories.find((c) => c.id === query.get('category') && c.division === division)?.id ?? '';
+    inquiryOptions.find((c) => c.id === query.get('category') && c.division === division)?.id ?? '';
   const error = (field: InquiryField) =>
     errors[field] ? (
       <span className="field-error" id={`${field}-error`}>
@@ -87,12 +89,41 @@ export function InquiryForm({ locale }: { locale: Locale }) {
   }
   function submit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const nextErrors = validateInquiry(readInquiry(new FormData(event.currentTarget)));
+    const input = readInquiry(new FormData(event.currentTarget));
+    const nextErrors = validateInquiry(input);
     setErrors(nextErrors);
-    setReviewed(Object.keys(nextErrors).length === 0);
+    setReview(Object.keys(nextErrors).length === 0 ? input : null);
     requestAnimationFrame(() =>
-      document.getElementById(Object.keys(nextErrors)[0] ?? 'review-result')?.focus(),
+      document
+        .getElementById(Object.keys(nextErrors).length ? 'error-summary' : 'review-result')
+        ?.focus(),
     );
+  }
+  const labels: Record<InquiryField, string> = {
+    division: t.division,
+    name: t.name,
+    organization: t.organization,
+    email: t.email,
+    phone: t.phone,
+    province: t.province,
+    category: t.category,
+    model: t.model,
+    specification: division === 'industrial' ? t.capacity : t.clinicalModel,
+    quantity: t.quantity,
+    timeline: t.timeline,
+    urgency: t.urgency,
+    details: t.details,
+    consent: t.privacy,
+  };
+  function reviewValue(field: InquiryField, value: string) {
+    if (field === 'division') return d.nav[value as Division];
+    if (field === 'category') return inquiryOptions.find((c) => c.id === value)?.name[locale];
+    if (field === 'province')
+      return provinces[locale][provinceCodes.indexOf(value as (typeof provinceCodes)[number])];
+    if (field === 'timeline') return t.timelines[Number(value)];
+    if (field === 'urgency') return t.urgencies[value === 'standard' ? 0 : 1];
+    if (field === 'consent') return t.acknowledged;
+    return value || t.notProvided;
   }
   return (
     <div className="container quote-layout">
@@ -101,7 +132,21 @@ export function InquiryForm({ locale }: { locale: Locale }) {
           <strong>{t.unavailableTitle}</strong>
           <p>{t.unavailable}</p>
         </div>
-        <form noValidate onSubmit={submit} onChange={() => setReviewed(false)} aria-label={t.title}>
+        <form noValidate hidden={!!review} onSubmit={submit} aria-label={t.title}>
+          {Object.keys(errors).length > 0 && (
+            <div role="alert" className="error-summary" id="error-summary" tabIndex={-1}>
+              <strong>{t.errors}</strong>
+              <ul>
+                {(Object.keys(errors) as InquiryField[]).map((field) => (
+                  <li key={field}>
+                    <a href={`#${field}`}>
+                      {labels[field]}: {t[errors[field]!]}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
           <p className="form-required">* {d.common.required}</p>
           <fieldset className="division-select">
             <legend>{t.division}</legend>
@@ -178,7 +223,7 @@ export function InquiryForm({ locale }: { locale: Locale }) {
                 required
               >
                 <option value="">{t.select}</option>
-                {categories
+                {inquiryOptions
                   .filter((c) => c.division === division)
                   .map((c) => (
                     <option value={c.id} key={c.id}>
@@ -224,6 +269,23 @@ export function InquiryForm({ locale }: { locale: Locale }) {
               {error('timeline')}
             </div>
             <div className="span-two">
+              {label('urgency', t.urgency)}
+              <select
+                {...a11y('urgency')}
+                defaultValue=""
+                required
+                aria-describedby={errors.urgency ? 'urgency-help urgency-error' : 'urgency-help'}
+              >
+                <option value="">{t.select}</option>
+                <option value="standard">{t.urgencies[0]}</option>
+                <option value="time-sensitive">{t.urgencies[1]}</option>
+              </select>
+              {error('urgency')}
+              <p id="urgency-help" className="field-help">
+                {t.urgencyHelp}
+              </p>
+            </div>
+            <div className="span-two">
               {label('details', t.details)}
               <textarea {...a11y('details')} rows={5} maxLength={4000} required />
               {error('details')}
@@ -240,24 +302,43 @@ export function InquiryForm({ locale }: { locale: Locale }) {
               {t.privacy}
             </a>
           </div>
-          {Object.keys(errors).length > 0 && (
-            <p role="alert" className="error-summary">
-              {t.errors}
-            </p>
-          )}
           <button type="submit" className="button">
             {t.submit}
           </button>
-          {reviewed && (
-            <div id="review-result" className="notice review-result" role="status" tabIndex={-1}>
-              <strong>{t.reviewed}</strong>
-              <p>{t.reviewedText}</p>
-              <a className="text-link" href="mailto:info@ventilators.ca">
-                info@ventilators.ca
-              </a>
-            </div>
-          )}
         </form>
+        {review && (
+          <section
+            id="review-result"
+            className="inquiry-review"
+            tabIndex={-1}
+            aria-labelledby="summary-title"
+          >
+            <p className="eyebrow">{t.reviewed}</p>
+            <h2 id="summary-title">{t.summary}</h2>
+            <p>{t.reviewedText}</p>
+            <dl className="review-fields">
+              {(Object.keys(labels) as InquiryField[]).map((field) => (
+                <div key={field}>
+                  <dt>{labels[field]}</dt>
+                  <dd>{reviewValue(field, review[field])}</dd>
+                </div>
+              ))}
+            </dl>
+            <button
+              type="button"
+              className="button button-outline"
+              onClick={() => {
+                setReview(null);
+                requestAnimationFrame(() => document.getElementById('name')?.focus());
+              }}
+            >
+              {t.edit}
+            </button>
+            <a className="text-link" href="mailto:info@ventilators.ca">
+              info@ventilators.ca
+            </a>
+          </section>
+        )}
       </div>
       <aside className="quote-aside">
         <p className="eyebrow">{d.nav.contact}</p>

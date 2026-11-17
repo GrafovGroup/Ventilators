@@ -1,58 +1,52 @@
-# QA report — Phase 1A review build
+# QA report — Phase 1B review build
 
-Executed 2026-11-17 on macOS arm64, Node 24.22.1, npm 12.2.2, Next.js 16.4.6. Production hosting has not been tested. Results apply to the local static export, not a claim of production readiness or full WCAG conformance.
+Executed 2026-11-17 on macOS arm64, Node 24.22.1 and Next.js 16.4.6. These results cover the local static export. The full website has not been deployed. The separate WHC coming-soon page remains live and unchanged.
 
 ## Automated results
 
-| Check                         | Result                               | Evidence                                                                                                                                                                                                                                           |
-| ----------------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| npm install                   | PASS                                 | Dependencies installed; reproducible `package-lock.json` committed. Temporary npm used because no system npm was on PATH.                                                                                                                          |
-| ESLint                        | PASS, zero warnings                  | `qa/evidence/checks.txt`                                                                                                                                                                                                                           |
-| TypeScript                    | PASS                                 | `qa/evidence/checks.txt`                                                                                                                                                                                                                           |
-| Inquiry and translation tests | PASS, 11 tests                       | `qa/evidence/checks.txt`; `tests/`                                                                                                                                                                                                                 |
-| Production static export      | PASS                                 | `qa/evidence/checks.txt`; `out/` (ignored build output)                                                                                                                                                                                            |
-| Export crawl                  | PASS, all 50 localized content pages | Internal links/assets/anchors, document language, single H1, unique titles, descriptions, self canonicals, reciprocal hreflang, JSON-LD, main/locale sitemaps, noindex, favicon and bilingual recovery files checked by `scripts/check-export.ts`. |
-| Formatting                    | PASS                                 | `qa/evidence/checks.txt`                                                                                                                                                                                                                           |
-| Dependency audit              | PASS, zero vulnerabilities           | `qa/evidence/dependency-audit.json`. Initial Sharp finding resolved by updating to 0.35.5.                                                                                                                                                         |
-| Automated accessibility       | PASS in sampled scope                | Eight representative pages checked with axe WCAG 2 A/AA, 2.1 AA and 2.2 AA rules. One initial sector-label contrast issue corrected. Stored final results in `qa/evidence/accessibility.json`.                                                     |
-| Responsive overflow           | PASS                                 | Five widths: 320, 375, 768, 1024, 1440. `qa/evidence/responsive-en.json` and `responsive-core.json`.                                                                                                                                               |
+| Check                                            | Result                           | Evidence                                                                                                                                                                             |
+| ------------------------------------------------ | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ESLint                                           | PASS, zero warnings              | `qa/evidence/phase-1b/checks.txt`                                                                                                                                                    |
+| TypeScript                                       | PASS                             | Same check log                                                                                                                                                                       |
+| Inquiry, content, imagery and localization tests | PASS, 15 tests                   | Same check log; `tests/`                                                                                                                                                             |
+| Production static export                         | PASS, 80 localized content pages | `out/`, ignored generated output                                                                                                                                                     |
+| Export crawl                                     | PASS, all 80 pages               | Language, one H1, unique metadata, canonical/hreflang, JSON-LD, internal links/assets/anchors, exact page image assignments, no-JavaScript RFQ fallback, sitemaps and recovery files |
+| Image uniqueness                                 | PASS, 30 editorial assets        | Unique source identities and SHA-256 hashes; `image-inventory.json`. EN/FR equivalents intentionally share their visual. Shared brand marks are excluded.                            |
+| Image budget                                     | PASS, each asset below 500 KB    | Inventory records file sizes. Photos use local WebP; diagrams use SVG.                                                                                                               |
+| Resource downloads                               | PASS, 8 new localized checklists | Content parity with four guide pages; 12 downloads total including the foundation checklists                                                                                         |
+| Automated accessibility                          | PASS, all 80 pages at 320 px     | `accessibility-80-pages.json`; axe WCAG 2 A/AA, 2.1 AA and 2.2 AA rules                                                                                                              |
+| Responsive overflow and image loading            | PASS, 40 checks                  | Eight representative pages at actual widths 320, 375, 768, 1024 and 1440; `responsive.json` records requested and observed widths                                                    |
+| Formatting                                       | PASS                             | Check log                                                                                                                                                                            |
+| WHC holding page preservation                    | PASS                             | `live-holding-check.json`; HTTPS response bytes match `deploy/coming-soon/index.html`                                                                                                |
 
-The export checker validates JSON syntax, types and supported entity use; it is not a Google rich-result eligibility certification. No Product or rating markup is emitted. All preview routes are noindex and robots-disallowed; sitemaps exist for QA, have not been submitted, and do not authorize indexing.
+Dependency versions and lockfile are unchanged from Phase 1A. The earlier same-day dependency audit found zero vulnerabilities (`qa/evidence/dependency-audit.json`); it was not rerun for this content-only dependency state.
 
 ## Browser verification
 
-Surface: Codex in-app browser; synthetic test data only, no actual lead submitted.
+Codex in-app browser, synthetic data only:
 
-- English/French homepage, industrial hub, French medical hub and French RFQ layouts checked at required widths; no horizontal overflow observed. Mobile and desktop screenshots inspected. Long French headings and form labels wrap correctly.
-- Mobile navigation opens, exposes translated links, and closes with Escape. Keyboard focus returned to the menu button.
-- Blank RFQ review shows localized inline errors and an alert; the accessibility tree confirms focus moves to the first invalid name field. The browser's read-only DOM snapshot did not expose activeElement reliably, so focus was verified through AX state.
-- Medical query preselection and institutional procurement category verified; English-to-French switch retained both. Changing selection to industrial/roof, then switching French-to-English, retained the updated values.
-- Valid synthetic English medical and French industrial entries show explicit **nothing sent** confirmation. This is preview behavior, not delivery testing. No submission API exists.
-- Visible patient-information warning present for medical inquiries. No upload input. Consents and bounded quantities covered by unit tests.
-- Bilingual 404 recovery rendered on an invalid deep link. Local server returns 404 status; WHC error routing remains untested.
-- No browser console errors observed during tested interactions. Correct SVG wordmark and icon references verified; cross-browser favicon behavior remains a manual release check.
+- Service directory → industrial repair → RFQ correctly preselects the repair service. Each new detail page has a valid division/category inquiry target, also checked automatically.
+- Empty English and French reviews show linked errors and focus the error summary. Error links lead to their fields.
+- Valid English repair and French medical technical-support requests show every field with human-readable province, service, timeline and priority values. Both explicitly state that nothing was sent.
+- Edit restores the form with entered values retained; the English repair name, category and details were inspected after editing. Focus returns to the name field.
+- Changing division to medical clears the incompatible equipment selection; selecting technical support and switching to French preserves the nonpersonal routing choices. Personal inputs are not passed in the URL.
+- Medical patient-information guidance remains visible. No upload control, network submission API or persistent browser storage was added.
+- Facility photography, technical diagrams, category guidance, detail-page contents links, directories and French resource layouts were inspected. Long French text wraps without overflow.
+- All 30 images were visually inspected as photo/diagram contact sheets. The clinic image was replaced with a clearer examination-room photograph during QA.
+- No application console errors were observed. The preview tab reported unrelated Grammarly extension warnings; the audit tab reported none.
 
-Representative screenshot evidence:
+Screenshot and JSON evidence is under `qa/evidence/phase-1b/`. Representative captures include `warehouse-preview.jpg`, `en-industrial-roof-ventilators-1440.jpg`, `en-services-industrial-fan-repair-1440.jpg`, `fr-ressources-guide-approvisionnement-medical-375.jpg`, `rfq-review-en.jpg` and `rfq-review-fr-375.jpg`.
 
-- `qa/evidence/home-en-desktop.jpg` and `home-en-1440.jpg`
-- `qa/evidence/home-en-320.jpg`, `home-en-375.jpg`, `home-en-768.jpg`, `home-en-1024.jpg`
-- `qa/evidence/fr-375.jpg`, `fr-1440.jpg`
-- `qa/evidence/en-industrial-375.jpg`, `en-industrial-1440.jpg`
-- `qa/evidence/fr-medical-375.jpg`, `fr-medical-1440.jpg`
-- `qa/evidence/fr-demande-de-soumission-375.jpg`, `fr-demande-de-soumission-1440.jpg`
-- `qa/evidence/rfq-medical-review.jpg`, `rfq-industrial-fr-review.jpg`, `404.jpg`
+Full-page mobile screenshots capture the fixed action bar at its viewport position. Footer logos can remain lazy-loaded outside the initial viewport during full-page capture. Neither is a claim of a scrolling defect.
 
-Full-page captures of fixed mobile actions show that bar at the initial viewport position; it remains fixed at the bottom while scrolling. Page/footer spacing and scroll padding accommodate it. Automated colour checks mark some photo-overlay contrast cases for manual review; readable text over dark overlays was visually inspected, not certified across all image pixels.
+## Limits and release dependencies
 
-## Verification limits and release blockers
+- Automated axe results are not full WCAG conformance. Image-overlay contrast produces manual-review items; the existing homepage overlays were visually reviewed. Physical-device, VoiceOver/NVDA and Safari/Chrome cross-browser validation remain open.
+- Responsive tests are local layout checks, not measured Core Web Vitals. Representative mobile performance and production caching remain to be measured.
+- English/French copy, legal terms, medical regulatory/supplier evidence and industrial service qualifications still require the designated reviews.
+- The RFQ remains a local review tool. Server validation, rate limiting, spam protection, idempotency, storage and verified delivery are not implemented or deployed; their contract remains in `docs/RFQ_ENDPOINT.md`.
+- No verified product or provincial coverage pages were fabricated. Inventory remains empty and no Product/Review schema is emitted.
+- Full-site WHC staging, deep-link/error routing, headers, rollback and launch approval remain outstanding. Domain, HTTPS and the separately approved holding page are already configured; see `docs/WHC_CONNECTION.md`.
+- Analytics, search-console submissions and operational monitoring remain inactive.
 
-- Gate A owner review of identity/layout and architecture is pending; implementation does not equal approval.
-- Gate B has no external staging URL or live verified form workflow. Server-side validation, rate limiting, spam protection, idempotency, storage and delivery are **not implemented**. Their contract is in `docs/RFQ_ENDPOINT.md`.
-- Gate C requires medical regulatory/supplier and industrial service qualification evidence, legal review and human English/French copy approval.
-- Gate D requires actual WHC account validation, domain/DNS/SSL, deployed deep-link/404/header/cache tests, verified both-division email delivery, rollback rehearsal and owner sign-off.
-- No VoiceOver/NVDA session, physical mobile-device test or Safari/Chrome cross-browser matrix completed. Automated axe scans are not full WCAG 2.2 AA conformance.
-- LCP <=2.5s, CLS <=0.1 and INP <=200ms are targets, **not measured results**. Local unthrottled rendering is not representative mobile lab or field measurement. Lighthouse/real-user verification remains open before launch.
-- Error boundary and static 500 page exist; simulated runtime crashes and real hosting 500 handling remain untested.
-- Analytics, Search Console/Bing verification, external monitoring and scheduled maintenance are inactive pending owner configuration.
-
-Reproduce commands in README. The local audit harness (`scripts/qa-server.mjs`) is excluded from the static output. Production deployment instructions and a reviewed-before-use Apache template are supplied, with no claim of actual WHC compatibility.
+Phase 1A screenshots/check logs remain in `qa/evidence/` for historical reference. The current Phase 1B evidence is in its own subdirectory. No full-site production upload or DNS change occurred during this increment.

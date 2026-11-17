@@ -13,6 +13,7 @@ export const indexingEnabled = false;
 export function routeMetadata(route: Route): Metadata {
   const d = dictionaries[route.locale];
   const title =
+    route.detail?.title[route.locale] ??
     route.category?.name[route.locale] ??
     (route.page === 'home'
       ? route.locale === 'en'
@@ -26,6 +27,7 @@ export function routeMetadata(route: Route): Metadata {
             ? d[route.page].title
             : articles[route.locale][route.page as ArticleKey].title);
   const description =
+    route.detail?.summary[route.locale] ??
     route.category?.summary[route.locale] ??
     (route.page === 'home'
       ? d.home.intro
@@ -81,7 +83,7 @@ export function structuredData(route: Route) {
   const items = [
     { '@type': 'ListItem', position: 1, name: d.nav.home, item: `${siteUrl}/${route.locale}/` },
   ];
-  if (route.category)
+  if (route.category || route.detail)
     items.push({
       '@type': 'ListItem',
       position: 2,
@@ -91,8 +93,11 @@ export function structuredData(route: Route) {
   if (route.page !== 'home')
     items.push({
       '@type': 'ListItem',
-      position: route.category ? 3 : 2,
-      name: route.category?.name[route.locale] ?? d.nav[route.page],
+      position: route.category || route.detail ? 3 : 2,
+      name:
+        route.detail?.title[route.locale] ??
+        route.category?.name[route.locale] ??
+        d.nav[route.page],
       item: `${siteUrl}${route.path}`,
     });
   return {

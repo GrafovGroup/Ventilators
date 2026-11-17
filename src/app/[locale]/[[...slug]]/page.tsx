@@ -10,6 +10,7 @@ import {
   ArticlePage,
 } from '@/components/content';
 import { InquiryForm } from '@/components/inquiry-form';
+import { DetailArticle } from '@/components/detail-content';
 import { dictionaries, pathFor } from '@/content/site';
 import type { ArticleKey } from '@/content/pages';
 import { routes, findRoute, alternatePath } from '@/lib/routes';
@@ -32,10 +33,11 @@ export default async function Page({ params }: Props) {
   const { locale: lang, slug } = await params;
   const route = findRoute(lang, slug);
   if (!route) notFound();
-  const { locale, page, category } = route;
+  const { locale, page, category, detail } = route;
   const d = dictionaries[locale];
   let content;
-  if (category) content = <CategoryPage locale={locale} category={category} />;
+  if (detail) content = <DetailArticle locale={locale} detail={detail} />;
+  else if (category) content = <CategoryPage locale={locale} category={category} />;
   else if (page === 'home') content = <Home locale={locale} />;
   else if (page === 'industrial' || page === 'medical')
     content = <DivisionHub locale={locale} division={page} />;
@@ -70,13 +72,15 @@ export default async function Page({ params }: Props) {
           <nav className="container breadcrumbs" aria-label={d.common.breadcrumb}>
             <a href={pathFor(locale, 'home')}>{d.nav.home}</a>
             <span aria-hidden="true">/</span>
-            {category && (
+            {(category || detail) && (
               <>
                 <a href={pathFor(locale, page)}>{d.nav[page]}</a>
                 <span aria-hidden="true">/</span>
               </>
             )}
-            <span aria-current="page">{category?.name[locale] ?? d.nav[page]}</span>
+            <span aria-current="page">
+              {detail?.title[locale] ?? category?.name[locale] ?? d.nav[page]}
+            </span>
           </nav>
         )}
         {content}

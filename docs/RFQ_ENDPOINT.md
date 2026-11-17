@@ -19,3 +19,7 @@ Required implementation and acceptance criteria:
 Attachments stay disabled until authenticated storage access, size/type limits, malware scanning, retention/deletion, access logging and a secure reviewer workflow are implemented and verified.
 
 Planned analytics event names: `division_selected`, `category_viewed`, `rfq_started`, `rfq_submitted`, `phone_clicked`, `email_clicked`, `language_changed`. No analytics is active. Never emit `rfq_submitted` for this preview. Approved IDs, consent and an event review are required; no names, emails, phone numbers, specifications or project details in events.
+
+## Phase 1B preview contract update
+
+The local inquiry payload now includes `urgency`, limited to `standard` or `time-sensitive`. `category` accepts the division’s equipment categories plus industrial `repair`, `maintenance`, `installation`, `replacement`, or medical `technical-support`. Phone is capped at 60 characters. The client shows an accessible error list and a complete summary with an edit action, but does not transmit the payload. A future endpoint must independently validate these additions and retain the security/delivery requirements above. No endpoint was deployed in this increment.

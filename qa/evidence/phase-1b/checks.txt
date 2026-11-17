@@ -1,0 +1,36 @@
+npm notice run ventilators-ca@0.1.0 lint
+npm notice run eslint . --max-warnings=0
+npm notice run ventilators-ca@0.1.0 typecheck
+npm notice run tsc --noEmit
+npm notice run ventilators-ca@0.1.0 test
+npm notice run node --import tsx --test tests/*.test.ts
+✔ editorial visuals have unique source identities and unique file contents (6.401125ms)
+✔ every detail page has a unique visual, translated sections and a valid inquiry path (0.399583ms)
+✔ resource checklists are generated in both languages (1.77275ms)
+✔ a valid industrial inquiry passes local review (0.524708ms)
+✔ medical inquiry uses only medical categories (0.114875ms)
+✔ requires consent and meaningful required fields (0.079084ms)
+✔ rejects bad emails, unknown province, forged category and timeline (0.04075ms)
+✔ quantities must be bounded positive integers (0.054125ms)
+✔ enforces text limits and known division (0.039166ms)
+✔ FormData normalization trims text and ignores unrelated fields (6.646667ms)
+✔ service inquiries are validated within their division and priority is bounded (0.068ms)
+✔ EN/FR UI and editorial dictionaries have identical nonempty keys (0.678708ms)
+✔ all translated routes are unique and reciprocal (0.95925ms)
+✔ category links retain their translated division and slug (0.080709ms)
+✔ unsupported routes resolve to no page and no products are invented (0.15975ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 61.594958
+npm notice run ventilators-ca@0.1.0 check:export
+npm notice run node --import tsx scripts/check-export.ts
+PASS: 80 localized pages; document languages, headings, unique metadata, canonical/hreflang, JSON-LD, internal links/assets/anchors, sitemap, preview robots, bilingual 404 and favicon.
+npm notice run ventilators-ca@0.1.0 format:check
+npm notice run prettier --check .
+Checking formatting...
+All matched files use Prettier code style!

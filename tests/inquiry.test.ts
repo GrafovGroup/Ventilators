@@ -14,6 +14,7 @@ const valid: InquiryInput = {
   specification: '',
   quantity: '2',
   timeline: '1',
+  urgency: 'standard',
   details: 'Replacement inquiry for an existing rooftop unit.',
   consent: 'yes',
 };
@@ -58,4 +59,18 @@ test('FormData normalization trims text and ignores unrelated fields', () => {
   for (const [key, value] of Object.entries(valid)) data.set(key, ` ${value} `);
   data.set('unexpected', 'not read');
   assert.deepEqual(readInquiry(data), valid);
+});
+
+test('service inquiries are validated within their division and priority is bounded', () => {
+  assert.deepEqual(validateInquiry({ ...valid, category: 'repair' }), {});
+  assert.deepEqual(
+    validateInquiry({ ...valid, division: 'medical', category: 'technical-support' }),
+    {},
+  );
+  assert.equal(
+    validateInquiry({ ...valid, category: 'technical-support' }).category,
+    'requiredError',
+  );
+  assert.equal(validateInquiry({ ...valid, urgency: 'emergency' }).urgency, 'requiredError');
+  assert.equal(validateInquiry({ ...valid, phone: '1'.repeat(61) }).phone, 'lengthError');
 });

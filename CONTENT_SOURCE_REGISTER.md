@@ -15,6 +15,53 @@ Reviewed 2026-11-17. All authored EN/FR copy is draft pending owner/editorial re
 | Medical review reference                                                      | [Health Canada current MDEL guidance](https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement/establishment-licences/directives-guidance-documents-policies/dec-guidance-medical-device-establishment-licensing-0016.html) | Reference for qualified regulatory review; no determination of the business’s obligations or exemptions made.                                                                                    |
 | Privacy review reference                                                      | [OPC meaningful consent guidance](https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/appropriate-handling-of-personal-information/collecting-personal-information-and-consent/consent/gl_omc_201805/)                                              | Reference for counsel reviewing future collection; preview only keeps input in page memory.                                                                                                      |
 
-Pexels permits free use/modification and does not require attribution, but prohibits implying endorsement. Context captions and absence of product listings preserve that distinction. Photos are used only within their respective division across related pages.
+Pexels permits free use/modification and does not require attribution, but prohibits implying endorsement. Context captions and absence of product listings preserve that distinction. Each photo is owned by one logical page; English/French counterparts share the asset. No photo is repeated across distinct content pages.
 
 No verified product SKUs, manufacturer relationships, medical device licence records, compatibility statements, stock levels, prices, addresses, customer reviews or service authorizations were provided. The typed product inventory is empty. Product and province pages require real evidence before implementation/publication.
+
+## Phase 1B editorial sources
+
+Reviewed 2026-11-17. Preparation copy is originally authored from the master prompt; external references support limited general background, not company credentials or product offers. Human editorial/regulatory review remains required.
+
+- [CCOHS — Industrial ventilation: fans](https://www.ccohs.ca/oshanswers/prevention/ventilation/fans.html) / [CCHST — Ventilation industrielle : ventilateurs](https://www.cchst.ca/oshanswers/prevention/ventilation/fans.html): Background on fan types and the factors considered in selection.
+- [CCOHS — Installation and maintenance](https://www.ccohs.ca/oshanswers/prevention/ventilation/installation.html) / [CCHST — Installation et maintenance](https://www.cchst.ca/oshanswers/prevention/ventilation/installation.html): General context for work carried out by qualified ventilation professionals.
+- [Health Canada — Medical device licence searches](https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/licences/overview.html) / [Santé Canada — Recherche d’homologations d’instruments médicaux](https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/instruments-medicaux/licences/apercu.html): How to search current and archived device licences. A database result does not establish our authority to supply a device.
+
+## Page-owned imagery
+
+All eight photos use the [Pexels License](https://www.pexels.com/license/), with local WebP compression. Six are new; two existing homepage photos are retained only on the homepage. Twenty-two SVGs are original explanatory artwork, reproducible with `scripts/generate-page-visuals.mjs`. They are not manufacturer drawings.
+
+The registry at `src/content/media.ts` contains translated alt text, captions and sources. `qa/evidence/phase-1b/image-inventory.json` records exact asset hashes and byte sizes. Automated checks reject duplicate Pexels identities, duplicate file contents, missing visuals and any rendered image assigned to another page. Shared brand/logo/social identity assets are excluded.
+
+| Page / asset              | Source / creator                                                                                           | Local file                                             |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| home-industrial           | [Mike van Schoonderwalt](https://www.pexels.com/photo/massive-ventilators-of-industrial-building-5502720/) | `public/images/industrial.webp`                        |
+| home-medical              | [Jonathan Borba](https://www.pexels.com/photo/equipment-at-hospital-13697732/)                             | `public/images/medical.webp`                           |
+| industrial                | [Jakub Zerdzicki](https://www.pexels.com/photo/industrial-interior-with-exposed-hvac-ductwork-30749458/)   | `public/images/industrial-hub.webp`                    |
+| warehouses                | [Tiger Lily](https://www.pexels.com/photo/shelves-on-a-warehouse-4483608/)                                 | `public/images/warehouses.webp`                        |
+| manufacturing             | [Frans van Heerden](https://www.pexels.com/photo/factory-production-line-13974251/)                        | `public/images/manufacturing.webp`                     |
+| commercial                | [Zulfugar Karimov](https://www.pexels.com/photo/modern-glass-facade-of-office-building-33719777/)          | `public/images/commercial.webp`                        |
+| hospitals                 | [adrian vieriu](https://www.pexels.com/photo/hospital-beds-in-the-hallway-11660582/)                       | `public/images/hospitals.webp`                         |
+| clinics                   | [Viktorya Sergeeva](https://www.pexels.com/photo/a-hospital-bed-near-the-window-14267571/)                 | `public/images/clinics.webp`                           |
+| roof                      | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/roof.svg`                      |
+| axial                     | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/axial.svg`                     |
+| centrifugal               | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/centrifugal.svg`               |
+| exhaust                   | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/exhaust.svg`                   |
+| supply                    | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/supply.svg`                    |
+| blowers                   | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/blowers.svg`                   |
+| parts                     | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/parts.svg`                     |
+| medical                   | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/medical.svg`                   |
+| invasive                  | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/invasive.svg`                  |
+| noninvasive               | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/noninvasive.svg`               |
+| accessories               | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/accessories.svg`               |
+| procurement               | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/procurement.svg`               |
+| repair                    | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/repair.svg`                    |
+| maintenance               | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/maintenance.svg`               |
+| installation              | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/installation.svg`              |
+| replacement               | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/replacement.svg`               |
+| technical-support         | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/technical-support.svg`         |
+| institutions              | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/institutions.svg`              |
+| industrial-specifications | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/industrial-specifications.svg` |
+| replacement-guide         | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/replacement-guide.svg`         |
+| medical-procurement-guide | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/medical-procurement-guide.svg` |
+| accessory-guide           | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/accessory-guide.svg`           |

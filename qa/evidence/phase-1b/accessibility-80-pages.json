@@ -1,0 +1,642 @@
+[
+  {
+    "url": "/en/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/about/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/accessibility/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/contact/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/faq/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 24,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/axial-fans/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/blowers/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/centrifugal-fans/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/exhaust-fans/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/parts-and-replacements/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/roof-ventilators/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/supply-fans/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industries/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industries/clinics/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industries/commercial-facilities/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industries/hospitals/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industries/institutional-buyers/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industries/manufacturing/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industries/warehouses/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/medical/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/medical/institutional-procurement/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/medical/invasive-ventilators/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/medical/non-invasive-ventilators/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/medical/respiratory-accessories/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/privacy/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/products/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/request-a-quote/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/resources/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/resources/accessory-identification-guide/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/resources/industrial-specification-guide/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/resources/medical-procurement-guide/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/resources/replacement-planning-guide/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/services/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/services/equipment-replacement/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/services/industrial-fan-repair/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/services/installation-coordination/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/services/medical-technical-support/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/services/ventilation-maintenance/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/terms/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/a-propos/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/accessibilite/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/conditions/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/confidentialite/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/contact/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/demande-de-soumission/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/faq/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 24,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/pieces-et-remplacement/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/soufflantes/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/ventilateurs-axiaux/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/ventilateurs-centrifuges/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/ventilateurs-de-toit/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/ventilateurs-extraction/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/ventilateurs-soufflage/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/medical/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/medical/accessoires-respiratoires/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/medical/approvisionnement-institutionnel/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/medical/ventilateurs-invasifs/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/medical/ventilateurs-non-invasifs/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/produits/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/ressources/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/ressources/guide-approvisionnement-medical/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/ressources/guide-identification-accessoires/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/ressources/guide-planification-remplacement/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/ressources/guide-specifications-industrielles/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/secteurs/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/secteurs/acheteurs-institutionnels/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/secteurs/batiments-commerciaux/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/secteurs/cliniques/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/secteurs/entrepots/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/secteurs/fabrication/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/secteurs/hopitaux/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/services/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/services/coordination-installation/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/services/entretien-ventilation/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/services/remplacement-equipement/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/services/reparation-ventilateurs-industriels/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/services/soutien-technique-medical/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 25,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  }
+]

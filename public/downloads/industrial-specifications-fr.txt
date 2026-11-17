@@ -1,0 +1,42 @@
+Ventilators.ca
+
+Préparez les spécifications de ventilation industrielle.
+
+Une fiche d’approvisionnement pour rassembler les données de conception, les contraintes de l’appareil et les documents nécessaires à une demande technique.
+
+Regroupez le débit et la pression
+
+Le choix dépend de plus que les dimensions. Le CCHST présente le volume d’air et la résistance du système parmi les facteurs de sélection. Notez le point de fonctionnement fourni par votre concepteur qualifié, avec les unités et la révision du document.
+
+[ ] Débit de conception : valeur et unité, par exemple m³/h ou CFM
+
+[ ] Pression spécifiée : valeur, unité et désignation statique ou totale
+
+[ ] Conditions de fonctionnement et dessin ou devis de référence
+
+Notez les interfaces physiques
+
+Regroupez les mesures et les références existantes. Si une dimension ou une exigence est inconnue, indiquez qu’elle reste à confirmer plutôt que de l’estimer.
+
+[ ] Montage, dimensions des raccords et sens de l’air
+
+[ ] Tension, phases, fréquence et interface de commande
+
+[ ] Encombrement, dégagement d’entretien et exigences acoustiques
+
+Constituez le dossier de demande
+
+Cette fiche organise les renseignements; elle ne dimensionne pas un ventilateur et ne remplace pas l’ingénierie. Faites confirmer les exigences techniques par le professionnel responsable avant une commande.
+
+[ ] Quantité, province du projet et échéancier souhaité
+
+[ ] Plaque signalétique, dessins pertinents et révision du devis approuvé
+
+[ ] Questions en suspens et responsables de leur résolution
+
+CCHST — Ventilation industrielle : ventilateurs
+https://www.cchst.ca/oshanswers/prevention/ventilation/fans.html
+
+Liste de préparation seulement. Aucun engagement de produit, de service ou de livraison. N’incluez aucun renseignement sur les patients.
+
+(833) 696-9996 | info@ventilators.ca

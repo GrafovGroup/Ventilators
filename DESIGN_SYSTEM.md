@@ -27,3 +27,13 @@ System Arial/Helvetica avoids third-party font requests. Desktop H1 40–72px, H
 ## Review evidence
 
 See `QA_REPORT.md` and `qa/evidence/` for actual desktop/mobile screenshots. Browser widths: 320, 375, 768, 1024, 1440. Automated accessibility results have narrower scope than WCAG conformance; human screen-reader and real-device testing remain required.
+
+## Phase 1B editorial imagery
+
+Use one owned editorial visual per equipment, service, facility or guide page. The homepage keeps its two original division photos; neither is reused on division hubs. EN/FR equivalents share the same image with translated alt text and caption. Header/footer brand marks and social metadata remain shared identity assets.
+
+`src/content/media.ts` owns all 30 editorial assets. Eight Pexels photos show context, not owned facilities or available products. Twenty-two original SVGs explain equipment boundaries and procurement records without manufacturer identities, clinical instructions or measured product dimensions. Do not crop/recolour a photo to evade the no-reuse rule. Index cards use text links, not repeated hero thumbnails.
+
+Diagrams preserve the full 4:3 composition. Photography uses responsive crops with a visible context caption. Page-specific sources and file hashes are recorded in the source register and QA inventory. Legal, contact and text directories do not need decorative imagery. Tests enforce unique source IDs and file bytes; the export crawler enforces the actual per-page assignment.
+
+Detail pages use a two-column hero, anchored contents list, numbered preparation sections, related categories and a contextual inquiry action. Narrow layouts stack naturally; print styles remove navigation and preserve the preparation sections.

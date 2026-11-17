@@ -1,0 +1,42 @@
+Ventilators.ca
+
+Plan a replacement without losing the details.
+
+A step-by-step brief for facilities managers and contractors preparing an equipment replacement request.
+
+Capture the existing installation
+
+Create one record per unit so photos, drawings and model references cannot be confused between assets. Use information already available through your normal site documentation process.
+
+[ ] Asset ID, manufacturer/model and existing drawings
+
+[ ] Connection dimensions, mounting and controls
+
+[ ] Reason for replacement and known changes to the application
+
+Assign installation and acceptance roles
+
+CCOHS identifies qualified personnel as essential to ventilation installation, testing and maintenance. In your brief, distinguish equipment supply from the professional work required at the site.
+
+[ ] Who approves the selection and any alternative
+
+[ ] Who coordinates site work and required authorizations
+
+[ ] Who receives the equipment and reviews acceptance records
+
+Make timing assumptions visible
+
+Provide a requested date and explain the consequence of a delay. Keep that request separate from a supplier-confirmed lead time, which can only be established for a verified offer.
+
+[ ] Requested delivery and shutdown dates
+
+[ ] Receiving, unloading and storage arrangements
+
+[ ] Documents required before release for purchase
+
+CCOHS — Installation and maintenance
+https://www.ccohs.ca/oshanswers/prevention/ventilation/installation.html
+
+Preparation checklist only. No product, service or delivery commitment. Do not include patient information.
+
+(833) 696-9996 | info@ventilators.ca

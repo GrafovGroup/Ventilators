@@ -1,0 +1,42 @@
+Ventilators.ca
+
+Prepare an industrial ventilation specification.
+
+A procurement worksheet for collecting existing design information, equipment constraints and the documents needed for a technical inquiry.
+
+Keep airflow and pressure together
+
+Fan selection depends on more than physical size. CCOHS describes both the volume of air and the system resistance as selection considerations. Record the duty point supplied by your qualified designer, with its units and document revision.
+
+[ ] Design airflow: value and unit, such as m³/h or CFM
+
+[ ] Specified pressure: value, unit and static/total designation
+
+[ ] Operating conditions and the source drawing or specification
+
+Record the physical interfaces
+
+Keep measurements and existing references together. If a dimension or requirement is unknown, mark it for confirmation rather than estimating it to complete the form.
+
+[ ] Mounting, inlet/outlet dimensions and airflow direction
+
+[ ] Voltage, phase, frequency and control interface
+
+[ ] Access envelope, service clearance and acoustic requirements
+
+Assemble the inquiry package
+
+This worksheet organizes information; it does not calculate fan size or replace engineering. Have the responsible project professional confirm the technical requirement before an order.
+
+[ ] Quantity, project province and requested timeline
+
+[ ] Nameplate, relevant drawings and approved specification revision
+
+[ ] List of open questions and who will resolve them
+
+CCOHS — Industrial ventilation: fans
+https://www.ccohs.ca/oshanswers/prevention/ventilation/fans.html
+
+Preparation checklist only. No product, service or delivery commitment. Do not include patient information.
+
+(833) 696-9996 | info@ventilators.ca

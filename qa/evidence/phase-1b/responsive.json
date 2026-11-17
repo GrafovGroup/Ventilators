@@ -1,0 +1,557 @@
+[
+  {
+    "path": "/en/",
+    "requestedWidth": 320,
+    "images": [
+      {
+        "alt": "Large axial ventilation fans on an industrial building",
+        "complete": true,
+        "src": "/images/industrial.webp",
+        "width": 1400
+      },
+      {
+        "alt": "Medical equipment in a clinical environment",
+        "complete": true,
+        "src": "/images/medical.webp",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 320,
+    "viewport": 320
+  },
+  {
+    "path": "/en/services/",
+    "requestedWidth": 320,
+    "images": [],
+    "scrollWidth": 320,
+    "viewport": 320
+  },
+  {
+    "path": "/en/industries/warehouses/",
+    "requestedWidth": 320,
+    "images": [
+      {
+        "alt": "Storage racks and a clear access aisle in a warehouse.",
+        "complete": true,
+        "src": "/images/warehouses.webp",
+        "width": 1400
+      }
+    ],
+    "scrollWidth": 320,
+    "viewport": 320
+  },
+  {
+    "path": "/en/industrial/roof-ventilators/",
+    "requestedWidth": 320,
+    "images": [
+      {
+        "alt": "Concept drawing of a roof-mounted fan on a curb.",
+        "complete": true,
+        "src": "/images/diagrams/roof.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 320,
+    "viewport": 320
+  },
+  {
+    "path": "/en/services/industrial-fan-repair/",
+    "requestedWidth": 320,
+    "images": [
+      {
+        "alt": "Fan assembly with a wrench representing a defined repair scope.",
+        "complete": true,
+        "src": "/images/diagrams/repair.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 320,
+    "viewport": 320
+  },
+  {
+    "path": "/fr/ressources/guide-approvisionnement-medical/",
+    "requestedWidth": 320,
+    "images": [
+      {
+        "alt": "Dossier d’achat relié aux fiches d’appareil, de fournisseur et de réception.",
+        "complete": true,
+        "src": "/images/diagrams/medical-procurement-guide.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 320,
+    "viewport": 320
+  },
+  {
+    "path": "/fr/medical/",
+    "requestedWidth": 320,
+    "images": [
+      {
+        "alt": "Équipement médical générique sur roulettes et document d’achat.",
+        "complete": true,
+        "src": "/images/diagrams/medical.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 320,
+    "viewport": 320
+  },
+  {
+    "path": "/fr/secteurs/cliniques/",
+    "requestedWidth": 320,
+    "images": [
+      {
+        "alt": "Table d’examen près d’une fenêtre dans une salle clinique vide.",
+        "complete": true,
+        "src": "/images/clinics.webp",
+        "width": 1400
+      }
+    ],
+    "scrollWidth": 320,
+    "viewport": 320
+  },
+  {
+    "path": "/en/",
+    "requestedWidth": 375,
+    "images": [
+      {
+        "alt": "Large axial ventilation fans on an industrial building",
+        "complete": true,
+        "src": "/images/industrial.webp",
+        "width": 1400
+      },
+      {
+        "alt": "Medical equipment in a clinical environment",
+        "complete": true,
+        "src": "/images/medical.webp",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 375,
+    "viewport": 375
+  },
+  {
+    "path": "/en/services/",
+    "requestedWidth": 375,
+    "images": [],
+    "scrollWidth": 375,
+    "viewport": 375
+  },
+  {
+    "path": "/en/industries/warehouses/",
+    "requestedWidth": 375,
+    "images": [
+      {
+        "alt": "Storage racks and a clear access aisle in a warehouse.",
+        "complete": true,
+        "src": "/images/warehouses.webp",
+        "width": 1400
+      }
+    ],
+    "scrollWidth": 375,
+    "viewport": 375
+  },
+  {
+    "path": "/en/industrial/roof-ventilators/",
+    "requestedWidth": 375,
+    "images": [
+      {
+        "alt": "Concept drawing of a roof-mounted fan on a curb.",
+        "complete": true,
+        "src": "/images/diagrams/roof.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 375,
+    "viewport": 375
+  },
+  {
+    "path": "/en/services/industrial-fan-repair/",
+    "requestedWidth": 375,
+    "images": [
+      {
+        "alt": "Fan assembly with a wrench representing a defined repair scope.",
+        "complete": true,
+        "src": "/images/diagrams/repair.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 375,
+    "viewport": 375
+  },
+  {
+    "path": "/fr/ressources/guide-approvisionnement-medical/",
+    "requestedWidth": 375,
+    "images": [
+      {
+        "alt": "Dossier d’achat relié aux fiches d’appareil, de fournisseur et de réception.",
+        "complete": true,
+        "src": "/images/diagrams/medical-procurement-guide.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 375,
+    "viewport": 375
+  },
+  {
+    "path": "/fr/medical/",
+    "requestedWidth": 375,
+    "images": [
+      {
+        "alt": "Équipement médical générique sur roulettes et document d’achat.",
+        "complete": true,
+        "src": "/images/diagrams/medical.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 375,
+    "viewport": 375
+  },
+  {
+    "path": "/fr/secteurs/cliniques/",
+    "requestedWidth": 375,
+    "images": [
+      {
+        "alt": "Table d’examen près d’une fenêtre dans une salle clinique vide.",
+        "complete": true,
+        "src": "/images/clinics.webp",
+        "width": 1400
+      }
+    ],
+    "scrollWidth": 375,
+    "viewport": 375
+  },
+  {
+    "path": "/en/",
+    "requestedWidth": 768,
+    "images": [
+      {
+        "alt": "Large axial ventilation fans on an industrial building",
+        "complete": true,
+        "src": "/images/industrial.webp",
+        "width": 1400
+      },
+      {
+        "alt": "Medical equipment in a clinical environment",
+        "complete": true,
+        "src": "/images/medical.webp",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 768,
+    "viewport": 768
+  },
+  {
+    "path": "/en/services/",
+    "requestedWidth": 768,
+    "images": [],
+    "scrollWidth": 768,
+    "viewport": 768
+  },
+  {
+    "path": "/en/industries/warehouses/",
+    "requestedWidth": 768,
+    "images": [
+      {
+        "alt": "Storage racks and a clear access aisle in a warehouse.",
+        "complete": true,
+        "src": "/images/warehouses.webp",
+        "width": 1400
+      }
+    ],
+    "scrollWidth": 768,
+    "viewport": 768
+  },
+  {
+    "path": "/en/industrial/roof-ventilators/",
+    "requestedWidth": 768,
+    "images": [
+      {
+        "alt": "Concept drawing of a roof-mounted fan on a curb.",
+        "complete": true,
+        "src": "/images/diagrams/roof.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 768,
+    "viewport": 768
+  },
+  {
+    "path": "/en/services/industrial-fan-repair/",
+    "requestedWidth": 768,
+    "images": [
+      {
+        "alt": "Fan assembly with a wrench representing a defined repair scope.",
+        "complete": true,
+        "src": "/images/diagrams/repair.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 768,
+    "viewport": 768
+  },
+  {
+    "path": "/fr/ressources/guide-approvisionnement-medical/",
+    "requestedWidth": 768,
+    "images": [
+      {
+        "alt": "Dossier d’achat relié aux fiches d’appareil, de fournisseur et de réception.",
+        "complete": true,
+        "src": "/images/diagrams/medical-procurement-guide.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 768,
+    "viewport": 768
+  },
+  {
+    "path": "/fr/medical/",
+    "requestedWidth": 768,
+    "images": [
+      {
+        "alt": "Équipement médical générique sur roulettes et document d’achat.",
+        "complete": true,
+        "src": "/images/diagrams/medical.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 768,
+    "viewport": 768
+  },
+  {
+    "path": "/fr/secteurs/cliniques/",
+    "requestedWidth": 768,
+    "images": [
+      {
+        "alt": "Table d’examen près d’une fenêtre dans une salle clinique vide.",
+        "complete": true,
+        "src": "/images/clinics.webp",
+        "width": 1400
+      }
+    ],
+    "scrollWidth": 768,
+    "viewport": 768
+  },
+  {
+    "path": "/en/",
+    "requestedWidth": 1024,
+    "images": [
+      {
+        "alt": "Large axial ventilation fans on an industrial building",
+        "complete": true,
+        "src": "/images/industrial.webp",
+        "width": 1400
+      },
+      {
+        "alt": "Medical equipment in a clinical environment",
+        "complete": true,
+        "src": "/images/medical.webp",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 1024,
+    "viewport": 1024
+  },
+  {
+    "path": "/en/services/",
+    "requestedWidth": 1024,
+    "images": [],
+    "scrollWidth": 1024,
+    "viewport": 1024
+  },
+  {
+    "path": "/en/industries/warehouses/",
+    "requestedWidth": 1024,
+    "images": [
+      {
+        "alt": "Storage racks and a clear access aisle in a warehouse.",
+        "complete": true,
+        "src": "/images/warehouses.webp",
+        "width": 1400
+      }
+    ],
+    "scrollWidth": 1024,
+    "viewport": 1024
+  },
+  {
+    "path": "/en/industrial/roof-ventilators/",
+    "requestedWidth": 1024,
+    "images": [
+      {
+        "alt": "Concept drawing of a roof-mounted fan on a curb.",
+        "complete": true,
+        "src": "/images/diagrams/roof.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 1024,
+    "viewport": 1024
+  },
+  {
+    "path": "/en/services/industrial-fan-repair/",
+    "requestedWidth": 1024,
+    "images": [
+      {
+        "alt": "Fan assembly with a wrench representing a defined repair scope.",
+        "complete": true,
+        "src": "/images/diagrams/repair.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 1024,
+    "viewport": 1024
+  },
+  {
+    "path": "/fr/ressources/guide-approvisionnement-medical/",
+    "requestedWidth": 1024,
+    "images": [
+      {
+        "alt": "Dossier d’achat relié aux fiches d’appareil, de fournisseur et de réception.",
+        "complete": true,
+        "src": "/images/diagrams/medical-procurement-guide.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 1024,
+    "viewport": 1024
+  },
+  {
+    "path": "/fr/medical/",
+    "requestedWidth": 1024,
+    "images": [
+      {
+        "alt": "Équipement médical générique sur roulettes et document d’achat.",
+        "complete": true,
+        "src": "/images/diagrams/medical.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 1024,
+    "viewport": 1024
+  },
+  {
+    "path": "/fr/secteurs/cliniques/",
+    "requestedWidth": 1024,
+    "images": [
+      {
+        "alt": "Table d’examen près d’une fenêtre dans une salle clinique vide.",
+        "complete": true,
+        "src": "/images/clinics.webp",
+        "width": 1400
+      }
+    ],
+    "scrollWidth": 1024,
+    "viewport": 1024
+  },
+  {
+    "path": "/en/",
+    "requestedWidth": 1440,
+    "images": [
+      {
+        "alt": "Large axial ventilation fans on an industrial building",
+        "complete": true,
+        "src": "/images/industrial.webp",
+        "width": 1400
+      },
+      {
+        "alt": "Medical equipment in a clinical environment",
+        "complete": true,
+        "src": "/images/medical.webp",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 1440,
+    "viewport": 1440
+  },
+  {
+    "path": "/en/services/",
+    "requestedWidth": 1440,
+    "images": [],
+    "scrollWidth": 1440,
+    "viewport": 1440
+  },
+  {
+    "path": "/en/industries/warehouses/",
+    "requestedWidth": 1440,
+    "images": [
+      {
+        "alt": "Storage racks and a clear access aisle in a warehouse.",
+        "complete": true,
+        "src": "/images/warehouses.webp",
+        "width": 1400
+      }
+    ],
+    "scrollWidth": 1440,
+    "viewport": 1440
+  },
+  {
+    "path": "/en/industrial/roof-ventilators/",
+    "requestedWidth": 1440,
+    "images": [
+      {
+        "alt": "Concept drawing of a roof-mounted fan on a curb.",
+        "complete": true,
+        "src": "/images/diagrams/roof.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 1440,
+    "viewport": 1440
+  },
+  {
+    "path": "/en/services/industrial-fan-repair/",
+    "requestedWidth": 1440,
+    "images": [
+      {
+        "alt": "Fan assembly with a wrench representing a defined repair scope.",
+        "complete": true,
+        "src": "/images/diagrams/repair.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 1440,
+    "viewport": 1440
+  },
+  {
+    "path": "/fr/ressources/guide-approvisionnement-medical/",
+    "requestedWidth": 1440,
+    "images": [
+      {
+        "alt": "Dossier d’achat relié aux fiches d’appareil, de fournisseur et de réception.",
+        "complete": true,
+        "src": "/images/diagrams/medical-procurement-guide.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 1440,
+    "viewport": 1440
+  },
+  {
+    "path": "/fr/medical/",
+    "requestedWidth": 1440,
+    "images": [
+      {
+        "alt": "Équipement médical générique sur roulettes et document d’achat.",
+        "complete": true,
+        "src": "/images/diagrams/medical.svg",
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 1440,
+    "viewport": 1440
+  },
+  {
+    "path": "/fr/secteurs/cliniques/",
+    "requestedWidth": 1440,
+    "images": [
+      {
+        "alt": "Table d’examen près d’une fenêtre dans une salle clinique vide.",
+        "complete": true,
+        "src": "/images/clinics.webp",
+        "width": 1400
+      }
+    ],
+    "scrollWidth": 1440,
+    "viewport": 1440
+  }
+]

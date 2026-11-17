@@ -1,4 +1,6 @@
 import { categories } from '@/content/catalog';
+import { serviceOptions } from '@/content/details';
+export const inquiryOptions = [...categories, ...serviceOptions];
 
 export const provinceCodes = [
   'AB',
@@ -27,6 +29,7 @@ export const fields = [
   'specification',
   'quantity',
   'timeline',
+  'urgency',
   'details',
   'consent',
 ] as const;
@@ -48,13 +51,15 @@ export function validateInquiry(input: InquiryInput): InquiryErrors {
     'category',
     'quantity',
     'timeline',
+    'urgency',
     'details',
   ] as const) {
     if (!input[field]?.trim()) errors[field] = 'requiredError';
   }
   for (const field of fields) {
     if (
-      input[field]?.length > (field === 'details' ? 4000 : field === 'specification' ? 1000 : 200)
+      input[field]?.length >
+      (field === 'details' ? 4000 : field === 'specification' ? 1000 : field === 'phone' ? 60 : 200)
     )
       errors[field] = 'lengthError';
   }
@@ -63,11 +68,12 @@ export function validateInquiry(input: InquiryInput): InquiryErrors {
     errors.email = 'emailError';
   if (!provinceCodes.includes(input.province as (typeof provinceCodes)[number]))
     errors.province = 'requiredError';
-  if (!categories.some((c) => c.division === input.division && c.id === input.category))
+  if (!inquiryOptions.some((c) => c.division === input.division && c.id === input.category))
     errors.category = 'requiredError';
   if (!/^\d+$/.test(input.quantity) || Number(input.quantity) < 1 || Number(input.quantity) > 10000)
     errors.quantity = 'quantityError';
   if (!['0', '1', '2', '3'].includes(input.timeline)) errors.timeline = 'requiredError';
+  if (!['standard', 'time-sensitive'].includes(input.urgency)) errors.urgency = 'requiredError';
   if (input.consent !== 'yes') errors.consent = 'consentError';
   return errors;
 }
