@@ -363,6 +363,13 @@ export function ArticlePage({ locale, page }: { locale: Locale; page: ArticleKey
               <div>
                 <h2>{section.title}</h2>
                 <p>{section.body}</p>
+                {page === 'privacy' && index === 0 && (
+                  <a className="text-link" href="https://formspree.io/legal/privacy-policy/">
+                    {locale === 'en'
+                      ? 'Formspree privacy policy'
+                      : 'Politique de confidentialité de Formspree'}
+                  </a>
+                )}
                 {page === 'privacy' && index === 1 && (
                   <a
                     className="text-link"

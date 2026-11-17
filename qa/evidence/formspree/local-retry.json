@@ -1,0 +1,63 @@
+{
+  "mode": "retry",
+  "requests": [
+    {
+      "method": "POST",
+      "payload": {
+        "division": "industrial",
+        "name": "Ventilators.ca integration test EN",
+        "organization": "Grafov Group website QA",
+        "email": "website-test@example.com",
+        "phone": "",
+        "province": "ON",
+        "category": "Fan repair inquiry",
+        "model": "",
+        "specification": "",
+        "quantity": "1",
+        "timeline": "Planning / budget",
+        "urgency": "Standard planning",
+        "details": "Synthetic local integration test — no quote or order; no response required. Verify retry preserves the reviewed inquiry.",
+        "consent": "yes",
+        "category_id": "repair",
+        "locale": "en-CA",
+        "request_id": "VCA-2b554f32-8701-4cf8-b02a-9130a3078118",
+        "consent_version": "2026-11-17-formspree-v1",
+        "consent_text": "I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.",
+        "consent_timestamp": "2026-11-17T17:14:22.229Z",
+        "page": "https://ventilators.ca/en/request-a-quote/",
+        "_subject": "Ventilators.ca — Industrial (EN)",
+        "_gotcha": "",
+        "message": "Synthetic local integration test — no quote or order; no response required. Verify retry preserves the reviewed inquiry."
+      }
+    },
+    {
+      "method": "POST",
+      "payload": {
+        "division": "industrial",
+        "name": "Ventilators.ca integration test EN",
+        "organization": "Grafov Group website QA",
+        "email": "website-test@example.com",
+        "phone": "",
+        "province": "ON",
+        "category": "Fan repair inquiry",
+        "model": "",
+        "specification": "",
+        "quantity": "1",
+        "timeline": "Planning / budget",
+        "urgency": "Standard planning",
+        "details": "Synthetic local integration test — no quote or order; no response required. Verify retry preserves the reviewed inquiry.",
+        "consent": "yes",
+        "category_id": "repair",
+        "locale": "en-CA",
+        "request_id": "VCA-2b554f32-8701-4cf8-b02a-9130a3078118",
+        "consent_version": "2026-11-17-formspree-v1",
+        "consent_text": "I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.",
+        "consent_timestamp": "2026-11-17T17:14:22.229Z",
+        "page": "https://ventilators.ca/en/request-a-quote/",
+        "_subject": "Ventilators.ca — Industrial (EN)",
+        "_gotcha": "",
+        "message": "Synthetic local integration test — no quote or order; no response required. Verify retry preserves the reviewed inquiry."
+      }
+    }
+  ]
+}

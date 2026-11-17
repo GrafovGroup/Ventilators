@@ -1,25 +1,35 @@
-# RFQ integration contract — not implemented or active
+# Formspree inquiry delivery
 
-Phase 1A form is a browser-memory-only review interface. It performs no fetch, POST, email, localStorage or upload. The UI states delivery is unavailable before entry and again after review. Static hosting has no server-side validation capability. Client validation in `src/lib/inquiry.ts` is usability validation only.
+The owner supplied and authorized endpoint `https://formspree.io/f/mvkaapjj` on 2026-11-17. The official React integration (`@formspree/react` 3.0.0) matches the Next.js static export hosted on WHC. No WHC application server, API secret or native form redirect is required. This supersedes the earlier proposed custom-endpoint contract.
 
-Before live delivery, select a separately hosted secure endpoint or vetted form provider with approved data processing terms. An environment URL alone must not enable submission. `.env.example` reserves `NEXT_PUBLIC_RFQ_ENDPOINT`; no secret belongs in any `NEXT_PUBLIC_*` variable.
+## Visitor flow
 
-Required implementation and acceptance criteria:
+1. Enter division-specific business requirements and acknowledge the bilingual privacy notice. Browser validation checks required fields, email, bounds, quantity and category/division membership.
+2. Review all values locally. This step transmits nothing. The request receives a `VCA-<UUID>` reference and consent timestamp.
+3. Select **Send inquiry / Envoyer la demande**. The SDK sends HTTPS JSON to the fixed Formspree endpoint. The send/edit buttons are disabled while pending, with a synchronous duplicate-click guard. After 15 seconds, a localized message explains that confirmation is still pending.
+4. A provider-accepted response shows a focused, localized success state and reference. This means accepted for processing, not proof of inbox delivery or a commercial order.
+5. A network/provider failure retains the reviewed values. Retry uses the same reference; edit, copy, email and phone remain available. Provider field errors are described using localized field names. No automatic retry runs.
 
-1. HTTPS POST JSON with an allowlisted schema: division, category, name, organization, email, optional phone/model/specification, quantity, province, timeline, details, locale, consent version and timestamp. Enforce bounds, valid division/category membership and payload size server-side; reject unknown fields and attachments.
-2. Treat all fields as untrusted. No user-controlled recipient or mail headers. Escape templates. Configure recipient `info@ventilators.ca` and operations address through private server configuration. No lead details in operational logs or analytics.
-3. Origin/CORS allowlist for approved environments. If cookies/session authentication are added, implement an appropriate CSRF token and SameSite strategy. Origin checking alone is not bot protection.
-4. Durable rate limiting (per-origin/IP risk bucket with reviewed privacy handling), spam controls and appropriate bot challenge/provider verification server-side. Define 413, 422, 429 and 503 responses.
-5. Idempotency keys with durable deduplication and bounded expiry. Persist accepted delivery intent before acknowledging it. Distinguish accepted/queued from confirmed delivered; never label a mere HTTP 200 as verified email delivery.
-6. Retry delivery with bounded exponential backoff, failure alerts and dead-letter handling; redact private details. Confirm actual EN/FR industrial/medical test messages in the approved inbox, including division/category and reply-to behavior.
-7. Accessible pending, validation, retry, duplicate and unavailable states. Preserve entered data on a delivery failure. Disable duplicate clicks but do not lose the request.
-8. Review privacy disclosure, retention/deletion policy, provider locations, consent wording and handling of accidental sensitive information with counsel before activation. No patient information or marketing opt-in by implication.
-9. Test abuse, timeouts, consent errors, malformed email, overlong input, injection attempts, invalid category, duplicate submissions and provider failures using synthetic data.
+The inquiry lives in React/browser memory until transmission or an explicit clipboard copy. No persistent browser draft, analytics or upload is used. The no-JavaScript fallback offers phone/email. CSP blocks native form navigation and permits fetch only to the same origin and Formspree, so personal fields do not enter a URL.
 
-Attachments stay disabled until authenticated storage access, size/type limits, malware scanning, retention/deletion, access logging and a secure reviewer workflow are implemented and verified.
+## Payload and recipient
 
-Planned analytics event names: `division_selected`, `category_viewed`, `rfq_started`, `rfq_submitted`, `phone_clicked`, `email_clicked`, `language_changed`. No analytics is active. Never emit `rfq_submitted` for this preview. Approved IDs, consent and an event review are required; no names, emails, phone numbers, specifications or project details in events.
+`src/lib/inquiry-delivery.ts` emits an allowlist: division, name, organization, email, optional phone/model/specification, province, category label and ID, quantity, translated timeline/priority, details/message, locale, request ID, consent value/version/text/timestamp and canonical inquiry page. `_subject` is built only from trusted division/locale choices; `_gotcha` is the honeypot. Unknown fields, recipients, redirects and attachments are not forwarded by this UI. `email` supplies Formspree's notification Reply-To.
 
-## Phase 1B preview contract update
+The Formspree Workflow UI was inspected: its enabled Email action targets **info@ventilators.ca**. Form Enabled, Submission Archive and Formshield were enabled. CAPTCHA was already Disabled; this integration did not alter those controls or email/DNS configuration. The public form ID is not a credential. No Stripe/payment provider is configured, even though the official SDK includes optional Stripe dependencies.
 
-The local inquiry payload now includes `urgency`, limited to `standard` or `time-sensitive`. `category` accepts the division’s equipment categories plus industrial `repair`, `maintenance`, `installation`, `replacement`, or medical `technical-support`. Phone is capped at 60 characters. The client shows an accessible error list and a complete summary with an edit action, but does not transmit the payload. A future endpoint must independently validate these additions and retain the security/delivery requirements above. No endpoint was deployed in this increment.
+## Processing and limits
+
+Formspree processes and stores submitted business details and request/security metadata. Its privacy policy allows processing in the US and other countries. The bilingual notice links that policy and identifies the selected provider before consent. WHC still serves only static files and request logs; submissions are not stored in a WHC application database.
+
+Client validation and allowlisting are usability controls, not an independent server security boundary: callers can send directly to the public endpoint. Formspree supplies hosted validation/spam handling. The application does not claim custom server schema enforcement, a configured rate limit, durable idempotency, automatic delivery retries, a dead-letter queue, Canadian-only storage or automatic patient-information detection. The reference helps staff identify repeated inquiries but cannot prevent all duplicates after an ambiguous network failure. Patient information and attachments remain prohibited.
+
+Operational follow-up: monitor Formspree submissions/spam/quota and notification failures; define access, retention/deletion and inquiry handling with the owner. Legal and bilingual editorial review remain open. Keep marketing consent separate if marketing is ever introduced. No analytics is currently active.
+
+## Verification
+
+`tests/inquiry-delivery.test.ts` checks complete EN/FR payloads, stable retry metadata, invalid inputs and attempted recipient/header/redirect injection through extra fields. The local-only `scripts/qa-form-delivery.js` harness simulates success, 503 then retry, 422 field validation, 429, network failure and slow response without contacting Formspree. It never enters `out/`.
+
+Use explicitly labeled synthetic EN industrial and FR medical submissions for authorized live testing. Confirm both the public success state and matching records in Formspree; record notification delivery evidence separately from actual inbox receipt. Current results are in `../QA_REPORT.md` and `../qa/evidence/formspree/`.
+
+Official references: [React library](https://help.formspree.io/articles/working-with-react/the-formspree-react-library/), [special fields](https://help.formspree.io/articles/building-your-form/special-fields), [honeypot](https://help.formspree.io/articles/building-your-form/honeypot-spam-filtering), [privacy policy](https://formspree.io/legal/privacy-policy/).

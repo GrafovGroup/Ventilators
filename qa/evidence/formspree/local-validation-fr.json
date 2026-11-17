@@ -1,0 +1,48 @@
+{
+  "request": {
+    "mode": "validation",
+    "requests": [
+      {
+        "method": "POST",
+        "payload": {
+          "division": "medical",
+          "name": "Essai du site Ventilators.ca FR",
+          "organization": "Grafov Group — assurance qualité",
+          "email": "website-test@example.com",
+          "phone": "",
+          "province": "QC",
+          "category": "Demande de soutien technique",
+          "model": "",
+          "specification": "",
+          "quantity": "1",
+          "timeline": "Planification / budget",
+          "urgency": "Planification courante",
+          "details": "Essai synthétique local — aucune commande ni demande réelle. Vérification des erreurs de saisie du fournisseur. Aucune réponse requise.",
+          "consent": "yes",
+          "category_id": "technical-support",
+          "locale": "fr-CA",
+          "request_id": "VCA-bb6e7965-9d75-4e39-baa2-41fb06aeb0c4",
+          "consent_version": "2026-11-17-formspree-v1",
+          "consent_text": "J’ai lu l’avis de confidentialité et je consens au traitement de mes coordonnées professionnelles et de ma demande par Ventilators.ca et Formspree afin de répondre à cette demande.",
+          "consent_timestamp": "2026-11-17T17:15:02.930Z",
+          "page": "https://ventilators.ca/fr/demande-de-soumission/",
+          "_subject": "Ventilators.ca — Médical (FR)",
+          "_gotcha": "",
+          "message": "Essai synthétique local — aucune commande ni demande réelle. Vérification des erreurs de saisie du fournisseur. Aucune réponse requise."
+        }
+      }
+    ]
+  },
+  "accessibility": {
+    "url": "/fr/demande-de-soumission/",
+    "viewport": 375,
+    "scrollWidth": 375,
+    "passes": 28,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  "layout": {
+    "scrollWidth": 375,
+    "width": 375
+  }
+}

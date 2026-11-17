@@ -1,5 +1,23 @@
 # QA report
 
+## Formspree integration — 2026-11-17
+
+The owner requested connection and testing of form `mvkaapjj`. The current React implementation and WHC CSP support explicit submission after review. Formspree's enabled Email workflow was inspected and targets info@ventilators.ca; existing archive and Formshield controls remain enabled, with no account changes. Live release/provider verification will be recorded after deployment.
+
+| Check                            | Result                        | Evidence                                                                                                                               |
+| -------------------------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| ESLint / TypeScript / formatting | PASS                          | `qa/evidence/formspree/lint.txt`, `typecheck.txt`, `format.txt`                                                                        |
+| Unit tests                       | PASS, 19 tests                | `tests.txt`; four new payload tests cover EN/FR labels, metadata, validation and field/header allowlisting                             |
+| Public build and export          | PASS, 80 localized pages      | `build.txt`, `export.txt`; unique imagery and routes preserved                                                                         |
+| Dependency audit                 | Zero reported vulnerabilities | `dependency-audit.json`; official @formspree/react 3.0.0 pinned                                                                        |
+| EN local review/retry            | PASS                          | No request on review; synthetic 503 retains data; copy includes reference; retry succeeds with identical reference; `local-retry.json` |
+| FR provider validation           | PASS                          | Local 422 identifies Courriel professionnel; edit retains fields and focuses name; `local-validation-fr.json`                          |
+| FR network/rate errors           | PASS                          | Both preserve details and show localized retry; `local-failures.json`                                                                  |
+| FR slow/pending/success          | PASS                          | One request; pending send/edit disabled; delayed acceptance focuses success; `local-slow.json`                                         |
+| FR mobile accessibility          | Zero axe violations at 375 px | `local-validation-fr.json`; one contrast review item; no horizontal overflow in form/review/success                                    |
+
+Mock failure tests run only through the localhost QA harness; they do not contact Formspree. The 15-second slow-message threshold is implemented but its brief display was not separately captured. Provider acceptance is not proof of inbox receipt. Historical reports below describe earlier releases and do not represent the current form behavior.
+
 ## Public release — 2026-11-17
 
 The full informational website is LIVE on WHC at https://ventilators.ca/. Source commit `02fc4e85bf26317160275928c65be2dbc04b7040`; release `2026-11-17-public-1`. The owner explicitly authorized publication and selected info@ventilators.ca. Automatic submission and inbox receipt remain unverified.

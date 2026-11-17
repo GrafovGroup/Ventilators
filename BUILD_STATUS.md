@@ -2,7 +2,13 @@
 
 Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventilators on 2026-11-17.
 
-## Current increment: owner-authorized public release
+## Current increment: Formspree inquiry delivery
+
+The owner supplied `https://formspree.io/f/mvkaapjj` and requested integration and testing on 2026-11-17. The Next.js/React form uses the official `@formspree/react` library, preserving local review before explicit transmission. Bilingual pending, success, provider-error and retry states retain the inquiry on failure. The existing Formspree workflow sends notifications to `info@ventilators.ca`. Privacy/FAQ/consent copy and the WHC connection policy now describe this processing. Current test and deployment evidence is recorded in `QA_REPORT.md` and `docs/WHC_CONNECTION.md`.
+
+The provider integration supersedes historical statements below that no endpoint exists. It does not establish specialist editorial/regulatory approval or custom server-side validation, durable deduplication or an agreed retention schedule.
+
+## Historical increment: initial public release
 
 On 2026-11-17 the owner instructed “lets proceed with building and also lets make the site live” and selected `info@ventilators.ca` for inquiries. This supersedes the earlier holding-page-only direction. The release includes the 80 localized informational pages, unique imagery, downloads and a local copy-and-email inquiry builder. It does not activate automatic RFQ submission, publish unverified products, or establish legal/regulatory/editorial approval.
 

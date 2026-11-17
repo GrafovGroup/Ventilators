@@ -39,7 +39,7 @@ export type ErrorCode =
   'requiredError' | 'emailError' | 'quantityError' | 'lengthError' | 'consentError';
 export type InquiryErrors = Partial<Record<InquiryField, ErrorCode>>;
 
-// Preview validation only. A future delivery endpoint must validate independently.
+// Browser validation for usability. Formspree's server controls are independent.
 export function validateInquiry(input: InquiryInput): InquiryErrors {
   const errors: InquiryErrors = {};
   for (const field of [

@@ -1,6 +1,8 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { useForm } from '@formspree/react';
 import { useSearchParams } from 'next/navigation';
+import { formspreeId, inquiryPayload } from '@/lib/inquiry-delivery';
 
 import { dictionaries, pathFor, type Division, type Locale } from '@/content/site';
 import {
@@ -54,8 +56,25 @@ export function InquiryForm({ locale }: { locale: Locale }) {
   const [errors, setErrors] = useState<InquiryErrors>({});
   const [copyStatus, setCopyStatus] = useState<'idle' | 'copied' | 'error'>('idle');
   const [review, setReview] = useState<InquiryInput | null>(null);
+  const [delivery, sendInquiry, resetDelivery] = useForm(formspreeId);
+  const [unexpectedError, setUnexpectedError] = useState(false);
+  const [slow, setSlow] = useState(false);
+  const [reference, setReference] = useState('');
+  const [acceptedAt, setAcceptedAt] = useState('');
+  const [honeypot, setHoneypot] = useState('');
+  const sending = useRef(false);
+  const formRef = useRef<HTMLFormElement>(null);
   const d = dictionaries[locale];
   const t = d.form;
+  const deliveryFailed = !!delivery.errors || unexpectedError;
+  useEffect(() => {
+    if (delivery.succeeded || deliveryFailed) document.getElementById('delivery-result')?.focus();
+  }, [delivery.succeeded, deliveryFailed]);
+  useEffect(() => {
+    if (!delivery.submitting) return;
+    const timer = window.setTimeout(() => setSlow(true), 15000);
+    return () => window.clearTimeout(timer);
+  }, [delivery.submitting]);
   const categoryDefault =
     inquiryOptions.find((c) => c.id === query.get('category') && c.division === division)?.id ?? '';
   const error = (field: InquiryField) =>
@@ -90,16 +109,36 @@ export function InquiryForm({ locale }: { locale: Locale }) {
   }
   function submit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const input = readInquiry(new FormData(event.currentTarget));
+    const data = new FormData(event.currentTarget);
+    const input = readInquiry(data);
     const nextErrors = validateInquiry(input);
     setErrors(nextErrors);
     setCopyStatus('idle');
+    resetDelivery();
+    setUnexpectedError(false);
+    setReference(`VCA-${crypto.randomUUID()}`);
+    setAcceptedAt(new Date().toISOString());
+    setHoneypot(String(data.get('_gotcha') || ''));
     setReview(Object.keys(nextErrors).length === 0 ? input : null);
     requestAnimationFrame(() =>
       document
         .getElementById(Object.keys(nextErrors).length ? 'error-summary' : 'review-result')
         ?.focus(),
     );
+  }
+  async function sendReviewedInquiry() {
+    if (!review || sending.current || delivery.succeeded) return;
+    sending.current = true;
+    setUnexpectedError(false);
+    setSlow(false);
+    try {
+      await sendInquiry(inquiryPayload(review, locale, reference, acceptedAt, honeypot));
+    } catch {
+      resetDelivery();
+      setUnexpectedError(true);
+    } finally {
+      sending.current = false;
+    }
   }
   const labels: Record<InquiryField, string> = {
     division: t.division,
@@ -131,10 +170,21 @@ export function InquiryForm({ locale }: { locale: Locale }) {
     <div className="container quote-layout">
       <div>
         <div className="notice" role="note">
-          <strong>{t.unavailableTitle}</strong>
-          <p>{t.unavailable}</p>
+          <strong>{t.deliveryTitle}</strong>
+          <p>{t.deliveryIntro}</p>
         </div>
-        <form noValidate hidden={!!review} onSubmit={submit} aria-label={t.title}>
+        <form
+          ref={formRef}
+          method="post"
+          noValidate
+          hidden={!!review}
+          onSubmit={submit}
+          aria-label={t.title}
+        >
+          <div className="form-trap" aria-hidden="true">
+            <label htmlFor="website">{t.leaveBlank}</label>
+            <input id="website" name="_gotcha" type="text" tabIndex={-1} autoComplete="off" />
+          </div>
           {Object.keys(errors).length > 0 && (
             <div role="alert" className="error-summary" id="error-summary" tabIndex={-1}>
               <strong>{t.errors}</strong>
@@ -308,24 +358,85 @@ export function InquiryForm({ locale }: { locale: Locale }) {
             {t.submit}
           </button>
         </form>
-        {review && (
+        {delivery.succeeded && (
+          <section
+            id="delivery-result"
+            className="notice inquiry-success"
+            tabIndex={-1}
+            aria-labelledby="sent-title"
+            role="status"
+          >
+            <h2 id="sent-title">{t.sentTitle}</h2>
+            <p>{t.sentText}</p>
+            <p className="inquiry-reference">
+              {t.reference}: <strong>{reference}</strong>
+            </p>
+            <button
+              type="button"
+              className="button button-outline"
+              onClick={() => {
+                formRef.current?.reset();
+                resetDelivery();
+                setReview(null);
+                setCopyStatus('idle');
+                setUnexpectedError(false);
+                requestAnimationFrame(() => document.getElementById('name')?.focus());
+              }}
+            >
+              {t.newInquiry}
+            </button>
+          </section>
+        )}
+        {review && !delivery.succeeded && (
           <section
             id="review-result"
             className="inquiry-review"
             tabIndex={-1}
             aria-labelledby="summary-title"
           >
-            <p className="eyebrow">{t.reviewed}</p>
+            <p className="eyebrow">
+              {delivery.submitting ? t.sending : deliveryFailed ? t.unconfirmed : t.reviewed}
+            </p>
             <h2 id="summary-title">{t.summary}</h2>
             <p>{t.reviewedText}</p>
+            <p className="inquiry-reference">
+              {t.reference}: {reference}
+            </p>
+            {deliveryFailed && !delivery.submitting && (
+              <div id="delivery-result" className="error-summary" role="alert" tabIndex={-1}>
+                <strong>{t.failedTitle}</strong>
+                <p>{t.failedText}</p>
+                {!!delivery.errors?.getAllFieldErrors().length && (
+                  <p>
+                    {t.providerFields}:{' '}
+                    {delivery.errors
+                      .getAllFieldErrors()
+                      .map(([field]) => labels[field as InquiryField] || t.details)
+                      .join(', ')}
+                    . {t.editToCorrect}
+                  </p>
+                )}
+              </div>
+            )}
+            <button
+              type="button"
+              className="button"
+              onClick={sendReviewedInquiry}
+              disabled={delivery.submitting}
+              aria-busy={delivery.submitting}
+            >
+              {delivery.submitting ? t.sending : deliveryFailed ? t.retry : t.send}
+            </button>
+            <p role="status">{delivery.submitting ? (slow ? t.slow : t.sending) : ''}</p>
             <div className="review-actions">
               <button
                 type="button"
-                className="button"
+                className="button button-outline"
                 onClick={async () => {
                   const text = [
                     'Ventilators.ca',
                     t.summary,
+                    `${t.reference}: ${reference}`,
                     ...(Object.keys(labels) as InquiryField[])
                       .filter((field) => field !== 'consent')
                       .map((field) => `${labels[field]}: ${reviewValue(field, review[field])}`),
@@ -361,7 +472,10 @@ export function InquiryForm({ locale }: { locale: Locale }) {
             <button
               type="button"
               className="button button-outline"
+              disabled={delivery.submitting}
               onClick={() => {
+                resetDelivery();
+                setUnexpectedError(false);
                 setReview(null);
                 setCopyStatus('idle');
                 requestAnimationFrame(() => document.getElementById('name')?.focus());

@@ -116,7 +116,7 @@ export const articles: Localized<Record<ArticleKey, Article>> = {
         },
         {
           title: 'Does the online form send my request?',
-          body: 'The inquiry builder prepares a summary in your browser. Review it, copy it into an email to info@ventilators.ca and send it from your email service, or call us. The website does not automatically send your entries.',
+          body: 'Yes. Complete the form, review your details and select Send inquiry. Formspree processes the submission. A confirmation appears when it is accepted; this does not confirm availability or create an order. Phone and email remain available.',
         },
         {
           title: 'Can I include patient information?',
@@ -148,15 +148,15 @@ export const articles: Localized<Record<ArticleKey, Article>> = {
       eyebrow: 'HOW THIS WEBSITE HANDLES INFORMATION',
       title: 'Privacy notice.',
       intro:
-        'This notice describes the current Ventilators.ca website. The inquiry builder works in your browser; it does not submit your information to us.',
+        'This notice explains how Ventilators.ca handles website inquiries. You review your details before choosing to send them through Formspree.',
       sections: [
         {
-          title: 'Inquiry preparation',
-          body: 'Your entries are used in the open page to validate and display an inquiry summary. The website does not send them to a server or save them in persistent browser storage. The copy button places the summary on your clipboard only when you choose it. The email link opens your email service; you decide what to include and when to send.',
+          title: 'Inquiry information and sending',
+          body: 'The form collects your name, organization, work email, optional phone number, province, equipment or service requirements, quantity, timeline, priority and project details. Entries remain in the open page until you select Send inquiry. We send them to Formspree with the language, inquiry reference and consent record so your request can be processed and answered. Formspree stores submissions and routes notifications to the configured business inbox. It may also process IP address, browser and request information for security and spam prevention. Formspree processes information in the United States and other countries where it operates; processing is not limited to Canada. Do not include patient information or sensitive documents.',
         },
         {
           title: 'Hosting and technical records',
-          body: 'Web Hosting Canada (WHC) hosts this website. Requests may be recorded in hosting access and security logs, including an IP address, requested page, time and browser information. These records support site operation and security. The website application does not maintain a lead database or add analytics or advertising tags. File uploads are not enabled.',
+          body: 'Web Hosting Canada (WHC) hosts this website. Requests may be recorded in hosting access and security logs, including an IP address, requested page, time and browser information. These records support site operation and security. The WHC website does not maintain a lead database or add analytics or advertising tags. Inquiry records are handled by Formspree and the business email service. File uploads are not enabled. The form does not save drafts in persistent browser storage. Copying a summary places it on your clipboard only at your request.',
         },
         {
           title: 'Direct contact and privacy requests',
@@ -311,7 +311,7 @@ export const articles: Localized<Record<ArticleKey, Article>> = {
         },
         {
           title: 'Le formulaire envoie-t-il ma demande?',
-          body: 'Le formulaire prépare un résumé dans votre navigateur. Vérifiez-le, copiez-le dans un courriel à info@ventilators.ca et envoyez-le depuis votre service de courriel, ou appelez-nous. Le site n’envoie pas automatiquement vos renseignements.',
+          body: 'Oui. Remplissez le formulaire, vérifiez les renseignements et sélectionnez Envoyer la demande. Formspree traite l’envoi. Une confirmation apparaît lorsque la demande est acceptée; elle ne confirme aucune disponibilité et ne constitue pas une commande. Le téléphone et le courriel restent disponibles.',
         },
         {
           title: 'Puis-je inclure des renseignements sur les patients?',
@@ -343,15 +343,15 @@ export const articles: Localized<Record<ArticleKey, Article>> = {
       eyebrow: 'TRAITEMENT DES RENSEIGNEMENTS SUR CE SITE',
       title: 'Avis de confidentialité.',
       intro:
-        'Cet avis décrit le site actuel de Ventilators.ca. Le formulaire de préparation fonctionne dans votre navigateur; il ne nous transmet pas vos renseignements.',
+        'Cet avis explique le traitement des demandes sur Ventilators.ca. Vous vérifiez vos renseignements avant de choisir de les envoyer par Formspree.',
       sections: [
         {
-          title: 'Préparation d’une demande',
-          body: 'Vos renseignements servent à valider et à afficher un résumé dans la page ouverte. Le site ne les transmet pas à un serveur et ne les conserve pas dans le stockage persistant du navigateur. Le bouton de copie place le résumé dans votre presse-papiers seulement à votre demande. Le lien de courriel ouvre votre service de messagerie; vous choisissez le contenu et le moment de l’envoi.',
+          title: 'Renseignements et envoi d’une demande',
+          body: 'Le formulaire recueille votre nom, organisation, courriel professionnel, téléphone facultatif, province, besoins en équipement ou service, quantité, échéancier, priorité et détails du projet. Ces renseignements restent dans la page ouverte jusqu’à ce que vous sélectionniez Envoyer la demande. Ils sont alors transmis à Formspree avec la langue, une référence et une trace du consentement pour traiter votre demande et y répondre. Formspree conserve les demandes et transmet les notifications à la boîte professionnelle configurée. Il peut aussi traiter l’adresse IP et des renseignements sur le navigateur et la requête pour la sécurité et la prévention du pourriel. Formspree traite des renseignements aux États-Unis et dans d’autres pays où il exerce ses activités; le traitement n’est pas limité au Canada. N’incluez aucun renseignement sur les patients ni document sensible.',
         },
         {
           title: 'Hébergement et données techniques',
-          body: 'Web Hosting Canada (WHC) héberge ce site. Les requêtes peuvent être consignées dans des journaux d’accès et de sécurité, avec notamment l’adresse IP, la page demandée, l’heure et des renseignements sur le navigateur. Ces données servent au fonctionnement et à la sécurité du site. L’application ne conserve aucune base de demandes et n’ajoute aucune balise analytique ou publicitaire. Le téléversement de fichiers n’est pas activé.',
+          body: 'Web Hosting Canada (WHC) héberge ce site. Les requêtes peuvent être consignées dans des journaux d’accès et de sécurité, avec notamment l’adresse IP, la page demandée, l’heure et des renseignements sur le navigateur. Ces données servent au fonctionnement et à la sécurité du site. Le site hébergé chez WHC ne conserve aucune base de demandes et n’ajoute aucune balise analytique ou publicitaire. Les demandes sont traitées par Formspree et le service de messagerie de l’entreprise. Le téléversement n’est pas activé. Aucun brouillon n’est enregistré dans le stockage persistant du navigateur. La copie place le résumé dans le presse-papiers seulement à votre demande.',
         },
         {
           title: 'Contact direct et demandes de confidentialité',

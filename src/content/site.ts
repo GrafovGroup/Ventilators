@@ -168,9 +168,28 @@ export const dictionaries = {
       eyebrow: 'YOUR PROJECT STARTS HERE',
       title: 'Tell us what you need.',
       intro: 'Choose a division and prepare the details for your equipment or procurement inquiry.',
-      unavailableTitle: 'Prepare here. Contact us by phone or email.',
+      unavailableTitle: 'Send an inquiry.',
       unavailable:
-        'Build and review your inquiry below, then copy it into an email or call us. This page does not send or save your entries.',
+        'Enable JavaScript to use the inquiry form, or contact info@ventilators.ca or (833) 696-9996.',
+      deliveryTitle: 'Review your details, then send your inquiry.',
+      deliveryIntro:
+        'Your inquiry is sent through Formspree when you select Send inquiry. Include business requirements only; do not include patient information or sensitive documents.',
+      send: 'Send inquiry',
+      sending: 'Sending your inquiry…',
+      retry: 'Try sending again',
+      sentTitle: 'Inquiry submitted.',
+      sentText:
+        'Thank you. Your inquiry has been accepted for processing. Keep the reference below when following up. Equipment availability and service scope still need confirmation.',
+      newInquiry: 'Start a new inquiry',
+      reference: 'Inquiry reference',
+      failedTitle: 'We could not confirm receipt.',
+      failedText:
+        'Your details are still here. You can try again, copy the summary into an email, or call us. Keep the same reference when following up to help avoid duplicates.',
+      unconfirmed: 'Receipt unconfirmed — your details are preserved.',
+      providerFields: 'Please check',
+      editToCorrect: 'Use Edit inquiry to correct your details.',
+      slow: 'This is taking longer than usual. Please wait before sending again. You can copy your summary or contact us using the reference below.',
+      leaveBlank: 'Leave this field empty',
       division: 'Division',
       name: 'Full name',
       organization: 'Organization',
@@ -197,12 +216,12 @@ export const dictionaries = {
       acknowledged: 'Privacy notice acknowledged',
       details: 'Project details',
       consent:
-        'I have read the privacy notice and understand that this page will not send or store my inquiry.',
+        'I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.',
       patient: 'Do not include patient names, health records or other personal health information.',
       submit: 'Review inquiry',
       reviewed: 'Inquiry reviewed — nothing has been sent.',
       reviewedText:
-        'Copy your summary, open an email to info@ventilators.ca and paste it into your message. You choose when to send it. Your entries remain only in this open page.',
+        'Check your details below, then select Send inquiry. You can edit your information first, or copy the summary and contact us by email.',
       errors: 'Please check the highlighted fields.',
       requiredError: 'Please complete this field.',
       emailError: 'Enter a valid email address.',
@@ -350,9 +369,28 @@ export const dictionaries = {
       title: 'Parlez-nous de vos besoins.',
       intro:
         'Choisissez une division et préparez les renseignements pour votre demande d’équipement ou d’approvisionnement.',
-      unavailableTitle: 'Préparez votre demande. Joignez-nous par téléphone ou courriel.',
+      unavailableTitle: 'Envoyer une demande.',
       unavailable:
-        'Préparez et vérifiez votre demande ci-dessous, puis copiez-la dans un courriel ou appelez-nous. Cette page n’envoie pas et n’enregistre pas vos renseignements.',
+        'Activez JavaScript pour utiliser le formulaire, ou joignez info@ventilators.ca ou le (833) 696-9996.',
+      deliveryTitle: 'Vérifiez vos renseignements, puis envoyez votre demande.',
+      deliveryIntro:
+        'Votre demande est transmise par Formspree lorsque vous sélectionnez Envoyer la demande. Incluez uniquement des renseignements professionnels, sans données sur les patients ni documents sensibles.',
+      send: 'Envoyer la demande',
+      sending: 'Envoi de votre demande…',
+      retry: 'Réessayer l’envoi',
+      sentTitle: 'Demande transmise.',
+      sentText:
+        'Merci. Votre demande a été acceptée pour traitement. Conservez la référence ci-dessous pour le suivi. La disponibilité de l’équipement et la portée des services restent à confirmer.',
+      newInquiry: 'Préparer une nouvelle demande',
+      reference: 'Référence de la demande',
+      failedTitle: 'Nous ne pouvons pas confirmer la réception.',
+      failedText:
+        'Vos renseignements sont toujours ici. Vous pouvez réessayer, copier le résumé dans un courriel ou nous appeler. Conservez la même référence pour le suivi afin de limiter les doublons.',
+      unconfirmed: 'Réception non confirmée — vos renseignements sont conservés dans cette page.',
+      providerFields: 'Veuillez vérifier',
+      editToCorrect: 'Utilisez Modifier la demande pour corriger vos renseignements.',
+      slow: 'L’envoi prend plus de temps que prévu. Veuillez patienter avant de réessayer. Vous pouvez copier le résumé ou nous joindre avec la référence ci-dessous.',
+      leaveBlank: 'Laissez ce champ vide',
       division: 'Division',
       name: 'Nom complet',
       organization: 'Organisation',
@@ -380,13 +418,13 @@ export const dictionaries = {
       acknowledged: 'Avis de confidentialité reconnu',
       details: 'Détails du projet',
       consent:
-        'J’ai lu l’avis de confidentialité et je comprends que cette page n’enverra pas et ne conservera pas ma demande.',
+        'J’ai lu l’avis de confidentialité et je consens au traitement de mes coordonnées professionnelles et de ma demande par Ventilators.ca et Formspree afin de répondre à cette demande.',
       patient:
         'N’incluez aucun nom de patient, dossier médical ou autre renseignement personnel sur la santé.',
       submit: 'Vérifier la demande',
       reviewed: 'Demande vérifiée — rien n’a été envoyé.',
       reviewedText:
-        'Copiez le résumé, ouvrez un courriel à info@ventilators.ca et collez-le dans votre message. Vous choisissez quand l’envoyer. Vos renseignements restent uniquement dans cette page ouverte.',
+        'Vérifiez les renseignements ci-dessous, puis sélectionnez Envoyer la demande. Vous pouvez d’abord les modifier ou copier le résumé pour nous joindre par courriel.',
       errors: 'Veuillez vérifier les champs indiqués.',
       requiredError: 'Veuillez remplir ce champ.',
       emailError: 'Saisissez une adresse courriel valide.',

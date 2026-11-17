@@ -1,0 +1,29 @@
+npm notice run ventilators-ca@0.1.0 test
+npm notice run node --import tsx --test tests/*.test.ts
+✔ editorial visuals have unique source identities and unique file contents (10.931458ms)
+✔ every detail page has a unique visual, translated sections and a valid inquiry path (0.442166ms)
+✔ resource checklists are generated in both languages (1.732458ms)
+✔ delivery includes full inquiry, localized choices, reply email and versioned consent (0.436917ms)
+✔ French medical requests retain division routing and French context (0.112209ms)
+✔ payload strips unrecognized fields and never accepts arbitrary routing or mail headers (0.0765ms)
+✔ delivery refuses invalid inquiries and preserves the same reference on retry (0.330709ms)
+✔ a valid industrial inquiry passes local review (0.535583ms)
+✔ medical inquiry uses only medical categories (0.110333ms)
+✔ requires consent and meaningful required fields (0.082ms)
+✔ rejects bad emails, unknown province, forged category and timeline (0.043209ms)
+✔ quantities must be bounded positive integers (0.127ms)
+✔ enforces text limits and known division (0.0645ms)
+✔ FormData normalization trims text and ignores unrelated fields (7.255542ms)
+✔ service inquiries are validated within their division and priority is bounded (0.076ms)
+✔ EN/FR UI and editorial dictionaries have identical nonempty keys (0.758959ms)
+✔ all translated routes are unique and reciprocal (1.0535ms)
+✔ category links retain their translated division and slug (0.09575ms)
+✔ unsupported routes resolve to no page and no products are invented (0.042916ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 100.335459

@@ -1947,3 +1947,17 @@ input[type='checkbox'] {
   margin-top: 12px;
   min-height: 1.6em;
 }
+.form-trap {
+  display: none;
+}
+.inquiry-reference {
+  overflow-wrap: anywhere;
+  font-size: 14px;
+}
+.inquiry-success {
+  margin-top: 24px;
+}
+.button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}

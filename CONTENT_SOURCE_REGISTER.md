@@ -66,9 +66,17 @@ The registry at `src/content/media.ts` contains translated alt text, captions an
 | medical-procurement-guide | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/medical-procurement-guide.svg` |
 | accessory-guide           | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/accessory-guide.svg`           |
 
-## Public release notices — 2026-11-17
+## Historical initial public release notices — 2026-11-17
 
 Privacy/terms copy describes the implementation and does not claim legal approval. Owner confirmed info@ventilators.ca as the inquiry contact. WHC hosts the static files; inquiry contents remain in the open page until the visitor copies them and sends an email using their own mail service. No endpoint, analytics, lead database or uploads exist.
 
 - [WHC privacy policy](https://www.whc.ca/legal/privacy-policy/) / [Politique de confidentialité](https://www.whc.ca/mentions-legales/politique-de-confidentialite): linked for hosting-provider practices.
 - [Office of the Privacy Commissioner — Meaningful consent tips](https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/appropriate-handling-of-personal-information/collecting-personal-information-and-consent/02_05_d_56_tips2/): background on clear explanations of information handling, not a determination of this site’s compliance.
+
+## Formspree integration — 2026-11-17
+
+Owner supplied form ID `mvkaapjj` and requested connection/testing. Inspected authenticated workflow: Email action enabled for info@ventilators.ca; existing Formshield/archive enabled. No account security/spam controls were changed.
+
+- [Official React library](https://help.formspree.io/articles/working-with-react/the-formspree-react-library/) and [source](https://github.com/formspree/formspree-js/tree/master/packages/formspree-react): SDK states, data-object submissions and localized error handling. Installed version 3.0.0.
+- [Special fields](https://help.formspree.io/articles/building-your-form/special-fields) and [honeypot](https://help.formspree.io/articles/building-your-form/honeypot-spam-filtering): email Reply-To and `_gotcha` behavior.
+- [Formspree privacy policy](https://formspree.io/legal/privacy-policy/): submitted personal data, security metadata and US/other-country processing. Linked in both public privacy notices. Describing these facts is not legal approval or a Canada-only storage guarantee.
