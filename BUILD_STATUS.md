@@ -4,7 +4,7 @@ Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventila
 
 ## Current increment: search titles, category guidance and simpler inquiries
 
-Implementation complete; release validation/publication in progress. Descriptive EN/FR metadata covers the 14 main page types and six priority categories. Roof, axial, centrifugal, exhaust, respiratory accessories and institutional procurement now have original bilingual buyer guidance, scope tables, questions, source links and inquiry examples. The form keeps technical details optional, supports an unknown category per division and retains review before explicit send. Original logo, AirGrid, page-owned imagery, 80 routes, provider/spam controls, consent-gated analytics and inquiry-only inventory are preserved. See `qa/evidence/seo-ux/`.
+Release `2026-11-17-seo-ux-1` is LIVE on WHC from clean source `92bc7b3a394834b9e8b2ca135ab332ee97b8df82`. All 515 public files match the tested artifact and all 100 live health checks pass. GitHub quality run `44175262584` passed. Descriptive EN/FR metadata covers the 14 main page types and six priority categories. Roof, axial, centrifugal, exhaust, respiratory accessories and institutional procurement now have original bilingual buyer guidance, scope tables, questions, source links and inquiry examples. The form keeps technical details optional, supports an unknown category per division and retains review before explicit send. Original logo, AirGrid, page-owned imagery, 80 routes, provider/spam controls, consent-gated analytics and inquiry-only inventory are preserved. See `qa/evidence/seo-ux/`.
 
 ## Previous increment: optional analytics and bilingual consent
 

@@ -1,0 +1,307 @@
+[
+  {
+    "path": "public/brand/logo-compact.svg",
+    "sha256": "bc5de1d08b86ed6312e4effc5bb4fff528f46f9c401caad8279d9b9737199ea5",
+    "unchanged": true
+  },
+  {
+    "path": "public/brand/logo-horizontal.svg",
+    "sha256": "4bec410794a366e6f601a7bc0efe7d8a21634cb1f4eec2454f169c72a3de93cd",
+    "unchanged": true
+  },
+  {
+    "path": "public/brand/logo-monochrome.svg",
+    "sha256": "030b3c3fd43bbfbedb8ed64487bb32aa5f4d6259a3cfcb7b5dadcc4d35fcb236",
+    "unchanged": true
+  },
+  {
+    "path": "public/brand/logo-reversed.svg",
+    "sha256": "1b1e76b1d0a276ca7159fbd2090497e37f609f611b3eb5db0b1421729a2498c5",
+    "unchanged": true
+  },
+  {
+    "path": "public/brand/logo.svg",
+    "sha256": "4bec410794a366e6f601a7bc0efe7d8a21634cb1f4eec2454f169c72a3de93cd",
+    "unchanged": true
+  },
+  {
+    "path": "public/brand/social-en.png",
+    "sha256": "5788d758202c43b89244c6a52c9f7d5bd6c50d3701b63feee9dfceed105b7aaa",
+    "unchanged": true
+  },
+  {
+    "path": "public/brand/social-fr.png",
+    "sha256": "f06a389d8661aa8e8c381656df4de4b2349fc5481c5fae0ce880cdf9e5720357",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/clinics.webp",
+    "sha256": "f090b2aac7b0cd9fc8d539f192b062545fd2db6a88d88866fe8beafabc6fdfb6",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/commercial.webp",
+    "sha256": "34470c95274f89cc1567bea677ff0d5beed871bc4132405e4719c55d54775cfb",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/accessories.svg",
+    "sha256": "bea9ea69e8c0a9dbdd1664ddbe4bf8ca86fc6ccbf269f268034239204b7bdb40",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/accessory-guide.svg",
+    "sha256": "a7abc9645a4e8c4b6e6edf57e1054471cdc912377f440dc8d49bee202516f795",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/axial.svg",
+    "sha256": "7a9e6ebc8a98e808d1e4cf9abdeb0fca11de94ad80912aa351e7d048c7413e2e",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/blowers.svg",
+    "sha256": "c561d56bdce889aecf4e112563b101b90a9ed62c5fbafd895581f3bbf716ed17",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/centrifugal.svg",
+    "sha256": "d1a3c6db29523cdc45def6c2d54c12bf7dfdfb54ba61ba73315d00b1bdc1704b",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/exhaust.svg",
+    "sha256": "dcb80a982cd2b11b49850240a3698661da01b11c85001f514b9bf4bb644a7b19",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/industrial-specifications.svg",
+    "sha256": "2b9bced6f3c5192f70ceaaa04c328d21a2db352b4e93cfa7d07670b642522cee",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/installation.svg",
+    "sha256": "b2ffa760725c440ac4e3fca8e7165b511bb38eb70912608ce0599dc1b10460a9",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/institutions.svg",
+    "sha256": "d575037fae0eddfec84ff0ec861b80f2924d0826ea5b0c0090c3cdb8ae6dd50b",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/invasive.svg",
+    "sha256": "01a12d1b0344013320655ebc8f2187975cfb635eb365521fb6d52a52d791e9c0",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/maintenance.svg",
+    "sha256": "c8564bcca5464a05474e6f2f374bc2130b8d848899a2af6ba42a5b9e46c215d5",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/medical-procurement-guide.svg",
+    "sha256": "e871e6cade04a2b70a4034826539106ac6f32317c81f2c238a071bfc23c7a110",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/medical.svg",
+    "sha256": "625a30c360ced34dc687b4bf290c1d0c2012b245f6315aa4dbab66b3905cbccc",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/noninvasive.svg",
+    "sha256": "ff7001614bb0eccc6817ff27e68d74b2b7efae4e105f21cd1ab12038f77249e6",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/parts.svg",
+    "sha256": "14857a0c01e6ebe5c2a8369ed42822c56de8612fe828b0eb2986a93bc8fac80c",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/procurement.svg",
+    "sha256": "4a3ad3a9d3d896c45bc380cd7be0ba9d7927150a36917a836e8fb78172d03d4b",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/repair.svg",
+    "sha256": "afe42bc4a3d29b72574821c22b0ec21110bf716dfd474c9b1a90aa1b99a85b21",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/replacement-guide.svg",
+    "sha256": "24d73f9bf0f0f3a4c44040c89c6220aca6df3aeb41089c2f58478440a3974836",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/replacement.svg",
+    "sha256": "e5383b9d47e282e099ebeccb6c270dabe03703b91148c1bc1c2159507972805a",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/roof.svg",
+    "sha256": "0bcce19f7569acb923c190179bd2067ab2048424ae0046760623c3ddda304065",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/supply.svg",
+    "sha256": "e4c46a0c3da9db07ae0ea0408e9b385aac3209fd6955911b353142de45f17396",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/diagrams/technical-support.svg",
+    "sha256": "5d63ea6603f8f32959aa60580431de3097c45fdc0d27eaed574b90e41e9fa22e",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/hospitals.webp",
+    "sha256": "874752a0564d58fda82f41a453baa66981f6541027ebfd0692f16b0d7706e033",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/industrial-hub.webp",
+    "sha256": "0ef5a0aaf4f784375446f705fc9de274698872ee2a11defdf7a854521e819ac1",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/industrial.webp",
+    "sha256": "9ddf6199f4efeb6a2c5e11e5eabc31e0dfb82dac95a02405bcf0eef1a93db3be",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/manufacturing.webp",
+    "sha256": "a900fc2f1e549b39b9e3f326dc2678f4704341a144f133b58caae898863b2206",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/medical.webp",
+    "sha256": "0f0cd9378c1e917461863a8130d96dcb8242a259bd344a25ec9255ff18bab580",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/clinics-1200.webp",
+    "sha256": "9bd30db81db53c01e9f1d3f3012e625c9f682f39c3ac34529e4e982ae59499e2",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/clinics-480.webp",
+    "sha256": "f217cffa2c09ef4e464bffd95506d4eb3d9532c0c3570cc760a1188540cc3240",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/clinics-800.webp",
+    "sha256": "dcf0f664fee2230cd30fdc4315bec6c2ce38f023e764ea180c383f5215976655",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/commercial-1200.webp",
+    "sha256": "94c2ba121c5a4fd4f0d7b660d4055b715bb4fa82dfe65f3b746bc37c1e326dd8",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/commercial-480.webp",
+    "sha256": "b24dc388f50c0023e44f0e446e59ce7b271a10eb722abcdc8d0fd88062936004",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/commercial-800.webp",
+    "sha256": "662ef68490366f9810570aea53515d4c64ac3a96eac98bb75f04fb6033108ff9",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/hospitals-1200.webp",
+    "sha256": "8f352d3e6daa31e591be230d789eaea1505fefcf85d9fa2ef2fa75abb5253e4a",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/hospitals-480.webp",
+    "sha256": "0942170f1a7903307216972adf2e76aab5c18e4b4ca1c7673dac91707ff817e5",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/hospitals-800.webp",
+    "sha256": "b25e7786c0f60988bce23503f20a20e331442dfbd8b9c1f98a8c7707f46d8ee2",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/industrial-1200.webp",
+    "sha256": "a4191be17a2938c7ab502df3d84a868bc341eb558990eef295c2ea0a34ff4278",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/industrial-480.webp",
+    "sha256": "0f831647c8fafaf1c2df16c61c2e2be23dc126f8066829077742829dbde1bf7b",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/industrial-800.webp",
+    "sha256": "24a4e639041e96a8ded9001fbf4ac08a089b5d62f380b86966fafd99a2ca921f",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/industrial-hub-1200.webp",
+    "sha256": "31dc1b62419f09f65713344dcb90b885731a64017b704fbf0f43a921dcdbce62",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/industrial-hub-480.webp",
+    "sha256": "7927b0b29a09ce2cc8a1bfe63230a42e0a7b6c8b136421efc29dbcb6a51891ce",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/industrial-hub-800.webp",
+    "sha256": "321f94cca43d6f74f3006dbbe43aa57507795da080b623d109f86d9b1dd348b0",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/manufacturing-1200.webp",
+    "sha256": "5c5ceea60da7aff17d3b87d54179845f513bd4cdbd1e93dd60d97f76fbd2c2c0",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/manufacturing-480.webp",
+    "sha256": "dd6373734525294ea3a2a9e220d2bb5935a0347e759c7138eec8782dfe0dac44",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/manufacturing-800.webp",
+    "sha256": "097b8cb8f97fb489cf1bc728fa371201ee1c9fcdc2eaa1fa9bd68be373259366",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/medical-1200.webp",
+    "sha256": "a1eba62c0933b96f29a9a0148c8f62c1cdfeb2b5dfaedb13d184be2e7e0bb6be",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/medical-480.webp",
+    "sha256": "c1204bc1e2c955b573b5d294cc54fd615b3710004202cb13ee711fdfa6c287a6",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/medical-800.webp",
+    "sha256": "c4fd9d2494c5d54d6545f220ce180ee34ccefff16094515e53875f5006e48644",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/warehouses-1200.webp",
+    "sha256": "88e11b726fcfa1862666c4bb7db9c996bc810df8a9a3330f7ed57fe1bc972d64",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/warehouses-480.webp",
+    "sha256": "a66ab47c071ddddb04c55ae68b610921c0fe302a579fd56f24bf96a4d0adbb0e",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/responsive/warehouses-800.webp",
+    "sha256": "9abba520fff470d61d99b6b8030d262c35c5ef52b612b371b5a33ca643ace70b",
+    "unchanged": true
+  },
+  {
+    "path": "public/images/warehouses.webp",
+    "sha256": "5b22fddc81a0680b2300db082df25ae86e1cb94f5eb219e9e5d30d64a2679973",
+    "unchanged": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "release": "2026-11-17-seo-ux-1",
+  "sourceCommit": "92bc7b3a394834b9e8b2ca135ab332ee97b8df82",
+  "sourceHasChanges": false,
+  "archive": "2026-11-17-seo-ux-1.zip",
+  "archiveBytes": 5377848,
+  "archiveSHA256": "aac27546a8720ce3d2cbe7d2d9bd63c9f7aa3c5e115adb3969235087c369e3bd",
+  "documentRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-seo-ux-1",
+  "rollbackRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-consent-1",
+  "privateArchive": "/home/nvfglyl5/2026-11-17-seo-ux-1.zip",
+  "qualityRun": "https://github.com/GrafovGroup/Ventilators/actions/runs/44175262584",
+  "qualityConclusion": "success",
+  "liveVerification": "passed",
+  "publicFilesMatched": 515,
+  "healthChecksPassed": 100,
+  "realInquiriesSent": 0
+}

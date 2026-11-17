@@ -6,7 +6,7 @@
 - All 12 enriched category routes pass automated accessibility/layout checks at 320px with no violations or horizontal overflow. Contrast items marked incomplete still require human review; this is not full accessibility certification.
 - Local EN minimal review transmits nothing; simulated failure/retry preserves the reference and values. FR unknown-category review, edits, invalid optional quantity, auto-opening error disclosure, division changes and accepted mocked submission pass. Unknown timing never becomes a planning commitment and unknown priority never becomes time-sensitive.
 - Declined analytics has zero collector/tag loads; opted-in local mock records one page view, start and accepted-submit event with no form contents. No real inquiry was sent and no Formspree/Google account settings changed.
-- Responsive EN/FR form checks, screenshots and payload evidence are under `qa/evidence/seo-ux/`. Publication evidence follows after release verification.
+- Responsive EN/FR form checks, screenshots and payload evidence are under `qa/evidence/seo-ux/`. Release `2026-11-17-seo-ux-1` is LIVE from clean source `92bc7b3a394834b9e8b2ca135ab332ee97b8df82`. All 515 public files match; 100 health checks pass. Root/HTTP/www redirects, branded 404, archive exclusion and collector security headers pass. Live English desktop and French mobile review preserve unknown requirements and category/language context; Send was not selected. GitHub quality run `44175262584` passed. All 61 brand/image files match the preceding release byte-for-byte.
 
 ## Optional analytics and bilingual consent — 2026-11-17
 

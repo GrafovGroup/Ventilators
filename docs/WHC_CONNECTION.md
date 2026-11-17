@@ -1,6 +1,15 @@
 # WHC connection — 2026-11-17
 
-## Current release: consent and analytics — 2026-11-17
+## Current release: SEO, buyer guidance and inquiry UX — 2026-11-17
+
+- Live document root: `/home/nvfglyl5/ventilators-release-2026-11-17-seo-ux-1`.
+- Clean runtime source: `92bc7b3a394834b9e8b2ca135ab332ee97b8df82`; ZIP 5,377,848 bytes; SHA-256 `aac27546a8720ce3d2cbe7d2d9bd63c9f7aa3c5e115adb3969235087c369e3bd`.
+- All 515 public files match the artifact and all 100 live health checks pass. The release ZIP is retained privately at `/home/nvfglyl5/2026-11-17-seo-ux-1.zip`; its public URL returns 404.
+- Immediate rollback: `/home/nvfglyl5/ventilators-release-2026-11-17-consent-1`. The earlier operations root remains available for an analytics-off rollback. All previous roots are preserved.
+- Descriptive bilingual search metadata, six enriched category guides and a shorter optional-details inquiry flow. Original logo, AirGrid, image assignments, consent collector and Formspree/spam configuration are preserved. No DNS/mail/provider settings changed; no real inquiries sent.
+- Live EN desktop and FR mobile review verified. Evidence: `../qa/evidence/seo-ux/`. GitHub quality run `44175262584` passed.
+
+## Previous release: consent and analytics — 2026-11-17
 
 - Live document root: `/home/nvfglyl5/ventilators-release-2026-11-17-consent-1`.
 - Clean runtime source: `c2710c10af9956c523d9728bd78c880bd81c2148`; ZIP 5,298,309 bytes; SHA-256 `54585bfe8de5cc4a4106967c8fa2d6b1294b75fc50d36f0e35c4bddbfe2940d8`.

@@ -55,3 +55,7 @@ The review build contains 80 localized routes (40 English/French page pairs). Th
 ## Search/operations increment — 2026-11-17
 
 The 80-route inventory is unchanged. Public builds include Google/Bing verification metadata from the tracked public-token registry; previews omit it. Every localized route is checked by the manual live-health command. Catalogue pages remain inquiry-only, with no generated product or province pages.
+
+## SEO/UX increment — 2026-11-17
+
+Route inventory remains 80 localized pages. Search metadata is separated from display headlines for all 14 main page types; six categories receive dedicated search copy and buyer guides in both languages: roof, axial, centrifugal, exhaust, respiratory accessories and institutional procurement. Each guide adds one direct-answer section, a three-row scope comparison, two buyer questions, an illustrative inquiry and source links. Existing imagery and related guides/services are retained. The inquiry routes retain division/category context and add division-specific general routing options without creating product pages. Quantity, timeline and priority are optional.
