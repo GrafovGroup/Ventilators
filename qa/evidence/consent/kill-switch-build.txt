@@ -1,0 +1,40 @@
+npm notice run ventilators-ca@0.1.0 build
+npm notice run next build
+▲ Next.js 16.4.6 (Turbopack)
+✓ Running next.config.ts took 14ms
+- Experiments (use with caution):
+  ✓ globalNotFound
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 72ms
+  Running TypeScript ...
+  Finished TypeScript in 501ms ...
+  Collecting page data using 9 workers ...
+  Generating static pages using 9 workers (0/87) ...
+  Generating static pages using 9 workers (21/87)
+  Generating static pages using 9 workers (43/87)
+  Generating static pages using 9 workers (65/87)
+✓ Generating static pages using 9 workers (87/87) in 256ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[locale]/[[...slug]]
+│ ├ ● /en
+│ ├ ● /en/industrial
+│ ├ ● /en/medical
+│ └ ● [+77 more paths]
+├ ○ /robots.txt
+├ ○ /sitemap-en.xml
+├ ○ /sitemap-fr.xml
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+
+npm notice run ventilators-ca@0.1.0 check:export
+npm notice run node --import tsx scripts/check-export.ts
+PASS: 80 localized pages; document languages, headings, unique metadata, canonical/hreflang, JSON-LD, internal links/assets/anchors, sitemap, public robots, bilingual 404 and favicon.

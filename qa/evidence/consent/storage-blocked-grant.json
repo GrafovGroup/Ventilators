@@ -1,0 +1,59 @@
+{
+  "mode": "storage-blocked",
+  "consent": "granted",
+  "saved": "blocked",
+  "frames": 1,
+  "tagLoads": 1,
+  "gaCookies": ["_ga", "_ga_59FBT5T5V1"],
+  "activeElement": "Passer au contenuDemandes partout au Canada(833) 696-9996info@ventilators.caENIn",
+  "commands": [
+    [
+      "consent",
+      "default",
+      {
+        "analytics_storage": "denied",
+        "ad_storage": "denied",
+        "ad_user_data": "denied",
+        "ad_personalization": "denied"
+      }
+    ],
+    [
+      "consent",
+      "update",
+      {
+        "analytics_storage": "granted"
+      }
+    ],
+    ["js", "2026-11-17T20:07:42.460Z"],
+    [
+      "config",
+      "G-59FBT5T5V1",
+      {
+        "page_location": "https://ventilators.ca/fr/",
+        "page_referrer": "",
+        "page_title": "Ventilators.ca | /fr/",
+        "language": "fr",
+        "send_to": "G-59FBT5T5V1",
+        "send_page_view": false,
+        "allow_google_signals": false,
+        "allow_ad_personalization_signals": false,
+        "cookie_domain": "ventilators.ca",
+        "cookie_path": "/",
+        "cookie_expires": 15552000,
+        "cookie_update": false,
+        "cookie_flags": "SameSite=Lax;Secure"
+      }
+    ],
+    [
+      "event",
+      "page_view",
+      {
+        "page_location": "https://ventilators.ca/fr/",
+        "page_referrer": "",
+        "page_title": "Ventilators.ca | /fr/",
+        "language": "fr",
+        "send_to": "G-59FBT5T5V1"
+      }
+    ]
+  ]
+}

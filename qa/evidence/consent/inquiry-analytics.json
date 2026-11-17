@@ -1,0 +1,182 @@
+{
+  "mode": "observe",
+  "consent": "granted",
+  "saved": {
+    "version": 1,
+    "choice": "granted",
+    "updatedAt": 1794946012093,
+    "expiresAt": 1810498012093
+  },
+  "frames": 1,
+  "tagLoads": 3,
+  "gaCookies": ["_ga", "_ga_59FBT5T5V1"],
+  "activeElement": "Inquiry submitted.Thank you. Your inquiry has been accepted for processing. Keep",
+  "commands": [
+    [
+      "consent",
+      "default",
+      {
+        "analytics_storage": "denied",
+        "ad_storage": "denied",
+        "ad_user_data": "denied",
+        "ad_personalization": "denied"
+      }
+    ],
+    [
+      "consent",
+      "update",
+      {
+        "analytics_storage": "granted"
+      }
+    ],
+    ["js", "2026-11-17T20:05:16.214Z"],
+    [
+      "config",
+      "G-59FBT5T5V1",
+      {
+        "page_location": "https://ventilators.ca/en/request-a-quote/",
+        "page_referrer": "",
+        "page_title": "Ventilators.ca | /en/request-a-quote/",
+        "language": "en",
+        "send_to": "G-59FBT5T5V1",
+        "send_page_view": false,
+        "allow_google_signals": false,
+        "allow_ad_personalization_signals": false,
+        "cookie_domain": "ventilators.ca",
+        "cookie_path": "/",
+        "cookie_expires": 15552000,
+        "cookie_update": false,
+        "cookie_flags": "SameSite=Lax;Secure"
+      }
+    ],
+    [
+      "event",
+      "page_view",
+      {
+        "page_location": "https://ventilators.ca/en/request-a-quote/",
+        "page_referrer": "",
+        "page_title": "Ventilators.ca | /en/request-a-quote/",
+        "language": "en",
+        "send_to": "G-59FBT5T5V1"
+      }
+    ],
+    [
+      "event",
+      "rfq_started",
+      {
+        "page_location": "https://ventilators.ca/en/request-a-quote/",
+        "page_referrer": "",
+        "page_title": "Ventilators.ca | /en/request-a-quote/",
+        "language": "en",
+        "send_to": "G-59FBT5T5V1"
+      }
+    ],
+    [
+      "consent",
+      "default",
+      {
+        "analytics_storage": "denied",
+        "ad_storage": "denied",
+        "ad_user_data": "denied",
+        "ad_personalization": "denied"
+      }
+    ],
+    [
+      "consent",
+      "update",
+      {
+        "analytics_storage": "granted"
+      }
+    ],
+    ["js", "2026-11-17T20:06:33.014Z"],
+    [
+      "config",
+      "G-59FBT5T5V1",
+      {
+        "page_location": "https://ventilators.ca/en/request-a-quote/",
+        "page_referrer": "",
+        "page_title": "Ventilators.ca | /en/request-a-quote/",
+        "language": "en",
+        "send_to": "G-59FBT5T5V1",
+        "send_page_view": false,
+        "allow_google_signals": false,
+        "allow_ad_personalization_signals": false,
+        "cookie_domain": "ventilators.ca",
+        "cookie_path": "/",
+        "cookie_expires": 15552000,
+        "cookie_update": false,
+        "cookie_flags": "SameSite=Lax;Secure"
+      }
+    ],
+    [
+      "event",
+      "page_view",
+      {
+        "page_location": "https://ventilators.ca/en/request-a-quote/",
+        "page_referrer": "",
+        "page_title": "Ventilators.ca | /en/request-a-quote/",
+        "language": "en",
+        "send_to": "G-59FBT5T5V1"
+      }
+    ],
+    [
+      "consent",
+      "default",
+      {
+        "analytics_storage": "denied",
+        "ad_storage": "denied",
+        "ad_user_data": "denied",
+        "ad_personalization": "denied"
+      }
+    ],
+    [
+      "consent",
+      "update",
+      {
+        "analytics_storage": "granted"
+      }
+    ],
+    ["js", "2026-11-17T20:06:52.200Z"],
+    [
+      "config",
+      "G-59FBT5T5V1",
+      {
+        "page_location": "https://ventilators.ca/en/request-a-quote/",
+        "page_referrer": "",
+        "page_title": "Ventilators.ca | /en/request-a-quote/",
+        "language": "en",
+        "send_to": "G-59FBT5T5V1",
+        "send_page_view": false,
+        "allow_google_signals": false,
+        "allow_ad_personalization_signals": false,
+        "cookie_domain": "ventilators.ca",
+        "cookie_path": "/",
+        "cookie_expires": 15552000,
+        "cookie_update": false,
+        "cookie_flags": "SameSite=Lax;Secure"
+      }
+    ],
+    [
+      "event",
+      "page_view",
+      {
+        "page_location": "https://ventilators.ca/en/request-a-quote/",
+        "page_referrer": "",
+        "page_title": "Ventilators.ca | /en/request-a-quote/",
+        "language": "en",
+        "send_to": "G-59FBT5T5V1"
+      }
+    ],
+    [
+      "event",
+      "rfq_submitted",
+      {
+        "page_location": "https://ventilators.ca/en/request-a-quote/",
+        "page_referrer": "",
+        "page_title": "Ventilators.ca | /en/request-a-quote/",
+        "language": "en",
+        "send_to": "G-59FBT5T5V1"
+      }
+    ]
+  ]
+}

@@ -25,6 +25,17 @@ const server = createServer(async (req, res) => {
       return;
     }
     const url = new URL(req.url, 'http://localhost');
+    if (url.pathname === '/__qa/analytics.js' || url.pathname === '/__qa/google-mock.js') {
+      res.writeHead(200, { 'Content-Type': 'text/javascript' });
+      res.end(
+        await readFile(
+          url.pathname.endsWith('google-mock.js')
+            ? 'scripts/qa-google-mock.js'
+            : 'scripts/qa-analytics.js',
+        ),
+      );
+      return;
+    }
     if (url.pathname === '/__qa/performance.js') {
       res.writeHead(200, { 'Content-Type': 'text/javascript' });
       res.end(await readFile('scripts/qa-performance.js'));
@@ -48,6 +59,21 @@ const server = createServer(async (req, res) => {
     }
     if ((await stat(file)).isDirectory()) file = resolve(file, 'index.html');
     let bytes = await readFile(file);
+    // Local QA can never load a real Google tag. Production exports stay unchanged.
+    if (url.pathname === '/analytics/collector.js')
+      bytes = Buffer.from(
+        bytes
+          .toString()
+          .replace(
+            "location.origin !== 'https://ventilators.ca'",
+            "location.origin !== 'http://localhost:3001'",
+          )
+          .replace("'https://www.googletagmanager.com/gtag/js?id=' + id", "'/__qa/google-mock.js'"),
+      );
+    if (extname(file) === '.html' && url.searchParams.has('analyticstest'))
+      bytes = Buffer.from(
+        bytes.toString().replace('<head>', '<head><script src="/__qa/analytics.js"></script>'),
+      );
     if (extname(file) === '.html' && url.searchParams.has('measure'))
       bytes = Buffer.from(
         bytes.toString().replace('<head>', '<head><script src="/__qa/performance.js"></script>'),

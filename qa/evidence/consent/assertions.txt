@@ -1,0 +1,1 @@
+PASS: default/decline/expiry/storage-blocked reload have no collector, tag or cookies. Withdrawal and cross-tab revocation remove collector/cookies. Blocked tag creates no commands/cookies. Mock retry preserves payload/reference. Exactly one inquiry-start and one accepted-submission event; no form values, email, query, fragment or reference in analytics commands.

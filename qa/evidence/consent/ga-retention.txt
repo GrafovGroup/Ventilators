@@ -1,0 +1,151 @@
+- banner:
+  - generic: Analytics
+  - button "Open the universal picker.":
+    - generic: All accounts
+    - img: chevron_right
+    - generic: Grafov Group
+    - generic: Ventilators.ca
+    - img: arrow_drop_down
+  - search:
+    - img: search
+    - textbox "Search":
+      - /placeholder: Try searching "trend of conversions from organic last month"
+  - button "Switch products":
+  - button "Ask Advisor":
+    - img: search_spark
+  - button "Help entry menu":
+    - img: help
+  - button "Open the user account switcher panel."
+- navigation "Main pages":
+  - link "Home":
+    - generic: Home
+  - link "Reports":
+    - img: insert_chart_filled
+    - generic: Reports
+  - link "Explore":
+    - img: data_exploration
+    - generic: Explore
+  - link "Advertising":
+    - img: ads_click
+    - generic: Advertising
+- navigation "Settings pages":
+  - link "Tasks":
+    - img: task_alt
+    - generic: Tasks
+  - link "Admin":
+    - img: settings_filled
+    - generic: Admin
+- navigation "Secondary navigation":
+  - navigation "Secondary pages":
+    - button "Create":
+      - img: add
+      - text: Create
+      - img: arrow_drop_down
+  - tree:
+    - treeitem "Admin" [level=1]:
+      - button "Admin":
+        - generic: Admin
+    - treeitem "My preferences" [level=1]:
+      - button "My preferences":
+        - generic: My preferences
+    - treeitem "Data manager Beta" [level=1]:
+      - button "Data manager Beta":
+        - generic: Data manager
+        - generic: Beta
+    - treeitem "Account settings" [expanded] [level=1]:
+      - separator
+      - button "Account settings":
+        - generic: Account settings
+        - img: keyboard_arrow_up
+    - treeitem "Account" [level=2]:
+      - button "Account":
+        - img: arrow_right
+        - generic: Account
+    - treeitem "Property settings" [expanded] [level=1]:
+      - separator
+      - button "Property settings":
+        - generic: Property settings
+        - img: keyboard_arrow_up
+    - treeitem "Property" [level=2]:
+      - button "Property":
+        - img: arrow_right
+        - generic: Property
+    - treeitem "Data collection and modification" [expanded] [level=2]:
+      - button "Data collection and modification":
+        - img: arrow_drop_down
+        - generic: Data collection and modification
+    - treeitem "Data streams" [level=3]:
+      - button "Data streams":
+        - generic: Data streams
+    - treeitem "Data collection" [level=3]:
+      - button "Data collection":
+        - generic: Data collection
+    - treeitem "Data import" [level=3]:
+      - button "Data import":
+        - generic: Data import
+    - treeitem "Data retention" [level=3]:
+      - button "Data retention":
+        - generic: Data retention
+    - treeitem "Data filters" [level=3]:
+      - button "Data filters":
+        - generic: Data filters
+    - treeitem "Data deletion requests" [level=3]:
+      - button "Data deletion requests":
+        - generic: Data deletion requests
+    - treeitem "Consent settings" [level=3]:
+      - button "Consent settings":
+        - generic: Consent settings
+    - treeitem "Data display" [level=2]:
+      - button "Data display":
+        - img: arrow_right
+        - generic: Data display
+    - treeitem "Product links" [level=2]:
+      - button "Product links":
+        - img: arrow_right
+        - generic: Product links
+  - separator
+- button "Nav toggle" [expanded]:
+  - img: keyboard_arrow_left
+- main:
+  - heading "Data retention" [level=1]
+  - heading "User and event data retention" [level=1]
+  - separator
+  - text: You can change the retention period for data you send that is associated with cookies, user identifiers, or advertising identifiers. These controls don't affect most standard reporting, which is based on aggregated data. Changes to these settings take effect after 24 hours.
+  - link "Learn more about data retention settings":
+    - /url: https://support.google.com/analytics/answer/7667196?hl=en_US&utm_id=ad
+  - heading "Event data" [level=2]
+  - generic: Data retention
+  - button "Tooltip for the event data retention length dropdown.":
+    - img: help_outline
+  - combobox "Data retention":
+    - generic: 2 months
+  - separator
+  - heading "User data" [level=2]
+  - generic: Data retention
+  - button "Tooltip for the user data retention length dropdown.":
+    - img: help_outline
+  - combobox "Data retention":
+    - generic: 2 months
+  - generic: Reset on new user activity
+  - button "Tooltip for the control that will reset user data on new user activity.":
+    - img: help_outline
+  - switch "Reset on new user activity":
+  - button "Save" [disabled]:
+    - generic: Save
+  - button "Cancel":
+    - generic: Cancel
+- contentinfo:
+  - text: © 2026 Google |
+  - link "Analytics home":
+    - /url: https://www.google.com/analytics/?hl=en-US
+  - text: "|"
+  - link "Terms of Service":
+    - /url: https://www.google.com/analytics/tos.html?hl=en-US
+  - text: "|"
+  - link "Privacy Policy":
+    - /url: https://www.google.com/policies/privacy/?hl=en-US
+  - text: "|"
+  - button "Send feedback":
+    - img: feedback
+    - generic: Send feedback
+- button "Open context menu"

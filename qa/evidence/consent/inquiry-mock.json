@@ -1,0 +1,63 @@
+{
+  "mode": "retry",
+  "requests": [
+    {
+      "method": "POST",
+      "payload": {
+        "division": "industrial",
+        "name": "Synthetic Consent QA",
+        "organization": "Local QA only",
+        "email": "consent-qa@example.com",
+        "phone": "",
+        "province": "ON",
+        "category": "Roof ventilators",
+        "model": "",
+        "specification": "",
+        "quantity": "2",
+        "timeline": "Planning / budget",
+        "urgency": "Standard planning",
+        "details": "Synthetic local-only consent QA. This text must never appear in analytics commands.",
+        "consent": "yes",
+        "category_id": "roof",
+        "locale": "en-CA",
+        "request_id": "VCA-1cff8fb0-dd35-4339-8b51-50d0b10afad9",
+        "consent_version": "2026-11-17-formspree-v1",
+        "consent_text": "I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.",
+        "consent_timestamp": "2026-11-17T20:05:43.527Z",
+        "page": "https://ventilators.ca/en/request-a-quote/",
+        "_subject": "Ventilators.ca — Industrial (EN)",
+        "_gotcha": "",
+        "message": "Synthetic local-only consent QA. This text must never appear in analytics commands."
+      }
+    },
+    {
+      "method": "POST",
+      "payload": {
+        "division": "industrial",
+        "name": "Synthetic Consent QA",
+        "organization": "Local QA only",
+        "email": "consent-qa@example.com",
+        "phone": "",
+        "province": "ON",
+        "category": "Roof ventilators",
+        "model": "",
+        "specification": "",
+        "quantity": "2",
+        "timeline": "Planning / budget",
+        "urgency": "Standard planning",
+        "details": "Synthetic local-only consent QA. This text must never appear in analytics commands.",
+        "consent": "yes",
+        "category_id": "roof",
+        "locale": "en-CA",
+        "request_id": "VCA-1cff8fb0-dd35-4339-8b51-50d0b10afad9",
+        "consent_version": "2026-11-17-formspree-v1",
+        "consent_text": "I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.",
+        "consent_timestamp": "2026-11-17T20:05:43.527Z",
+        "page": "https://ventilators.ca/en/request-a-quote/",
+        "_subject": "Ventilators.ca — Industrial (EN)",
+        "_gotcha": "",
+        "message": "Synthetic local-only consent QA. This text must never appear in analytics commands."
+      }
+    }
+  ]
+}

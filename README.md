@@ -41,7 +41,7 @@ Next.js App Router exports to `out/` with trailing-slash directory routes. `npm 
 - Separate division inquiry UI, optional model/capacity fields, province, quantity, timeline, priority, consent, linked validation errors and a complete editable bilingual inquiry summary, explicit send, pending/success/error states and retry/copy fallbacks. No patient information or attachments.
 - Twelve downloadable bilingual inquiry checklists, 8 locally hosted licensed photos and 22 original technical/editorial illustrations; no third-party font requests. Images are unique across distinct pages, with shared EN/FR counterparts. Twenty-four local WebP size variants serve the same eight photographs responsively; they do not introduce reused editorial images.
 - Localized metadata, canonicals, reciprocal hreflang, main and per-language XML sitemaps, Organization/WebSite/BreadcrumbList JSON-LD and bilingual 404. No fake Product/Review schema.
-- Preview indexing is disabled by default. The documented `VENTILATORS_PUBLIC_RELEASE=1` build flag enables public indexing independently of form delivery. Analytics remain off.
+- Preview indexing is disabled by default. The documented `VENTILATORS_PUBLIC_RELEASE=1` build flag enables public indexing independently of form delivery. Public releases offer optional analytics with bilingual opt-in; previews keep analytics off.
 
 ## Verification
 
@@ -77,7 +77,7 @@ For a local accessibility report, run `node scripts/qa-server.mjs` and open `htt
 
 ## Search and operating controls
 
-[OPERATIONS.md](docs/OPERATIONS.md) documents public verification tokens, the configurable Formspree ID, the seven privacy-safe analytics event definitions, release CI, manual production health checks and operating responsibilities. Analytics are off. `npm run check:live` performs 100 read-only checks without sending an inquiry. `npm run check:audit` enforces a dated, exact exception for the unpatched development-only picomatch advisory; production dependencies audit clean at this checkpoint.
+[OPERATIONS.md](docs/OPERATIONS.md) documents public verification tokens, the configurable Formspree ID, the seven privacy-safe analytics event definitions, release CI, manual production health checks and operating responsibilities. Analytics loads only after opt-in, with withdrawal controls and no form-data tracking. `npm run check:live` performs 100 read-only checks without sending an inquiry. `npm run check:audit` enforces a dated, exact exception for the unpatched development-only picomatch advisory; production dependencies audit clean at this checkpoint.
 
 ## Outstanding dependencies
 
@@ -86,7 +86,7 @@ For a local accessibility report, run `node scripts/qa-server.mjs` and open `htt
 3. Counsel-reviewed privacy/terms, retention, consent and handling processes.
 4. Formspree quota/spam monitoring, retention and delivery operations. The owner-approved provider replaces the earlier proposed custom endpoint; provider capabilities and limits are recorded in [RFQ_ENDPOINT.md](docs/RFQ_ENDPOINT.md).
 5. Release checks and rollback are recorded in [DEPLOYMENT.md](docs/DEPLOYMENT.md) and [WHC_CONNECTION.md](docs/WHC_CONNECTION.md). The owner has authorized replacing the coming-soon page.
-6. Real-device/screen-reader QA, representative mobile performance measurements, approved analytics/consent design and operational monitoring ownership. Google ownership and sitemap processing are verified; Bing sitemap processing is pending. GA4 exists with tracking off.
+6. Real-device/screen-reader QA, representative mobile performance measurements, specialist privacy review and operational monitoring ownership. Google ownership and sitemap processing are verified; Bing sitemap processing is pending. GA4 uses explicit analytics consent.
 
 See [BUILD_STATUS.md](BUILD_STATUS.md), [PAGE_MATRIX.md](PAGE_MATRIX.md), [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md), [CONTENT_SOURCE_REGISTER.md](CONTENT_SOURCE_REGISTER.md), [COMPLIANCE_REGISTER.md](COMPLIANCE_REGISTER.md) and [QA_REPORT.md](QA_REPORT.md).
 

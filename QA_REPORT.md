@@ -1,5 +1,14 @@
 # QA report
 
+## Optional analytics and bilingual consent — 2026-11-17
+
+- 28 unit tests pass, including expired/invalid consent, collector origin/parent guards, consent ordering, advertising defaults, sanitized context and stop behavior. Lint, TypeScript, the public build, all 80 route checks and performance budgets pass (maximum initial JS 193,245 gzip bytes, below 200,000).
+- Local browser tests cover default-off, decline, grant, remembered consent, withdrawal, cross-tab revocation, expired consent and blocked storage. The no-consent states have zero collector frames, tag loads and analytics cookies. Withdrawal removes the collector and its cookies without losing inquiry entries. The footer preference control receives focus after saving.
+- Mocked inquiry review makes no request; a simulated 503 preserves data/reference, and retry acceptance emits exactly one `rfq_submitted`. The analytics command log contains neither synthetic form contents nor test email/query/fragment/reference. QA uses a local Google substitute, not actual Google transmission, and a local Formspree mock; no real inquiry was sent.
+- EN/FR consent controls were visually checked with equal button treatment. Automated accessibility checks have no violations in recorded desktop/mobile samples; contrast items listed incomplete still need human review. This is not full accessibility certification.
+- GA4 settings are recorded in `qa/evidence/consent/ga-*.txt`: two-month user/event retention, renewal off, enhanced measurement off, Google signals and user-provided data off, granular location/device collection off, ad personalization disabled in all 307 regions, email redaction on, no connected tags.
+- Deployment and actual GA4 receipt are pending release verification. Evidence will be appended here after publication. Prior sections are historical checkpoints.
+
 ## Search setup and operating checks — 2026-11-17
 
 - 25 tests pass, including public configuration validation, rejection of PII/arbitrary URLs in future analytics payloads and health-check failure detection. Lint, type checks, public static build, all 80 exported routes and performance budgets pass.

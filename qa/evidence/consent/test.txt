@@ -1,0 +1,38 @@
+npm notice run ventilators-ca@0.1.0 test
+npm notice run node --import tsx --test tests/*.test.ts
+✔ consent expires, malformed/future/old records fail closed, and neither choice renews on read (0.595042ms)
+✔ collector is inert on previews/top-level visits and before a valid consent-created handshake (0.940084ms)
+✔ collector config suppresses automatic/ad/referrer tracking; stop prevents queued and future events (0.265375ms)
+✔ category search combines division and every word without requiring French accents (2.488209ms)
+✔ clearing filters restores every inquiry-only category in both languages (0.261125ms)
+✔ editorial visuals have unique source identities and unique file contents (12.285ms)
+✔ every detail page has a unique visual, translated sections and a valid inquiry path (0.439667ms)
+✔ resource checklists are generated in both languages (2.387709ms)
+✔ delivery includes full inquiry, localized choices, reply email and versioned consent (0.443583ms)
+✔ French medical requests retain division routing and French context (0.113916ms)
+✔ payload strips unrecognized fields and never accepts arbitrary routing or mail headers (0.090209ms)
+✔ delivery refuses invalid inquiries and preserves the same reference on retry (0.432041ms)
+✔ a valid industrial inquiry passes local review (0.714208ms)
+✔ medical inquiry uses only medical categories (0.254375ms)
+✔ requires consent and meaningful required fields (0.119291ms)
+✔ rejects bad emails, unknown province, forged category and timeline (0.054292ms)
+✔ quantities must be bounded positive integers (0.07675ms)
+✔ enforces text limits and known division (0.057167ms)
+✔ FormData normalization trims text and ignores unrelated fields (9.170791ms)
+✔ service inquiries are validated within their division and priority is bounded (0.136125ms)
+✔ EN/FR UI and editorial dictionaries have identical nonempty keys (0.786125ms)
+✔ all translated routes are unique and reciprocal (1.463292ms)
+✔ category links retain their translated division and slug (0.22325ms)
+✔ unsupported routes resolve to no page and no products are invented (0.068666ms)
+✔ public integration configuration keeps the approved endpoint and rejects pasted credentials/markup (1.002417ms)
+✔ analytics contract accepts all planned events only in valid public context (0.179875ms)
+✔ analytics contract rejects personal data, arbitrary URLs, invalid contexts and extra properties (0.1075ms)
+✔ health checks detect soft failures, indexing blocks, missing headers and incorrect language/redirects (9.089709ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 111.386417

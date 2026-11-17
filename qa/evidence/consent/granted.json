@@ -1,0 +1,64 @@
+{
+  "mode": "fresh",
+  "consent": "granted",
+  "saved": {
+    "version": 1,
+    "choice": "granted",
+    "updatedAt": 1794945881159,
+    "expiresAt": 1810497881159
+  },
+  "frames": 1,
+  "tagLoads": 1,
+  "gaCookies": ["_ga", "_ga_59FBT5T5V1"],
+  "activeElement": "Analytics preferences",
+  "commands": [
+    [
+      "consent",
+      "default",
+      {
+        "analytics_storage": "denied",
+        "ad_storage": "denied",
+        "ad_user_data": "denied",
+        "ad_personalization": "denied"
+      }
+    ],
+    [
+      "consent",
+      "update",
+      {
+        "analytics_storage": "granted"
+      }
+    ],
+    ["js", "2026-11-17T20:04:41.292Z"],
+    [
+      "config",
+      "G-59FBT5T5V1",
+      {
+        "page_location": "https://ventilators.ca/en/",
+        "page_referrer": "",
+        "page_title": "Ventilators.ca | /en/",
+        "language": "en",
+        "send_to": "G-59FBT5T5V1",
+        "send_page_view": false,
+        "allow_google_signals": false,
+        "allow_ad_personalization_signals": false,
+        "cookie_domain": "ventilators.ca",
+        "cookie_path": "/",
+        "cookie_expires": 15552000,
+        "cookie_update": false,
+        "cookie_flags": "SameSite=Lax;Secure"
+      }
+    ],
+    [
+      "event",
+      "page_view",
+      {
+        "page_location": "https://ventilators.ca/en/",
+        "page_referrer": "",
+        "page_title": "Ventilators.ca | /en/",
+        "language": "en",
+        "send_to": "G-59FBT5T5V1"
+      }
+    ]
+  ]
+}

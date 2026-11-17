@@ -1,8 +1,9 @@
 import { routes } from './routes';
 import { categories } from '../content/catalog';
 
-// Preparation only: no collector, storage, network calls or UI hooks are enabled.
+// Strict allowlist shared by the consent-gated collector and its tests.
 export const analyticsEvents = [
+  'page_view',
   'division_selected',
   'category_viewed',
   'rfq_started',
@@ -14,7 +15,7 @@ export const analyticsEvents = [
 export type AnalyticsEvent = (typeof analyticsEvents)[number];
 
 // Reject unknown fields rather than allowing form data, query strings or identifiers
-// to slip into a future analytics adapter. Only existing public routes are accepted.
+// to slip into the analytics adapter. Only existing public routes are accepted.
 export function analyticsPayload(event: string, input: Record<string, unknown>) {
   if (!analyticsEvents.includes(event as AnalyticsEvent)) return null;
   const allowed = ['path', 'locale', 'division', 'category', 'target_locale'];

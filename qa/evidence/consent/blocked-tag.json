@@ -1,0 +1,15 @@
+{
+  "mode": "blocked",
+  "consent": "granted",
+  "saved": {
+    "version": 1,
+    "choice": "granted",
+    "updatedAt": 1794946147512,
+    "expiresAt": 1810498147512
+  },
+  "frames": 1,
+  "tagLoads": 3,
+  "gaCookies": [],
+  "activeElement": "Analytics preferences",
+  "commands": []
+}

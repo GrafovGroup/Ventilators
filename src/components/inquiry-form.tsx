@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useForm } from '@formspree/react';
 import { useSearchParams } from 'next/navigation';
 import { formspreeId, inquiryPayload } from '@/lib/inquiry-delivery';
+import { inquiryAnalytics } from '@/lib/analytics-bridge';
 
 import { dictionaries, pathFor, type Division, type Locale } from '@/content/site';
 import {
@@ -64,9 +65,17 @@ export function InquiryForm({ locale }: { locale: Locale }) {
   const [honeypot, setHoneypot] = useState('');
   const sending = useRef(false);
   const formRef = useRef<HTMLFormElement>(null);
+  const analyticsStarted = useRef(false);
+  const analyticsSubmitted = useRef('');
   const d = dictionaries[locale];
   const t = d.form;
   const deliveryFailed = !!delivery.errors || unexpectedError;
+  useEffect(() => {
+    if (delivery.succeeded && reference && analyticsSubmitted.current !== reference) {
+      analyticsSubmitted.current = reference;
+      inquiryAnalytics('rfq_submitted');
+    }
+  }, [delivery.succeeded, reference]);
   useEffect(() => {
     if (delivery.succeeded || deliveryFailed) document.getElementById('delivery-result')?.focus();
   }, [delivery.succeeded, deliveryFailed]);
@@ -179,6 +188,10 @@ export function InquiryForm({ locale }: { locale: Locale }) {
           noValidate
           hidden={!!review}
           onSubmit={submit}
+          onChangeCapture={() => {
+            if (!analyticsStarted.current)
+              analyticsStarted.current = inquiryAnalytics('rfq_started');
+          }}
           aria-label={t.title}
         >
           <div className="form-trap" aria-hidden="true">
@@ -376,6 +389,7 @@ export function InquiryForm({ locale }: { locale: Locale }) {
               className="button button-outline"
               onClick={() => {
                 formRef.current?.reset();
+                analyticsStarted.current = false;
                 resetDelivery();
                 setReview(null);
                 setCopyStatus('idle');

@@ -14,6 +14,7 @@ const root = join(destination, 'site');
 await mkdir(destination, { recursive: true });
 await cp('out', root, { recursive: true, force: false, errorOnExist: true });
 await cp('deploy/whc-public.htaccess', join(root, '.htaccess'));
+await cp('deploy/analytics.htaccess', join(root, 'analytics/.htaccess'));
 await writeFile(
   join(root, '_next/static/.htaccess'),
   '<IfModule mod_headers.c>\n  Header always set Cache-Control "public, max-age=31536000, immutable"\n</IfModule>\n',

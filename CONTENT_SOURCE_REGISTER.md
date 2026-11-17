@@ -84,3 +84,7 @@ Owner supplied form ID `mvkaapjj` and requested connection/testing. Inspected au
 ## Search and operations sources — 2026-11-17
 
 Owner instruction authorized creating properties for Ventilators.ca. Public Google/Bing HTML verification tokens were read from the signed-in account setup interfaces and recorded in `src/content/search-verification.json`; these are public ownership proofs, not private keys. Configuration and operating sources: [Next.js metadata](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#verification), [Google verification](https://support.google.com/webmasters/answer/9008080?hl=en), [Bing verification](https://learn.microsoft.com/en-us/bingwebmaster/verifying-wordpress), [Google consent behavior](https://developers.google.com/tag-platform/security/concepts/consent-mode). Implementation and limits are recorded in `docs/OPERATIONS.md`; no analytics collection is enabled.
+
+## Optional analytics consent — 2026-11-17
+
+Owner authorized activation. Public privacy notices now describe basic opt-in, Google technical processing, 180-day browser choice/cookie limits, two-month GA4 user/event retention, withdrawal and the separate inquiry consent. Official implementation sources and verified account settings are linked in `docs/OPERATIONS.md`; local mocked behavior and live results are separately recorded in `qa/evidence/consent/`. Prior no-analytics wording above is historical. No product content, supplier authorization or medical claim was added.

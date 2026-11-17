@@ -1,6 +1,6 @@
 # Search and operating checks
 
-The website remains an inquiry-only informational catalogue. This increment prepares ownership verification and measurement, adds automated source checks and provides a manually invoked production health check. Google ownership is verified; its sitemap processed successfully with 80 discovered pages. Bing accepts the property and sitemap, with crawl processing pending. These controls do not enable analytics, schedule monitoring, submit inquiries or establish an operational response promise.
+The website remains an inquiry-only informational catalogue. This increment prepares ownership verification and measurement, adds automated source checks and provides a manually invoked production health check. Google ownership is verified; its sitemap processed successfully with 80 discovered pages. Bing accepts the property and sitemap, with crawl processing pending. The consent increment below enables optional analytics after opt-in. No monitoring schedule or operational response promise is created.
 
 ## Public build configuration
 
@@ -45,29 +45,35 @@ The `Live site health (manual)` workflow provides the same check with a 14-day r
 
 On failure: inspect the failed route and current deployment; check WHC status/SSL and compare the active root with the release record. For a release regression, use the preserved root rollback in `WHC_CONNECTION.md`, then rerun live checks. Do not change DNS/mail or spam controls merely because an HTTP or form-delivery check failed.
 
-## Created GA4 property — tracking disabled
+## Optional analytics — owner-authorized activation
 
-Created on 2026-11-17 under Grafov Group account `213675022`: property **Ventilators.ca** (`564759274`), web stream **Ventilators.ca website** (`16362112451`), measurement ID **G-59FBT5T5V1**. Reporting uses Canada/Toronto time and CAD. The owner supplied 1–10 employees; industry is Business & Industrial, with lead generation and traffic understanding objectives. Enhanced measurement was explicitly turned off and confirmed before creating the stream. Google offered tag installation; no tag was installed. The property reports no received data, as expected.
+The owner explicitly authorized consent setup and analytics activation on 2026-11-17. Grafov Group account `213675022`, property **Ventilators.ca** (`564759274`), web stream `16362112451`, measurement ID **G-59FBT5T5V1**. Reporting uses Canada/Toronto time and CAD. [Open GA4](https://analytics.google.com/analytics/web/#/a213675022p564759274/reports/intelligenthome). No private API key, Measurement Protocol secret, GTM container or paid service is required.
 
-[Open the GA4 property](https://analytics.google.com/analytics/web/#/a213675022p564759274/reports/intelligenthome). IDs are public configuration references, not credentials. Retention, consent controls and automatic page/referrer handling still need review before activation.
+The bilingual footer preferences offer equally prominent allow/decline controls. Unknown, invalid, old-version and expired choices default to off. Both choices are stored under `ventilators.analytics-consent.v1` for 180 days without renewing on reads. Blocked storage permits a page-only choice; the next document starts off. An expiry timer and cross-tab storage listener revoke collection. Analytics consent is independent of inquiry consent. Browsing, review, delivery and retries work with analytics off or blocked. No actions before opt-in are replayed.
 
-## Analytics measurement plan — disabled
+Basic consent: no collector frame, Google script, analytics cookie or Google request before opt-in or after decline. After consent, a lazy adapter validates each event and creates a hidden same-origin document at the constant `/analytics/frame.html` URL, with no referrer. The Google script runs there rather than alongside form inputs. Its configuration disables automatic page views, Google signals and ad personalization; all three advertising consent types stay denied. Manual events override page location with the known public route, page title with a static route label, and referrer with an empty string. The main-document CSP still blocks Google; only the collector has narrowly scoped Google permissions. The collector is noindex, refuses top-level/nonproduction execution and accepts messages only from its same-origin parent.
 
-`src/lib/analytics-contract.ts` defines and validates the seven master-prompt events. It is not imported into the browser UI and has no collector, cookies, persistent storage or network behavior. A GA4 property and web stream now exist under the signed-in Grafov Group account, but no measurement ID, Google tag, event listener or consent banner is installed on the website.
+Withdrawal sets GA's disable flag, empties its pending queue, removes the collector runtime/listeners, and clears only this site's `_ga` and `_ga_59FBT5T5V1` cookies. It does not reload the form, erase other storage or delete previously collected data. Cookies expire after at most 180 days (`cookie_update: false`). The browser and blocking extensions can reduce collection; this is expected and must never break inquiries.
 
-| Event               | Future trigger after analytics consent                         | Allowed context                                          |
-| ------------------- | -------------------------------------------------------------- | -------------------------------------------------------- |
-| `division_selected` | Explicit selection of Industrial or Medical                    | Public route, locale, selected division                  |
-| `category_viewed`   | A category page becomes visible; deduplicate client navigation | Public category route, locale, division, category ID     |
-| `rfq_started`       | First user edit on an inquiry form, once per form session      | Public inquiry route, locale, optional division/category |
-| `rfq_submitted`     | Formspree confirms acceptance, once per accepted request       | Public inquiry route, locale, optional division/category |
-| `phone_clicked`     | Visitor activates a telephone link                             | Public route and locale; never the number                |
-| `email_clicked`     | Visitor activates an email link                                | Public route and locale; never the address               |
-| `language_changed`  | Visitor activates the equivalent-page language switch          | Public source route, source locale and target locale     |
+Verified GA4 settings: user/event retention **2 months**, reset on new activity **off** (Google notes up to 24 hours for changes); enhanced measurement **off**; Google signals and user-provided data collection **off**; granular location/device collection **off**; ad personalization **disallowed in all 307 regions**; email redaction **on**; zero connected site tags. Standard aggregated reports are outside the user/event retention setting. No user IDs, advertising links or form-data collection are configured.
 
-The contract rejects unknown fields, unsupported event names, noncatalogue category IDs, arbitrary URLs, query strings, fragments, personal data fields and mismatched category/division context. Do not send form values, organization, email, phone, search terms, reference IDs, full URLs, referrers or request payloads. `rfq_submitted` would mean provider acceptance, not inbox receipt, qualification or revenue.
+| Event                             | Trigger after consent                             | Allowed context                               |
+| --------------------------------- | ------------------------------------------------- | --------------------------------------------- |
+| `page_view`                       | Once when collection starts on a supported page   | Public path and locale                        |
+| `division_selected`               | Industrial/Medical hub link activation            | Public path, locale and known division        |
+| `category_viewed`                 | Category page initialization                      | Public path, locale, division and category ID |
+| `rfq_started`                     | First form edit while consented, once per inquiry | Public inquiry path and locale                |
+| `rfq_submitted`                   | Formspree acceptance, once per inquiry            | Public inquiry path and locale                |
+| `phone_clicked` / `email_clicked` | Link activation                                   | Public path and locale, never the destination |
+| `language_changed`                | Equivalent-page language link activation          | Public source path/locale and target locale   |
 
-Activation requires an approved bilingual consent/retention design for the newly created GA4 property. Implement basic consent behavior that blocks loading and events until affirmative analytics consent, supports decline and withdrawal, and separates inquiry consent from analytics consent. Review automatic page views, enhanced measurement, URL/referrer collection and ad settings; sanitize them or disable them before enabling an adapter. Update privacy notices and CSP only for the approved implementation, then verify no pre-consent/declined requests and no PII in browser network payloads. Supplying an ID alone must not activate tracking. These are future acceptance criteria, not implemented guarantees. See [Google consent-mode concepts](https://developers.google.com/tag-platform/security/concepts/consent-mode).
+The contract rejects unknown fields, arbitrary paths, query strings, fragments, personal data fields and mismatched categories. It never receives form entries, search text, organization, email, phone, reference IDs or request payloads. `rfq_submitted` means provider acceptance, not inbox receipt, qualification or revenue. Google can still process standard technical information and pseudonymous cookie identifiers after consent. Referral/campaign attribution is intentionally unavailable because query strings and referring URLs are excluded. A hidden collector can also limit automatic engagement-time metrics; use the explicit page/action counts. Counts represent consenting visitors only, not total inquiry volume; Formspree remains the operational record.
+
+Public builds offer consent by default; previews do not. Emergency disable: rebuild with `VENTILATORS_PUBLIC_RELEASE=1 VENTILATORS_ANALYTICS=0`, run the checks and deploy a fresh release, or restore the preserved operations release. Never bypass consent to resolve missing reports. Do not add automatic measurement, new parameters, ad features or providers without updating the privacy notice and tests.
+
+Local tests use `scripts/qa-server.mjs`, which replaces the collector's Google loader with a local mock and publishes observable QA reports. These scripts never enter `out/`. Evidence distinguishes mocked commands from actual GA4 receipt; see `qa/evidence/consent/` and `QA_REPORT.md` for deployment results. No real inquiry is required for analytics testing.
+
+Sources: [basic consent](https://developers.google.com/tag-platform/security/concepts/consent-mode), [consent implementation](https://developers.google.com/tag-platform/security/guides/consent), [GA4 configuration](https://developers.google.com/analytics/devguides/collection/ga4/reference/config), [privacy/disable controls](https://developers.google.com/tag-platform/security/guides/privacy), [retention limits](https://support.google.com/analytics/answer/7667196?hl=en). This describes implementation; specialist legal/editorial review remains separately recorded.
 
 ## Owner operating checklist
 

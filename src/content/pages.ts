@@ -148,7 +148,7 @@ export const articles: Localized<Record<ArticleKey, Article>> = {
       eyebrow: 'HOW THIS WEBSITE HANDLES INFORMATION',
       title: 'Privacy notice.',
       intro:
-        'This notice explains how Ventilators.ca handles website inquiries. You review your details before choosing to send them through Formspree.',
+        'This notice explains how Ventilators.ca handles website inquiries and optional analytics. You review your details before choosing to send them through Formspree.',
       sections: [
         {
           title: 'Inquiry information and sending',
@@ -156,7 +156,15 @@ export const articles: Localized<Record<ArticleKey, Article>> = {
         },
         {
           title: 'Hosting and technical records',
-          body: 'Web Hosting Canada (WHC) hosts this website. Requests may be recorded in hosting access and security logs, including an IP address, requested page, time and browser information. These records support site operation and security. The WHC website does not maintain a lead database or add analytics or advertising tags. Inquiry records are handled by Formspree and the business email service. File uploads are not enabled. The form does not save drafts in persistent browser storage. Copying a summary places it on your clipboard only at your request.',
+          body: 'Web Hosting Canada (WHC) hosts this website. Requests may be recorded in hosting access and security logs, including an IP address, requested page, time and browser information. These records support site operation and security. The WHC website does not maintain a lead database. Advertising features are not enabled. Inquiry records are handled by Formspree and the business email service. File uploads are not enabled. The form does not save drafts in persistent browser storage. Copying a summary places it on your clipboard only at your request.',
+        },
+        {
+          title: 'Optional analytics and your choice',
+          body: 'Google Analytics loads only if you select Allow analytics. It uses first-party cookies to measure visits, public page paths and general actions such as choosing a category, starting or sending an inquiry, changing language, or clicking a phone or email link. We do not send form entries, inquiry references, query strings or referring URLs to Analytics. Google also processes technical information such as browser, device and network information to provide analytics, potentially outside Canada. Advertising features, Google signals and automatic form tracking are disabled. Your analytics choice is separate from consent to send an inquiry. Declining does not affect browsing or inquiries.',
+        },
+        {
+          title: 'Changing your analytics preference',
+          body: 'Use Analytics preferences in the footer to allow or decline analytics at any time. We store only your choice and its dates in your browser for 180 days; analytics cookies have a maximum lifetime of 180 days. If storage is unavailable, your choice applies to the open page only. Withdrawing stops further collection and removes this site’s analytics cookies without clearing your inquiry. It does not erase information already sent. Google Analytics user and event data retention is set to two months without resetting on new activity; aggregated reports may be retained longer. Contact us with privacy questions or deletion requests.',
         },
         {
           title: 'Direct contact and privacy requests',
@@ -343,7 +351,7 @@ export const articles: Localized<Record<ArticleKey, Article>> = {
       eyebrow: 'TRAITEMENT DES RENSEIGNEMENTS SUR CE SITE',
       title: 'Avis de confidentialité.',
       intro:
-        'Cet avis explique le traitement des demandes sur Ventilators.ca. Vous vérifiez vos renseignements avant de choisir de les envoyer par Formspree.',
+        'Cet avis explique le traitement des demandes et les mesures analytiques facultatives sur Ventilators.ca. Vous vérifiez vos renseignements avant de choisir de les envoyer par Formspree.',
       sections: [
         {
           title: 'Renseignements et envoi d’une demande',
@@ -351,7 +359,15 @@ export const articles: Localized<Record<ArticleKey, Article>> = {
         },
         {
           title: 'Hébergement et données techniques',
-          body: 'Web Hosting Canada (WHC) héberge ce site. Les requêtes peuvent être consignées dans des journaux d’accès et de sécurité, avec notamment l’adresse IP, la page demandée, l’heure et des renseignements sur le navigateur. Ces données servent au fonctionnement et à la sécurité du site. Le site hébergé chez WHC ne conserve aucune base de demandes et n’ajoute aucune balise analytique ou publicitaire. Les demandes sont traitées par Formspree et le service de messagerie de l’entreprise. Le téléversement n’est pas activé. Aucun brouillon n’est enregistré dans le stockage persistant du navigateur. La copie place le résumé dans le presse-papiers seulement à votre demande.',
+          body: 'Web Hosting Canada (WHC) héberge ce site. Les requêtes peuvent être consignées dans des journaux d’accès et de sécurité, avec notamment l’adresse IP, la page demandée, l’heure et des renseignements sur le navigateur. Ces données servent au fonctionnement et à la sécurité du site. Le site hébergé chez WHC ne conserve aucune base de demandes. Les fonctions publicitaires ne sont pas activées. Les demandes sont traitées par Formspree et le service de messagerie de l’entreprise. Le téléversement n’est pas activé. Aucun brouillon n’est enregistré dans le stockage persistant du navigateur. La copie place le résumé dans le presse-papiers seulement à votre demande.',
+        },
+        {
+          title: 'Analyse facultative et votre choix',
+          body: 'Google Analytics se charge uniquement si vous sélectionnez Autoriser l’analyse. Il utilise des témoins internes pour mesurer les visites, les chemins des pages publiques et des actions générales : choisir une catégorie, commencer ou envoyer une demande, changer de langue ou cliquer sur un lien téléphonique ou de courriel. Nous ne transmettons ni le contenu du formulaire, ni les références des demandes, ni les paramètres des URL, ni les URL de provenance à Analytics. Google traite aussi des renseignements techniques sur le navigateur, l’appareil et le réseau pour fournir ce service, possiblement à l’extérieur du Canada. Les fonctions publicitaires, les signaux Google et le suivi automatique des formulaires sont désactivés. Ce choix est distinct du consentement à envoyer une demande. Un refus ne limite ni la navigation ni les demandes.',
+        },
+        {
+          title: 'Modifier votre préférence analytique',
+          body: 'Utilisez Préférences analytiques au pied de page pour autoriser ou refuser l’analyse à tout moment. Seuls votre choix et ses dates sont conservés dans votre navigateur pendant 180 jours; les témoins analytiques ont une durée maximale de 180 jours. Si le stockage est indisponible, votre choix s’applique seulement à la page ouverte. Le retrait arrête la collecte et supprime les témoins analytiques de ce site sans effacer votre demande. Il ne supprime pas les renseignements déjà transmis. La conservation des données utilisateur et événement de Google Analytics est réglée à deux mois, sans renouvellement lors d’une nouvelle activité; les rapports agrégés peuvent être conservés plus longtemps. Contactez-nous pour toute question de confidentialité ou demande de suppression.',
         },
         {
           title: 'Contact direct et demandes de confidentialité',

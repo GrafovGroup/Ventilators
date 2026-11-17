@@ -1,0 +1,8 @@
+{
+  "url": "/fr/",
+  "viewport": 320,
+  "scrollWidth": 320,
+  "passes": 26,
+  "violations": [],
+  "incomplete": ["color-contrast"]
+}

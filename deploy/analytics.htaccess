@@ -1,0 +1,7 @@
+# Only the consent-created collector can load Google; the main document cannot.
+<IfModule mod_headers.c>
+  Header always set X-Robots-Tag "noindex, nofollow"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "no-referrer"
+  Header always set Content-Security-Policy "default-src 'none'; script-src 'self' https://www.googletagmanager.com; connect-src https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://region1.analytics.google.com; img-src https://www.google-analytics.com https://region1.google-analytics.com; frame-ancestors 'self'; form-action 'none'; base-uri 'none'; object-src 'none'"
+</IfModule>

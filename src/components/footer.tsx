@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { AnalyticsConsent } from './analytics-consent';
 import { dictionaries, navKeys, pathFor, type Locale } from '@/content/site';
 
 export function Footer({ locale }: { locale: Locale }) {
@@ -37,6 +38,13 @@ export function Footer({ locale }: { locale: Locale }) {
                 {d.nav[key]}
               </a>
             ))}
+            <AnalyticsConsent
+              locale={locale}
+              enabled={
+                process.env.VENTILATORS_PUBLIC_RELEASE === '1' &&
+                process.env.VENTILATORS_ANALYTICS !== '0'
+              }
+            />
           </div>
         </div>
       </footer>

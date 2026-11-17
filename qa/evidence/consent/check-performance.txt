@@ -1,0 +1,3 @@
+npm notice run ventilators-ca@0.1.0 check:performance
+npm notice run node --import tsx scripts/check-performance.ts
+PASS: 80 routes within initial JS/CSS budgets; 24 responsive photos within size budgets. Maximum initial JS: 193245 gzip bytes.

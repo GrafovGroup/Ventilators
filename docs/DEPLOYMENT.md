@@ -56,4 +56,6 @@ Hashed `_next/static/` files use one-year immutable caching. HTML revalidates; n
 
 Formspree now supplies the selected hosted endpoint. Operational monitoring, retention/consent review and provider limitations are documented in `RFQ_ENDPOINT.md`. Legal, medical, supplier and bilingual editorial checks remain recorded as open in `COMPLIANCE_REGISTER.md`.
 
-Search Console/Bing verification, analytics, scheduled monitoring and monitoring ownership are not configured. Do not claim sitemap submission or email receipt. Record actual deployment verification in `QA_REPORT.md` and `WHC_CONNECTION.md` before announcing the site is live.
+Search ownership and GA4 settings are recorded in OPERATIONS.md. Analytics uses explicit consent in public builds; VENTILATORS_ANALYTICS=0 disables it for an emergency release. Scheduled monitoring and monitoring ownership remain unconfigured. Do not infer email receipt from analytics events. Record actual deployment verification in `QA_REPORT.md` and `WHC_CONNECTION.md` before announcing the site is live.
+
+The packager installs `deploy/analytics.htaccess` only under `/analytics/`, where the consent-created collector needs Google network access and same-origin framing. Keep the main document CSP restrictive. Verify that `/analytics/frame.html` has noindex and SAMEORIGIN headers and that its parent iframe has a no-referrer policy. A top-level visit must not load Google. The previous operations root remains a rollback with analytics off.

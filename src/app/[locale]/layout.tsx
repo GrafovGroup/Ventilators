@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { isLocale, locales } from '@/content/site';
 import { searchVerification } from '@/lib/integrations';
 import '../globals.css';
+import '../analytics-consent.css';
 
 export const metadata: Metadata = {
   verification: searchVerification(process.env),

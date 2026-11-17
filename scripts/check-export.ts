@@ -117,8 +117,16 @@ for (const html of [rootPage, ...htmlFiles.map((file) => file.html)]) {
   }
   assert.ok(
     !/googletagmanager\.com|google-analytics\.com|\bgtag\(/.test(html),
-    'analytics remain disabled',
+    'Google tags must never appear in initial HTML before consent',
   );
+}
+for (const { html } of htmlFiles) {
+  assert.equal(
+    html.includes('class="analytics-preferences"'),
+    process.env.VENTILATORS_PUBLIC_RELEASE === '1' && process.env.VENTILATORS_ANALYTICS !== '0',
+    'Consent controls follow the public-release flag and analytics kill switch',
+  );
+  assert.ok(!html.includes('<iframe'), 'Collector must be created only after browser consent');
 }
 assert.match(rootPage, /http-equiv="refresh" content="0;url=\/en\/"/i);
 assert.ok(rootPage.includes(`<link rel="canonical" href="${siteUrl}/en/"`));
