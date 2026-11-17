@@ -100,3 +100,7 @@ node --import tsx scripts/generate-editorial-assets.ts
 ```
 
 The illustration generator produces original concept art, not manufacturer drawings. Real photos are used only as facility context. Legal, contact and directory pages remain focused on their content rather than decorative stock photography.
+
+### Buyer answers and project navigation
+
+All 11 equipment categories include bilingual inquiry guidance. Products and Resources offer four project-based routes to existing checklists; FAQ has grouped, directly linkable answers with equivalent-language anchors. The inquiry page omits the redundant fixed mobile RFQ bar. Runtime delivery, consent and inventory policy are unchanged. See `PAGE_MATRIX.md` for intent mapping and `qa/evidence/answers/` for verification.

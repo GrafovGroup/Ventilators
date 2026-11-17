@@ -14,6 +14,7 @@ import { dictionaries, pathFor } from '@/content/site';
 import type { ArticleKey } from '@/content/pages';
 import { routes, findRoute, alternatePath } from '@/lib/routes';
 import { routeMetadata, structuredData } from '@/lib/seo';
+import { faqTopics } from '@/content/faq';
 
 type Props = { params: Promise<{ locale: string; slug?: string[] }> };
 export const dynamicParams = false;
@@ -55,7 +56,16 @@ export default async function Page({ params }: Props) {
   else content = <ArticlePage locale={locale} page={page as ArticleKey} />;
   const rendered = (
     <>
-      <Header locale={locale} page={page} alternate={alternatePath(route)} />
+      <Header
+        locale={locale}
+        page={page}
+        alternate={alternatePath(route)}
+        answerAnchors={
+          page === 'faq'
+            ? faqTopics.flatMap((topic) => [topic.id, ...topic.answers.map((item) => item.id)])
+            : undefined
+        }
+      />
       <main id="main">
         {page !== 'home' && (
           <nav className="container breadcrumbs" aria-label={d.common.breadcrumb}>
@@ -74,7 +84,7 @@ export default async function Page({ params }: Props) {
         )}
         {content}
       </main>
-      <Footer locale={locale} />
+      <Footer locale={locale} inquiryPage={page === 'quote'} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

@@ -41,3 +41,7 @@ Use one owned editorial visual per equipment, service, facility or guide page. T
 Diagrams preserve the full 4:3 composition. Photography uses responsive crops with a visible context caption. Page-specific sources and file hashes are recorded in the source register and QA inventory. Legal, contact and text directories do not need decorative imagery. Tests enforce unique source IDs and file bytes; the export crawler enforces the actual per-page assignment.
 
 Detail pages use a two-column hero, anchored contents list, numbered preparation sections, related categories and a contextual inquiry action. Narrow layouts stack naturally; print styles remove navigation and preserve the preparation sections.
+
+## Project navigation and buyer answers
+
+Project entry points use numbered, two-column editorial rows that stack below 800px. FAQ topics use a sticky desktop contents column and always-visible answers with native fragment links; the mobile contents column flows normally. Equivalent-language links preserve approved question anchors. The fixed mobile call/RFQ bar is omitted on the inquiry page so it does not compete with review and send actions; header, footer and form-side contact links remain. Original logo, AirGrid palette, fluid container and image ownership are unchanged.

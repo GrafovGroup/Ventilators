@@ -59,3 +59,25 @@ The 80-route inventory is unchanged. Public builds include Google/Bing verificat
 ## SEO/UX increment — 2026-11-17
 
 Route inventory remains 80 localized pages. Search metadata is separated from display headlines for all 14 main page types; six categories receive dedicated search copy and buyer guides in both languages: roof, axial, centrifugal, exhaust, respiratory accessories and institutional procurement. Each guide adds one direct-answer section, a three-row scope comparison, two buyer questions, an illustrative inquiry and source links. Existing imagery and related guides/services are retained. The inquiry routes retain division/category context and add division-specific general routing options without creating product pages. Quantity, timeline and priority are optional.
+
+## Buyer-answer and project-navigation increment — 2026-11-17
+
+The route inventory remains 80. All 11 category pairs now have distinct buyer guidance and search copy. Catalogue and resource hubs offer four project routes to existing guides: replacement planning, industrial specifications, institutional medical procurement and respiratory accessory identification. FAQ has 11 always-readable answers in three topic groups; stable answer anchors persist when switching EN/FR. No query-based indexable pages or new product records are created.
+
+The following is an editorial intent map, not keyword-volume research. Each category owns its equipment-specific inquiry intent; the linked resource owns the broader preparation process.
+
+| Category pair | Primary EN topic                                  | Primary FR topic                                   | Supporting guide          |
+| ------------- | ------------------------------------------------- | -------------------------------------------------- | ------------------------- |
+| roof          | roof ventilator replacement inquiry               | demande de remplacement de ventilateur de toit     | replacement-guide         |
+| axial         | axial fan specifications                          | spécifications de ventilateur axial                | industrial-specifications |
+| centrifugal   | centrifugal fan replacement                       | remplacement de ventilateur centrifuge             | industrial-specifications |
+| exhaust       | exhaust fan requirements                          | exigences de ventilateur d’extraction              | industrial-specifications |
+| supply        | supply-air fan equipment scope                    | portée d’équipement de soufflage                   | replacement-guide         |
+| blowers       | industrial blower package specification           | spécifications d’ensemble de soufflante            | industrial-specifications |
+| parts         | industrial fan part identification                | identification de pièce de ventilateur industriel  | replacement-guide         |
+| invasive      | institutional invasive-ventilator procurement     | achat institutionnel de ventilateur invasif        | medical-procurement-guide |
+| noninvasive   | non-invasive ventilator procurement configuration | configuration d’achat de ventilateur non invasif   | medical-procurement-guide |
+| accessories   | respiratory accessory identification              | identification d’accessoire respiratoire           | accessory-guide           |
+| procurement   | institutional medical sourcing brief              | dossier d’approvisionnement médical institutionnel | medical-procurement-guide |
+
+FAQ targets process questions (unknown requirements, sending, receipt, document handling and verification) and links directly to the corresponding guide or action. It does not duplicate category scope tables or publish a FAQ rich-result claim. Topic/answer IDs are language-neutral anchors on the equivalent localized page.

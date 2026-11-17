@@ -1,4 +1,5 @@
 import type { Localized } from './catalog';
+import { faqTopics } from './faq';
 import type { PageKey } from './site';
 
 export type ArticleKey = Exclude<PageKey, 'home' | 'industrial' | 'medical' | 'products' | 'quote'>;
@@ -101,32 +102,9 @@ export const articles: Localized<Record<ArticleKey, Article>> = {
       title: 'Before you request a quote.',
       intro:
         'Practical answers about equipment inquiries, documentation and contacting Ventilators.ca.',
-      sections: [
-        {
-          title: 'Can I buy equipment directly on the website?',
-          body: 'No. This is an inquiry-led website with no checkout. A model listing or category does not confirm price, stock or availability.',
-        },
-        {
-          title: 'What do I need for an industrial replacement inquiry?',
-          body: 'Start with the manufacturer, model, nameplate details, dimensions, electrical supply and operating specifications. Include the site province, quantity and timeline.',
-        },
-        {
-          title: 'Are the medical devices licensed or available?',
-          body: 'No device-specific licensing or availability is asserted on this website. Regulatory evidence, supplier authorization and compatibility must be verified for a specific offer.',
-        },
-        {
-          title: 'Does the online form send my request?',
-          body: 'Yes. Complete the form, review your details and select Send inquiry. Formspree processes the submission. A confirmation appears when it is accepted; this does not confirm availability or create an order. Phone and email remain available.',
-        },
-        {
-          title: 'Can I include patient information?',
-          body: 'No. Do not include patient names, health records or other personal health information in an inquiry or email.',
-        },
-        {
-          title: 'Do you have an office in my province?',
-          body: 'This site accepts inquiries about projects across Canada and does not claim local offices. Specific supply and service coverage must be confirmed for your location.',
-        },
-      ],
+      sections: faqTopics.flatMap((topic) =>
+        topic.answers.map((item) => ({ title: item.question.en, body: item.answer.en })),
+      ),
     },
     contact: {
       eyebrow: 'LET’S TALK ABOUT YOUR PROJECT',
@@ -304,32 +282,9 @@ export const articles: Localized<Record<ArticleKey, Article>> = {
       title: 'Avant de demander une soumission.',
       intro:
         'Des réponses pratiques sur les demandes d’équipement, les documents et les façons de joindre Ventilators.ca.',
-      sections: [
-        {
-          title: 'Puis-je acheter directement sur le site?',
-          body: 'Non. Le site sert aux demandes de renseignements et ne comporte pas de paiement en ligne. Une catégorie ne confirme aucun prix, stock ou délai.',
-        },
-        {
-          title: 'Quels détails fournir pour un remplacement industriel?',
-          body: 'Commencez par le fabricant, le modèle, la plaque signalétique, les dimensions, l’alimentation électrique et les spécifications de fonctionnement. Ajoutez la province, la quantité et l’échéancier.',
-        },
-        {
-          title: 'Les appareils médicaux sont-ils homologués ou disponibles?',
-          body: 'Ce site ne confirme aucune homologation ni disponibilité d’un appareil précis. Les preuves réglementaires, l’autorisation du fournisseur et la compatibilité doivent être vérifiées pour chaque offre.',
-        },
-        {
-          title: 'Le formulaire envoie-t-il ma demande?',
-          body: 'Oui. Remplissez le formulaire, vérifiez les renseignements et sélectionnez Envoyer la demande. Formspree traite l’envoi. Une confirmation apparaît lorsque la demande est acceptée; elle ne confirme aucune disponibilité et ne constitue pas une commande. Le téléphone et le courriel restent disponibles.',
-        },
-        {
-          title: 'Puis-je inclure des renseignements sur les patients?',
-          body: 'Non. N’incluez aucun nom de patient, dossier médical ou autre renseignement personnel sur la santé dans une demande ou un courriel.',
-        },
-        {
-          title: 'Avez-vous un bureau dans ma province?',
-          body: 'Le site accueille les demandes de projets partout au Canada sans prétendre disposer de bureaux locaux. La couverture d’approvisionnement et de services doit être confirmée pour votre lieu.',
-        },
-      ],
+      sections: faqTopics.flatMap((topic) =>
+        topic.answers.map((item) => ({ title: item.question.fr, body: item.answer.fr })),
+      ),
     },
     contact: {
       eyebrow: 'PARLONS DE VOTRE PROJET',

@@ -8,6 +8,59 @@ import { categories } from '../src/content/catalog';
 import { categoryGuides } from '../src/content/category-guides';
 import { inquiryOptions } from '../src/lib/inquiry';
 import { routes } from '../src/lib/routes';
+import { buyerGuides } from '../src/content/buyer-guides';
+import { prioritySearchCopy } from '../src/content/search-copy';
+import { referenceSources } from '../src/content/details';
+import { faqTopics } from '../src/content/faq';
+import { projectPaths } from '../src/content/project-paths';
+import { pathFor } from '../src/content/site';
+
+test('every category has bilingual buyer guidance, search copy and a known reference', () => {
+  for (const category of categories) {
+    const guide = buyerGuides[category.id];
+    assert.ok(guide, category.id);
+    assert.ok(referenceSources[guide.source]);
+    for (const locale of ['en', 'fr'] as const) {
+      assert.ok(prioritySearchCopy[category.id]?.[locale].description);
+      assert.ok(guide.question[locale] && guide.answer[locale] && guide.example[locale]);
+      for (const row of guide.rows) assert.ok(row.label[locale] && row.detail[locale]);
+      for (const answer of guide.questions)
+        assert.ok(answer.question[locale] && answer.answer[locale]);
+    }
+  }
+});
+
+test('answer permalinks are unique and all project/answer destinations resolve in both languages', () => {
+  const ids = faqTopics.flatMap((topic) => [topic.id, ...topic.answers.map((item) => item.id)]);
+  assert.equal(new Set(ids).size, ids.length);
+  assert.ok(ids.every((id) => /^[a-z][a-z-]+$/.test(id)));
+  for (const locale of ['en', 'fr'] as const) {
+    for (const project of projectPaths) {
+      const guide = detailPages.find((page) => page.id === project.guide);
+      assert.ok(guide && guide.group === 'resources');
+      assert.ok(routes.some((route) => route.path === detailPath(locale, guide)));
+      assert.ok(project.title[locale] && project.summary[locale]);
+    }
+    for (const topic of faqTopics) {
+      assert.ok(topic.title[locale]);
+      for (const answer of topic.answers) {
+        assert.ok(answer.question[locale] && answer.answer[locale] && answer.link.label[locale]);
+        const link = answer.link;
+        const target =
+          'page' in link
+            ? pathFor(locale, link.page)
+            : detailPath(
+                locale,
+                detailPages.find((page) => page.id === link.detail)!,
+              );
+        assert.ok(
+          routes.some((route) => route.path === target),
+          answer.id,
+        );
+      }
+    }
+  }
+});
 
 test('editorial visuals have unique source identities and unique file contents', async () => {
   assert.equal(media.length, 30);

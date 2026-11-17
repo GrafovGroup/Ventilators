@@ -104,6 +104,36 @@ export const pageSearchCopy: Record<PageKey, Localized<SearchCopy>> = {
 };
 
 export const prioritySearchCopy: Record<string, Localized<SearchCopy>> = {
+  supply: copy(
+    'Supply Fan & Make-Up Air Inquiries',
+    'Prepare a supply-air equipment inquiry with design duty, system interfaces and included sections. Distinguish fan supply from controls and site work.',
+    'Ventilateurs de soufflage : demandes d’équipement',
+    'Préparez une demande avec le fonctionnement prévu, les interfaces et les sections incluses. Distinguez le ventilateur des commandes et des travaux.',
+  ),
+  blowers: copy(
+    'Industrial Blower Specifications & Inquiries',
+    'Define an industrial blower package with flow, pressure, reference conditions and included components. Prepare a comparable equipment inquiry.',
+    'Soufflantes industrielles : spécifications et demandes',
+    'Définissez l’ensemble de soufflante avec le débit, la pression, les conditions et les composants inclus. Préparez une demande d’équipement comparable.',
+  ),
+  parts: copy(
+    'Industrial Fan Parts & Replacement Inquiries',
+    'Identify industrial fan parts using the parent assembly, part references and drawings. Prepare a replacement inquiry; compatibility requires confirmation.',
+    'Pièces de ventilateurs industriels : demandes',
+    'Identifiez les pièces avec l’ensemble d’origine, les références et les dessins. Préparez une demande de remplacement; compatibilité à confirmer.',
+  ),
+  invasive: copy(
+    'Invasive Ventilator Procurement Inquiries',
+    'Prepare institutional invasive-ventilator inquiries with approved specifications, device evidence and receiving requirements. No availability is implied.',
+    'Ventilateurs invasifs : demandes d’achat',
+    'Préparez une demande institutionnelle avec les spécifications approuvées, les preuves de l’appareil et les exigences de réception. Disponibilité à confirmer.',
+  ),
+  noninvasive: copy(
+    'Non-Invasive Ventilator Procurement Inquiries',
+    'Organize institutional non-invasive ventilator requests with device configuration, separate accessory references and procurement documentation.',
+    'Ventilateurs non invasifs : demandes d’achat',
+    'Structurez une demande institutionnelle avec la configuration de l’appareil, les références distinctes des accessoires et les documents d’achat.',
+  ),
   roof: copy(
     'Roof Ventilator Replacement Inquiries',
     'Prepare a roof ventilator inquiry with curb dimensions, discharge arrangement, airflow, pressure and access details. Compare replacement scope before requesting a quote.',

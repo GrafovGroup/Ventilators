@@ -5,6 +5,9 @@ import { routes, alternatePath } from '../src/lib/routes';
 import { siteUrl, indexingEnabled } from '../src/lib/seo';
 import { media } from '../src/content/media';
 import { buyerGuides } from '../src/content/buyer-guides';
+import { faqTopics } from '../src/content/faq';
+import { projectPaths } from '../src/content/project-paths';
+import { detailPages, detailPath } from '../src/content/details';
 import { searchVerification, publicFormId } from '../src/lib/integrations';
 
 const root = resolve('out');
@@ -41,6 +44,28 @@ for (const { route, html } of htmlFiles) {
       );
     }
     assert.match(html, /<meta name="description" content="[^"]+"/);
+    if (route.page === 'faq') {
+      for (const topic of faqTopics) {
+        assert.ok(html.includes(`id="${topic.id}"`), 'FAQ topic anchor');
+        for (const answer of topic.answers)
+          assert.ok(html.includes(`id="${answer.id}"`), 'FAQ answer permalink in static HTML');
+      }
+      assert.ok(!html.includes('<details'), 'buyer answers are directly readable');
+    }
+    if (['products', 'resources'].includes(route.page) && !route.detail) {
+      for (const project of projectPaths) {
+        const guide = detailPages.find((page) => page.id === project.guide)!;
+        assert.ok(
+          html.includes(`href="${detailPath(route.locale, guide)}"`),
+          'project path is crawlable',
+        );
+      }
+    }
+    assert.equal(
+      html.includes('class="mobile-actions"'),
+      route.page !== 'quote',
+      'fixed inquiry action is absent while filling the inquiry',
+    );
     assert.ok(
       html.includes(`<link rel="canonical" href="${siteUrl}${route.path}"`),
       'self canonical',

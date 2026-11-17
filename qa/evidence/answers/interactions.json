@@ -1,0 +1,93 @@
+[
+  {
+    "case": "Project shortcut to replacement guide",
+    "url": "http://localhost:3001/en/resources/replacement-planning-guide/",
+    "h1": "PLAN A REPLACEMENT WITHOUT LOSING THE DETAILS."
+  },
+  {
+    "case": "Guide preselects correct inquiry",
+    "url": "http://localhost:3001/en/request-a-quote/?division=industrial&category=replacement",
+    "category": "replacement",
+    "fixedBarCount": 0
+  },
+  {
+    "case": "Equivalent French answer permalink",
+    "url": "http://localhost:3001/fr/faq/#unknown-requirements",
+    "answer": "Puis-je faire une demande sans connaître le modèle, la quantité ou l’échéancier?\n\nOui. Décrivez le projet et indiquez vos coordonnées professionnelles, la province et la division. Les détails techniques, la quantité et l’échéancier sont facultatifs. Si la catégorie est incertaine, choisissez « Je ne sais pas encore » dans le champ Équipement ou service.\n\nPréparer une demande avec les renseignements connus"
+  },
+  {
+    "case": "Keyboard topic navigation",
+    "url": "http://localhost:3001/en/faq/?audit=1#industrial"
+  },
+  {
+    "case": "Answer links to replacement checklist",
+    "url": "http://localhost:3001/en/resources/replacement-planning-guide/",
+    "download": "/downloads/replacement-guide-en.txt"
+  },
+  {
+    "case": "French directory search still works",
+    "results": "Industriel\n06\nSoufflantes\n\nPartez des exigences du procédé et des données de l’équipement existant pour une demande de soufflante ou de remplacement.\n\nVoir la catégorie"
+  },
+  {
+    "case": "French mobile review without fixed CTA",
+    "review": "DEMANDE VÉRIFIÉE — RIEN N’A ÉTÉ ENVOYÉ.\n\nRésumé de votre demande\n\nVérifiez les renseignements ci-dessous, puis sélectionnez Envoyer la demande. Vous pouvez d’abord les modifier ou copier le résumé pour nous joindre par courriel.\n\nRéférence de la demande: VCA-697e3e37-260d-45ff-ba19-c3b21957ee60\n\nENVOYER LA DEMANDE\n\nCOPIER LE RÉSUMÉ\nOUVRIR UN COURRIEL\n\nDivision\nMédical\nNom complet\nEssai synthétique\nOrganisation\nVérification locale\nCourriel professionnel\ntest@example.invalid\nTéléphone\nNon fourni\nProvince ou territoire\nQuébec\nÉquipement ou service\nVentilateurs non invasifs\nFabricant / modèle\nNon fourni\nAppareil demandé / exigences d’achat\nNon fourni\nQuantité\nPas encore connu\nÉchéancier du projet\nPas encore connu\nPriorité\nNon fourni\nDétails du projet\nEssai local du parcours de demande. Aucun achat.\nLire l’avis de confidentialité\nAvis de confidentialité reconnu\nMODIFIER LA DEMANDE\ninfo@ventilators.ca",
+    "fixedBarCount": 0,
+    "delivery": {
+      "mode": "success",
+      "requests": []
+    }
+  },
+  {
+    "case": "French mocked acceptance with declined analytics",
+    "result": "Demande transmise.\n\nMerci. Votre demande a été acceptée pour traitement. Conservez la référence ci-dessous pour le suivi. La disponibilité de l’équipement et la portée des services restent à confirmer.\n\nRéférence de la demande:\nVCA-697e3e37-260d-45ff-ba19-c3b21957ee60\n\nPRÉPARER UNE NOUVELLE DEMANDE",
+    "delivery": {
+      "mode": "success",
+      "requests": [
+        {
+          "method": "POST",
+          "payload": {
+            "division": "medical",
+            "name": "Essai synthétique",
+            "organization": "Vérification locale",
+            "email": "test@example.invalid",
+            "phone": "",
+            "province": "QC",
+            "category": "Ventilateurs non invasifs",
+            "model": "",
+            "specification": "",
+            "quantity": "Pas encore connu",
+            "timeline": "Pas encore connu",
+            "urgency": "Non fourni",
+            "details": "Essai local du parcours de demande. Aucun achat.",
+            "consent": "yes",
+            "category_id": "noninvasive",
+            "locale": "fr-CA",
+            "request_id": "VCA-697e3e37-260d-45ff-ba19-c3b21957ee60",
+            "consent_version": "2026-11-17-formspree-v1",
+            "consent_text": "J’ai lu l’avis de confidentialité et je consens au traitement de mes coordonnées professionnelles et de ma demande par Ventilators.ca et Formspree afin de répondre à cette demande.",
+            "consent_timestamp": "2026-11-17T21:20:33.376Z",
+            "page": "https://ventilators.ca/fr/demande-de-soumission/",
+            "_subject": "Ventilators.ca — Médical (FR)",
+            "_gotcha": "",
+            "message": "Essai local du parcours de demande. Aucun achat."
+          }
+        }
+      ]
+    },
+    "analytics": {
+      "mode": "fresh",
+      "consent": "denied",
+      "saved": {
+        "version": 1,
+        "choice": "denied",
+        "updatedAt": 1794950432691,
+        "expiresAt": 1810502432691
+      },
+      "frames": 0,
+      "tagLoads": 0,
+      "gaCookies": [],
+      "activeElement": "Passer au contenuDemandes partout au Canada(833) 696-9996info@ventilators.caENIn",
+      "commands": []
+    }
+  }
+]

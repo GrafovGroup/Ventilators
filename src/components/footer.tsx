@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { AnalyticsConsent } from './analytics-consent';
 import { dictionaries, navKeys, pathFor, type Locale } from '@/content/site';
 
-export function Footer({ locale }: { locale: Locale }) {
+export function Footer({ locale, inquiryPage = false }: { locale: Locale; inquiryPage?: boolean }) {
   const d = dictionaries[locale];
   return (
     <>
@@ -48,10 +48,12 @@ export function Footer({ locale }: { locale: Locale }) {
           </div>
         </div>
       </footer>
-      <div className="mobile-actions">
-        <a href="tel:+18336969996">{d.common.call}</a>
-        <a href={pathFor(locale, 'quote')}>{d.common.quote}</a>
-      </div>
+      {!inquiryPage && (
+        <div className="mobile-actions">
+          <a href="tel:+18336969996">{d.common.call}</a>
+          <a href={pathFor(locale, 'quote')}>{d.common.quote}</a>
+        </div>
+      )}
     </>
   );
 }

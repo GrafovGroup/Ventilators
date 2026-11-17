@@ -1,0 +1,1 @@
+PASS: 80 localized pages; document languages, headings, unique metadata, canonical/hreflang, JSON-LD, internal links/assets/anchors, sitemap, public robots, bilingual 404 and favicon.

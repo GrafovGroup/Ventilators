@@ -7,14 +7,21 @@ export function Header({
   locale,
   page,
   alternate,
+  answerAnchors = [],
 }: {
   locale: Locale;
   page: PageKey;
   alternate: string;
+  answerAnchors?: string[];
 }) {
   const [open, setOpen] = useState(false);
   const d = dictionaries[locale];
   function switchLanguage(event: React.MouseEvent<HTMLAnchorElement>) {
+    if (page === 'faq') {
+      const anchor = window.location.hash.slice(1);
+      event.currentTarget.href = alternate + (answerAnchors.includes(anchor) ? `#${anchor}` : '');
+      return;
+    }
     if (page !== 'quote' || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)
       return;
     const params = new URLSearchParams(window.location.search);

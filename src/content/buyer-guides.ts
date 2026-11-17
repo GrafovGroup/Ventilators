@@ -8,7 +8,7 @@ interface BuyerGuide {
   rows: { label: Localized<string>; detail: Localized<string> }[];
   questions: { question: Localized<string>; answer: Localized<string> }[];
   example: Localized<string>;
-  source: 'fans' | 'licences';
+  source: 'fans' | 'maintenance' | 'licences';
 }
 const row = (en: string, fr: string, enDetail: string, frDetail: string) => ({
   label: l(en, fr),
@@ -22,6 +22,265 @@ const qa = (en: string, fr: string, enAnswer: string, frAnswer: string) => ({
 // Original inquiry-preparation guidance. Sources support background concepts,
 // not a product selection, a verified offer or a claim of technical approval.
 export const buyerGuides: Partial<Record<string, BuyerGuide>> = {
+  supply: {
+    question: l(
+      'What should a supply-air equipment inquiry include?',
+      'Que doit comprendre une demande d’équipement de soufflage?',
+    ),
+    answer: l(
+      'State whether you need a fan alone or equipment within a larger air-supply system. Use the project team’s specified airflow, pressure and connection details. List filtration, heating and controls separately so the requested equipment boundary is clear.',
+      'Précisez si vous cherchez un ventilateur seul ou un équipement intégré à un système de soufflage. Utilisez le débit, la pression et les raccords définis par l’équipe du projet. Énumérez séparément la filtration, le chauffage et les commandes pour bien délimiter la demande.',
+    ),
+    caption: l(
+      'Separate the equipment from its system interfaces',
+      'Distinguez l’équipement de ses interfaces avec le système',
+    ),
+    rows: [
+      row(
+        'Fan requirement',
+        'Besoin en ventilation',
+        'Provide the design duty and units, existing model if applicable, and the mounting or connection drawing.',
+        'Fournissez le point de fonctionnement et les unités, le modèle existant s’il y a lieu et le dessin de montage ou de raccordement.',
+      ),
+      row(
+        'Associated sections',
+        'Sections associées',
+        'Identify filters, heating or cooling sections and controls that belong in the request. Mark components that will stay in place.',
+        'Identifiez les filtres, les sections de chauffage ou de refroidissement et les commandes demandés. Indiquez les composants conservés.',
+      ),
+      row(
+        'Work responsibilities',
+        'Responsabilités des travaux',
+        'Name the team responsible for system design, electrical work, controls integration and commissioning. Equipment supply does not establish these service scopes.',
+        'Identifiez les responsables de la conception, des travaux électriques, de l’intégration des commandes et de la mise en service. La fourniture d’équipement ne confirme pas ces services.',
+      ),
+    ],
+    questions: [
+      qa(
+        'Does a supply-fan inquiry include a complete make-up air unit?',
+        'Une demande de ventilateur comprend-elle une unité complète d’air de compensation?',
+        'Only if that scope is explicitly requested and subsequently confirmed. List the sections and documentation your project requires instead of assuming they are included with the fan.',
+        'Seulement si cette portée est demandée explicitement et confirmée par la suite. Énumérez les sections et documents requis plutôt que de présumer qu’ils accompagnent le ventilateur.',
+      ),
+      qa(
+        'Can I start while the design is still being finalized?',
+        'Puis-je commencer pendant la finalisation de la conception?',
+        'Yes. Describe the project stage and identify unconfirmed requirements. Leave unknown technical fields blank; the qualified design team must establish the final duty before equipment selection.',
+        'Oui. Décrivez l’étape du projet et les exigences non confirmées. Laissez les champs techniques inconnus vides; l’équipe de conception qualifiée doit établir le fonctionnement final avant la sélection.',
+      ),
+    ],
+    example: l(
+      'Supply-fan inquiry for an existing facility. Duct connections are documented; final duty is pending design review. Filters and controls will remain. Please identify the equipment information needed for a quotation review.',
+      'Demande de ventilateur de soufflage pour un établissement existant. Raccords documentés; fonctionnement final à confirmer par la conception. Filtres et commandes conservés. Veuillez préciser les renseignements nécessaires à l’examen d’une soumission.',
+    ),
+    source: 'fans',
+  },
+  blowers: {
+    question: l(
+      'How do I describe an industrial blower requirement?',
+      'Comment décrire un besoin en soufflante industrielle?',
+    ),
+    answer: l(
+      'Identify the blower or project specification, then record flow and pressure with their units and reference conditions. Define which motor, drive, base and controls are included. A generic blower label is not enough to compare two equipment packages.',
+      'Identifiez la soufflante ou les spécifications du projet, puis notez le débit, la pression, les unités et les conditions de référence. Définissez le moteur, l’entraînement, la base et les commandes inclus. Le terme soufflante seul ne suffit pas à comparer deux ensembles.',
+    ),
+    caption: l('Make competing scopes comparable', 'Rendez les portées comparables'),
+    rows: [
+      row(
+        'Specified duty',
+        'Fonctionnement spécifié',
+        'Reference the design document and revision. Include the process description and operating conditions provided by the qualified project team.',
+        'Indiquez le document de conception et sa révision. Ajoutez la description du procédé et les conditions fournies par l’équipe qualifiée.',
+      ),
+      row(
+        'Package contents',
+        'Contenu de l’ensemble',
+        'Separate the bare blower from the motor, drive, guards, base, controls and any requested documentation.',
+        'Distinguez la soufflante seule du moteur, de l’entraînement, des protecteurs, de la base, des commandes et des documents demandés.',
+      ),
+      row(
+        'Existing interfaces',
+        'Interfaces existantes',
+        'Identify inlet and outlet connections, mounting dimensions and available space from current drawings.',
+        'Identifiez les raccords d’entrée et de sortie, les dimensions de montage et l’espace disponible selon les dessins actuels.',
+      ),
+    ],
+    questions: [
+      qa(
+        'Can horsepower alone identify a replacement?',
+        'La puissance seule permet-elle d’identifier un remplacement?',
+        'No. Keep the required flow, pressure, operating conditions and physical interfaces in the same brief. A matching motor rating does not verify the complete replacement.',
+        'Non. Regroupez le débit, la pression, les conditions et les interfaces physiques dans le dossier. Une puissance de moteur identique ne vérifie pas l’ensemble du remplacement.',
+      ),
+      qa(
+        'What if two quotations include different components?',
+        'Que faire si deux soumissions comprennent des composants différents?',
+        'Create a component list and ask each proposed scope to identify inclusions and exclusions. Compare documented equipment packages before evaluating commercial differences.',
+        'Dressez une liste de composants et demandez les inclusions et exclusions de chaque portée. Comparez les ensembles documentés avant leurs différences commerciales.',
+      ),
+    ],
+    example: l(
+      'Blower package inquiry against our project specification, revision B. Flow and pressure are documented. Motor and base are requested; controls scope is unresolved. Please clarify package inclusions and required interface drawings.',
+      'Demande d’ensemble de soufflante selon les spécifications du projet, révision B. Débit et pression documentés. Moteur et base demandés; commandes à préciser. Veuillez clarifier les inclusions et les dessins d’interface nécessaires.',
+    ),
+    source: 'fans',
+  },
+  parts: {
+    question: l(
+      'What identifies an industrial fan replacement part?',
+      'Comment identifier une pièce de rechange de ventilateur industriel?',
+    ),
+    answer: l(
+      'Connect the part reference to the exact parent fan assembly and its documentation. Record the manufacturer, model and available serial or drawing revision. Explain whether you need the original part or a proposed alternative for technical review.',
+      'Reliez la référence de pièce à l’ensemble exact du ventilateur et à ses documents. Notez le fabricant, le modèle et le numéro de série ou la révision du dessin disponibles. Précisez si vous cherchez la pièce d’origine ou une solution à soumettre à un examen technique.',
+    ),
+    caption: l('Build a traceable component request', 'Préparez une demande de composant traçable'),
+    rows: [
+      row(
+        'Parent equipment',
+        'Équipement d’origine',
+        'Identify the complete fan assembly and the nameplate or document used to identify it.',
+        'Identifiez l’ensemble du ventilateur et la plaque signalétique ou le document servant à l’identifier.',
+      ),
+      row(
+        'Part reference',
+        'Référence de pièce',
+        'List the part number, description, drawing position and quantity if known. Describe available photographs; uploads are not enabled.',
+        'Indiquez le numéro, la description, le repère du dessin et la quantité connue. Décrivez les photos disponibles; le téléversement est désactivé.',
+      ),
+      row(
+        'Replacement review',
+        'Examen du remplacement',
+        'State whether dimensions, material, rotation or electrical details require confirmation. Identify who will approve any proposed substitution.',
+        'Précisez les dimensions, le matériau, la rotation ou les données électriques à confirmer. Identifiez le responsable de toute substitution proposée.',
+      ),
+    ],
+    questions: [
+      qa(
+        'Can I ask about a part without its number?',
+        'Puis-je faire une demande sans numéro de pièce?',
+        'Yes. Provide the parent equipment reference and a plain description of the component. Mark the part number as unknown; identification and compatibility still need confirmation.',
+        'Oui. Fournissez la référence de l’équipement et une description du composant. Indiquez que le numéro est inconnu; l’identification et la compatibilité restent à confirmer.',
+      ),
+      qa(
+        'Does supplying a part include repair or installation?',
+        'La fourniture d’une pièce comprend-elle la réparation ou l’installation?',
+        'These are separate scopes. If work is needed, describe the requested service and site location so qualifications, access and availability can be reviewed separately.',
+        'Il s’agit de portées distinctes. Si des travaux sont nécessaires, décrivez le service et le lieu pour permettre un examen séparé des qualifications, de l’accès et de la disponibilité.',
+      ),
+    ],
+    example: l(
+      'Replacement component inquiry for an existing industrial fan. Parent model and drawing are available; the part number needs confirmation. Equipment supply only at this stage. Please identify the details required to review compatibility.',
+      'Demande de composant de rechange pour un ventilateur industriel existant. Modèle et dessin disponibles; numéro de pièce à confirmer. Fourniture seulement à cette étape. Veuillez préciser les données nécessaires à l’examen de compatibilité.',
+    ),
+    source: 'maintenance',
+  },
+  invasive: {
+    question: l(
+      'What should an institutional invasive-ventilator inquiry specify?',
+      'Que préciser dans une demande institutionnelle de ventilateur invasif?',
+    ),
+    answer: l(
+      'Start with the device configuration already specified by the institution’s qualified team. Identify the exact manufacturer/model or approved purchasing specification, required documentation and receiving process. This category organizes procurement; it does not select treatment or confirm a device offering.',
+      'Commencez par la configuration définie par l’équipe qualifiée de l’établissement. Identifiez le fabricant et le modèle exacts ou les spécifications d’achat approuvées, les documents et le processus de réception. Cette catégorie organise l’achat; elle ne choisit aucun traitement et ne confirme aucune offre.',
+    ),
+    caption: l(
+      'Keep the purchasing record specific to the device',
+      'Gardez un dossier d’achat propre à l’appareil',
+    ),
+    rows: [
+      row(
+        'Approved requirement',
+        'Besoin approuvé',
+        'Identify the purchasing specification and revision, configuration and separately requested accessories. Leave clinical decisions with the institution.',
+        'Identifiez les spécifications et leur révision, la configuration et les accessoires distincts. Les décisions cliniques relèvent de l’établissement.',
+      ),
+      row(
+        'Verification records',
+        'Documents de vérification',
+        'List the exact device licence evidence, supplier authority and traceability documents required for review. A category listing establishes none of them.',
+        'Énumérez les preuves d’homologation, d’autorisation du fournisseur et de traçabilité requises. La présence d’une catégorie ne les établit pas.',
+      ),
+      row(
+        'Delivery and acceptance',
+        'Livraison et réception',
+        'Describe the delivery province, receiving requirements and any separately requested training or support. Dates and service scope require confirmation.',
+        'Décrivez la province, les exigences de réception et les besoins distincts de formation ou de soutien. Les dates et services restent à confirmer.',
+      ),
+    ],
+    questions: [
+      qa(
+        'Can the website recommend a ventilator for a patient?',
+        'Le site peut-il recommander un ventilateur pour un patient?',
+        'No. The inquiry is for institutional purchasing requirements already defined by qualified professionals. Do not submit patient records, treatment settings or clinical questions.',
+        'Non. La demande porte sur des besoins d’achat institutionnels définis par des professionnels qualifiés. Ne transmettez aucun dossier de patient, réglage de traitement ou question clinique.',
+      ),
+      qa(
+        'Does a model mentioned in an inquiry mean it is available?',
+        'Un modèle mentionné dans une demande est-il disponible?',
+        'No. A requested model is a purchasing reference only. Regulatory evidence, supplier authority, configuration and availability must be assessed for any specific proposed offer.',
+        'Non. Un modèle demandé est uniquement une référence d’achat. Les preuves réglementaires, l’autorisation, la configuration et la disponibilité doivent être examinées pour toute offre précise.',
+      ),
+    ],
+    example: l(
+      'Institutional sourcing inquiry against our approved ventilator specification. Exact configuration and required procurement documents are identified; quantity is under review. Please advise which purchasing records are needed before an offer can be assessed.',
+      'Demande institutionnelle selon nos spécifications approuvées. Configuration et documents d’achat identifiés; quantité à examiner. Veuillez préciser les documents nécessaires avant l’évaluation d’une offre.',
+    ),
+    source: 'licences',
+  },
+  noninvasive: {
+    question: l(
+      'How should a non-invasive ventilator procurement request be organized?',
+      'Comment structurer une demande d’achat de ventilateur non invasif?',
+    ),
+    answer: l(
+      'Identify the exact device configuration requested by the institution, then list interfaces and accessories as separate purchasing items. Keep the manufacturer’s device-specific documentation with the brief. A shared product description does not verify that two configurations are interchangeable.',
+      'Identifiez la configuration exacte demandée par l’établissement, puis listez séparément les interfaces et accessoires. Conservez les documents du fabricant propres à l’appareil avec le dossier. Une description commune ne démontre pas que deux configurations sont interchangeables.',
+    ),
+    caption: l(
+      'Separate the device, accessories and evidence',
+      'Distinguez l’appareil, les accessoires et les preuves',
+    ),
+    rows: [
+      row(
+        'Device configuration',
+        'Configuration de l’appareil',
+        'Reference the manufacturer/model and approved institutional specification. Identify proposed deviations for explicit review.',
+        'Indiquez le fabricant, le modèle et les spécifications institutionnelles approuvées. Identifiez les écarts proposés pour un examen explicite.',
+      ),
+      row(
+        'Accessory schedule',
+        'Liste des accessoires',
+        'Use exact part references, packaging units and the relevant manufacturer compatibility documents. Do not assume accessories are included.',
+        'Utilisez les références exactes, les unités d’emballage et les documents de compatibilité pertinents. Ne présumez pas que les accessoires sont inclus.',
+      ),
+      row(
+        'Procurement evidence',
+        'Preuves d’approvisionnement',
+        'List the device, supplier and receiving records required by your institution. Keep requested delivery dates separate from confirmed commitments.',
+        'Énumérez les documents de l’appareil, du fournisseur et de réception exigés. Distinguez les dates souhaitées des engagements confirmés.',
+      ),
+    ],
+    questions: [
+      qa(
+        'Can an accessory description establish compatibility?',
+        'La description d’un accessoire établit-elle la compatibilité?',
+        'No. Match the exact device and accessory references against the manufacturer’s documentation and the institution’s review process. Visual resemblance or a common connector is not sufficient evidence.',
+        'Non. Vérifiez les références exactes selon les documents du fabricant et le processus de l’établissement. Une ressemblance ou un raccord commun ne constitue pas une preuve suffisante.',
+      ),
+      qa(
+        'Is this a home-treatment or emergency support service?',
+        'S’agit-il d’un service de traitement à domicile ou d’urgence?',
+        'No. This page supports institutional procurement inquiries. Treatment, device settings and urgent care belong with qualified healthcare providers; no patient information should enter this form.',
+        'Non. Cette page sert aux demandes d’achat institutionnelles. Les traitements, réglages et soins urgents relèvent des professionnels de santé; aucune donnée de patient ne doit figurer dans ce formulaire.',
+      ),
+    ],
+    example: l(
+      'Institutional request for the non-invasive device configuration in our approved specification. Accessory part references are listed separately; packaging needs confirmation. Please identify the documents needed for purchasing and compatibility review.',
+      'Demande institutionnelle pour la configuration non invasive de nos spécifications approuvées. Accessoires référencés séparément; conditionnement à confirmer. Veuillez préciser les documents nécessaires aux examens d’achat et de compatibilité.',
+    ),
+    source: 'licences',
+  },
   roof: {
     question: l(
       'What information helps with a roof ventilator replacement?',

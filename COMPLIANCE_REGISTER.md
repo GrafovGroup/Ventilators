@@ -46,3 +46,7 @@ Google HTML-tag ownership is now verified, with its sitemap successfully discove
 ## Consent implementation — 2026-11-17
 
 The owner explicitly authorized consent setup and activation. The bilingual basic-consent implementation blocks Google until opt-in, permits decline/withdrawal, expires choices after 180 days and excludes inquiry fields and URL parameters. Two-month GA4 user/event retention and disabled advertising/automatic measurement settings are recorded in `docs/OPERATIONS.md`. Privacy copy describes Google processing and withdrawal limits; this implementation does not supply counsel approval or alter the inquiry-only product gate. Earlier statements that analytics is unimplemented describe historical checkpoints.
+
+## Buyer-answer increment — 2026-11-17
+
+The five remaining category guides add original purchasing-preparation examples and scope comparisons. Invasive/non-invasive pages remain institutional inquiry categories without models, verified offers or clinical advice. FAQ repeats the actual optional-details/review/send behavior and explicitly separates provider acceptance from an order or confirmed availability. Existing specialist and bilingual editorial review items remain open; no gate or supplier evidence is promoted by this increment.

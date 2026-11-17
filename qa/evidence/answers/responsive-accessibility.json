@@ -1,0 +1,354 @@
+[
+  {
+    "url": "/en/industrial/supply-fans/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/blowers/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/parts-and-replacements/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/medical/invasive-ventilators/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/medical/non-invasive-ventilators/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/ventilateurs-soufflage/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/soufflantes/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/pieces-et-remplacement/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/medical/ventilateurs-invasifs/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/medical/ventilateurs-non-invasifs/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/products/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 26,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/produits/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 26,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/resources/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/ressources/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/faq/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/faq/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/request-a-quote/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 28,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/demande-de-soumission/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 28,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/products/",
+    "viewport": 375,
+    "scrollWidth": 375,
+    "passes": 26,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/produits/",
+    "viewport": 375,
+    "scrollWidth": 375,
+    "passes": 26,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/resources/",
+    "viewport": 375,
+    "scrollWidth": 375,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/ressources/",
+    "viewport": 375,
+    "scrollWidth": 375,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/faq/",
+    "viewport": 375,
+    "scrollWidth": 375,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/faq/",
+    "viewport": 375,
+    "scrollWidth": 375,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/products/",
+    "viewport": 768,
+    "scrollWidth": 768,
+    "passes": 26,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/produits/",
+    "viewport": 768,
+    "scrollWidth": 768,
+    "passes": 26,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/resources/",
+    "viewport": 768,
+    "scrollWidth": 768,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/ressources/",
+    "viewport": 768,
+    "scrollWidth": 768,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/faq/",
+    "viewport": 768,
+    "scrollWidth": 768,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/faq/",
+    "viewport": 768,
+    "scrollWidth": 768,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/products/",
+    "viewport": 1024,
+    "scrollWidth": 1024,
+    "passes": 26,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/produits/",
+    "viewport": 1024,
+    "scrollWidth": 1024,
+    "passes": 26,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/resources/",
+    "viewport": 1024,
+    "scrollWidth": 1024,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/ressources/",
+    "viewport": 1024,
+    "scrollWidth": 1024,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/faq/",
+    "viewport": 1024,
+    "scrollWidth": 1024,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/faq/",
+    "viewport": 1024,
+    "scrollWidth": 1024,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/products/",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "passes": 26,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/fr/produits/",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "passes": 26,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/en/resources/",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "passes": 23,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/fr/ressources/",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "passes": 23,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/en/faq/",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "passes": 23,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/fr/faq/",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "passes": 23,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/en/faq/",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "passes": 23,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/fr/faq/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 23,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  }
+]

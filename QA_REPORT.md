@@ -1,5 +1,13 @@
 # QA report
 
+## Complete category answers and project navigation — 2026-11-17
+
+- All 32 tests, lint, TypeScript, public build, 80-route metadata/link/asset crawl and performance budgets pass. Maximum initial JavaScript: 193,763 gzip bytes (budget 200,000). New guidance and navigation remain server rendered.
+- All 11 categories have bilingual buyer guidance, distinct search copy and known source references. Tests verify localized destinations and unique FAQ anchors; export checks verify static project links, visible answer anchors and absence of the fixed mobile action on inquiry pages.
+- 44 automated responsive/accessibility records have zero violations or horizontal overflow: 18 affected routes at 320px, six directory/FAQ routes at 375/768/1024/1440px, and two focused FAQ checks after the sticky-column fix. Incomplete contrast checks remain subject to human review; this is not full assistive-technology certification.
+- Browser interactions verify project-to-guide-to-inquiry routing, keyboard topic navigation, equivalent French answer anchors, checklist links, French category search and a French mobile review/accepted delivery using the local mock. Declined analytics has zero collector/tag loads. No real inquiry was sent.
+- Evidence: `qa/evidence/answers/`. Source publication, WHC activation and live verification are pending.
+
 ## Search titles, category guidance and inquiry UX — 2026-11-17
 
 - All 30 unit tests, lint, TypeScript, public build and 80 exported-route checks pass. Maximum initial JavaScript is 193,709 gzip bytes, below the 200,000-byte budget; CSS and responsive-image budgets pass.

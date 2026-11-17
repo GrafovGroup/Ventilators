@@ -2,7 +2,19 @@
 
 Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventilators on 2026-11-17.
 
-## Current increment: search titles, category guidance and simpler inquiries
+## Current increment: complete category answers and project navigation
+
+| Work                                                     | Status      | Evidence / completion requirement                                                                                          |
+| -------------------------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Five remaining bilingual category guides and search copy | VERIFIED    | Supply fans, blowers, parts, invasive and non-invasive ventilator procurement; sourced preparation guidance only           |
+| Project-based catalogue/resource entry points            | VERIFIED    | Four existing guides, crawlable links, no extra routes or product recommendations                                          |
+| Grouped, directly linkable buyer answers                 | VERIFIED    | EN/FR FAQ topics with relevant guide/inquiry links; no FAQ rich-result claim                                               |
+| Mobile inquiry focus                                     | VERIFIED    | Remove the redundant fixed RFQ action on the inquiry page; preserve contact options                                        |
+| Automated, responsive and live release verification      | IN PROGRESS | Local checks pass (32 tests, 80 routes, 44 responsive audits); clean commit, WHC release and live comparison still pending |
+
+Decisions: keep the 80-route inventory, current logo, AirGrid, all image assignments, hosted inquiry/spam controls and consent setup. Provincial coverage pages and product inventory still require verified business data. Original preparation copy does not constitute technical, clinical or supplier approval.
+
+## Previous increment: search titles, category guidance and simpler inquiries
 
 Release `2026-11-17-seo-ux-1` is LIVE on WHC from clean source `92bc7b3a394834b9e8b2ca135ab332ee97b8df82`. All 515 public files match the tested artifact and all 100 live health checks pass. GitHub quality run `44175262584` passed. Descriptive EN/FR metadata covers the 14 main page types and six priority categories. Roof, axial, centrifugal, exhaust, respiratory accessories and institutional procurement now have original bilingual buyer guidance, scope tables, questions, source links and inquiry examples. The form keeps technical details optional, supports an unknown category per division and retains review before explicit send. Original logo, AirGrid, page-owned imagery, 80 routes, provider/spam controls, consent-gated analytics and inquiry-only inventory are preserved. See `qa/evidence/seo-ux/`.
 

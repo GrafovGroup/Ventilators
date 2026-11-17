@@ -1,3 +1,5 @@
+import { BuyerAnswers } from './buyer-answers';
+import { ProjectPaths } from './project-paths';
 import { CategoryFinder } from './category-finder';
 import { finderCopy, categoryAliases } from '@/content/finder';
 import { dictionaries, pathFor, quotePath, type Locale, type Division } from '@/content/site';
@@ -218,6 +220,7 @@ export function ProductCategories({ locale }: { locale: Locale }) {
         <h1>{d.common.categories}</h1>
         <p className="lead">{finderCopy[locale].intro}</p>
       </section>
+      <ProjectPaths locale={locale} catalogue />
       <CategoryFinder
         copy={finderCopy[locale]}
         inquiryHref={quotePath(locale)}
@@ -255,32 +258,26 @@ export function ArticlePage({ locale, page }: { locale: Locale; page: ArticleKey
           </div>
         )}
       </section>
-      {(['services', 'industries', 'resources'] as string[]).includes(page) && (
+      {page === 'resources' && <ProjectPaths locale={locale} />}
+      {(['services', 'industries'] as string[]).includes(page) && (
         <section className="container section-space detail-directory" aria-label={d.nav[page]}>
           <h2>
             {locale === 'en'
               ? page === 'services'
                 ? 'Explore service scopes'
-                : page === 'industries'
-                  ? 'Find your facility type'
-                  : 'Guides for your next inquiry'
+                : 'Find your facility type'
               : page === 'services'
                 ? 'Explorez les portées de service'
-                : page === 'industries'
-                  ? 'Trouvez votre type d’établissement'
-                  : 'Guides pour votre prochaine demande'}
+                : 'Trouvez votre type d’établissement'}
           </h2>
-          <DetailIndex locale={locale} group={page as 'services' | 'industries' | 'resources'} />
+          <DetailIndex locale={locale} group={page as 'services' | 'industries'} />
         </section>
       )}
-      <div className={`container article-sections ${page === 'faq' ? 'faq-list' : ''}`}>
-        {article.sections.map((section, index) =>
-          page === 'faq' ? (
-            <details key={section.title}>
-              <summary>{section.title}</summary>
-              <p>{section.body}</p>
-            </details>
-          ) : (
+      {page === 'faq' ? (
+        <BuyerAnswers locale={locale} />
+      ) : (
+        <div className="container article-sections">
+          {article.sections.map((section, index) => (
             <section key={section.title} id={`section-${index + 1}`}>
               <span className="step-index">{String(index + 1).padStart(2, '0')}</span>
               <div>
@@ -323,9 +320,9 @@ export function ArticlePage({ locale, page }: { locale: Locale; page: ArticleKey
                 )}
               </div>
             </section>
-          ),
-        )}
-      </div>
+          ))}
+        </div>
+      )}
       {!['privacy', 'terms', 'accessibility'].includes(page) && <ProjectCTA locale={locale} />}
     </>
   );
