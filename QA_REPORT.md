@@ -10,7 +10,7 @@ Owner-selected option 03 styling applied to `/en/` and `/fr/`, retaining the exi
 - Industrial and medical homepage inquiry links preselect the correct division; the form language switch preserves that context. French mobile menu/Escape behavior passes. Directory and inquiry-page regression audits at 375 px also pass (12 page/width audits total). No real inquiry was sent.
 - Evidence in `qa/evidence/airgrid/`: build/lint/typecheck/test/export logs, responsive screenshots, `brand-hashes.json`, `performance.json` and browser observations. Local LCP/CLS observations are unthrottled lab samples and do not establish field Core Web Vitals.
 
-Deployment verification will be appended after WHC activation. The previous discovery release remains available for rollback.
+Release `2026-11-17-airgrid-1` is live on WHC from clean source `333be83e9a720c6e34e4afdf4f41af5e08fd1836`. All 513 public files match the manifest; redirects, genuine branded 404, hidden-file protection, indexing and headers pass. Live English desktop (1440 px) and French mobile (375 px) show the original logo and no horizontal overflow. Homepage language switching, mobile menu/Escape, industrial and medical inquiry preselection, inquiry language continuity and category search pass, with no site console errors. No real form submission was sent. Evidence: `release.json`, `live-http.json`, `live-browser.json` and `live-home-*.png` in `qa/evidence/airgrid/`. The uploaded ZIP is outside the public root; the discovery release remains available for immediate rollback.
 
 ## Five logo and homepage alternatives — 2026-11-17
 

@@ -1,0 +1,62 @@
+{
+  "release": "2026-11-17-airgrid-1",
+  "checkedAt": "2026-11-17T18:44:53.862Z",
+  "checks": [
+    {
+      "heading": "MOVE AIR.MOVE FORWARD.",
+      "heroLoaded": true,
+      "lang": "en-CA",
+      "logo": "/brand/logo.svg",
+      "logoLoaded": true,
+      "name": "English desktop home",
+      "scrollWidth": 1440,
+      "url": "https://ventilators.ca/en/",
+      "width": 1440
+    },
+    {
+      "formPresent": true,
+      "name": "Industrial inquiry preselection",
+      "selected": "industrial",
+      "url": "https://ventilators.ca/en/request-a-quote/?division=industrial"
+    },
+    {
+      "heading": "FAIRE CIRCULER.FAIRE AVANCER.",
+      "heroLoaded": true,
+      "lang": "fr-CA",
+      "logo": "/brand/logo.svg",
+      "logoLoaded": true,
+      "name": "French mobile home and language switch",
+      "scrollWidth": 375,
+      "url": "https://ventilators.ca/fr/",
+      "width": 375
+    },
+    {
+      "name": "French mobile menu opens",
+      "passed": true
+    },
+    {
+      "name": "French menu Escape closes",
+      "passed": true
+    },
+    {
+      "formPresent": true,
+      "name": "French medical inquiry preselection",
+      "selected": "medical",
+      "url": "https://ventilators.ca/fr/demande-de-soumission/?division=medical"
+    },
+    {
+      "name": "Inquiry language switch retains medical",
+      "selected": "medical",
+      "url": "https://ventilators.ca/en/request-a-quote/?division=medical"
+    },
+    {
+      "name": "Homepage category finder link and search",
+      "status": "1 category found"
+    }
+  ],
+  "console": [],
+  "notes": [
+    "No form submissions sent during this deployment verification.",
+    "Original brand files unchanged; all 513 public files independently match the release manifest."
+  ]
+}

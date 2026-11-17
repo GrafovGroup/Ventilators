@@ -1,8 +1,19 @@
 # WHC connection — 2026-11-17
 
-## Current discovery release
+## Current AirGrid homepage release
 
-Release `2026-11-17-discovery-1` is live at https://ventilators.ca/ from clean source `61b2818255cbe359a75b167f05b53227d3209ae5` on `codex/phase-1a`. It adds the bilingual category finder, responsive photos and deferred inquiry SDK while preserving inquiry-only catalogue status and the existing form provider/spam settings.
+Release `2026-11-17-airgrid-1` is live at https://ventilators.ca/ from clean source `333be83e9a720c6e34e4afdf4f41af5e08fd1836` on `codex/phase-1a`. The owner selected the AirGrid homepage style and retained the original production logo. English and French homepages use the new layout; the catalogue remains inquiry-only.
+
+- Active document root: `/home/nvfglyl5/ventilators-release-2026-11-17-airgrid-1`.
+- Immediate rollback: `/home/nvfglyl5/ventilators-release-2026-11-17-discovery-1`; older Formspree, initial public and holding roots remain intact.
+- ZIP: `2026-11-17-airgrid-1.zip`, 5,211,074 bytes, SHA-256 `f8847684d5ab1f2beee8db0e912708e5b01e80e99dae8bb7e754e760ef6cfc95`.
+- Uploaded and extracted into a fresh root; hidden `.htaccess`, index and localized directories inspected. ZIP moved to `/home/nvfglyl5/2026-11-17-airgrid-1.zip` before publication.
+- cPanel confirmed the root change. After WHC applied the configuration, all 513 public files matched the manifest. Redirects, headers, robots and 404 pass. Live desktop/mobile homepages, navigation, category search and localized inquiry preselection pass without new real submissions. Evidence: `qa/evidence/airgrid/`.
+- Restore the immediate rollback root in cPanel Domains → Manage ventilators.ca → New Document Root → Update if needed, then verify against the discovery manifest. No DNS, mail, hosting-plan or spam-protection changes were made.
+
+## Historical discovery release
+
+Release `2026-11-17-discovery-1` was published at https://ventilators.ca/ from clean source `61b2818255cbe359a75b167f05b53227d3209ae5` on `codex/phase-1a`. It adds the bilingual category finder, responsive photos and deferred inquiry SDK while preserving inquiry-only catalogue status and the existing form provider/spam settings.
 
 - Active document root: `/home/nvfglyl5/ventilators-release-2026-11-17-discovery-1`.
 - Immediate rollback: `/home/nvfglyl5/ventilators-release-2026-11-17-formspree-1`; original holding and initial public roots also remain intact.
