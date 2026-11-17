@@ -1,0 +1,94 @@
+Nov 17, 2026, 17:28
+Close
+Details of submission 171865057
+
+_subject
+
+Ventilators.ca — Industrial (EN)
+
+category
+
+Fan repair inquiry
+
+category_id
+
+repair
+
+consent
+
+yes
+
+consent_text
+
+I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.
+
+consent_timestamp
+
+2026-11-17T17:28:33.860Z
+
+consent_version
+
+2026-11-17-formspree-v1
+
+details
+
+VCA-FORMSPREE-20261117-EN2-LIVE. Authorized follow-up delivery test for Ventilators.ca after the first English notification remained pending. Synthetic business inquiry for website verification only; no real quotation, order or service request. No reply required.
+
+division
+
+industrial
+
+email
+
+info@ventilators.ca
+
+locale
+
+en-CA
+
+message
+
+VCA-FORMSPREE-20261117-EN2-LIVE. Authorized follow-up delivery test for Ventilators.ca after the first English notification remained pending. Synthetic business inquiry for website verification only; no real quotation, order or service request. No reply required.
+
+model
+
+name
+
+Ventilators.ca delivery test EN2
+
+organization
+
+Grafov Group website QA
+
+page
+
+https://ventilators.ca/en/request-a-quote/
+
+phone
+
+province
+
+ON
+
+quantity
+
+1
+
+request_id
+
+VCA-828bba0a-a1b5-4348-a370-dea781083a93
+
+specification
+
+timeline
+
+Planning / budget
+
+urgency
+
+Standard planning
+
+_status
+
+info@ventilators.ca:
+delivered

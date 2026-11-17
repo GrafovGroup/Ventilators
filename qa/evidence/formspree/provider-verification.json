@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-17T17:26:22.978536+00:00",
+  "checkedAt": "2026-11-17T17:29:18.897495+00:00",
   "endpoint": "https://formspree.io/f/mvkaapjj",
   "notificationRecipient": "info@ventilators.ca",
   "formEnabled": true,
@@ -16,7 +16,7 @@
       "providerRecordVerified": true,
       "spam": false,
       "notificationStatus": "processed",
-      "actualMailboxReceipt": "not independently verified"
+      "actualMailboxReceipt": "owner confirmed English receipt, exact test reference unspecified"
     },
     {
       "locale": "fr-CA",
@@ -27,8 +27,25 @@
       "initiallySpam": true,
       "knownTestMarkedNotSpam": true,
       "notificationStatus": "delivered",
-      "actualMailboxReceipt": "not independently verified"
+      "actualMailboxReceipt": "confirmed by owner"
+    },
+    {
+      "locale": "en-CA",
+      "submissionId": "171865057",
+      "reference": "VCA-828bba0a-a1b5-4348-a370-dea781083a93",
+      "testMarker": "VCA-FORMSPREE-20261117-EN2-LIVE",
+      "publicSuccess": true,
+      "providerRecordVerified": true,
+      "spam": false,
+      "notificationStatus": "delivered",
+      "actualMailboxReceipt": "owner confirmed English receipt, exact test reference unspecified"
     }
   ],
-  "note": "French delivery was verified only after manual review of the authorized synthetic test; no anti-spam control was disabled. Provider delivery status does not establish that the owner read or found a message in the inbox."
+  "note": "Owner confirmed French receipt, then English receipt after a labeled English follow-up test. French test was delivered after manual review of the authorized synthetic submission; no anti-spam control was disabled. The owner did not specify which English test arrived. Initial English notification was processed, follow-up delivered at final observation.",
+  "ownerInboxConfirmation": {
+    "english": true,
+    "french": true,
+    "englishReferenceSpecified": false,
+    "userReplies": ["only the french arrived", "got the english one now"]
+  }
 }
