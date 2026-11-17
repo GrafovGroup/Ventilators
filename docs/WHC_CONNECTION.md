@@ -1,6 +1,21 @@
 # WHC connection — 2026-11-17
 
-## Current public release
+## Current Formspree release
+
+The owner supplied form `mvkaapjj` and authorized integration/testing after the initial launch. Release `2026-11-17-formspree-1` is live at https://ventilators.ca/.
+
+- Clean source: `8ae4beb1e98996ada2013452a8044c66b61dded9` on `codex/phase-1a`.
+- Active root: `/home/nvfglyl5/ventilators-release-2026-11-17-formspree-1`.
+- Immediate rollback: `/home/nvfglyl5/ventilators-release-2026-11-17-public-1` (full informational site with local review/copy only).
+- Original holding root remains `/home/nvfglyl5/ventilators.ca`.
+- ZIP: `2026-11-17-formspree-1.zip`, 3,641,502 bytes, SHA-256 `238298fc4f8425957547bf462d64b29ffcac7b67317096abe772d1f47941c8e4`.
+- Uploaded/extracted in a fresh directory through cPanel. Archive moved to `/home/nvfglyl5/2026-11-17-formspree-1.zip`, outside public roots, before activation. HTML, EN/FR directories and hidden `.htaccess` inspected.
+- cPanel confirmed the new document root. After the short WHC configuration delay, all 487 public files matched the artifact SHA-256 values at 17:22:20 UTC; 80 routes, redirects, real 404s, robots, assets and headers passed. The live CSP permits Formspree fetch and still blocks native form navigation.
+- Live English industrial and French medical tests returned accepted states and matching provider records. The French synthetic test was initially classified as spam and reviewed individually; see `QA_REPORT.md` for notification/inbox status. Formshield remains enabled. No DNS, mailbox, hosting-plan or provider security-control changes were made.
+
+Rollback uses cPanel Domains → Manage ventilators.ca → New Document Root `ventilators-release-2026-11-17-public-1` → Update. Allow WHC to apply the change, then compare to the prior public-release manifest and confirm the local review-only form. No DNS change is needed. Current evidence: `qa/evidence/formspree/release.json`, `live-http.json`, `live-browser.json` and provider records.
+
+## Historical initial public release
 
 The owner’s later instruction to make the site live superseded the earlier holding-page-only direction. The full bilingual informational website is now live at https://ventilators.ca/ on the existing WHC Pro plan. No new hosting purchase or DNS/mail changes were needed.
 

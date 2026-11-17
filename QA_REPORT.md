@@ -2,7 +2,7 @@
 
 ## Formspree integration — 2026-11-17
 
-The owner requested connection and testing of form `mvkaapjj`. The current React implementation and WHC CSP support explicit submission after review. Formspree's enabled Email workflow was inspected and targets info@ventilators.ca; existing archive and Formshield controls remain enabled, with no account changes. Live release/provider verification will be recorded after deployment.
+The owner requested connection and testing of form `mvkaapjj`. The current React implementation and WHC CSP support explicit submission after review. Formspree's enabled Email workflow was inspected and targets info@ventilators.ca; existing archive and Formshield controls remain enabled, with no account changes. Release `2026-11-17-formspree-1` is live from clean source `8ae4beb1e98996ada2013452a8044c66b61dded9`. All 487 public files match the artifact, and both authorized live tests reached Formspree. See the delivery details below.
 
 | Check                            | Result                        | Evidence                                                                                                                               |
 | -------------------------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
@@ -15,6 +15,16 @@ The owner requested connection and testing of form `mvkaapjj`. The current React
 | FR network/rate errors           | PASS                          | Both preserve details and show localized retry; `local-failures.json`                                                                  |
 | FR slow/pending/success          | PASS                          | One request; pending send/edit disabled; delayed acceptance focuses success; `local-slow.json`                                         |
 | FR mobile accessibility          | Zero axe violations at 375 px | `local-validation-fr.json`; one contrast review item; no horizontal overflow in form/review/success                                    |
+
+### Live delivery verification
+
+- English industrial repair: public success reference `VCA-4d8dbbfe-46fb-4e7c-a111-678ccbdc5b35`; Formspree submission `171863589`. Correct category, locale, consent metadata, email and complete business details verified. Notification to info@ventilators.ca still showed `processed` at the final refreshed check; email delivery remains unconfirmed for this test.
+- French medical technical support: public success reference `VCA-b07c84cd-2041-4b7d-afc3-8679f97a5258`; Formspree submission `171863891`. Correct localized category, QC, consent, email and details verified. Formspree initially classified this synthetic test as spam; the known test was marked Not Spam individually. Its notification subsequently showed `delivered` to info@ventilators.ca. No filter was disabled. This confirms provider-reported delivery after manual spam review, not unassisted French email delivery.
+- Both public pages show accurate accepted-for-processing wording, focus the success status and retain the reference. Desktop 1440 px and mobile 375 px screenshots reviewed; no overflow or site console errors. Unrelated Grammarly extension warnings/errors were excluded from application results. New inquiry clears name/email/details/consent and focuses name.
+- Public HTTP crawl at 17:22:20 UTC: 487 files matched; zero failures. All localized routes, assets, redirects, robots, 404 and hidden-file protection passed. The CSP includes `connect-src 'self' https://formspree.io`; native form submission remains blocked. Source and archive hashes are in `release.json`.
+- Actual mailbox receipt is not yet verified. A narrowly scoped connected-mail search found no matching test notification; that does not establish failure at a separate destination inbox. Owner confirmation requested. Provider status is recorded separately from inbox receipt.
+
+Evidence: `qa/evidence/formspree/live-http.json`, `live-browser.json`, `live-success-en.png`, `live-success-fr-375.png`, `provider-en.txt`, `provider-fr-initial-spam.txt`, `provider-fr-reviewed.txt`, `provider-verification.json` and `release.json`. Prior WHC public root and holding root remain available for rollback.
 
 Mock failure tests run only through the localhost QA harness; they do not contact Formspree. The 15-second slow-message threshold is implemented but its brief display was not separately captured. Provider acceptance is not proof of inbox receipt. Historical reports below describe earlier releases and do not represent the current form behavior.
 

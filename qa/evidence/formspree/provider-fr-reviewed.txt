@@ -1,0 +1,94 @@
+Nov 17, 2026, 17:23
+Close
+Details of submission 171863891
+
+_subject
+
+Ventilators.ca — Médical (FR)
+
+category
+
+Demande de soutien technique
+
+category_id
+
+technical-support
+
+consent
+
+yes
+
+consent_text
+
+J’ai lu l’avis de confidentialité et je consens au traitement de mes coordonnées professionnelles et de ma demande par Ventilators.ca et Formspree afin de répondre à cette demande.
+
+consent_timestamp
+
+2026-11-17T17:23:33.031Z
+
+consent_version
+
+2026-11-17-formspree-v1
+
+details
+
+VCA-FORMSPREE-20261117-FR-LIVE — Essai synthétique autorisé par le propriétaire du site. Aucune commande ni demande réelle. Aucune réponse requise. Vérification du parcours médical en français et de la notification.
+
+division
+
+medical
+
+email
+
+info@ventilators.ca
+
+locale
+
+fr-CA
+
+message
+
+VCA-FORMSPREE-20261117-FR-LIVE — Essai synthétique autorisé par le propriétaire du site. Aucune commande ni demande réelle. Aucune réponse requise. Vérification du parcours médical en français et de la notification.
+
+model
+
+name
+
+Essai du site Ventilators.ca FR
+
+organization
+
+Grafov Group — assurance qualité
+
+page
+
+https://ventilators.ca/fr/demande-de-soumission/
+
+phone
+
+province
+
+QC
+
+quantity
+
+1
+
+request_id
+
+VCA-b07c84cd-2041-4b7d-afc3-8679f97a5258
+
+specification
+
+timeline
+
+Planification / budget
+
+urgency
+
+Planification courante
+
+_status
+
+info@ventilators.ca:
+delivered

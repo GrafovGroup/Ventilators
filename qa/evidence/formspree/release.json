@@ -1,0 +1,14 @@
+{
+  "release": "2026-11-17-formspree-1",
+  "sourceCommit": "8ae4beb1e98996ada2013452a8044c66b61dded9",
+  "sourceHasChanges": false,
+  "archive": "2026-11-17-formspree-1.zip",
+  "archiveBytes": 3641502,
+  "archiveSha256": "238298fc4f8425957547bf462d64b29ffcac7b67317096abe772d1f47941c8e4",
+  "fileCount": 489,
+  "activeRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-formspree-1",
+  "rollbackRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-public-1",
+  "holdingRoot": "/home/nvfglyl5/ventilators.ca",
+  "providerEndpoint": "https://formspree.io/f/mvkaapjj",
+  "notificationRecipient": "info@ventilators.ca"
+}

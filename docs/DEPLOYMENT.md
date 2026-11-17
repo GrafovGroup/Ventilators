@@ -2,6 +2,8 @@
 
 The owner instructed publication of the full bilingual website on 2026-11-17 and selected `info@ventilators.ca` for inquiries. This supersedes the earlier coming-soon-only direction. The authorized release is informational: 80 localized pages, page-owned imagery, downloads, phone/email links and a reviewed inquiry flow. The owner subsequently supplied Formspree endpoint `mvkaapjj` and explicitly authorized connecting and testing submission. No product offers or specialist approval are implied.
 
+Current live release: `2026-11-17-formspree-1`, source `8ae4beb1e98996ada2013452a8044c66b61dded9`. Its artifact and HTTP/browser/provider evidence are under `../qa/evidence/formspree/`.
+
 Initial live release (retained for rollback): `2026-11-17-public-1`, source `02fc4e85bf26317160275928c65be2dbc04b7040`. The active and rollback roots, archive checksum and final live checks are recorded in `WHC_CONNECTION.md` and `../qa/evidence/public-release/release.json`.
 
 ## Environment matrix

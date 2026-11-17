@@ -1,0 +1,32 @@
+[
+  {
+    "locale": "en-CA",
+    "division": "industrial",
+    "category": "repair",
+    "reference": "VCA-4d8dbbfe-46fb-4e7c-a111-678ccbdc5b35",
+    "testMarker": "VCA-FORMSPREE-20261117-EN-LIVE",
+    "accepted": true,
+    "checkedAt": "2026-11-17T17:22:48.823Z",
+    "layout": {
+      "focus": "delivery-result",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "siteConsoleErrors": []
+  },
+  {
+    "locale": "fr-CA",
+    "division": "medical",
+    "category": "technical-support",
+    "reference": "VCA-b07c84cd-2041-4b7d-afc3-8679f97a5258",
+    "testMarker": "VCA-FORMSPREE-20261117-FR-LIVE",
+    "accepted": true,
+    "checkedAt": "2026-11-17T17:23:47.380Z",
+    "layout": {
+      "focus": "delivery-result",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    "siteConsoleErrors": []
+  }
+]

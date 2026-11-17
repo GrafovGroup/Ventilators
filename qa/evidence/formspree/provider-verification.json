@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-11-17T17:26:22.978536+00:00",
+  "endpoint": "https://formspree.io/f/mvkaapjj",
+  "notificationRecipient": "info@ventilators.ca",
+  "formEnabled": true,
+  "submissionArchiveEnabled": true,
+  "formshieldEnabled": true,
+  "captcha": "already disabled; unchanged",
+  "providerSettingsChanged": false,
+  "tests": [
+    {
+      "locale": "en-CA",
+      "submissionId": "171863589",
+      "reference": "VCA-4d8dbbfe-46fb-4e7c-a111-678ccbdc5b35",
+      "publicSuccess": true,
+      "providerRecordVerified": true,
+      "spam": false,
+      "notificationStatus": "processed",
+      "actualMailboxReceipt": "not independently verified"
+    },
+    {
+      "locale": "fr-CA",
+      "submissionId": "171863891",
+      "reference": "VCA-b07c84cd-2041-4b7d-afc3-8679f97a5258",
+      "publicSuccess": true,
+      "providerRecordVerified": true,
+      "initiallySpam": true,
+      "knownTestMarkedNotSpam": true,
+      "notificationStatus": "delivered",
+      "actualMailboxReceipt": "not independently verified"
+    }
+  ],
+  "note": "French delivery was verified only after manual review of the authorized synthetic test; no anti-spam control was disabled. Provider delivery status does not establish that the owner read or found a message in the inbox."
+}
