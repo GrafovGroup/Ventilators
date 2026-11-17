@@ -1,0 +1,17 @@
+{
+  "release": "2026-11-17-answers-1",
+  "sourceCommit": "a58834b29ce53d4d39434bb2b96c6ada2182b051",
+  "sourceHasChanges": false,
+  "archive": "2026-11-17-answers-1.zip",
+  "archiveBytes": 5456862,
+  "archiveSHA256": "8516af1341390912895d09bce085996273e2130299cb82341dd729f18f02398b",
+  "documentRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-answers-1",
+  "rollbackRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-seo-ux-1",
+  "privateArchive": "/home/nvfglyl5/2026-11-17-answers-1.zip",
+  "qualityRun": "https://github.com/GrafovGroup/Ventilators/actions/runs/44179534139",
+  "qualityConclusion": "success",
+  "liveVerification": "passed",
+  "publicFilesMatched": 515,
+  "healthChecksPassed": 100,
+  "realInquiriesSent": 0
+}

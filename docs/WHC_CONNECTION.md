@@ -1,6 +1,15 @@
 # WHC connection — 2026-11-17
 
-## Current release: SEO, buyer guidance and inquiry UX — 2026-11-17
+## Current release: category answers and project navigation — 2026-11-17
+
+- Live document root: `/home/nvfglyl5/ventilators-release-2026-11-17-answers-1`.
+- Clean runtime source: `a58834b29ce53d4d39434bb2b96c6ada2182b051`; ZIP 5,456,862 bytes; SHA-256 `8516af1341390912895d09bce085996273e2130299cb82341dd729f18f02398b`.
+- All 515 public files match the artifact and all 100 live health checks pass after WHC propagation. Archive retained privately at `/home/nvfglyl5/2026-11-17-answers-1.zip`; its public URL returns 404.
+- Immediate rollback: `/home/nvfglyl5/ventilators-release-2026-11-17-seo-ux-1`. All previous roots, including the analytics-off operations release, are preserved.
+- All 11 categories now have bilingual buyer guidance and distinct search copy. Four project shortcuts, grouped shareable FAQ answers and a quieter mobile inquiry page preserve the original logo, AirGrid and inquiry-only catalogue. No DNS/mail/provider settings changed; no real inquiries sent.
+- Live EN project/guide/inquiry routing and FR answer continuity/mobile review verified. Evidence: `../qa/evidence/answers/`. GitHub quality run `44179534139` passed.
+
+## Previous release: SEO, buyer guidance and inquiry UX — 2026-11-17
 
 - Live document root: `/home/nvfglyl5/ventilators-release-2026-11-17-seo-ux-1`.
 - Clean runtime source: `92bc7b3a394834b9e8b2ca135ab332ee97b8df82`; ZIP 5,377,848 bytes; SHA-256 `aac27546a8720ce3d2cbe7d2d9bd63c9f7aa3c5e115adb3969235087c369e3bd`.

@@ -1,0 +1,609 @@
+{
+  "checkedAt": "2026-11-17T21:28:59.096Z",
+  "origin": "https://ventilators.ca",
+  "mode": "read-only; no form submission or inbox-delivery test",
+  "passed": 100,
+  "failed": 0,
+  "results": [
+    {
+      "path": "/",
+      "status": 301,
+      "elapsedMs": 16,
+      "errors": []
+    },
+    {
+      "path": "/__site_health_missing__/",
+      "status": 404,
+      "elapsedMs": 15,
+      "errors": []
+    },
+    {
+      "path": "/?healthcheck=1",
+      "status": 301,
+      "elapsedMs": 15,
+      "errors": []
+    },
+    {
+      "path": "/downloads/accessory-guide-en.txt",
+      "status": 200,
+      "elapsedMs": 16,
+      "errors": []
+    },
+    {
+      "path": "/downloads/accessory-guide-fr.txt",
+      "status": 200,
+      "elapsedMs": 16,
+      "errors": []
+    },
+    {
+      "path": "/downloads/industrial-checklist-en.txt",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/downloads/industrial-checklist-fr.txt",
+      "status": 200,
+      "elapsedMs": 50,
+      "errors": []
+    },
+    {
+      "path": "/downloads/industrial-specifications-en.txt",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/downloads/industrial-specifications-fr.txt",
+      "status": 200,
+      "elapsedMs": 16,
+      "errors": []
+    },
+    {
+      "path": "/downloads/medical-checklist-en.txt",
+      "status": 200,
+      "elapsedMs": 39,
+      "errors": []
+    },
+    {
+      "path": "/downloads/medical-checklist-fr.txt",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/downloads/medical-procurement-guide-en.txt",
+      "status": 200,
+      "elapsedMs": 16,
+      "errors": []
+    },
+    {
+      "path": "/downloads/medical-procurement-guide-fr.txt",
+      "status": 200,
+      "elapsedMs": 16,
+      "errors": []
+    },
+    {
+      "path": "/downloads/replacement-guide-en.txt",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/downloads/replacement-guide-fr.txt",
+      "status": 200,
+      "elapsedMs": 16,
+      "errors": []
+    },
+    {
+      "path": "/en/",
+      "status": 200,
+      "elapsedMs": 71,
+      "errors": []
+    },
+    {
+      "path": "/en/about/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/en/accessibility/",
+      "status": 200,
+      "elapsedMs": 18,
+      "errors": []
+    },
+    {
+      "path": "/en/contact/",
+      "status": 200,
+      "elapsedMs": 18,
+      "errors": []
+    },
+    {
+      "path": "/en/faq/",
+      "status": 200,
+      "elapsedMs": 18,
+      "errors": []
+    },
+    {
+      "path": "/en/industrial/",
+      "status": 200,
+      "elapsedMs": 82,
+      "errors": []
+    },
+    {
+      "path": "/en/industrial/axial-fans/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/en/industrial/blowers/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/en/industrial/centrifugal-fans/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/en/industrial/exhaust-fans/",
+      "status": 200,
+      "elapsedMs": 21,
+      "errors": []
+    },
+    {
+      "path": "/en/industrial/parts-and-replacements/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/en/industrial/roof-ventilators/",
+      "status": 200,
+      "elapsedMs": 22,
+      "errors": []
+    },
+    {
+      "path": "/en/industrial/supply-fans/",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/en/industries/",
+      "status": 200,
+      "elapsedMs": 22,
+      "errors": []
+    },
+    {
+      "path": "/en/industries/clinics/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/en/industries/commercial-facilities/",
+      "status": 200,
+      "elapsedMs": 16,
+      "errors": []
+    },
+    {
+      "path": "/en/industries/hospitals/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/en/industries/institutional-buyers/",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/en/industries/manufacturing/",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/en/industries/warehouses/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/en/medical/",
+      "status": 200,
+      "elapsedMs": 58,
+      "errors": []
+    },
+    {
+      "path": "/en/medical/institutional-procurement/",
+      "status": 200,
+      "elapsedMs": 18,
+      "errors": []
+    },
+    {
+      "path": "/en/medical/invasive-ventilators/",
+      "status": 200,
+      "elapsedMs": 21,
+      "errors": []
+    },
+    {
+      "path": "/en/medical/non-invasive-ventilators/",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/en/medical/respiratory-accessories/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/en/privacy/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/en/products/",
+      "status": 200,
+      "elapsedMs": 60,
+      "errors": []
+    },
+    {
+      "path": "/en/request-a-quote/",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/en/resources/",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/en/resources/accessory-identification-guide/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/en/resources/industrial-specification-guide/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/en/resources/medical-procurement-guide/",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/en/resources/replacement-planning-guide/",
+      "status": 200,
+      "elapsedMs": 18,
+      "errors": []
+    },
+    {
+      "path": "/en/services/",
+      "status": 200,
+      "elapsedMs": 18,
+      "errors": []
+    },
+    {
+      "path": "/en/services/equipment-replacement/",
+      "status": 200,
+      "elapsedMs": 22,
+      "errors": []
+    },
+    {
+      "path": "/en/services/industrial-fan-repair/",
+      "status": 200,
+      "elapsedMs": 21,
+      "errors": []
+    },
+    {
+      "path": "/en/services/installation-coordination/",
+      "status": 200,
+      "elapsedMs": 18,
+      "errors": []
+    },
+    {
+      "path": "/en/services/medical-technical-support/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/en/services/ventilation-maintenance/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/en/terms/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/fr/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/fr/a-propos/",
+      "status": 200,
+      "elapsedMs": 25,
+      "errors": []
+    },
+    {
+      "path": "/fr/accessibilite/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/fr/conditions/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/fr/confidentialite/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/fr/contact/",
+      "status": 200,
+      "elapsedMs": 25,
+      "errors": []
+    },
+    {
+      "path": "/fr/demande-de-soumission/",
+      "status": 200,
+      "elapsedMs": 25,
+      "errors": []
+    },
+    {
+      "path": "/fr/faq/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/fr/industriel/",
+      "status": 200,
+      "elapsedMs": 18,
+      "errors": []
+    },
+    {
+      "path": "/fr/industriel/pieces-et-remplacement/",
+      "status": 200,
+      "elapsedMs": 25,
+      "errors": []
+    },
+    {
+      "path": "/fr/industriel/soufflantes/",
+      "status": 200,
+      "elapsedMs": 22,
+      "errors": []
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-axiaux/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-centrifuges/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-de-toit/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-extraction/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-soufflage/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/fr/medical/",
+      "status": 200,
+      "elapsedMs": 102,
+      "errors": []
+    },
+    {
+      "path": "/fr/medical/accessoires-respiratoires/",
+      "status": 200,
+      "elapsedMs": 21,
+      "errors": []
+    },
+    {
+      "path": "/fr/medical/approvisionnement-institutionnel/",
+      "status": 200,
+      "elapsedMs": 21,
+      "errors": []
+    },
+    {
+      "path": "/fr/medical/ventilateurs-invasifs/",
+      "status": 200,
+      "elapsedMs": 24,
+      "errors": []
+    },
+    {
+      "path": "/fr/medical/ventilateurs-non-invasifs/",
+      "status": 200,
+      "elapsedMs": 21,
+      "errors": []
+    },
+    {
+      "path": "/fr/produits/",
+      "status": 200,
+      "elapsedMs": 90,
+      "errors": []
+    },
+    {
+      "path": "/fr/ressources/",
+      "status": 200,
+      "elapsedMs": 21,
+      "errors": []
+    },
+    {
+      "path": "/fr/ressources/guide-approvisionnement-medical/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/fr/ressources/guide-identification-accessoires/",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/fr/ressources/guide-planification-remplacement/",
+      "status": 200,
+      "elapsedMs": 21,
+      "errors": []
+    },
+    {
+      "path": "/fr/ressources/guide-specifications-industrielles/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/fr/secteurs/",
+      "status": 200,
+      "elapsedMs": 85,
+      "errors": []
+    },
+    {
+      "path": "/fr/secteurs/acheteurs-institutionnels/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/fr/secteurs/batiments-commerciaux/",
+      "status": 200,
+      "elapsedMs": 22,
+      "errors": []
+    },
+    {
+      "path": "/fr/secteurs/cliniques/",
+      "status": 200,
+      "elapsedMs": 19,
+      "errors": []
+    },
+    {
+      "path": "/fr/secteurs/entrepots/",
+      "status": 200,
+      "elapsedMs": 18,
+      "errors": []
+    },
+    {
+      "path": "/fr/secteurs/fabrication/",
+      "status": 200,
+      "elapsedMs": 18,
+      "errors": []
+    },
+    {
+      "path": "/fr/secteurs/hopitaux/",
+      "status": 200,
+      "elapsedMs": 18,
+      "errors": []
+    },
+    {
+      "path": "/fr/services/",
+      "status": 200,
+      "elapsedMs": 86,
+      "errors": []
+    },
+    {
+      "path": "/fr/services/coordination-installation/",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/fr/services/entretien-ventilation/",
+      "status": 200,
+      "elapsedMs": 17,
+      "errors": []
+    },
+    {
+      "path": "/fr/services/remplacement-equipement/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/fr/services/reparation-ventilateurs-industriels/",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    },
+    {
+      "path": "/fr/services/soutien-technique-medical/",
+      "status": 200,
+      "elapsedMs": 21,
+      "errors": []
+    },
+    {
+      "path": "/index.html",
+      "status": 301,
+      "elapsedMs": 14,
+      "errors": []
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "elapsedMs": 54,
+      "errors": []
+    },
+    {
+      "path": "/sitemap-en.xml",
+      "status": 200,
+      "elapsedMs": 21,
+      "errors": []
+    },
+    {
+      "path": "/sitemap-fr.xml",
+      "status": 200,
+      "elapsedMs": 18,
+      "errors": []
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "elapsedMs": 20,
+      "errors": []
+    }
+  ]
+}

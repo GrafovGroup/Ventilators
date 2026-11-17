@@ -1,0 +1,34 @@
+[
+  {
+    "case": "Published EN project directory",
+    "collectorFrames": 0,
+    "googleScripts": 0,
+    "logo": "/brand/logo.svg",
+    "overflow": false,
+    "projectLinks": 4,
+    "url": "https://ventilators.ca/en/products/"
+  },
+  {
+    "case": "Live project guide routes to replacement inquiry",
+    "category": "replacement",
+    "fixedBarCount": 0,
+    "url": "https://ventilators.ca/en/request-a-quote/?division=industrial&category=replacement"
+  },
+  {
+    "case": "Live equivalent French answer link",
+    "answer": "Puis-je faire une demande sans connaître le modèle, la quantité ou l’échéancier?Oui. Décrivez le projet et indiquez vos coordonnées professionnelles, la province et la division. Les détails techniques, la quantité et l’échéancier sont facultatifs. Si la catégorie est incertaine, choisissez « Je ne sais pas encore » dans le champ Équipement ou service.Préparer une demande avec les renseignements connus",
+    "answerCount": 11,
+    "url": "https://ventilators.ca/fr/faq/#unknown-requirements",
+    "overflow": false
+  },
+  {
+    "case": "Live French mobile review only; Send not selected",
+    "collectorFrames": 0,
+    "fixedBarCount": 0,
+    "googleScripts": 0,
+    "overflow": false,
+    "review": "Demande vérifiée — rien n’a été envoyé.Résumé de votre demandeVérifiez les renseignements ci-dessous, puis sélectionnez Envoyer la demande. Vous pouvez d’abord les modifier ou copier le résumé pour nous joindre par courriel.Référence de la demande: VCA-7fbc2b44-81b8-47b6-ab2b-31d8a6b0f908Envoyer la demandeCopier le résuméOuvrir un courrielDivisionIndustrielNom completEssai synthétiqueOrganisationVérification du siteCourriel professionneltest@example.invalidTéléphoneNon fourniProvince ou territoireQuébecÉquipement ou serviceJe ne sais pas encore — aidez-moi à orienter cette demandeFabricant / modèleNon fourniDébit d’air / capacité et unitésNon fourniQuantitéPas encore connuÉchéancier du projetPas encore connuPrioritéNon fourniDétails du projetEssai synthétique de vérification locale. Ne pas envoyer.Lire l’avis de confidentialitéAvis de confidentialité reconnuModifier la demandeinfo@ventilators.ca",
+    "url": "https://ventilators.ca/fr/demande-de-soumission/?division=industrial&category=industrial-general",
+    "width": 375
+  }
+]

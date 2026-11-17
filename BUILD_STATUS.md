@@ -4,13 +4,15 @@ Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventila
 
 ## Current increment: complete category answers and project navigation
 
-| Work                                                     | Status      | Evidence / completion requirement                                                                                          |
-| -------------------------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Five remaining bilingual category guides and search copy | VERIFIED    | Supply fans, blowers, parts, invasive and non-invasive ventilator procurement; sourced preparation guidance only           |
-| Project-based catalogue/resource entry points            | VERIFIED    | Four existing guides, crawlable links, no extra routes or product recommendations                                          |
-| Grouped, directly linkable buyer answers                 | VERIFIED    | EN/FR FAQ topics with relevant guide/inquiry links; no FAQ rich-result claim                                               |
-| Mobile inquiry focus                                     | VERIFIED    | Remove the redundant fixed RFQ action on the inquiry page; preserve contact options                                        |
-| Automated, responsive and live release verification      | IN PROGRESS | Local checks pass (32 tests, 80 routes, 44 responsive audits); clean commit, WHC release and live comparison still pending |
+| Work                                                     | Status   | Evidence / completion requirement                                                                                |
+| -------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------- |
+| Five remaining bilingual category guides and search copy | VERIFIED | Supply fans, blowers, parts, invasive and non-invasive ventilator procurement; sourced preparation guidance only |
+| Project-based catalogue/resource entry points            | VERIFIED | Four existing guides, crawlable links, no extra routes or product recommendations                                |
+| Grouped, directly linkable buyer answers                 | VERIFIED | EN/FR FAQ topics with relevant guide/inquiry links; no FAQ rich-result claim                                     |
+| Mobile inquiry focus                                     | VERIFIED | Remove the redundant fixed RFQ action on the inquiry page; preserve contact options                              |
+| Automated, responsive and live release verification      | VERIFIED | 32 tests, 80 routes, 44 responsive audits; 515 live files match and all 100 health checks pass                   |
+
+Release `2026-11-17-answers-1` is LIVE on WHC from clean source `a58834b29ce53d4d39434bb2b96c6ada2182b051`. GitHub quality run `44179534139` passed. Live project-to-guide-to-inquiry routing, French answer links and mobile review pass without sending an inquiry. The previous SEO/UX release remains the immediate rollback. Evidence: `qa/evidence/answers/`.
 
 Decisions: keep the 80-route inventory, current logo, AirGrid, all image assignments, hosted inquiry/spam controls and consent setup. Provincial coverage pages and product inventory still require verified business data. Original preparation copy does not constitute technical, clinical or supplier approval.
 
