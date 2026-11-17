@@ -1,0 +1,3755 @@
+{
+  "checkedAt": "2026-11-17T19:35:51.713Z",
+  "origin": "https://ventilators.ca",
+  "release": "2026-11-17-operations-1",
+  "sourceCommit": "be7500c2a9bd952f6617eeb77efa7e925b701ada",
+  "filesChecked": 511,
+  "rootEntry": "301 to /en/; root HTML is a static redirect fallback, not directly served",
+  "allFilesMatch": true,
+  "failures": [],
+  "probes": [
+    {
+      "url": "https://ventilators.ca/",
+      "status": 301,
+      "location": "https://ventilators.ca/en/",
+      "expected": 301,
+      "matches": true
+    },
+    {
+      "url": "https://ventilators.ca/index.html",
+      "status": 301,
+      "location": "https://ventilators.ca/en/",
+      "expected": 301,
+      "matches": true
+    },
+    {
+      "url": "https://ventilators.ca/?source=entry-check",
+      "status": 301,
+      "location": "https://ventilators.ca/en/?source=entry-check",
+      "expected": 301,
+      "matches": true
+    },
+    {
+      "url": "http://www.ventilators.ca/",
+      "status": 301,
+      "location": "https://ventilators.ca/en/",
+      "expected": 301,
+      "matches": true
+    },
+    {
+      "url": "http://ventilators.ca/en/",
+      "status": 301,
+      "location": "https://ventilators.ca/en/",
+      "expected": 301,
+      "matches": true
+    },
+    {
+      "url": "https://www.ventilators.ca/fr/",
+      "status": 301,
+      "location": "https://ventilators.ca/fr/",
+      "expected": 301,
+      "matches": true
+    },
+    {
+      "url": "https://ventilators.ca/release-check-missing/",
+      "status": 404,
+      "location": null,
+      "expected": 404,
+      "matches": true,
+      "branded404": true
+    },
+    {
+      "url": "https://ventilators.ca/.htaccess",
+      "status": 403,
+      "location": null,
+      "expected": 403,
+      "matches": true
+    }
+  ],
+  "headers": {
+    "/": {
+      "accept-ranges": "bytes",
+      "cache-control": "no-cache",
+      "connection": "Keep-Alive",
+      "content-encoding": "br",
+      "content-length": "6348",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'",
+      "content-type": "text/html",
+      "date": "Tue, 17 Nov 2026 19:35:51 GMT",
+      "keep-alive": "timeout=5, max=100",
+      "last-modified": "Tue, 17 Nov 2026 19:31:31 GMT",
+      "permissions-policy": "camera=(), microphone=(), geolocation=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "LiteSpeed",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY"
+    },
+    "/en/": {
+      "accept-ranges": "bytes",
+      "cache-control": "no-cache",
+      "connection": "Keep-Alive",
+      "content-encoding": "br",
+      "content-length": "6348",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'",
+      "content-type": "text/html",
+      "date": "Tue, 17 Nov 2026 19:35:51 GMT",
+      "keep-alive": "timeout=5, max=100",
+      "last-modified": "Tue, 17 Nov 2026 19:31:31 GMT",
+      "permissions-policy": "camera=(), microphone=(), geolocation=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "LiteSpeed",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY"
+    },
+    "/fr/": {
+      "accept-ranges": "bytes",
+      "cache-control": "no-cache",
+      "connection": "Keep-Alive",
+      "content-encoding": "br",
+      "content-length": "6639",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'",
+      "content-type": "text/html",
+      "date": "Tue, 17 Nov 2026 19:35:51 GMT",
+      "keep-alive": "timeout=5, max=100",
+      "last-modified": "Tue, 17 Nov 2026 19:31:31 GMT",
+      "permissions-policy": "camera=(), microphone=(), geolocation=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "LiteSpeed",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY"
+    },
+    "/robots.txt": {
+      "accept-ranges": "bytes",
+      "cache-control": "no-cache",
+      "connection": "Keep-Alive",
+      "content-length": "68",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'",
+      "content-type": "text/plain",
+      "date": "Tue, 17 Nov 2026 19:35:51 GMT",
+      "keep-alive": "timeout=5, max=100",
+      "last-modified": "Tue, 17 Nov 2026 19:31:31 GMT",
+      "permissions-policy": "camera=(), microphone=(), geolocation=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "LiteSpeed",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY"
+    },
+    "/images/industrial.webp": {
+      "accept-ranges": "bytes",
+      "cache-control": "public, max-age=3600",
+      "connection": "Keep-Alive",
+      "content-length": "337982",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'",
+      "content-type": "image/webp",
+      "date": "Tue, 17 Nov 2026 19:35:51 GMT",
+      "expires": "Tue, 24 Nov 2026 19:35:51 GMT",
+      "keep-alive": "timeout=5, max=100",
+      "last-modified": "Tue, 17 Nov 2026 19:31:31 GMT",
+      "permissions-policy": "camera=(), microphone=(), geolocation=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "LiteSpeed",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY"
+    },
+    "/_next/static/XCaUSLh8LR546qX6HBpIp/_buildManifest.js": {
+      "accept-ranges": "bytes",
+      "cache-control": "public, max-age=31536000, immutable",
+      "connection": "Keep-Alive",
+      "content-encoding": "br",
+      "content-length": "126",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'",
+      "content-type": "text/javascript",
+      "date": "Tue, 17 Nov 2026 19:35:51 GMT",
+      "keep-alive": "timeout=5, max=100",
+      "last-modified": "Tue, 17 Nov 2026 19:31:31 GMT",
+      "permissions-policy": "camera=(), microphone=(), geolocation=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "server": "LiteSpeed",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY"
+    }
+  },
+  "files": [
+    {
+      "path": "/__next._full.txt",
+      "status": 200,
+      "bytes": 5774,
+      "sha256": "6f6d3b3099fcbadded44d6ae3359228fe24dfe1f9a309ed390805696ef102998",
+      "matches": true
+    },
+    {
+      "path": "/__next._tree.txt",
+      "status": 200,
+      "bytes": 217,
+      "sha256": "46fec2af1642f04fb02f93bc1705ce30ddd96a4299a5607f457c7fc44e6e1230",
+      "matches": true
+    },
+    {
+      "path": "/__next.!KGdhdGV3YXkp.__PAGE__.txt",
+      "status": 200,
+      "bytes": 5251,
+      "sha256": "9bc5e1d0e45515ba93e9e10a5eef2232058354c1b1a08cdc613eb26387397b3a",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/08mika-44sn50.js",
+      "status": 200,
+      "bytes": 21742,
+      "sha256": "485a23c2fe32cdfbb2b537551f98230c89c6c6929c1c2db739242c3a905f683d",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/092r-mewpaf3q.js",
+      "status": 200,
+      "bytes": 229052,
+      "sha256": "30b1a7afdc2b4c18dbed0c12b4cbb9ca6e3b1b048440715e434664cb534d6f11",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "status": 200,
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/0n-76s-xa8g6v.js",
+      "status": 200,
+      "bytes": 87551,
+      "sha256": "da0deb7f600e0df78fa477daf53fd67172a7c0fbfe4c4a75b7464eec5a0bf8a7",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/1_cj-8-l8b830.js",
+      "status": 200,
+      "bytes": 160125,
+      "sha256": "57580eebc20983f2128ba078e06f5f48c1d6dd3b5310b55020e1b1082a49e30d",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/1pcw6gskne7pf.js",
+      "status": 200,
+      "bytes": 5600,
+      "sha256": "6dbc40a359da7b95b1b5d62b81884098dc2a8bc342bb4493b87712049f4fac08",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/1vck8vamx9pji.js",
+      "status": 200,
+      "bytes": 38975,
+      "sha256": "8ee1782c8831505d7b0dcce353e4e0dd05f96cf8e4b5f965a3bb8e07d991f2dd",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/22apakee8-6ta.css",
+      "status": 200,
+      "bytes": 39242,
+      "sha256": "cd51ba19fd78bd4dbda549e57e50b9b721e0dd5a733f893a7c64b8f2c1f7939c",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/22z3ci0_r-1lj.js",
+      "status": 200,
+      "bytes": 248,
+      "sha256": "09dc362ca0b0810339fc301b77fb8f89fc0b1488677ef24c35e044667239ea66",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/38u0by5ksr-h8.js",
+      "status": 200,
+      "bytes": 843,
+      "sha256": "b0540972c55230f7e1c3b2d251138dbf9bfdc6101b2178c0b88553894ae40a92",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/3hcdfg9qoigns.js",
+      "status": 200,
+      "bytes": 44565,
+      "sha256": "b5345f7f5ef02489908f870eec444ce73ceb0f44b1220ba5dd3bdbc484991144",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/3i9e__lxj94lh.js",
+      "status": 200,
+      "bytes": 152,
+      "sha256": "2d4438dc8720b46b3c26bf164e895915424e9b8bc008cbd6e57f82610ca7932e",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/3qfy96eoyh-ek.js",
+      "status": 200,
+      "bytes": 13994,
+      "sha256": "0f13eecc75702fa059f047636cf8814acbb7acaf3702e75d5835ef85a49528b1",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/3zt_16xndew4w.js",
+      "status": 200,
+      "bytes": 7862,
+      "sha256": "74e94ba3d1b4b4ad7b34e1946502a4993ff923f4174b9bef6c28471399b3219d",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+      "status": 200,
+      "bytes": 9974,
+      "sha256": "439be7f075d69bbf510ceca09cbc0856956be6f1268f40948a2566148e13de07",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/XCaUSLh8LR546qX6HBpIp/_buildManifest.js",
+      "status": 200,
+      "bytes": 219,
+      "sha256": "9476e0afd3f9da68a64e6ec58631191fd3eaca62c9f5a377e7517fe9a89e59ea",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/XCaUSLh8LR546qX6HBpIp/_clientMiddlewareManifest.js",
+      "status": 200,
+      "bytes": 96,
+      "sha256": "5483e3295dc35dfe29ea932efc85341c916f10ff78ff5b0e965e003710893a4a",
+      "matches": true
+    },
+    {
+      "path": "/_next/static/XCaUSLh8LR546qX6HBpIp/_ssgManifest.js",
+      "status": 200,
+      "bytes": 113,
+      "sha256": "51ada0c39af70cb18ec28c490b766e1449b43a80266f150e765e7c4179a64f65",
+      "matches": true
+    },
+    {
+      "path": "/_not-found/",
+      "status": 200,
+      "bytes": 5071,
+      "sha256": "dcfaa8cb01b042339ea0d5648bdc10976b29f88d9a32b98e143313cfa74783e2",
+      "matches": true
+    },
+    {
+      "path": "/_not-found/__next._full.txt",
+      "status": 200,
+      "bytes": 2790,
+      "sha256": "2b91352eeb66dceb00d5bb30baa5c73afbc10f87ebfd227791153589ed0ec275",
+      "matches": true
+    },
+    {
+      "path": "/_not-found/__next._not-found.__PAGE__.txt",
+      "status": 200,
+      "bytes": 2419,
+      "sha256": "d723d33a54ef4e99614d7df72161a0579fa536b32cf685fb52c9d45e250d4120",
+      "matches": true
+    },
+    {
+      "path": "/_not-found/__next._tree.txt",
+      "status": 200,
+      "bytes": 218,
+      "sha256": "7a4799e9e89d09a17e5115d238b765a11bbcae3712a12c700f5fa807be86c758",
+      "matches": true
+    },
+    {
+      "path": "/_not-found/index.txt",
+      "status": 200,
+      "bytes": 2790,
+      "sha256": "2b91352eeb66dceb00d5bb30baa5c73afbc10f87ebfd227791153589ed0ec275",
+      "matches": true
+    },
+    {
+      "path": "/404.html",
+      "status": 200,
+      "bytes": 5071,
+      "sha256": "dcfaa8cb01b042339ea0d5648bdc10976b29f88d9a32b98e143313cfa74783e2",
+      "matches": true
+    },
+    {
+      "path": "/404/",
+      "status": 200,
+      "bytes": 5071,
+      "sha256": "dcfaa8cb01b042339ea0d5648bdc10976b29f88d9a32b98e143313cfa74783e2",
+      "matches": true
+    },
+    {
+      "path": "/500.html",
+      "status": 200,
+      "bytes": 1203,
+      "sha256": "b3ddc02f30b2d1c9637f3dc9f0aa11f046a5ec9b751ee40843663e4bf7215559",
+      "matches": true
+    },
+    {
+      "path": "/apple-touch-icon.png",
+      "status": 200,
+      "bytes": 5464,
+      "sha256": "ad764eed527207d1cd27912fdc953cf9368e7227c6cf1cd2346dadf8e84c79d2",
+      "matches": true
+    },
+    {
+      "path": "/brand/logo-compact.svg",
+      "status": 200,
+      "bytes": 351,
+      "sha256": "bc5de1d08b86ed6312e4effc5bb4fff528f46f9c401caad8279d9b9737199ea5",
+      "matches": true
+    },
+    {
+      "path": "/brand/logo-horizontal.svg",
+      "status": 200,
+      "bytes": 741,
+      "sha256": "4bec410794a366e6f601a7bc0efe7d8a21634cb1f4eec2454f169c72a3de93cd",
+      "matches": true
+    },
+    {
+      "path": "/brand/logo-monochrome.svg",
+      "status": 200,
+      "bytes": 741,
+      "sha256": "030b3c3fd43bbfbedb8ed64487bb32aa5f4d6259a3cfcb7b5dadcc4d35fcb236",
+      "matches": true
+    },
+    {
+      "path": "/brand/logo-reversed.svg",
+      "status": 200,
+      "bytes": 738,
+      "sha256": "1b1e76b1d0a276ca7159fbd2090497e37f609f611b3eb5db0b1421729a2498c5",
+      "matches": true
+    },
+    {
+      "path": "/brand/logo.svg",
+      "status": 200,
+      "bytes": 741,
+      "sha256": "4bec410794a366e6f601a7bc0efe7d8a21634cb1f4eec2454f169c72a3de93cd",
+      "matches": true
+    },
+    {
+      "path": "/brand/social-en.png",
+      "status": 200,
+      "bytes": 57955,
+      "sha256": "5788d758202c43b89244c6a52c9f7d5bd6c50d3701b63feee9dfceed105b7aaa",
+      "matches": true
+    },
+    {
+      "path": "/brand/social-fr.png",
+      "status": 200,
+      "bytes": 59489,
+      "sha256": "f06a389d8661aa8e8c381656df4de4b2349fc5481c5fae0ce880cdf9e5720357",
+      "matches": true
+    },
+    {
+      "path": "/downloads/accessory-guide-en.txt",
+      "status": 200,
+      "bytes": 1061,
+      "sha256": "d4fcb9691ae4a7bac2d54d0a9d090780fe31fb7914e397c14794fd83929bd186",
+      "matches": true
+    },
+    {
+      "path": "/downloads/accessory-guide-fr.txt",
+      "status": 200,
+      "bytes": 1215,
+      "sha256": "485c9106e0b1fe3979db0e667649ad395aeb4b5d7700d5755561d667e4ce6360",
+      "matches": true
+    },
+    {
+      "path": "/downloads/industrial-checklist-en.txt",
+      "status": 200,
+      "bytes": 556,
+      "sha256": "c43930d5649f56fc8611c5e970519fb07d353dfb074c81f43ce65d2ea59e380a",
+      "matches": true
+    },
+    {
+      "path": "/downloads/industrial-checklist-fr.txt",
+      "status": 200,
+      "bytes": 607,
+      "sha256": "7a1b35f22f861c7df31b377950aabadbdb9da9799504d39ff6cc894368eb625a",
+      "matches": true
+    },
+    {
+      "path": "/downloads/industrial-specifications-en.txt",
+      "status": 200,
+      "bytes": 1702,
+      "sha256": "f2513f296c90a9d24b944017158ae8182a035e66e9593ebef49128c28fec2fef",
+      "matches": true
+    },
+    {
+      "path": "/downloads/industrial-specifications-fr.txt",
+      "status": 200,
+      "bytes": 1885,
+      "sha256": "8e488df3a375da7feaca17d43f2409c90d548017de5d3f0081244c724941b9c8",
+      "matches": true
+    },
+    {
+      "path": "/downloads/medical-checklist-en.txt",
+      "status": 200,
+      "bytes": 604,
+      "sha256": "cf18cf01f41070c5f0fa8d36c7d37564b2f86867e72934cf2d36a88b4f470e58",
+      "matches": true
+    },
+    {
+      "path": "/downloads/medical-checklist-fr.txt",
+      "status": 200,
+      "bytes": 761,
+      "sha256": "ccd6c0a41aae614d1c9d26fe0f52cf7ab1278ae420c89b2304e7c87437d9b70a",
+      "matches": true
+    },
+    {
+      "path": "/downloads/medical-procurement-guide-en.txt",
+      "status": 200,
+      "bytes": 1739,
+      "sha256": "f7044ac143ae979b16561d52b6d67970b27d13f09277505027af6d08934464ee",
+      "matches": true
+    },
+    {
+      "path": "/downloads/medical-procurement-guide-fr.txt",
+      "status": 200,
+      "bytes": 1983,
+      "sha256": "d6cdd6221abdbfb356d0f6f88c2c23846790cbc150a5012411569547d238a33b",
+      "matches": true
+    },
+    {
+      "path": "/downloads/replacement-guide-en.txt",
+      "status": 200,
+      "bytes": 1596,
+      "sha256": "e3549183600ac2044f3e1c8864c1100785657c4c4f9e92de4abf19302f383f7c",
+      "matches": true
+    },
+    {
+      "path": "/downloads/replacement-guide-fr.txt",
+      "status": 200,
+      "bytes": 1705,
+      "sha256": "41abb9a962b0544ff243221d3958a93f1c51d8cdabf069db6d8152b359359071",
+      "matches": true
+    },
+    {
+      "path": "/en/",
+      "status": 200,
+      "bytes": 32234,
+      "sha256": "b3c39349e1d67aa94c66ee3989d470611f8d02c031e3f9eff14c2e51f62bba6a",
+      "matches": true
+    },
+    {
+      "path": "/en/__next._full.txt",
+      "status": 200,
+      "bytes": 17169,
+      "sha256": "e0505a5e9f4980652c559aa3ed9f1cdd4848924ed4bb7c9fef1ee3729e8f8e4a",
+      "matches": true
+    },
+    {
+      "path": "/en/__next._tree.txt",
+      "status": 200,
+      "bytes": 625,
+      "sha256": "e3853434e71609343f5df84fccdf1313f0c781c9cbb734a475f65395de4a2c49",
+      "matches": true
+    },
+    {
+      "path": "/en/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16469,
+      "sha256": "7066e676f2454d3b732ad11ec00982092afc380c5e2f698adb0040f068e2ad8d",
+      "matches": true
+    },
+    {
+      "path": "/en/about/",
+      "status": 200,
+      "bytes": 24081,
+      "sha256": "96370dd85af1fefd0fea8edc455fd23bed4a879a9ed700cda7fdb8a5ddde4c46",
+      "matches": true
+    },
+    {
+      "path": "/en/about/__next._full.txt",
+      "status": 200,
+      "bytes": 12783,
+      "sha256": "cd4bfc7d4621281f83bd3b8eb6f317901b6a100f5cddce05a507e098ecbbe401",
+      "matches": true
+    },
+    {
+      "path": "/en/about/__next._tree.txt",
+      "status": 200,
+      "bytes": 368,
+      "sha256": "f72abfdf9f0c41754cc8bdc35dd0b895f45d733703197f11a6cd985c3f44d751",
+      "matches": true
+    },
+    {
+      "path": "/en/about/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 12100,
+      "sha256": "ad054d67b10e4370788f65c6d9c7d63fbc634c81915a01a8f7b68dafaa9e8703",
+      "matches": true
+    },
+    {
+      "path": "/en/about/index.txt",
+      "status": 200,
+      "bytes": 12783,
+      "sha256": "cd4bfc7d4621281f83bd3b8eb6f317901b6a100f5cddce05a507e098ecbbe401",
+      "matches": true
+    },
+    {
+      "path": "/en/accessibility/",
+      "status": 200,
+      "bytes": 22591,
+      "sha256": "bd3aa1989074338f39edc2bf509633e4f15029aaf97003be72e97d250eb25590",
+      "matches": true
+    },
+    {
+      "path": "/en/accessibility/__next._full.txt",
+      "status": 200,
+      "bytes": 11984,
+      "sha256": "f252dfcbfb8ea847404c5d876a3c1393f4d4b6640ea938664489ea328f7a5def",
+      "matches": true
+    },
+    {
+      "path": "/en/accessibility/__next._tree.txt",
+      "status": 200,
+      "bytes": 376,
+      "sha256": "63e9b4b597994f29220e22b97733b0b018db28905603b97535c2208161dbd58c",
+      "matches": true
+    },
+    {
+      "path": "/en/accessibility/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 11323,
+      "sha256": "408fd47a53745db2d1d07009818554d446e075390f021c5722672e564aa3748b",
+      "matches": true
+    },
+    {
+      "path": "/en/accessibility/index.txt",
+      "status": 200,
+      "bytes": 11984,
+      "sha256": "f252dfcbfb8ea847404c5d876a3c1393f4d4b6640ea938664489ea328f7a5def",
+      "matches": true
+    },
+    {
+      "path": "/en/contact/",
+      "status": 200,
+      "bytes": 22996,
+      "sha256": "7153a0e431297bd5a90f2cbb15579c60f7d8aea6d6392fbd2b6bcad41a711fb4",
+      "matches": true
+    },
+    {
+      "path": "/en/contact/__next._full.txt",
+      "status": 200,
+      "bytes": 12176,
+      "sha256": "fb332dbd626452d8eb064b1ebf8e990c65a483cc1e6153f721f54afed0442dfa",
+      "matches": true
+    },
+    {
+      "path": "/en/contact/__next._tree.txt",
+      "status": 200,
+      "bytes": 370,
+      "sha256": "3ee45e40e4b290fea5033d65322b5f52b6b2445fc699409ade645581308fa207",
+      "matches": true
+    },
+    {
+      "path": "/en/contact/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 11531,
+      "sha256": "4768cd313b84b2b932dec96b6c39d7c4736934612df400bf09a907193da3cb99",
+      "matches": true
+    },
+    {
+      "path": "/en/contact/index.txt",
+      "status": 200,
+      "bytes": 12176,
+      "sha256": "fb332dbd626452d8eb064b1ebf8e990c65a483cc1e6153f721f54afed0442dfa",
+      "matches": true
+    },
+    {
+      "path": "/en/faq/",
+      "status": 200,
+      "bytes": 24752,
+      "sha256": "6e510701d0e1ed42def8a79b79b1db36e5bcb65d63c0223cd29d431b585e60be",
+      "matches": true
+    },
+    {
+      "path": "/en/faq/__next._full.txt",
+      "status": 200,
+      "bytes": 13191,
+      "sha256": "f2241fac0251615c69c8a5291393f8a3390f25582e660c71933c464f8b3dae4e",
+      "matches": true
+    },
+    {
+      "path": "/en/faq/__next._tree.txt",
+      "status": 200,
+      "bytes": 366,
+      "sha256": "474ba7a1e81ab8c583b05055387d91e64a79f5a8f450308013a3a2f9078579d4",
+      "matches": true
+    },
+    {
+      "path": "/en/faq/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 12470,
+      "sha256": "6459fa2d4f8de5a3b86b1ae6df7568b937cc24a2299d74481998b7fc2834d5fe",
+      "matches": true
+    },
+    {
+      "path": "/en/faq/index.txt",
+      "status": 200,
+      "bytes": 13191,
+      "sha256": "f2241fac0251615c69c8a5291393f8a3390f25582e660c71933c464f8b3dae4e",
+      "matches": true
+    },
+    {
+      "path": "/en/index.txt",
+      "status": 200,
+      "bytes": 17169,
+      "sha256": "e0505a5e9f4980652c559aa3ed9f1cdd4848924ed4bb7c9fef1ee3729e8f8e4a",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/",
+      "status": 200,
+      "bytes": 36630,
+      "sha256": "3f0976e3ecf2a1a741519e1b4649f35f33aa6157e10ffc992698c63a2cb1d849",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/__next._full.txt",
+      "status": 200,
+      "bytes": 19627,
+      "sha256": "be71050b18d36f580fa8f75fa0a386ee948e24dc65038af6dd4a2914b9a8a027",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/__next._tree.txt",
+      "status": 200,
+      "bytes": 650,
+      "sha256": "10e5a3438f4411dfaacaec137fcaf1f466aa261996d3ff3c2b872e3a6d889eed",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 18934,
+      "sha256": "e0ff14c8d2a6d20061bb7a3cd8ecd6ef642649fac9de9d87db6f359cbad318c3",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/axial-fans/",
+      "status": 200,
+      "bytes": 31580,
+      "sha256": "2c7dbe0a2acf997e0b181571a0b6b831de404b5419254f0104cfe3e27445d833",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/axial-fans/__next._full.txt",
+      "status": 200,
+      "bytes": 16893,
+      "sha256": "09d2fb691cfc030475c36802e4e5e74687de4e65c58d32269c1f03cace7833cb",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/axial-fans/__next._tree.txt",
+      "status": 200,
+      "bytes": 384,
+      "sha256": "9683429872d39f65586af740df9e040d7dee34ecdedf568a70f0f55a855cdb93",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/axial-fans/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16132,
+      "sha256": "f7be2cc10f492296b79182be16608b721949da7b7a95819344d89b64f8832b57",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/axial-fans/index.txt",
+      "status": 200,
+      "bytes": 16893,
+      "sha256": "09d2fb691cfc030475c36802e4e5e74687de4e65c58d32269c1f03cace7833cb",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/blowers/",
+      "status": 200,
+      "bytes": 31114,
+      "sha256": "59167ddad927de6e79c2156ab39e7773fa32e42151b433069ba1c613708eee6e",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/blowers/__next._full.txt",
+      "status": 200,
+      "bytes": 16629,
+      "sha256": "d98dab10e31c55497ee9df3f75abd6440677adade7b30a7a6656936e9cd44e74",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/blowers/__next._tree.txt",
+      "status": 200,
+      "bytes": 381,
+      "sha256": "fbbea054ee0cf005251915e95faf1896491769952b6cd0b6b4c1ef1e23848cca",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/blowers/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15891,
+      "sha256": "935f5f0cbfc55a263085035dce1b1c1f642d2ced2cf994d652350ea918e894f7",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/blowers/index.txt",
+      "status": 200,
+      "bytes": 16629,
+      "sha256": "d98dab10e31c55497ee9df3f75abd6440677adade7b30a7a6656936e9cd44e74",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/centrifugal-fans/",
+      "status": 200,
+      "bytes": 32057,
+      "sha256": "9d331e648fe6701d4070f036e4312cc9d6015d261d70c3dafe47434d6a77c51f",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/centrifugal-fans/__next._full.txt",
+      "status": 200,
+      "bytes": 17134,
+      "sha256": "5b90497028ae92a8507579fbab6d646415181cff6c639edbcd6b07d09e6a03fe",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/centrifugal-fans/__next._tree.txt",
+      "status": 200,
+      "bytes": 390,
+      "sha256": "b8ff0e608046405c90c67774340bddcd246fa4f61fad9eff0e84cca72954fc0b",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/centrifugal-fans/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16387,
+      "sha256": "e6fb1a4d6510d23a9bae047b46f97212e7c1532be80fd4ffa864848109141a8a",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/centrifugal-fans/index.txt",
+      "status": 200,
+      "bytes": 17134,
+      "sha256": "5b90497028ae92a8507579fbab6d646415181cff6c639edbcd6b07d09e6a03fe",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/exhaust-fans/",
+      "status": 200,
+      "bytes": 32044,
+      "sha256": "91f2f5f555145e2a86d07e589179cd4f7d755f03aca6334acf53283051c4a2fa",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/exhaust-fans/__next._full.txt",
+      "status": 200,
+      "bytes": 17114,
+      "sha256": "3118455f23f75b337ca4d2f66b51ddb1961d1fb6cf7ecae0bdeeb51cc20b3c25",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/exhaust-fans/__next._tree.txt",
+      "status": 200,
+      "bytes": 386,
+      "sha256": "083c8eccddcd9ce266418d8618c0c6e8d977a1785977b1769eb4b9947777b0bb",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/exhaust-fans/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16421,
+      "sha256": "76844a9d06c72a28067ff2cdc3f0d878c8515b4798ecdbeb2dac262be3625446",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/exhaust-fans/index.txt",
+      "status": 200,
+      "bytes": 17114,
+      "sha256": "3118455f23f75b337ca4d2f66b51ddb1961d1fb6cf7ecae0bdeeb51cc20b3c25",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/index.txt",
+      "status": 200,
+      "bytes": 19627,
+      "sha256": "be71050b18d36f580fa8f75fa0a386ee948e24dc65038af6dd4a2914b9a8a027",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/parts-and-replacements/",
+      "status": 200,
+      "bytes": 32079,
+      "sha256": "f60b90277f1f65852167eaf1c224080ad87fdcd63fc802f3569bb1f732a5373a",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/parts-and-replacements/__next._full.txt",
+      "status": 200,
+      "bytes": 17129,
+      "sha256": "aa0c35be60432661ae8ff86d121da507ff47f81e6a8099d69709a092a5bc60be",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/parts-and-replacements/__next._tree.txt",
+      "status": 200,
+      "bytes": 396,
+      "sha256": "4f3e39bb756286531e6733ef10953fe26097606aa7ce0ef9a6d0371492ae525d",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/parts-and-replacements/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16436,
+      "sha256": "28372060f91582741df2323a7ca0bf83167fd0fa8be7a4668a9610807ef8e05e",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/parts-and-replacements/index.txt",
+      "status": 200,
+      "bytes": 17129,
+      "sha256": "aa0c35be60432661ae8ff86d121da507ff47f81e6a8099d69709a092a5bc60be",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/roof-ventilators/",
+      "status": 200,
+      "bytes": 32300,
+      "sha256": "704d8ddb125cd9dc521ce320d643b4c447312ca937ec271ebb7e825baff0a862",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/roof-ventilators/__next._full.txt",
+      "status": 200,
+      "bytes": 17272,
+      "sha256": "9d1dc422ec471af968601bbaeb815cefcee097bd058e6fd8dd227f99384552e6",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/roof-ventilators/__next._tree.txt",
+      "status": 200,
+      "bytes": 390,
+      "sha256": "9faf2740cc26cbeba645e3634237e2b5e5c01ad85ffa549f6324f36b74b57db6",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/roof-ventilators/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16565,
+      "sha256": "f6968b765f2a235faefec06d778e6b953d71a4658769fa9306fbb2d86dad6e17",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/roof-ventilators/index.txt",
+      "status": 200,
+      "bytes": 17272,
+      "sha256": "9d1dc422ec471af968601bbaeb815cefcee097bd058e6fd8dd227f99384552e6",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/supply-fans/",
+      "status": 200,
+      "bytes": 31879,
+      "sha256": "64f6a492b00232439d23c362747fa57c0d9854a8bf140dc8176af426c4f98e48",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/supply-fans/__next._full.txt",
+      "status": 200,
+      "bytes": 17051,
+      "sha256": "a8e30cec36fb7ce7de378af53a310e38ae6712ddf13fe82e1c32f0ca75f323bb",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/supply-fans/__next._tree.txt",
+      "status": 200,
+      "bytes": 385,
+      "sha256": "8d63990f618c38d031efdd27f19345b5f5253eac88ef283e417e9e0fe448dcb8",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/supply-fans/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16289,
+      "sha256": "64f977636746b1a8705f76182a0de3578740a62e06140746a9159cde7990d67d",
+      "matches": true
+    },
+    {
+      "path": "/en/industrial/supply-fans/index.txt",
+      "status": 200,
+      "bytes": 17051,
+      "sha256": "a8e30cec36fb7ce7de378af53a310e38ae6712ddf13fe82e1c32f0ca75f323bb",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/",
+      "status": 200,
+      "bytes": 30989,
+      "sha256": "49921e1f9a6001e044d90d19f7dee6554dfecb270a23ab527bc6e045e7933ae2",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/__next._full.txt",
+      "status": 200,
+      "bytes": 16603,
+      "sha256": "de40520b4792c347183185a26c28c2e4d494c35eb3785c81ce39065bc802f1bb",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/__next._tree.txt",
+      "status": 200,
+      "bytes": 373,
+      "sha256": "271f220497c037ecdb2779076f82a186491fa6afc3367179a9dab98f8bcda52c",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15925,
+      "sha256": "7793d2820e6967bee78641ed5bd332c45691384204e49969eed6ef07dbe64969",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/clinics/",
+      "status": 200,
+      "bytes": 29772,
+      "sha256": "b9547f5fa59272504a2fc85f13c8fd5999e1df07f5ad65594373058a11d9f577",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/clinics/__next._full.txt",
+      "status": 200,
+      "bytes": 15879,
+      "sha256": "2ba5bbeeb0fc9e2458b19c0b9a048d51e28c1cf20761c9ac9135a91a008bf0c6",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/clinics/__next._tree.txt",
+      "status": 200,
+      "bytes": 630,
+      "sha256": "fd527c0b9aa7aaeb068fb76b4fb91316b1f5fdc9f32de989b9cd0d922d7f10d4",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/clinics/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15166,
+      "sha256": "d15dcd1d446bd41f00f6f1d7b4b27d11bd14a497cdaa508336ff111f4757b405",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/clinics/index.txt",
+      "status": 200,
+      "bytes": 15879,
+      "sha256": "2ba5bbeeb0fc9e2458b19c0b9a048d51e28c1cf20761c9ac9135a91a008bf0c6",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/commercial-facilities/",
+      "status": 200,
+      "bytes": 30028,
+      "sha256": "655e1466a6ea7f2383a85be35d53f642046429ea11caffbac8e79303d3ad3048",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/commercial-facilities/__next._full.txt",
+      "status": 200,
+      "bytes": 16015,
+      "sha256": "64ceaa2e189fd7db9e1d08fa192a6d4c3a226c9cac191c88bc251d080c63bc39",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/commercial-facilities/__next._tree.txt",
+      "status": 200,
+      "bytes": 656,
+      "sha256": "e70d5b6cf56cbf721fac923ee6f16a563da1a71b9fc38bb272e0f29860e40ce5",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/commercial-facilities/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15278,
+      "sha256": "6b24ac02c71c2f8719551b31ec7fc241915bab3baa43379f89d66da3a0194114",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/commercial-facilities/index.txt",
+      "status": 200,
+      "bytes": 16015,
+      "sha256": "64ceaa2e189fd7db9e1d08fa192a6d4c3a226c9cac191c88bc251d080c63bc39",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/hospitals/",
+      "status": 200,
+      "bytes": 30001,
+      "sha256": "f1e8800f7974b332580a574e42a08bb7820ab6d62a04535784757c51a3fa6a31",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/hospitals/__next._full.txt",
+      "status": 200,
+      "bytes": 16011,
+      "sha256": "4d6564bfba03e74770ee251290c7a5f78c4afcd5dff857637186266e04764626",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/hospitals/__next._tree.txt",
+      "status": 200,
+      "bytes": 640,
+      "sha256": "11db8c5215976219968ac7670e7fc9e3fb646164ea20cad8a0768abf145032ed",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/hospitals/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15296,
+      "sha256": "f4c615d5a6f3bcfbb5ea4d18d8a7f4af3ead7e9e7ba082548270cee0affc5afb",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/hospitals/index.txt",
+      "status": 200,
+      "bytes": 16011,
+      "sha256": "4d6564bfba03e74770ee251290c7a5f78c4afcd5dff857637186266e04764626",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/index.txt",
+      "status": 200,
+      "bytes": 16603,
+      "sha256": "de40520b4792c347183185a26c28c2e4d494c35eb3785c81ce39065bc802f1bb",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/institutional-buyers/",
+      "status": 200,
+      "bytes": 29344,
+      "sha256": "9b33edf122c60535735449a7e3877b8a089cf0736555202106b09e73a6715c21",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/institutional-buyers/__next._full.txt",
+      "status": 200,
+      "bytes": 15653,
+      "sha256": "32c2b377677d09b4afa47812ef5549683d802884338e638baca416271b239d67",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/institutional-buyers/__next._tree.txt",
+      "status": 200,
+      "bytes": 394,
+      "sha256": "ea69a6cfefe912bdad81fb916241a99f5a66f47ead8731fe5118210a3591ee54",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/institutional-buyers/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 14972,
+      "sha256": "f1f231f96f031f95c5393c00c13bbb878f43b708cbe12ad0f78bf2a0c1f3666f",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/institutional-buyers/index.txt",
+      "status": 200,
+      "bytes": 15653,
+      "sha256": "32c2b377677d09b4afa47812ef5549683d802884338e638baca416271b239d67",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/manufacturing/",
+      "status": 200,
+      "bytes": 29991,
+      "sha256": "ac4a43d27bd874c87fe2ffcbb368462f8f31ee4d1037e93d72a78919c0c6dff5",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/manufacturing/__next._full.txt",
+      "status": 200,
+      "bytes": 16014,
+      "sha256": "a4731358e0cf326cc8610e3fd5ba1eb3d62461929429043364bf2c459f733695",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/manufacturing/__next._tree.txt",
+      "status": 200,
+      "bytes": 660,
+      "sha256": "bcdad9471e28c160612af1798f47024e870616b5aeec071c681dfe99e1759b26",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/manufacturing/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15295,
+      "sha256": "81fdcecf2b4c93874ef37abe200a7a56827b21fb981c49afabb89e92d3bf4a03",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/manufacturing/index.txt",
+      "status": 200,
+      "bytes": 16014,
+      "sha256": "a4731358e0cf326cc8610e3fd5ba1eb3d62461929429043364bf2c459f733695",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/warehouses/",
+      "status": 200,
+      "bytes": 29777,
+      "sha256": "6331381c9a94f06017272546321d196ed5ca85c782dbf28e74ddb2f576de8617",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/warehouses/__next._full.txt",
+      "status": 200,
+      "bytes": 15878,
+      "sha256": "23324c0e043a9604ff64a43a7c6f611771a371514464667fe86b99c157b5a542",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/warehouses/__next._tree.txt",
+      "status": 200,
+      "bytes": 645,
+      "sha256": "8e87db5e47916d3fc4352df7b366132314dae3478984d3e463543805bbf6342a",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/warehouses/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15142,
+      "sha256": "849ca6cb98f9153e3e1c1056313abb3daa1af1ea4c45d4efb1891ae9f4267a88",
+      "matches": true
+    },
+    {
+      "path": "/en/industries/warehouses/index.txt",
+      "status": 200,
+      "bytes": 15878,
+      "sha256": "23324c0e043a9604ff64a43a7c6f611771a371514464667fe86b99c157b5a542",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/",
+      "status": 200,
+      "bytes": 29951,
+      "sha256": "da8cd4882cfa64c8aedb8d74279129053bd15a272c1c73a01d430ef6f8049a74",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/__next._full.txt",
+      "status": 200,
+      "bytes": 15925,
+      "sha256": "6a35ad5f9495b49061848b0ace62dbe2b41ffc36bdd0f5310dfb57ee1d3d24fe",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/__next._tree.txt",
+      "status": 200,
+      "bytes": 370,
+      "sha256": "76018da26b3948c8094466795c9f7b3951554e7d25ddc0be82fa81f5b4c7a7cd",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15240,
+      "sha256": "eb2dbc340bbfb456e3ce79cc0139f999c3355322f44d5624df551f07d702fb0c",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/index.txt",
+      "status": 200,
+      "bytes": 15925,
+      "sha256": "6a35ad5f9495b49061848b0ace62dbe2b41ffc36bdd0f5310dfb57ee1d3d24fe",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/institutional-procurement/",
+      "status": 200,
+      "bytes": 29050,
+      "sha256": "20ca262ca67605a8e190cf5829bcacead1bdfd00da9193a533a9456cad2b31e6",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/institutional-procurement/__next._full.txt",
+      "status": 200,
+      "bytes": 15473,
+      "sha256": "3d6a2dc189c3c16f8aa5b7b533a727484d02512ce962d30ae1f3985498fe1630",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/institutional-procurement/__next._tree.txt",
+      "status": 200,
+      "bytes": 396,
+      "sha256": "8266312ca1a8add2b42f46e0622c12bd026f4b0339d19846d69c8229aada864f",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/institutional-procurement/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 14750,
+      "sha256": "4c91b70f05daaf91557cd2f71fab461e1b07243c23b0ceb4fd864dd08ad0d007",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/institutional-procurement/index.txt",
+      "status": 200,
+      "bytes": 15473,
+      "sha256": "3d6a2dc189c3c16f8aa5b7b533a727484d02512ce962d30ae1f3985498fe1630",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/invasive-ventilators/",
+      "status": 200,
+      "bytes": 29640,
+      "sha256": "0d333b58fe431e1ed4802a58e25c0669ad59705a4eb1f744773267cc80d8c42e",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/invasive-ventilators/__next._full.txt",
+      "status": 200,
+      "bytes": 15787,
+      "sha256": "74ecf868fa4cd8e36966558ebda209723e44807d627e2fc3c8ef2882b06e0715",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/invasive-ventilators/__next._tree.txt",
+      "status": 200,
+      "bytes": 391,
+      "sha256": "43f37541a8739f70ed102bd9bac86b0f7b4927ad0cfd7ebd5a256216b8a02fa3",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/invasive-ventilators/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15099,
+      "sha256": "fd77fcfdfcebbb8c9f0cc34ee754599fd7f269431a8bff6e6b7a4db8fcdb37c9",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/invasive-ventilators/index.txt",
+      "status": 200,
+      "bytes": 15787,
+      "sha256": "74ecf868fa4cd8e36966558ebda209723e44807d627e2fc3c8ef2882b06e0715",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/non-invasive-ventilators/",
+      "status": 200,
+      "bytes": 29676,
+      "sha256": "8ba1a2e958b38038ca88600a680ae0d73c444404a26eba3bb358b5afaef44967",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/non-invasive-ventilators/__next._full.txt",
+      "status": 200,
+      "bytes": 15801,
+      "sha256": "7f17e20827c1cdce51c89d0a85351a294c89a13319170703c85369196066f413",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/non-invasive-ventilators/__next._tree.txt",
+      "status": 200,
+      "bytes": 395,
+      "sha256": "adfe4cad5d30b9c4c9d20cd402cc8cc9bf6c55ad5a74d3e2ac4dd192d2423ce4",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/non-invasive-ventilators/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15069,
+      "sha256": "44bb49c192ebcb48a7731c413e19fab0880b61d34f905cdb17aa301b544dc5fd",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/non-invasive-ventilators/index.txt",
+      "status": 200,
+      "bytes": 15801,
+      "sha256": "7f17e20827c1cdce51c89d0a85351a294c89a13319170703c85369196066f413",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/respiratory-accessories/",
+      "status": 200,
+      "bytes": 29362,
+      "sha256": "5ede663c87dadd6882930b960f57a62615ff336c974a42b5e72ea5668819b7fd",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/respiratory-accessories/__next._full.txt",
+      "status": 200,
+      "bytes": 15636,
+      "sha256": "84ea0127d9f9646d5a044955f7177197e2ee46a7a58c0fa9739a2ca39a471d00",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/respiratory-accessories/__next._tree.txt",
+      "status": 200,
+      "bytes": 394,
+      "sha256": "620ddaac5d2e147f7f157e74544650a7bc743e07528abf3fcb8c8c5f1b5b33d0",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/respiratory-accessories/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 14905,
+      "sha256": "aebacc99cb74d7e1deb064b2aa25e5b99ac1ebf9beb538018946296c372e848c",
+      "matches": true
+    },
+    {
+      "path": "/en/medical/respiratory-accessories/index.txt",
+      "status": 200,
+      "bytes": 15636,
+      "sha256": "84ea0127d9f9646d5a044955f7177197e2ee46a7a58c0fa9739a2ca39a471d00",
+      "matches": true
+    },
+    {
+      "path": "/en/privacy/",
+      "status": 200,
+      "bytes": 25819,
+      "sha256": "c2a766bba1f33b5413e83a1624e226d20c2891a00047bdd2c9edb6cd7b9bd832",
+      "matches": true
+    },
+    {
+      "path": "/en/privacy/__next._full.txt",
+      "status": 200,
+      "bytes": 13648,
+      "sha256": "4bf54efe645b2516fbfb25e25d8ecd3cbf36c104b113f060309f6ee31f977eef",
+      "matches": true
+    },
+    {
+      "path": "/en/privacy/__next._tree.txt",
+      "status": 200,
+      "bytes": 370,
+      "sha256": "fb4c31cd5e17653cc1b3391ca62c2a8fd4837e9fa6694745fffdf469fbf3ef94",
+      "matches": true
+    },
+    {
+      "path": "/en/privacy/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 12923,
+      "sha256": "bd821c6888142fc7c9ceb736fc7141f76100e87b4357f2b6d3b6f7964eb51b45",
+      "matches": true
+    },
+    {
+      "path": "/en/privacy/index.txt",
+      "status": 200,
+      "bytes": 13648,
+      "sha256": "4bf54efe645b2516fbfb25e25d8ecd3cbf36c104b113f060309f6ee31f977eef",
+      "matches": true
+    },
+    {
+      "path": "/en/products/",
+      "status": 200,
+      "bytes": 33547,
+      "sha256": "a79b042c934e5ce8608f606a4be63b323e711db33475e10770a69e706ce6c39a",
+      "matches": true
+    },
+    {
+      "path": "/en/products/__next._full.txt",
+      "status": 200,
+      "bytes": 18378,
+      "sha256": "b83cf518371f68883dd55c3c35b8c5e10156c578060da1cbfe0019edf95f6402",
+      "matches": true
+    },
+    {
+      "path": "/en/products/__next._tree.txt",
+      "status": 200,
+      "bytes": 371,
+      "sha256": "5783e1ded558678da04299763c81c4bc6d8fc805d3e586eae229454943454ddd",
+      "matches": true
+    },
+    {
+      "path": "/en/products/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 17671,
+      "sha256": "2601fa8bd5516522de065bd7ae66c4342aaa4001915aaa5cfaff9fcec1042cc5",
+      "matches": true
+    },
+    {
+      "path": "/en/products/index.txt",
+      "status": 200,
+      "bytes": 18378,
+      "sha256": "b83cf518371f68883dd55c3c35b8c5e10156c578060da1cbfe0019edf95f6402",
+      "matches": true
+    },
+    {
+      "path": "/en/request-a-quote/",
+      "status": 200,
+      "bytes": 20408,
+      "sha256": "e97f0c2aa84f28fb7b159144fefa7a9b03e88a91614c318c95a5b82f22f3289d",
+      "matches": true
+    },
+    {
+      "path": "/en/request-a-quote/__next._full.txt",
+      "status": 200,
+      "bytes": 10590,
+      "sha256": "f5d124dd39476554c63ea3e466ee3355e4e15886f54b40699641f49c0705ea3e",
+      "matches": true
+    },
+    {
+      "path": "/en/request-a-quote/__next._tree.txt",
+      "status": 200,
+      "bytes": 378,
+      "sha256": "20abf4649000d3377b477068fa6818981acef29c81329a3a713f49175861c8c4",
+      "matches": true
+    },
+    {
+      "path": "/en/request-a-quote/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 9896,
+      "sha256": "85f46e12c8fa7d551435268c43251098da9913fc712fbc0e572449080a3c4e60",
+      "matches": true
+    },
+    {
+      "path": "/en/request-a-quote/index.txt",
+      "status": 200,
+      "bytes": 10590,
+      "sha256": "f5d124dd39476554c63ea3e466ee3355e4e15886f54b40699641f49c0705ea3e",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/",
+      "status": 200,
+      "bytes": 29814,
+      "sha256": "b7431fe1a4545d0e0441410c5710b49c47b2460cc98e2296d6f6414684379944",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/__next._full.txt",
+      "status": 200,
+      "bytes": 15947,
+      "sha256": "8366bacf94784c7dc51c9654b7fe728efdc6caf215af8d6c469e14c9f05dc4f3",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/__next._tree.txt",
+      "status": 200,
+      "bytes": 372,
+      "sha256": "180b9de667a514c0fc024c951c0973341cfc078528e7fd73f7eb98a01425aa7d",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15260,
+      "sha256": "9116f94964d1496b1bf1baccba8520dd553c4a2f1f53eecc14642c9089219f0e",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/accessory-identification-guide/",
+      "status": 200,
+      "bytes": 29577,
+      "sha256": "14cf2dcea2b7ccab7bc79e76c4224a367991fa7cf219e16e23d139e39411156c",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/accessory-identification-guide/__next._full.txt",
+      "status": 200,
+      "bytes": 15742,
+      "sha256": "2d949028759bda75e41f2089d007d928976a4891f88aa4346ab921b25599a696",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/accessory-identification-guide/__next._tree.txt",
+      "status": 200,
+      "bytes": 403,
+      "sha256": "b81c34d72ea6d18fcb01d886f9e3d6566db0fd36df969af7ca7f91bef3f42258",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/accessory-identification-guide/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15032,
+      "sha256": "a42c081210803d5a6618e5f9e7335dbfc64aa5f9dd3c0b347e4922caa15f857e",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/accessory-identification-guide/index.txt",
+      "status": 200,
+      "bytes": 15742,
+      "sha256": "2d949028759bda75e41f2089d007d928976a4891f88aa4346ab921b25599a696",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/index.txt",
+      "status": 200,
+      "bytes": 15947,
+      "sha256": "8366bacf94784c7dc51c9654b7fe728efdc6caf215af8d6c469e14c9f05dc4f3",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/industrial-specification-guide/",
+      "status": 200,
+      "bytes": 33133,
+      "sha256": "c1b31752f8bfb422782f78ae653ee25aa380df79510242142d6cc67c05729ea0",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/industrial-specification-guide/__next._full.txt",
+      "status": 200,
+      "bytes": 17764,
+      "sha256": "c23f409760870eae2d7f23dc6768f5b2e7cbc7b364bc0c7021f1d00a7b92a61f",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/industrial-specification-guide/__next._tree.txt",
+      "status": 200,
+      "bytes": 403,
+      "sha256": "7d76b16078952c09c190861726df151c53ac741de3b8705b5b3730634a64bb82",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/industrial-specification-guide/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 17084,
+      "sha256": "ec221471614e63128edfed7b7137a419888148be17d1c3120eea434055d5efe9",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/industrial-specification-guide/index.txt",
+      "status": 200,
+      "bytes": 17764,
+      "sha256": "c23f409760870eae2d7f23dc6768f5b2e7cbc7b364bc0c7021f1d00a7b92a61f",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/medical-procurement-guide/",
+      "status": 200,
+      "bytes": 32982,
+      "sha256": "2c49d58da3fbd78196ce27548911d222c42a7b41627dd5583fadf1a54be327e9",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/medical-procurement-guide/__next._full.txt",
+      "status": 200,
+      "bytes": 17695,
+      "sha256": "5902c0afe2a57e8ae292072ebf079eee640ac6d01b57f13e451d4e6cf4c1e67d",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/medical-procurement-guide/__next._tree.txt",
+      "status": 200,
+      "bytes": 398,
+      "sha256": "a60524930eb25ca4b4dce240f4269224dcb8204a08fe3e1bf3c5ce7de2971aca",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/medical-procurement-guide/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 17000,
+      "sha256": "3cedf281941b43487fe041259f985a4c8efb6b90d5a6a151cdd8e63ea8aa21b6",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/medical-procurement-guide/index.txt",
+      "status": 200,
+      "bytes": 17695,
+      "sha256": "5902c0afe2a57e8ae292072ebf079eee640ac6d01b57f13e451d4e6cf4c1e67d",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/replacement-planning-guide/",
+      "status": 200,
+      "bytes": 32112,
+      "sha256": "4941dd984e05e82a9193dc48adef69840cd825b234e8a85e238c36c73a0e80d3",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/replacement-planning-guide/__next._full.txt",
+      "status": 200,
+      "bytes": 17217,
+      "sha256": "2ab3bf736f74c80d79882b65ccf3f5a38a3251445c8de7476f244f1cc0273fa1",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/replacement-planning-guide/__next._tree.txt",
+      "status": 200,
+      "bytes": 399,
+      "sha256": "8c60770c98c74d59b60956dc872521fed95a1e1db7d80d33f52969b506512aa8",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/replacement-planning-guide/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16481,
+      "sha256": "3ee7231a29d2823d902e23ffe84bb955ac3f89982b7b62c65ca7acf5bc26c18b",
+      "matches": true
+    },
+    {
+      "path": "/en/resources/replacement-planning-guide/index.txt",
+      "status": 200,
+      "bytes": 17217,
+      "sha256": "2ab3bf736f74c80d79882b65ccf3f5a38a3251445c8de7476f244f1cc0273fa1",
+      "matches": true
+    },
+    {
+      "path": "/en/services/",
+      "status": 200,
+      "bytes": 30263,
+      "sha256": "b08687320ae9e5b5e7538ae8924e0093d5de7b66b3ac5cba111ebeae27b5ed46",
+      "matches": true
+    },
+    {
+      "path": "/en/services/__next._full.txt",
+      "status": 200,
+      "bytes": 16328,
+      "sha256": "a43806b1b73207c3dabd24250464b05dd326cba14c3af3275a40f69a5eb3c939",
+      "matches": true
+    },
+    {
+      "path": "/en/services/__next._tree.txt",
+      "status": 200,
+      "bytes": 371,
+      "sha256": "a0a2e01e4c3f567dc05b719bacb4b7737c9f0a81eff809c5145894ab62db6ad4",
+      "matches": true
+    },
+    {
+      "path": "/en/services/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15642,
+      "sha256": "b63a1c3ba2dba794f0e457d3a4f3ac87c204ac12e8f7e8d8dee7e3bed169cf43",
+      "matches": true
+    },
+    {
+      "path": "/en/services/equipment-replacement/",
+      "status": 200,
+      "bytes": 29524,
+      "sha256": "b0092c5eebbb9856924393cef51e6eee44c0e8b20277d5a5b1cb5b1fb5252037",
+      "matches": true
+    },
+    {
+      "path": "/en/services/equipment-replacement/__next._full.txt",
+      "status": 200,
+      "bytes": 15756,
+      "sha256": "3a8bfbb69688926902d8e37202ec0955efa581ab335d7648939e70ec9b364e54",
+      "matches": true
+    },
+    {
+      "path": "/en/services/equipment-replacement/__next._tree.txt",
+      "status": 200,
+      "bytes": 393,
+      "sha256": "220cc158d5e551728ad308a8687a1db1f1cfcaa179a0f77ef0b6bf8083bb6fd7",
+      "matches": true
+    },
+    {
+      "path": "/en/services/equipment-replacement/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15066,
+      "sha256": "17bee2082dac539ce1f71205645a593ad015c0c872d3b9a640a1ec27c59d449b",
+      "matches": true
+    },
+    {
+      "path": "/en/services/equipment-replacement/index.txt",
+      "status": 200,
+      "bytes": 15756,
+      "sha256": "3a8bfbb69688926902d8e37202ec0955efa581ab335d7648939e70ec9b364e54",
+      "matches": true
+    },
+    {
+      "path": "/en/services/index.txt",
+      "status": 200,
+      "bytes": 16328,
+      "sha256": "a43806b1b73207c3dabd24250464b05dd326cba14c3af3275a40f69a5eb3c939",
+      "matches": true
+    },
+    {
+      "path": "/en/services/industrial-fan-repair/",
+      "status": 200,
+      "bytes": 29514,
+      "sha256": "7944314da9997d288c943bdad6edf9b2b05e8eb9420ac2e590a8a5a5483e864e",
+      "matches": true
+    },
+    {
+      "path": "/en/services/industrial-fan-repair/__next._full.txt",
+      "status": 200,
+      "bytes": 15736,
+      "sha256": "ed81c0ec2926d779d60209ebef8d7aa3b63f1c480a9730567bb0c3ec56f6d0c2",
+      "matches": true
+    },
+    {
+      "path": "/en/services/industrial-fan-repair/__next._tree.txt",
+      "status": 200,
+      "bytes": 393,
+      "sha256": "d6c858ab2813d14a18ac055927356ee8720f8939111b5f14db07780d54d51934",
+      "matches": true
+    },
+    {
+      "path": "/en/services/industrial-fan-repair/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15046,
+      "sha256": "14217872c21d433a9787470834182224c2b43fb540beaf28be1e5d12d096c14f",
+      "matches": true
+    },
+    {
+      "path": "/en/services/industrial-fan-repair/index.txt",
+      "status": 200,
+      "bytes": 15736,
+      "sha256": "ed81c0ec2926d779d60209ebef8d7aa3b63f1c480a9730567bb0c3ec56f6d0c2",
+      "matches": true
+    },
+    {
+      "path": "/en/services/installation-coordination/",
+      "status": 200,
+      "bytes": 29746,
+      "sha256": "e9d3c5cb37f8de4bfc2124f45e9b250e71032ab667b385d4c0b165e284b8906e",
+      "matches": true
+    },
+    {
+      "path": "/en/services/installation-coordination/__next._full.txt",
+      "status": 200,
+      "bytes": 15869,
+      "sha256": "350f1068d67c91cd3e53548768f25d933eede3dd17361ebf4b7b4fed34f76eaa",
+      "matches": true
+    },
+    {
+      "path": "/en/services/installation-coordination/__next._tree.txt",
+      "status": 200,
+      "bytes": 397,
+      "sha256": "b2416e939f3b3f3f7ddedb61e1e16690bfffd60ca0e3601476bff9395d40a51d",
+      "matches": true
+    },
+    {
+      "path": "/en/services/installation-coordination/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15165,
+      "sha256": "6596c80ace16cf6f4fa286eca8aedde72ac10e134fdc1918b2d0c0fda7c63d34",
+      "matches": true
+    },
+    {
+      "path": "/en/services/installation-coordination/index.txt",
+      "status": 200,
+      "bytes": 15869,
+      "sha256": "350f1068d67c91cd3e53548768f25d933eede3dd17361ebf4b7b4fed34f76eaa",
+      "matches": true
+    },
+    {
+      "path": "/en/services/medical-technical-support/",
+      "status": 200,
+      "bytes": 29894,
+      "sha256": "2d07512c79bbebffe60434dfe6b4219f4c08ea4fc0f39596f809a2d18000ec94",
+      "matches": true
+    },
+    {
+      "path": "/en/services/medical-technical-support/__next._full.txt",
+      "status": 200,
+      "bytes": 15945,
+      "sha256": "4c2881abd46da7f4fd74de7fb6446c1a85e6513d3438243c643d04512b12a72a",
+      "matches": true
+    },
+    {
+      "path": "/en/services/medical-technical-support/__next._tree.txt",
+      "status": 200,
+      "bytes": 397,
+      "sha256": "c18e0ffc01243b00b296ed7fbf184e1c66a07ab4ba200ab84564858510fa8bed",
+      "matches": true
+    },
+    {
+      "path": "/en/services/medical-technical-support/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15241,
+      "sha256": "177f444d04e8d76b94b1d7708d37a00222f36fd546bfbe585611eedaf03e4a57",
+      "matches": true
+    },
+    {
+      "path": "/en/services/medical-technical-support/index.txt",
+      "status": 200,
+      "bytes": 15945,
+      "sha256": "4c2881abd46da7f4fd74de7fb6446c1a85e6513d3438243c643d04512b12a72a",
+      "matches": true
+    },
+    {
+      "path": "/en/services/ventilation-maintenance/",
+      "status": 200,
+      "bytes": 29517,
+      "sha256": "ce379a32bef0fe58ff9919f903d47e17afe1469d5a2ecefcc62702bf8c148a59",
+      "matches": true
+    },
+    {
+      "path": "/en/services/ventilation-maintenance/__next._full.txt",
+      "status": 200,
+      "bytes": 15743,
+      "sha256": "b0cc75a61cd07eae9b45324d283b6a2c7ec0d1c3f49d330a85344cca06979d98",
+      "matches": true
+    },
+    {
+      "path": "/en/services/ventilation-maintenance/__next._tree.txt",
+      "status": 200,
+      "bytes": 395,
+      "sha256": "d661d78753185248dcd4df0ae19235ca72bb5e76e114afaa250a49f85b74d691",
+      "matches": true
+    },
+    {
+      "path": "/en/services/ventilation-maintenance/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15031,
+      "sha256": "eb7816dbc4272d743d6a13c28d473c920adc26cdd668e5dcf6d4b85cc5126d22",
+      "matches": true
+    },
+    {
+      "path": "/en/services/ventilation-maintenance/index.txt",
+      "status": 200,
+      "bytes": 15743,
+      "sha256": "b0cc75a61cd07eae9b45324d283b6a2c7ec0d1c3f49d330a85344cca06979d98",
+      "matches": true
+    },
+    {
+      "path": "/en/terms/",
+      "status": 200,
+      "bytes": 24007,
+      "sha256": "90595fe4b9c1d9eb2138f8a86591ac34fb2993d5d03a31808680149e0f7075db",
+      "matches": true
+    },
+    {
+      "path": "/en/terms/__next._full.txt",
+      "status": 200,
+      "bytes": 12718,
+      "sha256": "56e9e8c8f9c29f2a377624ab50d51f9853cfc78308e4210c105902a76c051c4a",
+      "matches": true
+    },
+    {
+      "path": "/en/terms/__next._tree.txt",
+      "status": 200,
+      "bytes": 368,
+      "sha256": "6cb5c73bd57e8d79d87d00b3383c1bbe7a020506236a9cb28e234b02a9ccfc1e",
+      "matches": true
+    },
+    {
+      "path": "/en/terms/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 12005,
+      "sha256": "f597632a843bd8f5a92c7658f6073e8b89423fe9051c21b54348fb6f45f1843c",
+      "matches": true
+    },
+    {
+      "path": "/en/terms/index.txt",
+      "status": 200,
+      "bytes": 12718,
+      "sha256": "56e9e8c8f9c29f2a377624ab50d51f9853cfc78308e4210c105902a76c051c4a",
+      "matches": true
+    },
+    {
+      "path": "/favicon-32.png",
+      "status": 200,
+      "bytes": 1072,
+      "sha256": "54a8aaaa380edd596111348d5f32680b1b9101a76c44d6536e02b960c2ff65c5",
+      "matches": true
+    },
+    {
+      "path": "/favicon.ico",
+      "status": 200,
+      "bytes": 1094,
+      "sha256": "0933ef54ce190898885a30cecb2207a12d3098155b9dead6ab06241c08a20465",
+      "matches": true
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "bytes": 351,
+      "sha256": "bc5de1d08b86ed6312e4effc5bb4fff528f46f9c401caad8279d9b9737199ea5",
+      "matches": true
+    },
+    {
+      "path": "/fr/",
+      "status": 200,
+      "bytes": 33017,
+      "sha256": "33d640451e771e04c030dbecd6bb6963b2218e80755ae10c8d35de36df873648",
+      "matches": true
+    },
+    {
+      "path": "/fr/__next._full.txt",
+      "status": 200,
+      "bytes": 17553,
+      "sha256": "540ebba5c0df5498530e314788c835812ef7425b1fe3b875ec07fe3186c203dc",
+      "matches": true
+    },
+    {
+      "path": "/fr/__next._tree.txt",
+      "status": 200,
+      "bytes": 625,
+      "sha256": "ed45e321565973c85377c338be971bdf0aeea746e78ada206bf5f8089beb5051",
+      "matches": true
+    },
+    {
+      "path": "/fr/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16853,
+      "sha256": "153f0c11f9aabad5d6404ee8d29677429163dbb89f6b9599cfbd35f10bbf3cf4",
+      "matches": true
+    },
+    {
+      "path": "/fr/a-propos/",
+      "status": 200,
+      "bytes": 24774,
+      "sha256": "99146f14312c21035a98d7e8fb248e0149ce875f8ca35f37674adffc5a57e890",
+      "matches": true
+    },
+    {
+      "path": "/fr/a-propos/__next._full.txt",
+      "status": 200,
+      "bytes": 13116,
+      "sha256": "4eff3563a72bce16b14e34e6952dcfe0154a7866cd2a04b613cff16ff597a0db",
+      "matches": true
+    },
+    {
+      "path": "/fr/a-propos/__next._tree.txt",
+      "status": 200,
+      "bytes": 371,
+      "sha256": "3775edc73440d22265eb12519b040e570ee012427b505fdd181937613650684d",
+      "matches": true
+    },
+    {
+      "path": "/fr/a-propos/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 12420,
+      "sha256": "e17cd01d7aa4b0e3a8c8df5617cf613020fef1f44f84c13c2457f31489d56eb5",
+      "matches": true
+    },
+    {
+      "path": "/fr/a-propos/index.txt",
+      "status": 200,
+      "bytes": 13116,
+      "sha256": "4eff3563a72bce16b14e34e6952dcfe0154a7866cd2a04b613cff16ff597a0db",
+      "matches": true
+    },
+    {
+      "path": "/fr/accessibilite/",
+      "status": 200,
+      "bytes": 23497,
+      "sha256": "35697ec9bf8c27f2d09714cc1c92d62d6cd65426d3a55d50ecfc9c4a422a572e",
+      "matches": true
+    },
+    {
+      "path": "/fr/accessibilite/__next._full.txt",
+      "status": 200,
+      "bytes": 12416,
+      "sha256": "6646246a228de4c9c3e5e106c4a5b9ccf4495c8dc4c95eb7d71c58fda8c69088",
+      "matches": true
+    },
+    {
+      "path": "/fr/accessibilite/__next._tree.txt",
+      "status": 200,
+      "bytes": 376,
+      "sha256": "4e9cf52d37e5c045295d4f47ada0b0308e6aad6648bfaa86579b7bd53cac6a5d",
+      "matches": true
+    },
+    {
+      "path": "/fr/accessibilite/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 11775,
+      "sha256": "b275297c2072ac8572c9132ad8fb23bd7bec85ec4fedaa0b0826be9bf8140c44",
+      "matches": true
+    },
+    {
+      "path": "/fr/accessibilite/index.txt",
+      "status": 200,
+      "bytes": 12416,
+      "sha256": "6646246a228de4c9c3e5e106c4a5b9ccf4495c8dc4c95eb7d71c58fda8c69088",
+      "matches": true
+    },
+    {
+      "path": "/fr/conditions/",
+      "status": 200,
+      "bytes": 24810,
+      "sha256": "2f3780c700144bade7cadf608370b21db44dca9e8a25eb2616f903251dc7ebf4",
+      "matches": true
+    },
+    {
+      "path": "/fr/conditions/__next._full.txt",
+      "status": 200,
+      "bytes": 13105,
+      "sha256": "8b3bc809a9d3a378bba278624d287a211074e8441245ea16c2311837f6b60b72",
+      "matches": true
+    },
+    {
+      "path": "/fr/conditions/__next._tree.txt",
+      "status": 200,
+      "bytes": 373,
+      "sha256": "949d5fff9c3b46403f2b7e61ff438eccddcc155f1379a18a3f5fdc7ed08412bb",
+      "matches": true
+    },
+    {
+      "path": "/fr/conditions/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 12407,
+      "sha256": "fcef4ecf7240f2658bd7459f88fe90e4a01f27f58ebfc0d79d374a8692f4d146",
+      "matches": true
+    },
+    {
+      "path": "/fr/conditions/index.txt",
+      "status": 200,
+      "bytes": 13105,
+      "sha256": "8b3bc809a9d3a378bba278624d287a211074e8441245ea16c2311837f6b60b72",
+      "matches": true
+    },
+    {
+      "path": "/fr/confidentialite/",
+      "status": 200,
+      "bytes": 27240,
+      "sha256": "1ae47e658d0aca4efdecfd6f7e6b68902576dfdfb9311cefa7f936a6274241fb",
+      "matches": true
+    },
+    {
+      "path": "/fr/confidentialite/__next._full.txt",
+      "status": 200,
+      "bytes": 14335,
+      "sha256": "89f710fe0017f718def88b0501a985f434eab372bcb304acad1c32ba1f15d2b0",
+      "matches": true
+    },
+    {
+      "path": "/fr/confidentialite/__next._tree.txt",
+      "status": 200,
+      "bytes": 378,
+      "sha256": "e9a310418c396d22840f4654ff72bc825a825cb425fb1039c089236e7be2cf7c",
+      "matches": true
+    },
+    {
+      "path": "/fr/confidentialite/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 13652,
+      "sha256": "0b7e249c9728e65fb0c157aa75f636cde4308c5ec088794339917f1d5d55554d",
+      "matches": true
+    },
+    {
+      "path": "/fr/confidentialite/index.txt",
+      "status": 200,
+      "bytes": 14335,
+      "sha256": "89f710fe0017f718def88b0501a985f434eab372bcb304acad1c32ba1f15d2b0",
+      "matches": true
+    },
+    {
+      "path": "/fr/contact/",
+      "status": 200,
+      "bytes": 23545,
+      "sha256": "4518ed4972a8ef24d2ea2eed35ec7c62df19e3e47737cde98ff73535f97f643f",
+      "matches": true
+    },
+    {
+      "path": "/fr/contact/__next._full.txt",
+      "status": 200,
+      "bytes": 12426,
+      "sha256": "f48e32767d631acdb8c2998bd6fb3ff128cb27f75ce1f2fbf3bd6dc752eede44",
+      "matches": true
+    },
+    {
+      "path": "/fr/contact/__next._tree.txt",
+      "status": 200,
+      "bytes": 370,
+      "sha256": "65b59d0a27d763e52010eaeaf959a55b890ef664f5259dc278c71ed6bc6ab4b0",
+      "matches": true
+    },
+    {
+      "path": "/fr/contact/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 11791,
+      "sha256": "7bed38ffc47ad274959e1703a468d0ccb877311ef0294077d1f8457522e5a2b0",
+      "matches": true
+    },
+    {
+      "path": "/fr/contact/index.txt",
+      "status": 200,
+      "bytes": 12426,
+      "sha256": "f48e32767d631acdb8c2998bd6fb3ff128cb27f75ce1f2fbf3bd6dc752eede44",
+      "matches": true
+    },
+    {
+      "path": "/fr/demande-de-soumission/",
+      "status": 200,
+      "bytes": 21045,
+      "sha256": "6af2fbc73e4ec04e5601ac6f259ef761c8b2ea2b3be9bc9b1fda5deff072f351",
+      "matches": true
+    },
+    {
+      "path": "/fr/demande-de-soumission/__next._full.txt",
+      "status": 200,
+      "bytes": 10882,
+      "sha256": "765dbd776ade3474be7991aa62408407309014523fc2b9495e805c8e54e63117",
+      "matches": true
+    },
+    {
+      "path": "/fr/demande-de-soumission/__next._tree.txt",
+      "status": 200,
+      "bytes": 384,
+      "sha256": "d8957e0de045825b4a595cfdf607670f1848b0ffd1a3a41f941cc6841bf079da",
+      "matches": true
+    },
+    {
+      "path": "/fr/demande-de-soumission/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 10192,
+      "sha256": "e7efae87eb35e29c350f31aed4cafb9aa28c8dcfdbcbabdc423aa41912cc4ed7",
+      "matches": true
+    },
+    {
+      "path": "/fr/demande-de-soumission/index.txt",
+      "status": 200,
+      "bytes": 10882,
+      "sha256": "765dbd776ade3474be7991aa62408407309014523fc2b9495e805c8e54e63117",
+      "matches": true
+    },
+    {
+      "path": "/fr/faq/",
+      "status": 200,
+      "bytes": 25818,
+      "sha256": "d5fb3082d97a9a62505547dd146bb26712f505ff647c7aea1d1b9f0a5af817c2",
+      "matches": true
+    },
+    {
+      "path": "/fr/faq/__next._full.txt",
+      "status": 200,
+      "bytes": 13702,
+      "sha256": "0dbf075b36203f73f931d6825534beb7c3998e8c3fcad9847b0ab7b34fc91d9b",
+      "matches": true
+    },
+    {
+      "path": "/fr/faq/__next._tree.txt",
+      "status": 200,
+      "bytes": 366,
+      "sha256": "1205f500df2ca82c2fb11feebb8799428d8f140eebc8f2ac74814137b8e10caa",
+      "matches": true
+    },
+    {
+      "path": "/fr/faq/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 13001,
+      "sha256": "4667b9a190df971132fd80e3a96ae7c59fb33113d9078f9ca5331f11401fc762",
+      "matches": true
+    },
+    {
+      "path": "/fr/faq/index.txt",
+      "status": 200,
+      "bytes": 13702,
+      "sha256": "0dbf075b36203f73f931d6825534beb7c3998e8c3fcad9847b0ab7b34fc91d9b",
+      "matches": true
+    },
+    {
+      "path": "/fr/index.txt",
+      "status": 200,
+      "bytes": 17553,
+      "sha256": "540ebba5c0df5498530e314788c835812ef7425b1fe3b875ec07fe3186c203dc",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/",
+      "status": 200,
+      "bytes": 38340,
+      "sha256": "1c0b6a71e4af3e29aff76225395e540de92ed132c4cf6bc73b973a47fbb416a4",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/__next._full.txt",
+      "status": 200,
+      "bytes": 20460,
+      "sha256": "0c2563c3120248f97406ff0b81e67bb8df45edfc44db87986cdda2f390f68e74",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/__next._tree.txt",
+      "status": 200,
+      "bytes": 650,
+      "sha256": "a36364216113580cd2d52c1dc7a34872391dda80852f6c78d258dac4eac691b3",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 19747,
+      "sha256": "cfeb32f1d35277dd77ac381e61f81ef451d2f33895fe0700619060feb44562de",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/index.txt",
+      "status": 200,
+      "bytes": 20460,
+      "sha256": "0c2563c3120248f97406ff0b81e67bb8df45edfc44db87986cdda2f390f68e74",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/pieces-et-remplacement/",
+      "status": 200,
+      "bytes": 33424,
+      "sha256": "1289659407929c3dde8020963cd4d484474c99bb15377efe872e1e2ac7bcf3b7",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/pieces-et-remplacement/__next._full.txt",
+      "status": 200,
+      "bytes": 17817,
+      "sha256": "2ce51423ef72e165ba3937d8dbfa484fee98ffdd075da3113222c7244675f258",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/pieces-et-remplacement/__next._tree.txt",
+      "status": 200,
+      "bytes": 396,
+      "sha256": "045fc6683e9a6a7ea8a03e0da34139acd41d4fffc9a9791deba1e9fc148239ff",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/pieces-et-remplacement/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 17114,
+      "sha256": "4c6dc6783c0f9d0a860233cd39ad3536e344f3c7ffdef258e65756cbee73ba73",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/pieces-et-remplacement/index.txt",
+      "status": 200,
+      "bytes": 17817,
+      "sha256": "2ce51423ef72e165ba3937d8dbfa484fee98ffdd075da3113222c7244675f258",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/soufflantes/",
+      "status": 200,
+      "bytes": 32464,
+      "sha256": "9ba620ef1cd688eb437f6889c83f313817cc68ef74f1ad983d4bbfdb4f6e13c3",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/soufflantes/__next._full.txt",
+      "status": 200,
+      "bytes": 17311,
+      "sha256": "4cf6c1dd6fe0cdfb80c5bef85fd96ad5c8dff8724ab6a97a4a1625d0505deb0f",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/soufflantes/__next._tree.txt",
+      "status": 200,
+      "bytes": 385,
+      "sha256": "9640cc435209387e59da9a04352906c4fab92a164277665b3ec0ad3b77dc9fb6",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/soufflantes/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16559,
+      "sha256": "3b67d2cfb1f67efeecafa06358eac0c6db9ff6845a49df3e9e1b0884e8443a46",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/soufflantes/index.txt",
+      "status": 200,
+      "bytes": 17311,
+      "sha256": "4cf6c1dd6fe0cdfb80c5bef85fd96ad5c8dff8724ab6a97a4a1625d0505deb0f",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-axiaux/",
+      "status": 200,
+      "bytes": 32935,
+      "sha256": "eecb709ae6ba46a022deea436fb60991598a142e112ed8ee0a8eccd3d715057d",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-axiaux/__next._full.txt",
+      "status": 200,
+      "bytes": 17567,
+      "sha256": "2de9c073ba02f8e13c663e20cdac98f8b2c6a47ad3fcfe2d5d1f15adbad64322",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-axiaux/__next._tree.txt",
+      "status": 200,
+      "bytes": 393,
+      "sha256": "02d52263cc939f00d5a10040c02efe6e830c28952ab39a4b8f19b6cef5cd7ca1",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-axiaux/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16817,
+      "sha256": "04b44bfd274078992ff052974b705af6f804c0dc5bb3e718442cebcb5bc448ba",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-axiaux/index.txt",
+      "status": 200,
+      "bytes": 17567,
+      "sha256": "2de9c073ba02f8e13c663e20cdac98f8b2c6a47ad3fcfe2d5d1f15adbad64322",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-centrifuges/",
+      "status": 200,
+      "bytes": 33615,
+      "sha256": "ff6416fd93794948453da43128155e046b8c3065afc370f6c69ae163a0b9875c",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-centrifuges/__next._full.txt",
+      "status": 200,
+      "bytes": 17909,
+      "sha256": "a6ebb1850753e164bbaceb70a3679e842258301a1348a3e478c25de37bfda938",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-centrifuges/__next._tree.txt",
+      "status": 200,
+      "bytes": 398,
+      "sha256": "069e186d839061270f70a54b320d2ed91841904a80420c678068ca5d3d6eae6f",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-centrifuges/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 17204,
+      "sha256": "48df33ca3a9c2665bc041e94da677b305503bea68abc51741c2a2678071e2d22",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-centrifuges/index.txt",
+      "status": 200,
+      "bytes": 17909,
+      "sha256": "a6ebb1850753e164bbaceb70a3679e842258301a1348a3e478c25de37bfda938",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-de-toit/",
+      "status": 200,
+      "bytes": 34085,
+      "sha256": "4783ad4a65fedb132a880df5eda7fb406b4ab02b2399220cec6bbe5005fdcafc",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-de-toit/__next._full.txt",
+      "status": 200,
+      "bytes": 18196,
+      "sha256": "b7c0e00e4c756fcf28dfe4b19db095163ab237415d5372064d35d637574ddc56",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-de-toit/__next._tree.txt",
+      "status": 200,
+      "bytes": 394,
+      "sha256": "982d296e7be4d59b5b39505a65e490da8fd1b7bc220953bed1f05ffd4f6bcb7e",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-de-toit/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 17475,
+      "sha256": "9353aaf1301dec871fba03ea6bf8df7d3b7eec4790a6cfeb88ae7cd6f367b8bc",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-de-toit/index.txt",
+      "status": 200,
+      "bytes": 18196,
+      "sha256": "b7c0e00e4c756fcf28dfe4b19db095163ab237415d5372064d35d637574ddc56",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-extraction/",
+      "status": 200,
+      "bytes": 33470,
+      "sha256": "e91d8a23bd6b254f031222ff084a543fadcdeb29b4f5b89572398211768d46d9",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-extraction/__next._full.txt",
+      "status": 200,
+      "bytes": 17848,
+      "sha256": "f98070bf62e7bd5ee600cf6b84e96c6ccce3fe206fb1117c7ffbea1ee8974f42",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-extraction/__next._tree.txt",
+      "status": 200,
+      "bytes": 397,
+      "sha256": "cd37a9c79963c6e551bcaac9943716023774650a91d25be6a4c3308804e416a0",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-extraction/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 17144,
+      "sha256": "7a70668060cd4ddbba6998d4ae69e5d1f01176954302e8097c980dedcdee9c11",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-extraction/index.txt",
+      "status": 200,
+      "bytes": 17848,
+      "sha256": "f98070bf62e7bd5ee600cf6b84e96c6ccce3fe206fb1117c7ffbea1ee8974f42",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-soufflage/",
+      "status": 200,
+      "bytes": 33213,
+      "sha256": "4b651cc433648305e202122dd3c6353b4101f0b72b124727060639ff8f2c2138",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-soufflage/__next._full.txt",
+      "status": 200,
+      "bytes": 17694,
+      "sha256": "d9ad67193963614baacb8837f55ca0554dcb8dc6de320bc44e1d1ea8536ff630",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-soufflage/__next._tree.txt",
+      "status": 200,
+      "bytes": 396,
+      "sha256": "bae7ebbaaaca6889844f53d506516443a9f71e702657aed31b964c918bd455d4",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-soufflage/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 17001,
+      "sha256": "bcdc56d618a1010f7f04fc408b1bad531cb6138685c636c46c3bbd03eb4e242d",
+      "matches": true
+    },
+    {
+      "path": "/fr/industriel/ventilateurs-soufflage/index.txt",
+      "status": 200,
+      "bytes": 17694,
+      "sha256": "d9ad67193963614baacb8837f55ca0554dcb8dc6de320bc44e1d1ea8536ff630",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/",
+      "status": 200,
+      "bytes": 31112,
+      "sha256": "a005ceb95066c8e6ac9c55047325666bd62057a309b0be0f7af50f60a0c51143",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/__next._full.txt",
+      "status": 200,
+      "bytes": 16479,
+      "sha256": "0fac929422df592dd42c86534aaadc84533371174e91625fd9b1d110b678102d",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/__next._tree.txt",
+      "status": 200,
+      "bytes": 370,
+      "sha256": "ef788f9270e33c9328007171ddfb804df378cedddde529695091c17807d6b6ae",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15804,
+      "sha256": "421f76b5d9b88255c023ac61e4c8a41c610b9e929cee6df22a7570e99037168e",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/accessoires-respiratoires/",
+      "status": 200,
+      "bytes": 30438,
+      "sha256": "b7cb66dec49c39998267ad44d9cf8d88d2d3625eb2d60ef5e1ea337f840586ea",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/accessoires-respiratoires/__next._full.txt",
+      "status": 200,
+      "bytes": 16164,
+      "sha256": "81b95a873ca46fc11a7ef73b6a920416c6ecfcec9880376b08e1ced4dad6c362",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/accessoires-respiratoires/__next._tree.txt",
+      "status": 200,
+      "bytes": 396,
+      "sha256": "4c7e01609bc2346618758cfc2fee0a04466541c4daf6632b9aea3bf1701e088c",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/accessoires-respiratoires/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15451,
+      "sha256": "97ad454e52f483edb75309a59cc9c0239894c8304a9d8b3b3a2ec08fc976bbcc",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/accessoires-respiratoires/index.txt",
+      "status": 200,
+      "bytes": 16164,
+      "sha256": "81b95a873ca46fc11a7ef73b6a920416c6ecfcec9880376b08e1ced4dad6c362",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/approvisionnement-institutionnel/",
+      "status": 200,
+      "bytes": 30095,
+      "sha256": "8e9998e6ab79ee79c583ddb97269aaebac45555a8a14af72c18aad8db7551651",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/approvisionnement-institutionnel/__next._full.txt",
+      "status": 200,
+      "bytes": 15999,
+      "sha256": "b64d87b09ba9d3873d633fb721a02c887ce234bbb20d5fbb16f01d79a0e1e9eb",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/approvisionnement-institutionnel/__next._tree.txt",
+      "status": 200,
+      "bytes": 403,
+      "sha256": "58d279c423ac04805812f4471fbe28f318f4b15c442a1eb2ab89d142c243c372",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/approvisionnement-institutionnel/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15259,
+      "sha256": "d242ea29bbd0c472e9954bf9d6244c6db62ec7b933e702ac669752a4d046e18d",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/approvisionnement-institutionnel/index.txt",
+      "status": 200,
+      "bytes": 15999,
+      "sha256": "b64d87b09ba9d3873d633fb721a02c887ce234bbb20d5fbb16f01d79a0e1e9eb",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/index.txt",
+      "status": 200,
+      "bytes": 16479,
+      "sha256": "0fac929422df592dd42c86534aaadc84533371174e91625fd9b1d110b678102d",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/ventilateurs-invasifs/",
+      "status": 200,
+      "bytes": 30746,
+      "sha256": "a66aa4d3c843ebe42a50278c62145b4d1a1bb48b765109a6538a9fd01d5c3c58",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/ventilateurs-invasifs/__next._full.txt",
+      "status": 200,
+      "bytes": 16347,
+      "sha256": "796eb7002941c849f1a85184478c04668c1eaa434d523a7b5a84a3ecfd91d4f3",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/ventilateurs-invasifs/__next._tree.txt",
+      "status": 200,
+      "bytes": 392,
+      "sha256": "bed205effd538d0e5c30dad5ba597db4f3901da0ef587aecb64bbe19eaa122c0",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/ventilateurs-invasifs/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15648,
+      "sha256": "cb6b5cf902fa4c152176978f31be22167acfb18c2bdfcbaee964d0007764ccd3",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/ventilateurs-invasifs/index.txt",
+      "status": 200,
+      "bytes": 16347,
+      "sha256": "796eb7002941c849f1a85184478c04668c1eaa434d523a7b5a84a3ecfd91d4f3",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/ventilateurs-non-invasifs/",
+      "status": 200,
+      "bytes": 30735,
+      "sha256": "c4a23dd1481cc9579ceb08cd98067bef62c596a6ec15f774006e1a969efbfc48",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/ventilateurs-non-invasifs/__next._full.txt",
+      "status": 200,
+      "bytes": 16313,
+      "sha256": "9c5e1f0a2461159ea6f54509903c462d2c69f2c22aed503e51391e86fcb45c6f",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/ventilateurs-non-invasifs/__next._tree.txt",
+      "status": 200,
+      "bytes": 396,
+      "sha256": "9b980140306ba4de7683039cad806142e54d53b4dfe1cb2d04bf13703190710b",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/ventilateurs-non-invasifs/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15610,
+      "sha256": "4c9a682ddc21434c279ac1528357461a649ea33776964a657dea624290525b2f",
+      "matches": true
+    },
+    {
+      "path": "/fr/medical/ventilateurs-non-invasifs/index.txt",
+      "status": 200,
+      "bytes": 16313,
+      "sha256": "9c5e1f0a2461159ea6f54509903c462d2c69f2c22aed503e51391e86fcb45c6f",
+      "matches": true
+    },
+    {
+      "path": "/fr/produits/",
+      "status": 200,
+      "bytes": 35921,
+      "sha256": "3467914e9737f68a1716ca00364d325ac8a1cf4864e1ade379aeaca276f82ff0",
+      "matches": true
+    },
+    {
+      "path": "/fr/produits/__next._full.txt",
+      "status": 200,
+      "bytes": 19960,
+      "sha256": "a9ab3a3e7c299ed8d4f988edabaa0f9a50677dfa8c6eff79936b457361e1d700",
+      "matches": true
+    },
+    {
+      "path": "/fr/produits/__next._tree.txt",
+      "status": 200,
+      "bytes": 371,
+      "sha256": "90cca9a993e6c0f2e3f20fcf2d71481ebabc47c05896d6599c53131a0600570e",
+      "matches": true
+    },
+    {
+      "path": "/fr/produits/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 19263,
+      "sha256": "513ef1af3c6156ea747fbfe5db82e410a642ebf2f84907b9c44b03f43c0ca0ee",
+      "matches": true
+    },
+    {
+      "path": "/fr/produits/index.txt",
+      "status": 200,
+      "bytes": 19960,
+      "sha256": "a9ab3a3e7c299ed8d4f988edabaa0f9a50677dfa8c6eff79936b457361e1d700",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/",
+      "status": 200,
+      "bytes": 30887,
+      "sha256": "cbd652328297e75f01c2299ab79e3b5e1f5f6d8d7487de87c54f84840acda787",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/__next._full.txt",
+      "status": 200,
+      "bytes": 16466,
+      "sha256": "e25ee9b7ca90b2045de3407b6d0b1de2a10ac3e067ba1986debfa140e55d0bbb",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/__next._tree.txt",
+      "status": 200,
+      "bytes": 373,
+      "sha256": "db9688ea9a168c9555b01b314ecfd967815d9bbae572d6b3ee02dde5f96eefe9",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15788,
+      "sha256": "1255eb3c792df15405b32641bccaf1430934e1ccaa891f4780bc248606408ac3",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-approvisionnement-medical/",
+      "status": 200,
+      "bytes": 34237,
+      "sha256": "c1ba8adf0e77f2bb3d0b5627706fb465eef437da33fb5d09d639c3c26a677a13",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-approvisionnement-medical/__next._full.txt",
+      "status": 200,
+      "bytes": 18326,
+      "sha256": "14476477b475bad6fb693fdba2bdced9ff9b7055ed21ceb41324be44694db441",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-approvisionnement-medical/__next._tree.txt",
+      "status": 200,
+      "bytes": 405,
+      "sha256": "be755cfd04a51a5388ace5f268935cfe54d4d34911cfe94b124c7e7c65ccc53b",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-approvisionnement-medical/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 17634,
+      "sha256": "7cba63c71a63ff41dfee3722fc54c918b04bc4e5b6a623d6837f5381761095bb",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-approvisionnement-medical/index.txt",
+      "status": 200,
+      "bytes": 18326,
+      "sha256": "14476477b475bad6fb693fdba2bdced9ff9b7055ed21ceb41324be44694db441",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-identification-accessoires/",
+      "status": 200,
+      "bytes": 30628,
+      "sha256": "c79caf1363213bde77258fd7528995cf838666206436434eb06465605e0131ec",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-identification-accessoires/__next._full.txt",
+      "status": 200,
+      "bytes": 16267,
+      "sha256": "9dd596026c280352a11a7d0824b5b6ee86d0dca50043b85a5e052bf569c1479d",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-identification-accessoires/__next._tree.txt",
+      "status": 200,
+      "bytes": 406,
+      "sha256": "2f7b52daf9378ae9c9da9dc7fe29f3f1a3006cf1b0a9583995a3237f1781c8cc",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-identification-accessoires/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15574,
+      "sha256": "72c5fbe730accd8bfb7e89bf750f5bae3ed75d7091b14d621f11ff57bcb19df2",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-identification-accessoires/index.txt",
+      "status": 200,
+      "bytes": 16267,
+      "sha256": "9dd596026c280352a11a7d0824b5b6ee86d0dca50043b85a5e052bf569c1479d",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-planification-remplacement/",
+      "status": 200,
+      "bytes": 33118,
+      "sha256": "c38fc96b6b36003a85fba3ea44cecfc42344faba447cd76cf19e39055e8a0485",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-planification-remplacement/__next._full.txt",
+      "status": 200,
+      "bytes": 17718,
+      "sha256": "2dc2f166a0b9ae714bca8ed1cb94c8636ec07531a6b7d0db0cf450d8cb76fe8e",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-planification-remplacement/__next._tree.txt",
+      "status": 200,
+      "bytes": 406,
+      "sha256": "1b2b5effc7977fac159f757d6ed2fe00c60ad866f062bf89b2cb10881e51b597",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-planification-remplacement/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 17025,
+      "sha256": "cc8598577493110446a073bf3ff55ca2c25b1aecf903a809ee9bf13552ca7c6a",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-planification-remplacement/index.txt",
+      "status": 200,
+      "bytes": 17718,
+      "sha256": "2dc2f166a0b9ae714bca8ed1cb94c8636ec07531a6b7d0db0cf450d8cb76fe8e",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-specifications-industrielles/",
+      "status": 200,
+      "bytes": 34553,
+      "sha256": "4fed1f18d403f1a222faaa9acf2851e72835d061cab2369a11ab11ed6dea017d",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-specifications-industrielles/__next._full.txt",
+      "status": 200,
+      "bytes": 18483,
+      "sha256": "192af80be542eb25141edb068be3904d48473135089282000b7ac4fd45d97ce6",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-specifications-industrielles/__next._tree.txt",
+      "status": 200,
+      "bytes": 408,
+      "sha256": "27baa148c14d05682e0516c26926073deafb02e8cc1ba563a24a4795fb8bf7b4",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-specifications-industrielles/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 17738,
+      "sha256": "768924d9fd1879f589f6f1114e8fb4d2d81fc52427ab44a3ec8d272e3bb38ddc",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/guide-specifications-industrielles/index.txt",
+      "status": 200,
+      "bytes": 18483,
+      "sha256": "192af80be542eb25141edb068be3904d48473135089282000b7ac4fd45d97ce6",
+      "matches": true
+    },
+    {
+      "path": "/fr/ressources/index.txt",
+      "status": 200,
+      "bytes": 16466,
+      "sha256": "e25ee9b7ca90b2045de3407b6d0b1de2a10ac3e067ba1986debfa140e55d0bbb",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/",
+      "status": 200,
+      "bytes": 31750,
+      "sha256": "89d7d27f22a39d8a21e1a6d428b7ab5245676cb88ab596b3646d5fd11fd259f8",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/__next._full.txt",
+      "status": 200,
+      "bytes": 16972,
+      "sha256": "8ff1b96b267f54138f81870aae7c16df387addad22c477f6a7b72297fdf28914",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/__next._tree.txt",
+      "status": 200,
+      "bytes": 371,
+      "sha256": "eff8246f5b04d5b03f5ee9becfc11e2cfa1d22971225e5cf2087055a94f5dc03",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16296,
+      "sha256": "56cb6f8ace76b325c16875156fd64b723e33badd12c4b42d1b9d1d50f484ab54",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/acheteurs-institutionnels/",
+      "status": 200,
+      "bytes": 30225,
+      "sha256": "1444dd2d7e459d15f4c7e55ae880e1ea104982ff4bcd493596015e5d92ca75bf",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/acheteurs-institutionnels/__next._full.txt",
+      "status": 200,
+      "bytes": 16088,
+      "sha256": "ad23ed69393688cb954c154255c32f685a57b8f30b018083c06ee5915aeac692",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/acheteurs-institutionnels/__next._tree.txt",
+      "status": 200,
+      "bytes": 397,
+      "sha256": "54b1c1a3e01aa7919f2d682cb6e1e60944b82d884c291719873cc6158fd128d9",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/acheteurs-institutionnels/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15384,
+      "sha256": "fe9a18ac9b44025c133b5ea8ed7baa8f7cb07b5631b5ad04eb2b4a023b91da96",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/acheteurs-institutionnels/index.txt",
+      "status": 200,
+      "bytes": 16088,
+      "sha256": "ad23ed69393688cb954c154255c32f685a57b8f30b018083c06ee5915aeac692",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/batiments-commerciaux/",
+      "status": 200,
+      "bytes": 31119,
+      "sha256": "ca0030f4bdbe9525a667a6042df0774f1d6b7ef072523d4bd621ca63d2bffc70",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/batiments-commerciaux/__next._full.txt",
+      "status": 200,
+      "bytes": 16574,
+      "sha256": "f0ac0209049b728568977e168d4cca7a0586c998d620a930e82c58cedf348fe2",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/batiments-commerciaux/__next._tree.txt",
+      "status": 200,
+      "bytes": 654,
+      "sha256": "436c62bea80b0215f496a6a9446db7ff706a6dc82f855122ebdcc63c86a5a855",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/batiments-commerciaux/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15849,
+      "sha256": "3352685163866574f41bb37e8860fef36c8bd6dc7070b75b79b493375f4d377f",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/batiments-commerciaux/index.txt",
+      "status": 200,
+      "bytes": 16574,
+      "sha256": "f0ac0209049b728568977e168d4cca7a0586c998d620a930e82c58cedf348fe2",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/cliniques/",
+      "status": 200,
+      "bytes": 30437,
+      "sha256": "8a6247f07ab7f5472fbb059006f384dd03bfcf9f350722dd2750da9b96b78d21",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/cliniques/__next._full.txt",
+      "status": 200,
+      "bytes": 16202,
+      "sha256": "fe99cc9b982e495521bf731c2ca3d297bdfef3a3c44f94c77a6bdf67c55c4236",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/cliniques/__next._tree.txt",
+      "status": 200,
+      "bytes": 630,
+      "sha256": "288c209b1953e295a0c910ec39ad6050d81646f12037071dafbd757ad3dcafb7",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/cliniques/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15489,
+      "sha256": "293aeb01656981a001c4a9f6ab4e07abf7b3465fb075da08ff4353bd1632f915",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/cliniques/index.txt",
+      "status": 200,
+      "bytes": 16202,
+      "sha256": "fe99cc9b982e495521bf731c2ca3d297bdfef3a3c44f94c77a6bdf67c55c4236",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/entrepots/",
+      "status": 200,
+      "bytes": 30675,
+      "sha256": "cd71b803eec0e0b89a2189ee5b232e42a2395196b0001b7ec04e719144d1b319",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/entrepots/__next._full.txt",
+      "status": 200,
+      "bytes": 16327,
+      "sha256": "e0dbb91e666c25f6e8017540e27f37c7b7332c26c4c3a89f4951bfdc1317b3f9",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/entrepots/__next._tree.txt",
+      "status": 200,
+      "bytes": 642,
+      "sha256": "9684b588209843c1e9a8724c9bd82f2bbb5d5d166300e522a5ed64865a5e9217",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/entrepots/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15614,
+      "sha256": "af0661cae5999695dbe9496020e20efbc27db658d6c3514273fcd44cd8be795d",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/entrepots/index.txt",
+      "status": 200,
+      "bytes": 16327,
+      "sha256": "e0dbb91e666c25f6e8017540e27f37c7b7332c26c4c3a89f4951bfdc1317b3f9",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/fabrication/",
+      "status": 200,
+      "bytes": 30916,
+      "sha256": "19c8854569bd9f32a8482870aa9b658cfdf2ed6c7138977f56ce58d63e6aecda",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/fabrication/__next._full.txt",
+      "status": 200,
+      "bytes": 16465,
+      "sha256": "1bfeca2465ff15ca8b3ee9989b0dbf1c6dbc34666d7379fe1b85c647029c3249",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/fabrication/__next._tree.txt",
+      "status": 200,
+      "bytes": 656,
+      "sha256": "0dc5fdbf784a6588e4ba6c20c1f3c6f69e473b2ffe3e2e70dd6f981e17b434a4",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/fabrication/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15750,
+      "sha256": "1f0b64187dc8c0eb81273462b88bed17ca3b8b24cd5da71d953e596d19de2e90",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/fabrication/index.txt",
+      "status": 200,
+      "bytes": 16465,
+      "sha256": "1bfeca2465ff15ca8b3ee9989b0dbf1c6dbc34666d7379fe1b85c647029c3249",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/hopitaux/",
+      "status": 200,
+      "bytes": 31029,
+      "sha256": "6bd35860332884f9020ba7ded22b99e993731114e72fc2f1ae42bdc466be40c3",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/hopitaux/__next._full.txt",
+      "status": 200,
+      "bytes": 16528,
+      "sha256": "abbc7b87a08195cde95f97882391e5ad15260b9ecb581a21df4dfc0bfe12ba57",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/hopitaux/__next._tree.txt",
+      "status": 200,
+      "bytes": 637,
+      "sha256": "722c9381b8ff52f3bf812e3dda190726fa24bef812c200efc41e4d9231262656",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/hopitaux/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15806,
+      "sha256": "46eb118c0a04c1fa75201aca010345e00268fadc14d8c7293830048c2b5362e8",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/hopitaux/index.txt",
+      "status": 200,
+      "bytes": 16528,
+      "sha256": "abbc7b87a08195cde95f97882391e5ad15260b9ecb581a21df4dfc0bfe12ba57",
+      "matches": true
+    },
+    {
+      "path": "/fr/secteurs/index.txt",
+      "status": 200,
+      "bytes": 16972,
+      "sha256": "8ff1b96b267f54138f81870aae7c16df387addad22c477f6a7b72297fdf28914",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/",
+      "status": 200,
+      "bytes": 31162,
+      "sha256": "8c12ea6360c9bc6a328af548c270d060b256bd9c8562be6c5f3500d22ea50347",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/__next._full.txt",
+      "status": 200,
+      "bytes": 16785,
+      "sha256": "fa00e293b8fee0c59824701c54a172ee338f9192d0b65051cdef39dbd39ec084",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/__next._tree.txt",
+      "status": 200,
+      "bytes": 371,
+      "sha256": "c36cd754e9ff740403b3957fabf0c7e0667dde8af21ff1fd63ba12a3bf3e760e",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 16109,
+      "sha256": "edc23c3788751ec1ef5f6f49a336216988949304b8caa84ba2e0a56cee515d69",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/coordination-installation/",
+      "status": 200,
+      "bytes": 30730,
+      "sha256": "dc0364e50c7d5e47b69c409637524e5aa5525ad9ef43518ea6c0f0c5754fc044",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/coordination-installation/__next._full.txt",
+      "status": 200,
+      "bytes": 16340,
+      "sha256": "1a6c212705239487677969b2a079347435862ca9ba89e0f68b19f3d30b10f0f7",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/coordination-installation/__next._tree.txt",
+      "status": 200,
+      "bytes": 397,
+      "sha256": "d900d59acf13c6b182e00b911f99961dfd4b578bfbfb55ad5479d0c66111ea6c",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/coordination-installation/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15646,
+      "sha256": "07a83da0b9bb773931a018592cd06c2b262290a4f036b5e84539255f9b579a0e",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/coordination-installation/index.txt",
+      "status": 200,
+      "bytes": 16340,
+      "sha256": "1a6c212705239487677969b2a079347435862ca9ba89e0f68b19f3d30b10f0f7",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/entretien-ventilation/",
+      "status": 200,
+      "bytes": 30666,
+      "sha256": "9a9e52f3122229cc9858559c34af14e6967a112c954a05955431da0c3e8f0eb1",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/entretien-ventilation/__next._full.txt",
+      "status": 200,
+      "bytes": 16321,
+      "sha256": "737cdda71535aa277523dbb3e17c22724832715ce78d739793a5f10ca43af448",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/entretien-ventilation/__next._tree.txt",
+      "status": 200,
+      "bytes": 393,
+      "sha256": "790508a5fb54eaaec9e5dde221116fd0c397c4a74fd71599247536b983d87441",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/entretien-ventilation/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15611,
+      "sha256": "f9428d200c8ec499b2969152429a1e4fd4464a5fb0dc79b239ace914bd09bce6",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/entretien-ventilation/index.txt",
+      "status": 200,
+      "bytes": 16321,
+      "sha256": "737cdda71535aa277523dbb3e17c22724832715ce78d739793a5f10ca43af448",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/index.txt",
+      "status": 200,
+      "bytes": 16785,
+      "sha256": "fa00e293b8fee0c59824701c54a172ee338f9192d0b65051cdef39dbd39ec084",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/remplacement-equipement/",
+      "status": 200,
+      "bytes": 30621,
+      "sha256": "8931d0c9be4f0f71963b54c06f18c11ab19348b6ec2606db0aaed15e83b59e2f",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/remplacement-equipement/__next._full.txt",
+      "status": 200,
+      "bytes": 16303,
+      "sha256": "32a42713ee874519128df8a68a38c63ddf9cd46905b5f952c5d4834f0cac2f97",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/remplacement-equipement/__next._tree.txt",
+      "status": 200,
+      "bytes": 395,
+      "sha256": "6f97130d9f3f39ad4d2a57b9d334140863e82d1ac31d81c8b31e9183ee87d444",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/remplacement-equipement/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15591,
+      "sha256": "5a7638a8e3938ca30917e85aacb3f1b2de4f83f7a6682a0e610ace9943ab4c59",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/remplacement-equipement/index.txt",
+      "status": 200,
+      "bytes": 16303,
+      "sha256": "32a42713ee874519128df8a68a38c63ddf9cd46905b5f952c5d4834f0cac2f97",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/reparation-ventilateurs-industriels/",
+      "status": 200,
+      "bytes": 30750,
+      "sha256": "b72e8de2cd3dd94b5d052c856baad7e5c19de7fe708bf701ed1f2a7362f7f4f9",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/reparation-ventilateurs-industriels/__next._full.txt",
+      "status": 200,
+      "bytes": 16351,
+      "sha256": "87fd6b0abee18e10f17e80c6e76ba49c0295c3206d779d47a6453a3276427866",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/reparation-ventilateurs-industriels/__next._tree.txt",
+      "status": 200,
+      "bytes": 407,
+      "sha256": "f245461504fe92116040b28bc14805f0c35cf016e3b85427f35522143fd3712f",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/reparation-ventilateurs-industriels/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15647,
+      "sha256": "52826ccc4f711c26b75b13052e5db041a316d19a243eefd8f3ca4ead7c447c9f",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/reparation-ventilateurs-industriels/index.txt",
+      "status": 200,
+      "bytes": 16351,
+      "sha256": "87fd6b0abee18e10f17e80c6e76ba49c0295c3206d779d47a6453a3276427866",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/soutien-technique-medical/",
+      "status": 200,
+      "bytes": 31029,
+      "sha256": "e74e2ea0bad50809717c7b323c0a5aa2c1fb4dd63d0aa3fdc81f810ece6e3f8b",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/soutien-technique-medical/__next._full.txt",
+      "status": 200,
+      "bytes": 16510,
+      "sha256": "3591403a8b81d9bd76d25c4315b23d202661d9da9f28352cc4710976d6ae8c93",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/soutien-technique-medical/__next._tree.txt",
+      "status": 200,
+      "bytes": 397,
+      "sha256": "ead78390de04de9c0f6aad16de84846b98a44e0d56d6ceb92a32f463a043a0a8",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/soutien-technique-medical/__next.$d$locale.$oc$slug.__PAGE__.txt",
+      "status": 200,
+      "bytes": 15806,
+      "sha256": "dd31bcf7143b2fa3f1a91230bf80ff86495945938b17a1fcb8943a617e2a479c",
+      "matches": true
+    },
+    {
+      "path": "/fr/services/soutien-technique-medical/index.txt",
+      "status": 200,
+      "bytes": 16510,
+      "sha256": "3591403a8b81d9bd76d25c4315b23d202661d9da9f28352cc4710976d6ae8c93",
+      "matches": true
+    },
+    {
+      "path": "/images/clinics.webp",
+      "status": 200,
+      "bytes": 101082,
+      "sha256": "f090b2aac7b0cd9fc8d539f192b062545fd2db6a88d88866fe8beafabc6fdfb6",
+      "matches": true
+    },
+    {
+      "path": "/images/commercial.webp",
+      "status": 200,
+      "bytes": 183614,
+      "sha256": "34470c95274f89cc1567bea677ff0d5beed871bc4132405e4719c55d54775cfb",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/accessories.svg",
+      "status": 200,
+      "bytes": 2437,
+      "sha256": "bea9ea69e8c0a9dbdd1664ddbe4bf8ca86fc6ccbf269f268034239204b7bdb40",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/accessory-guide.svg",
+      "status": 200,
+      "bytes": 2427,
+      "sha256": "a7abc9645a4e8c4b6e6edf57e1054471cdc912377f440dc8d49bee202516f795",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/axial.svg",
+      "status": 200,
+      "bytes": 3275,
+      "sha256": "7a9e6ebc8a98e808d1e4cf9abdeb0fca11de94ad80912aa351e7d048c7413e2e",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/blowers.svg",
+      "status": 200,
+      "bytes": 2433,
+      "sha256": "c561d56bdce889aecf4e112563b101b90a9ed62c5fbafd895581f3bbf716ed17",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/centrifugal.svg",
+      "status": 200,
+      "bytes": 3678,
+      "sha256": "d1a3c6db29523cdc45def6c2d54c12bf7dfdfb54ba61ba73315d00b1bdc1704b",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/exhaust.svg",
+      "status": 200,
+      "bytes": 3114,
+      "sha256": "dcb80a982cd2b11b49850240a3698661da01b11c85001f514b9bf4bb644a7b19",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/industrial-specifications.svg",
+      "status": 200,
+      "bytes": 2613,
+      "sha256": "2b9bced6f3c5192f70ceaaa04c328d21a2db352b4e93cfa7d07670b642522cee",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/installation.svg",
+      "status": 200,
+      "bytes": 3368,
+      "sha256": "b2ffa760725c440ac4e3fca8e7165b511bb38eb70912608ce0599dc1b10460a9",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/institutions.svg",
+      "status": 200,
+      "bytes": 3636,
+      "sha256": "d575037fae0eddfec84ff0ec861b80f2924d0826ea5b0c0090c3cdb8ae6dd50b",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/invasive.svg",
+      "status": 200,
+      "bytes": 2939,
+      "sha256": "01a12d1b0344013320655ebc8f2187975cfb635eb365521fb6d52a52d791e9c0",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/maintenance.svg",
+      "status": 200,
+      "bytes": 3112,
+      "sha256": "c8564bcca5464a05474e6f2f374bc2130b8d848899a2af6ba42a5b9e46c215d5",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/medical-procurement-guide.svg",
+      "status": 200,
+      "bytes": 2953,
+      "sha256": "e871e6cade04a2b70a4034826539106ac6f32317c81f2c238a071bfc23c7a110",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/medical.svg",
+      "status": 200,
+      "bytes": 3254,
+      "sha256": "625a30c360ced34dc687b4bf290c1d0c2012b245f6315aa4dbab66b3905cbccc",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/noninvasive.svg",
+      "status": 200,
+      "bytes": 2067,
+      "sha256": "ff7001614bb0eccc6817ff27e68d74b2b7efae4e105f21cd1ab12038f77249e6",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/parts.svg",
+      "status": 200,
+      "bytes": 4219,
+      "sha256": "14857a0c01e6ebe5c2a8369ed42822c56de8612fe828b0eb2986a93bc8fac80c",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/procurement.svg",
+      "status": 200,
+      "bytes": 2430,
+      "sha256": "4a3ad3a9d3d896c45bc380cd7be0ba9d7927150a36917a836e8fb78172d03d4b",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/repair.svg",
+      "status": 200,
+      "bytes": 2620,
+      "sha256": "afe42bc4a3d29b72574821c22b0ec21110bf716dfd474c9b1a90aa1b99a85b21",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/replacement-guide.svg",
+      "status": 200,
+      "bytes": 3112,
+      "sha256": "24d73f9bf0f0f3a4c44040c89c6220aca6df3aeb41089c2f58478440a3974836",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/replacement.svg",
+      "status": 200,
+      "bytes": 4145,
+      "sha256": "e5383b9d47e282e099ebeccb6c270dabe03703b91148c1bc1c2159507972805a",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/roof.svg",
+      "status": 200,
+      "bytes": 2887,
+      "sha256": "0bcce19f7569acb923c190179bd2067ab2048424ae0046760623c3ddda304065",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/supply.svg",
+      "status": 200,
+      "bytes": 4011,
+      "sha256": "e4c46a0c3da9db07ae0ea0408e9b385aac3209fd6955911b353142de45f17396",
+      "matches": true
+    },
+    {
+      "path": "/images/diagrams/technical-support.svg",
+      "status": 200,
+      "bytes": 3278,
+      "sha256": "5d63ea6603f8f32959aa60580431de3097c45fdc0d27eaed574b90e41e9fa22e",
+      "matches": true
+    },
+    {
+      "path": "/images/hospitals.webp",
+      "status": 200,
+      "bytes": 116886,
+      "sha256": "874752a0564d58fda82f41a453baa66981f6541027ebfd0692f16b0d7706e033",
+      "matches": true
+    },
+    {
+      "path": "/images/industrial-hub.webp",
+      "status": 200,
+      "bytes": 80062,
+      "sha256": "0ef5a0aaf4f784375446f705fc9de274698872ee2a11defdf7a854521e819ac1",
+      "matches": true
+    },
+    {
+      "path": "/images/industrial.webp",
+      "status": 200,
+      "bytes": 337982,
+      "sha256": "9ddf6199f4efeb6a2c5e11e5eabc31e0dfb82dac95a02405bcf0eef1a93db3be",
+      "matches": true
+    },
+    {
+      "path": "/images/manufacturing.webp",
+      "status": 200,
+      "bytes": 209174,
+      "sha256": "a900fc2f1e549b39b9e3f326dc2678f4704341a144f133b58caae898863b2206",
+      "matches": true
+    },
+    {
+      "path": "/images/medical.webp",
+      "status": 200,
+      "bytes": 182724,
+      "sha256": "0f0cd9378c1e917461863a8130d96dcb8242a259bd344a25ec9255ff18bab580",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/clinics-1200.webp",
+      "status": 200,
+      "bytes": 51078,
+      "sha256": "9bd30db81db53c01e9f1d3f3012e625c9f682f39c3ac34529e4e982ae59499e2",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/clinics-480.webp",
+      "status": 200,
+      "bytes": 16122,
+      "sha256": "f217cffa2c09ef4e464bffd95506d4eb3d9532c0c3570cc760a1188540cc3240",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/clinics-800.webp",
+      "status": 200,
+      "bytes": 31940,
+      "sha256": "dcf0f664fee2230cd30fdc4315bec6c2ce38f023e764ea180c383f5215976655",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/commercial-1200.webp",
+      "status": 200,
+      "bytes": 101834,
+      "sha256": "94c2ba121c5a4fd4f0d7b660d4055b715bb4fa82dfe65f3b746bc37c1e326dd8",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/commercial-480.webp",
+      "status": 200,
+      "bytes": 27946,
+      "sha256": "b24dc388f50c0023e44f0e446e59ce7b271a10eb722abcdc8d0fd88062936004",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/commercial-800.webp",
+      "status": 200,
+      "bytes": 59602,
+      "sha256": "662ef68490366f9810570aea53515d4c64ac3a96eac98bb75f04fb6033108ff9",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/hospitals-1200.webp",
+      "status": 200,
+      "bytes": 55170,
+      "sha256": "8f352d3e6daa31e591be230d789eaea1505fefcf85d9fa2ef2fa75abb5253e4a",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/hospitals-480.webp",
+      "status": 200,
+      "bytes": 12410,
+      "sha256": "0942170f1a7903307216972adf2e76aab5c18e4b4ca1c7673dac91707ff817e5",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/hospitals-800.webp",
+      "status": 200,
+      "bytes": 30340,
+      "sha256": "b25e7786c0f60988bce23503f20a20e331442dfbd8b9c1f98a8c7707f46d8ee2",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/industrial-1200.webp",
+      "status": 200,
+      "bytes": 158896,
+      "sha256": "a4191be17a2938c7ab502df3d84a868bc341eb558990eef295c2ea0a34ff4278",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/industrial-480.webp",
+      "status": 200,
+      "bytes": 29868,
+      "sha256": "0f831647c8fafaf1c2df16c61c2e2be23dc126f8066829077742829dbde1bf7b",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/industrial-800.webp",
+      "status": 200,
+      "bytes": 79562,
+      "sha256": "24a4e639041e96a8ded9001fbf4ac08a089b5d62f380b86966fafd99a2ca921f",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/industrial-hub-1200.webp",
+      "status": 200,
+      "bytes": 34996,
+      "sha256": "31dc1b62419f09f65713344dcb90b885731a64017b704fbf0f43a921dcdbce62",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/industrial-hub-480.webp",
+      "status": 200,
+      "bytes": 8510,
+      "sha256": "7927b0b29a09ce2cc8a1bfe63230a42e0a7b6c8b136421efc29dbcb6a51891ce",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/industrial-hub-800.webp",
+      "status": 200,
+      "bytes": 18958,
+      "sha256": "321f94cca43d6f74f3006dbbe43aa57507795da080b623d109f86d9b1dd348b0",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/manufacturing-1200.webp",
+      "status": 200,
+      "bytes": 98904,
+      "sha256": "5c5ceea60da7aff17d3b87d54179845f513bd4cdbd1e93dd60d97f76fbd2c2c0",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/manufacturing-480.webp",
+      "status": 200,
+      "bytes": 25588,
+      "sha256": "dd6373734525294ea3a2a9e220d2bb5935a0347e759c7138eec8782dfe0dac44",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/manufacturing-800.webp",
+      "status": 200,
+      "bytes": 55646,
+      "sha256": "097b8cb8f97fb489cf1bc728fa371201ee1c9fcdc2eaa1fa9bd68be373259366",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/medical-1200.webp",
+      "status": 200,
+      "bytes": 146602,
+      "sha256": "a1eba62c0933b96f29a9a0148c8f62c1cdfeb2b5dfaedb13d184be2e7e0bb6be",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/medical-480.webp",
+      "status": 200,
+      "bytes": 34190,
+      "sha256": "c1204bc1e2c955b573b5d294cc54fd615b3710004202cb13ee711fdfa6c287a6",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/medical-800.webp",
+      "status": 200,
+      "bytes": 72136,
+      "sha256": "c4fd9d2494c5d54d6545f220ce180ee34ccefff16094515e53875f5006e48644",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/warehouses-1200.webp",
+      "status": 200,
+      "bytes": 208212,
+      "sha256": "88e11b726fcfa1862666c4bb7db9c996bc810df8a9a3330f7ed57fe1bc972d64",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/warehouses-480.webp",
+      "status": 200,
+      "bytes": 58756,
+      "sha256": "a66ab47c071ddddb04c55ae68b610921c0fe302a579fd56f24bf96a4d0adbb0e",
+      "matches": true
+    },
+    {
+      "path": "/images/responsive/warehouses-800.webp",
+      "status": 200,
+      "bytes": 123242,
+      "sha256": "9abba520fff470d61d99b6b8030d262c35c5ef52b612b371b5a33ca643ace70b",
+      "matches": true
+    },
+    {
+      "path": "/images/warehouses.webp",
+      "status": 200,
+      "bytes": 390664,
+      "sha256": "5b22fddc81a0680b2300db082df25ae86e1cb94f5eb219e9e5d30d64a2679973",
+      "matches": true
+    },
+    {
+      "path": "/index.txt",
+      "status": 200,
+      "bytes": 5774,
+      "sha256": "6f6d3b3099fcbadded44d6ae3359228fe24dfe1f9a309ed390805696ef102998",
+      "matches": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "bytes": 68,
+      "sha256": "7683c5ca1ab70475de331ae2c1f74b67d6abb0064a80d3fceaf534e43cf97f66",
+      "matches": true
+    },
+    {
+      "path": "/sitemap-en.xml",
+      "status": 200,
+      "bytes": 11270,
+      "sha256": "9970b98cff5faceabe5bbd2e298f5ba02f407adbf3e8b258bdcc1053c0626e5b",
+      "matches": true
+    },
+    {
+      "path": "/sitemap-fr.xml",
+      "status": 200,
+      "bytes": 11376,
+      "sha256": "74611064861902a76509b5d5c6d635aa34ab9532a91320b1a01282df2549b462",
+      "matches": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "bytes": 23059,
+      "sha256": "3de1fff375aa6deebd7f6196ee1667976a59ea76f06dc2c7f9b8dfca66246b28",
+      "matches": true
+    }
+  ]
+}

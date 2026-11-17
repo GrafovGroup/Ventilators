@@ -4,8 +4,9 @@
 
 - 25 tests pass, including public configuration validation, rejection of PII/arbitrary URLs in future analytics payloads and health-check failure detection. Lint, type checks, public static build, all 80 exported routes and performance budgets pass.
 - 100 read-only checks against the existing live site pass (80 pages, entry redirects, 404, robots, sitemaps and 12 downloads). No real inquiry submitted.
-- Google/Bing public HTML ownership tokens obtained from the owner-authorized signed-in setup. Verification confirmation and final deployment evidence pending. Analytics remains disabled.
+- Google/Bing public HTML ownership tokens obtained from the owner-authorized signed-in setup. Google ownership verified and sitemap Success with 80 discovered pages. Bing property/sitemap accepted, with processing pending. GA4 property `564759274` / measurement ID `G-59FBT5T5V1` created under Grafov Group; enhanced measurement disabled at creation. No tag installed, and the property reports no data. Analytics remains disabled.
 - Production dependency audit: zero findings. Full audit: 14 development-only dependency paths rooted in the unpatched picomatch advisory GHSA-fc5q-39xc-vjpf. Narrow dependency policy passes with an explicit expiry of 2026-12-17; this is not a clean full audit.
+- Release `2026-11-17-operations-1` is LIVE from clean source `be7500c2a9bd952f6617eeb77efa7e925b701ada`; all 511 public files match and all 100 health probes pass. The release ZIP returns 404 publicly. All seven brand files and 54 image files are unchanged. GitHub quality run `44159455240` passed. Local EN mock failure/retry preserves the same request reference and reaches acceptance; FR medical/procurement form hydration passes. No real inquiries sent.
 - Evidence in `qa/evidence/operations/`; operating procedures and limitations in `docs/OPERATIONS.md`.
 
 ## Site-wide AirGrid and direct homepage entry — 2026-11-17

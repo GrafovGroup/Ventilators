@@ -1,0 +1,14 @@
+{
+  "audit": {
+    "incomplete": [],
+    "passes": 22,
+    "scrollWidth": 1280,
+    "url": "/fr/demande-de-soumission/",
+    "viewport": 1280,
+    "violations": []
+  },
+  "category": "procurement",
+  "division": "medical",
+  "forms": 1,
+  "locale": "fr-CA"
+}

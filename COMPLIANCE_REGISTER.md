@@ -40,3 +40,5 @@ The owner selected Formspree `mvkaapjj` and requested connection and testing. It
 ## Search/operations increment — 2026-11-17
 
 Owner authorized creating free search and GA4 properties. Google/Bing ownership metadata is public and does not collect visitor data. The analytics event contract rejects PII and arbitrary URLs, but no runtime analytics adapter or tag is installed; consent/privacy review remains required before activation. The manual health check sends GET requests only and cannot establish lead delivery or inbox response. Release checks document the exact unpatched dev-only picomatch advisory, with a 2026-12-17 exception expiry; no production dependency advisory was found. See `docs/OPERATIONS.md`.
+
+Google HTML-tag ownership is now verified, with its sitemap successfully discovering 80 pages. Bing accepts the site and sitemap, with processing pending. GA4 property `564759274` was created with owner-confirmed business size and enhanced measurement off; the site has no tracking tag. These account actions do not supply consent, legal, editorial or supplier sign-off.

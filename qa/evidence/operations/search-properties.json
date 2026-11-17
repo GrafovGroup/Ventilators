@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-11-17",
+  "site": "https://ventilators.ca/",
+  "google": {
+    "ownership": "HTML tag verified",
+    "sitemap": "https://ventilators.ca/sitemap.xml",
+    "sitemapStatus": "Success",
+    "discoveredPages": 80
+  },
+  "bing": {
+    "ownership": "Property accessible after HTML meta verification",
+    "sitemap": "https://ventilators.ca/sitemap.xml",
+    "sitemapStatus": "Processing"
+  },
+  "analyticsCollection": "off; no tag installed",
+  "publicArchiveStatus": 404,
+  "ga4": {
+    "accountId": "213675022",
+    "propertyId": "564759274",
+    "streamId": "16362112451",
+    "measurementId": "G-59FBT5T5V1",
+    "propertyName": "Ventilators.ca",
+    "streamName": "Ventilators.ca website",
+    "timeZone": "America/Toronto",
+    "currency": "CAD",
+    "industry": "Business & Industrial",
+    "businessSize": "1–10 employees (owner confirmed)",
+    "objectives": ["Generate leads", "Understand web and/or app traffic"],
+    "enhancedMeasurement": "off at stream creation",
+    "tagInstalled": false,
+    "observedStatus": "No data received from your website yet."
+  }
+}

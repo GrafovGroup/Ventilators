@@ -86,7 +86,7 @@ For a local accessibility report, run `node scripts/qa-server.mjs` and open `htt
 3. Counsel-reviewed privacy/terms, retention, consent and handling processes.
 4. Formspree quota/spam monitoring, retention and delivery operations. The owner-approved provider replaces the earlier proposed custom endpoint; provider capabilities and limits are recorded in [RFQ_ENDPOINT.md](docs/RFQ_ENDPOINT.md).
 5. Release checks and rollback are recorded in [DEPLOYMENT.md](docs/DEPLOYMENT.md) and [WHC_CONNECTION.md](docs/WHC_CONNECTION.md). The owner has authorized replacing the coming-soon page.
-6. Real-device/screen-reader QA, representative mobile performance measurements, approved analytics/consent design, Search Console/Bing access and operational monitoring ownership.
+6. Real-device/screen-reader QA, representative mobile performance measurements, approved analytics/consent design and operational monitoring ownership. Google ownership and sitemap processing are verified; Bing sitemap processing is pending. GA4 exists with tracking off.
 
 See [BUILD_STATUS.md](BUILD_STATUS.md), [PAGE_MATRIX.md](PAGE_MATRIX.md), [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md), [CONTENT_SOURCE_REGISTER.md](CONTENT_SOURCE_REGISTER.md), [COMPLIANCE_REGISTER.md](COMPLIANCE_REGISTER.md) and [QA_REPORT.md](QA_REPORT.md).
 

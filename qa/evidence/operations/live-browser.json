@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-11-17T19:45:21.120Z",
+  "realSubmissions": 0,
+  "english": {
+    "analyticsScripts": [],
+    "bing": "8540AF3FE8C8197267E84BBE602115F7",
+    "category": "roof",
+    "division": "industrial",
+    "forms": 1,
+    "google": "ZD8XId0SIgwGg1ivWZEN7ZJ9jAA_rRKF0CrcnOBQZaM",
+    "locale": "en-CA",
+    "path": "/en/request-a-quote/",
+    "scrollWidth": 1280,
+    "viewport": 1280
+  },
+  "french": {
+    "analyticsScripts": [],
+    "bing": "8540AF3FE8C8197267E84BBE602115F7",
+    "category": "procurement",
+    "division": "medical",
+    "forms": 1,
+    "google": "ZD8XId0SIgwGg1ivWZEN7ZJ9jAA_rRKF0CrcnOBQZaM",
+    "locale": "fr-CA",
+    "path": "/fr/demande-de-soumission/",
+    "scrollWidth": 1280,
+    "viewport": 1280
+  }
+}

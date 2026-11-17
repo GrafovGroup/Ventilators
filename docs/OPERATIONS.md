@@ -1,6 +1,6 @@
 # Search and operating checks
 
-The website remains an inquiry-only informational catalogue. This increment prepares ownership verification and measurement, adds automated source checks and provides a manually invoked production health check. Search-account verification is being completed separately in the provider interfaces. These controls do not enable analytics, schedule monitoring, submit inquiries or establish an operational response promise.
+The website remains an inquiry-only informational catalogue. This increment prepares ownership verification and measurement, adds automated source checks and provides a manually invoked production health check. Google ownership is verified; its sitemap processed successfully with 80 discovered pages. Bing accepts the property and sitemap, with crawl processing pending. These controls do not enable analytics, schedule monitoring, submit inquiries or establish an operational response promise.
 
 ## Public build configuration
 
@@ -24,7 +24,7 @@ The owner authorized creating these properties. Their public ownership tokens ar
 4. Add the site in Bing Webmaster Tools and use its HTML meta-tag token as `BING_SITE_VERIFICATION`. Deploy, verify in Bing and record confirmation.
 5. Submit `https://ventilators.ca/sitemap.xml` in each verified account. Inspect both homepages and representative categories, resources and inquiry pages. Review indexing reports for excluded pages or unexpected canonicals; submission does not guarantee indexing.
 
-Google and Bing properties have been added and their public HTML tokens obtained; verification confirmation will be recorded after deployment. Existing canonicals, reciprocal language alternates, indexable public pages and three sitemaps remain active.
+On 2026-11-17 Google confirmed HTML-tag ownership and processed `/sitemap.xml` successfully with 80 discovered pages. Bing opened the verified Ventilators.ca property and accepted the sitemap; its initial status is Processing. Search indexing/rankings are not guaranteed by these confirmations. Existing canonicals, reciprocal language alternates, indexable public pages and three sitemaps remain active.
 
 Sources: [Next.js verification metadata](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#verification), [Google site ownership verification](https://support.google.com/webmasters/answer/9008080?hl=en), [Bing HTML-tag verification](https://learn.microsoft.com/en-us/bingwebmaster/verifying-wordpress).
 
@@ -45,9 +45,15 @@ The `Live site health (manual)` workflow provides the same check with a 14-day r
 
 On failure: inspect the failed route and current deployment; check WHC status/SSL and compare the active root with the release record. For a release regression, use the preserved root rollback in `WHC_CONNECTION.md`, then rerun live checks. Do not change DNS/mail or spam controls merely because an HTTP or form-delivery check failed.
 
+## Created GA4 property — tracking disabled
+
+Created on 2026-11-17 under Grafov Group account `213675022`: property **Ventilators.ca** (`564759274`), web stream **Ventilators.ca website** (`16362112451`), measurement ID **G-59FBT5T5V1**. Reporting uses Canada/Toronto time and CAD. The owner supplied 1–10 employees; industry is Business & Industrial, with lead generation and traffic understanding objectives. Enhanced measurement was explicitly turned off and confirmed before creating the stream. Google offered tag installation; no tag was installed. The property reports no received data, as expected.
+
+[Open the GA4 property](https://analytics.google.com/analytics/web/#/a213675022p564759274/reports/intelligenthome). IDs are public configuration references, not credentials. Retention, consent controls and automatic page/referrer handling still need review before activation.
+
 ## Analytics measurement plan — disabled
 
-`src/lib/analytics-contract.ts` defines and validates the seven master-prompt events. It is not imported into the browser UI and has no collector, cookies, persistent storage or network behavior. There is no GA4 measurement ID, Google tag, event listener or consent banner installed.
+`src/lib/analytics-contract.ts` defines and validates the seven master-prompt events. It is not imported into the browser UI and has no collector, cookies, persistent storage or network behavior. A GA4 property and web stream now exist under the signed-in Grafov Group account, but no measurement ID, Google tag, event listener or consent banner is installed on the website.
 
 | Event               | Future trigger after analytics consent                         | Allowed context                                          |
 | ------------------- | -------------------------------------------------------------- | -------------------------------------------------------- |
@@ -61,7 +67,7 @@ On failure: inspect the failed route and current deployment; check WHC status/SS
 
 The contract rejects unknown fields, unsupported event names, noncatalogue category IDs, arbitrary URLs, query strings, fragments, personal data fields and mismatched category/division context. Do not send form values, organization, email, phone, search terms, reference IDs, full URLs, referrers or request payloads. `rfq_submitted` would mean provider acceptance, not inbox receipt, qualification or revenue.
 
-Activation requires an owner-provided GA4 ID plus an approved bilingual consent/retention design. Implement basic consent behavior that blocks loading and events until affirmative analytics consent, supports decline and withdrawal, and separates inquiry consent from analytics consent. Review automatic page views, enhanced measurement, URL/referrer collection and ad settings; sanitize them or disable them before enabling an adapter. Update privacy notices and CSP only for the approved implementation, then verify no pre-consent/declined requests and no PII in browser network payloads. Supplying an ID alone must not activate tracking. These are future acceptance criteria, not implemented guarantees. See [Google consent-mode concepts](https://developers.google.com/tag-platform/security/concepts/consent-mode).
+Activation requires an approved bilingual consent/retention design for the newly created GA4 property. Implement basic consent behavior that blocks loading and events until affirmative analytics consent, supports decline and withdrawal, and separates inquiry consent from analytics consent. Review automatic page views, enhanced measurement, URL/referrer collection and ad settings; sanitize them or disable them before enabling an adapter. Update privacy notices and CSP only for the approved implementation, then verify no pre-consent/declined requests and no PII in browser network payloads. Supplying an ID alone must not activate tracking. These are future acceptance criteria, not implemented guarantees. See [Google consent-mode concepts](https://developers.google.com/tag-platform/security/concepts/consent-mode).
 
 ## Owner operating checklist
 

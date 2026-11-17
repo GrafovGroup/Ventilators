@@ -1,0 +1,14 @@
+{
+  "release": "2026-11-17-operations-1",
+  "sourceCommit": "be7500c2a9bd952f6617eeb77efa7e925b701ada",
+  "sourceHasChanges": false,
+  "artifactFiles": 514,
+  "archiveBytes": 5242854,
+  "archiveSha256": "d6a834dd41c0ecbed0fa98eadb04ecc6affbbece09eaae2d1ecfc08ee8a37a33",
+  "documentRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-operations-1",
+  "rollbackRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-airgrid-site-1",
+  "archiveOutsidePublicRoot": "/home/nvfglyl5/2026-11-17-operations-1.zip",
+  "status": "LIVE; 511 public files verified; 100 health checks pass",
+  "publicFilesVerified": 511,
+  "healthChecksPassed": 100
+}

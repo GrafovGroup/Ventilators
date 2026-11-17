@@ -2,7 +2,7 @@
 
 The owner instructed publication of the full bilingual website on 2026-11-17 and selected `info@ventilators.ca` for inquiries. This supersedes the earlier coming-soon-only direction. The authorized release is informational: 80 localized pages, page-owned imagery, downloads, phone/email links and a reviewed inquiry flow. The owner subsequently supplied Formspree endpoint `mvkaapjj` and explicitly authorized connecting and testing submission. No product offers or specialist approval are implied.
 
-Current live release: `2026-11-17-airgrid-site-1`, source `045209015a0e1c526f9f3e5b632321ecb19437f3`. Its artifact and HTTP/browser evidence are under `../qa/evidence/airgrid-site/`. It applies AirGrid to all localized pages, uses fluid containers and opens `/en/` directly from `/`, retaining the original logo. The AirGrid homepage release is the immediate rollback.
+Current release: `2026-11-17-operations-1`, source `be7500c2a9bd952f6617eeb77efa7e925b701ada`. LIVE on WHC; all 511 public files match the artifact and all 100 read-only health checks pass. Evidence is under `../qa/evidence/operations/`. This adds public search-ownership tags and preserves the AirGrid design, original logo, direct English entry and inquiry-only catalogue. The preceding site-wide AirGrid release is the immediate rollback.
 
 Initial live release (retained for rollback): `2026-11-17-public-1`, source `02fc4e85bf26317160275928c65be2dbc04b7040`. The active and rollback roots, archive checksum and final live checks are recorded in `WHC_CONNECTION.md` and `../qa/evidence/public-release/release.json`.
 
@@ -14,7 +14,7 @@ Initial live release (retained for rollback): `2026-11-17-public-1`, source `02f
 | Public WHC release    | https://ventilators.ca     | Review then explicit send to Formspree; copy/email fallback | Explicit public build permits indexing |
 | Rollback holding page | Previous WHC document root | Phone/email only                                            | noindex, robots disallow               |
 
-Static Next.js export requires no Node server on WHC. `NEXT_PUBLIC_SITE_URL` defaults to the canonical origin above. `VENTILATORS_PUBLIC_RELEASE=1` intentionally enables public metadata and robots; it does not control the Formspree endpoint. Private credentials must never enter this repository or export. Existing external mail routing is preserved. Formspree notifications target info@ventilators.ca; see the latest delivery evidence in QA_REPORT.md.
+Static Next.js export requires no Node server on WHC. `NEXT_PUBLIC_SITE_URL` defaults to the canonical origin above. `VENTILATORS_PUBLIC_RELEASE=1` intentionally enables public metadata and robots; it does not control the Formspree endpoint. Public ownership tokens in `src/content/search-verification.json` persist across builds; `GOOGLE_SITE_VERIFICATION` and `BING_SITE_VERIFICATION` override them. `NEXT_PUBLIC_FORMSPREE_FORM_ID` defaults to the owner-approved form ID. These settings require rebuilding; no WHC runtime environment changes are needed. Private credentials must never enter this repository or export. Existing external mail routing is preserved. Formspree notifications target info@ventilators.ca; see the latest delivery evidence in QA_REPORT.md.
 
 ## Build a release
 
@@ -28,7 +28,8 @@ VENTILATORS_PUBLIC_RELEASE=1 npm run build
 VENTILATORS_PUBLIC_RELEASE=1 npm run check:export
 npm run check:performance
 npm run format:check
-npm audit
+npm audit --omit=dev --audit-level=high
+npm run check:audit
 npm run preview
 ```
 

@@ -1,6 +1,17 @@
 # WHC connection — 2026-11-17
 
-## Current site-wide AirGrid release
+## Current search/operations release
+
+WHC accepted the document-root change for release `2026-11-17-operations-1`, built from clean source `be7500c2a9bd952f6617eeb77efa7e925b701ada`. All 511 public files match the artifact, and all 100 health checks pass.
+
+- Document root: `/home/nvfglyl5/ventilators-release-2026-11-17-operations-1`.
+- Immediate rollback: `/home/nvfglyl5/ventilators-release-2026-11-17-airgrid-site-1`.
+- Archive: `2026-11-17-operations-1.zip`, 5,242,854 bytes; SHA-256 `d6a834dd41c0ecbed0fa98eadb04ecc6affbbece09eaae2d1ecfc08ee8a37a33`.
+- 514 manifest files. Archive moved to `/home/nvfglyl5/2026-11-17-operations-1.zip` outside the public root before activation.
+- Adds Google/Bing ownership tags. Google ownership is verified with sitemap Success (80 discovered pages); Bing accepts the property/sitemap and is processing it. Original logo, all image bytes, AirGrid layout, inquiry endpoint and spam controls remain unchanged.
+- GitHub quality run `44159455240` passed all checks. No analytics tag is installed and no real inquiries were submitted.
+
+## Previous site-wide AirGrid release
 
 Release `2026-11-17-airgrid-site-1` is live at https://ventilators.ca/ from clean source `045209015a0e1c526f9f3e5b632321ecb19437f3` on `codex/phase-1a`. AirGrid now covers all 80 localized routes with fluid containers and the original production logo. The language-choice gateway is removed: the root and `/index.html` return 301 directly to `/en/`, preserving queries. French remains available through equivalent-page header links.
 
