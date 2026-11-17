@@ -1,0 +1,3 @@
+Browser tab: 80, Title: "Sitemaps - Bing Webmaster Tools", URL: "https://www.bing.com/webmasters/sitemaps?siteUrl=https://ventilators.ca/".
+There has been no change in the accessibility tree.
+The focused UI element is 0 AXWebArea Sitemaps - Bing Webmaster Tools, URL: bing.com/webmasters/sitemaps?siteUrl=https://ventilators.ca/

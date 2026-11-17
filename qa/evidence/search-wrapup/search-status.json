@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-11-17T21:35:36.120Z",
+  "site": "https://ventilators.ca/",
+  "sitemap": "https://ventilators.ca/sitemap.xml",
+  "google": {
+    "submission": "Sitemap submitted successfully",
+    "sitemapStatus": "Success",
+    "discoveredPages": 80,
+    "indexingReport": "Processing data, please check again in a day or so",
+    "manualActions": "No issues detected",
+    "securityIssues": "No issues detected"
+  },
+  "bing": {
+    "resubmitted": true,
+    "previousSitemapStatus": "Success",
+    "sitemapStatus": "Processing",
+    "discoveredUrls": 80,
+    "errors": 0,
+    "warnings": 0
+  }
+}

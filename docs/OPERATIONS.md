@@ -1,5 +1,7 @@
 # Search and operating checks
 
+Latest search handover check: the owner requested sitemap resubmission on 2026-11-17 after release `2026-11-17-answers-1`. Google confirmed successful submission and shows Success with 80 discovered pages; Bing had Success with 80 URLs and zero errors/warnings before the accepted resubmission moved it to Processing. Google indexing data and Bing's new-property reports remain pending. Google Manual actions and Security issues report no issues detected. See `CLOSEOUT.md` and `../qa/evidence/search-wrapup/` for current evidence and remaining operating decisions.
+
 The website remains an inquiry-only informational catalogue. This increment prepares ownership verification and measurement, adds automated source checks and provides a manually invoked production health check. Google ownership is verified; its sitemap processed successfully with 80 discovered pages. Bing accepts the property and sitemap, with crawl processing pending. The consent increment below enables optional analytics after opt-in. No monitoring schedule or operational response promise is created.
 
 ## Public build configuration

@@ -1,0 +1,15 @@
+Browser tab: 50, Title: "Sitemaps", URL: "https://search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2Fventilators.ca%2F".
+0 AXWebArea Sitemaps, URL: search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2Fventilators.ca%2F
+	1 container
+		79 container
+			80 container Sitemap submitted successfully
+				81 container
+					82 heading Sitemap submitted successfully, Value: 2
+						83 text Sitemap submitted successfully
+					84 text Google will periodically process it and look for changes. You will be notified if anything goes wrong with it in the future.
+				85 button Dismiss
+					86 text Dismiss
+	77 container grammarly-integration
+		78 text {"mode":"full","isActive":true,"isUserDisabled":false}
+
+The focused UI element is 85 button Dismiss

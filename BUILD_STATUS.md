@@ -2,6 +2,10 @@
 
 Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventilators on 2026-11-17.
 
+## Search resubmission and closeout assessment
+
+On 2026-11-17, the owner requested resubmission to Google and Bing. Google confirms successful sitemap submission and 80 discovered pages; its indexing report is still processing. Bing's sitemap had Success with 80 discovered URLs and zero errors/warnings; the requested Re-submit was accepted and is Processing. Google Manual actions and Security issues both report no issues detected. The final 100-check live health run passes. Evidence: `qa/evidence/search-wrapup/`. Remaining external approvals, operating ownership and repository handover are listed in `docs/CLOSEOUT.md`; the full master-prompt gates are not all closed.
+
 ## Current increment: complete category answers and project navigation
 
 | Work                                                     | Status   | Evidence / completion requirement                                                                                |

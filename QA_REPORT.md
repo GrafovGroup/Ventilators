@@ -1,5 +1,9 @@
 # QA report
 
+## Search resubmission and final health check — 2026-11-17
+
+Owner-requested resubmission of `/sitemap.xml` completed through Google Search Console and Bing Webmaster Tools. Google displayed successful submission and retains Success / 80 discovered pages. Its Page indexing report is processing; Manual actions and Security issues both show no issues detected. Bing previously reported Success / 80 discovered URLs / zero sitemap errors or warnings; Re-submit was accepted and changed its status to Processing. These are sitemap/discovery results, not proof that every page is indexed. All 100 final live health checks pass. No website build, production root, consent/provider setting or inquiry delivery was changed. Evidence: `qa/evidence/search-wrapup/`; remaining handover items: `docs/CLOSEOUT.md`.
+
 ## Complete category answers and project navigation — 2026-11-17
 
 - All 32 tests, lint, TypeScript, public build, 80-route metadata/link/asset crawl and performance budgets pass. Maximum initial JavaScript: 193,763 gzip bytes (budget 200,000). New guidance and navigation remain server rendered.
