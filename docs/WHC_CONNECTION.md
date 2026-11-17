@@ -1,6 +1,17 @@
 # WHC connection — 2026-11-17
 
-## Current Formspree release
+## Current discovery release
+
+Release `2026-11-17-discovery-1` is live at https://ventilators.ca/ from clean source `61b2818255cbe359a75b167f05b53227d3209ae5` on `codex/phase-1a`. It adds the bilingual category finder, responsive photos and deferred inquiry SDK while preserving inquiry-only catalogue status and the existing form provider/spam settings.
+
+- Active document root: `/home/nvfglyl5/ventilators-release-2026-11-17-discovery-1`.
+- Immediate rollback: `/home/nvfglyl5/ventilators-release-2026-11-17-formspree-1`; original holding and initial public roots also remain intact.
+- ZIP: `2026-11-17-discovery-1.zip`, 5,210,438 bytes, SHA-256 `78e761363e36ef2da7dca9455e8ab1a268c4fe17c431fa091e1fe816bb3ece8c`.
+- Uploaded and extracted into a fresh root; hidden `.htaccess`, index and localized directories inspected. ZIP moved to `/home/nvfglyl5/2026-11-17-discovery-1.zip` before publication.
+- cPanel confirmed the root change. All 513 public files match the manifest; redirects, headers, robots and 404 pass. Live EN/FR finder and form loading checked without sending additional real inquiries. Evidence: `qa/evidence/discovery/`.
+- Restore the immediate rollback root in cPanel Domains → Manage ventilators.ca → New Document Root → Update if needed; verify against the Formspree release manifest. No DNS, mail or hosting-plan changes were made.
+
+## Historical Formspree release
 
 The owner supplied form `mvkaapjj` and authorized integration/testing after the initial launch. Release `2026-11-17-formspree-1` is live at https://ventilators.ca/.
 

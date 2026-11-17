@@ -4,6 +4,10 @@ Bilingual industrial ventilation and institutional medical procurement website f
 
 The owner authorized publication of the full bilingual informational website on 2026-11-17, superseding the earlier coming-soon-only instruction. The full site is live at [ventilators.ca](https://ventilators.ca/) on WHC Pro; tested source is on `codex/phase-1a`. All equipment categories remain inquiry-only; no verified product inventory exists. The inquiry form validates and reviews details locally, then sends through the owner-supplied Formspree endpoint when the visitor selects Send inquiry. Formspree notifications are configured for **info@ventilators.ca**. See the current verification record in `QA_REPORT.md`; provider acceptance and inbox receipt are distinct checks.
 
+## Design alternatives
+
+The five requested logo/homepage directions are in [the design review gallery](designs/2026-11-17/index.html). Each is a separate EN/FR responsive concept with downloadable vector and PNG identities. They are excluded from the public export. See [the design review README](designs/2026-11-17/README.md) for local preview and asset credits.
+
 ## Run locally
 
 Use Node.js 22 or newer and npm.

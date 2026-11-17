@@ -1,5 +1,16 @@
 # QA report
 
+## Five logo and homepage alternatives — 2026-11-17
+
+Requested after completion of the discovery release. `designs/2026-11-17/` contains five original vector identities and five complete, bilingual, responsive homepage concepts, plus comparison boards, PNG/SVG downloads and the self-contained gallery. They are review artifacts and are not in the live document root or Next.js export.
+
+- All five layouts checked at 1440 px English, 375 px English and 320 px French. Two French overflow issues were corrected and rechecked. Fifteen page audits plus logo board, homepage board and mobile gallery audits: 18 checks, zero automated WCAG violations or horizontal overflow. `qa.json` records incomplete contrast checks separately; this is not a full accessibility certification.
+- Language switching and mobile menu/Escape behavior checked on all five. DualStream's division switch and Northline's medical inquiry destination also pass: seven interaction records.
+- All eight HTML documents carry noindex. All 149 local asset/document references resolve; 22 SVG files parse. Desktop/mobile screenshots and both comparison boards were visually inspected.
+- ESLint and repository formatting pass after the added scripts. No production code changed during this design exploration, so the discovery release's 21 tests, build and export evidence remain applicable.
+- Three licensed contextual photos are used once each across the separate review concepts, with source credits in `IMAGE_CREDITS.json`; other illustrations are original SVG. No product inventory or supplier/clinical claims are added.
+- Download package: `qa/generated/design-options/Ventilators-design-options-2026-11-17.zip`. It contains the gallery, complete HTML/CSS/JS, assets, screenshots, credits and QA record. Unzip and open `index.html` in a regular desktop browser. The in-app browser supports HTTP/HTTPS previewing but blocks direct file-URL navigation; no workaround or production publication was used.
+
 ## Equipment discovery and performance — 2026-11-17
 
 Catalogue remains inquiry-only at the owner's direction. Tested increment: bilingual category search/filtering, responsive existing-photo variants and deferred inquiry SDK loading. No new real Formspree submissions were sent during these regression checks.
@@ -12,7 +23,7 @@ Catalogue remains inquiry-only at the owner's direction. Tested increment: bilin
 - Local unthrottled browser LCP/CLS/event observations are recorded in `browser.json`. These are limited lab samples, not throttled-mobile or field Core Web Vitals certification; INP remains unverified. Screenshots cover English/French narrow finders, desktop finder and mobile/desktop home. No site console error was observed; unrelated Grammarly extension diagnostics were excluded.
 - Responsive image ownership, every srcset asset, static no-JavaScript category links and the inquiry email fallback are checked in the export. Informational routes and 30 unique editorial identities are unchanged.
 
-Deployment is pending in this checkpoint; the current live-release record will be added after public hash and browser verification.
+Release `2026-11-17-discovery-1` is LIVE from clean source `61b2818255cbe359a75b167f05b53227d3209ae5`. WHC confirmed the new root; all 513 public files match their SHA-256 manifest values, with no failures in routes, redirects, 404, indexing, headers or asset checks. Live English search, French equivalent-page switching/search and inquiry hydration pass. See `release.json`, `live-http.json`, `live-browser.json` and `live-finder.png`. The ZIP is retained outside all public roots; immediate rollback is the previous Formspree release.
 
 ## Spam-protection review — 2026-11-17
 

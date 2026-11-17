@@ -1,0 +1,11 @@
+{
+  "release": "2026-11-17-discovery-1",
+  "sourceCommit": "61b2818255cbe359a75b167f05b53227d3209ae5",
+  "sourceHasChanges": false,
+  "archive": "2026-11-17-discovery-1.zip",
+  "bytes": 5210438,
+  "sha256": "78e761363e36ef2da7dca9455e8ab1a268c4fe17c431fa091e1fe816bb3ece8c",
+  "files": 515,
+  "activeRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-discovery-1",
+  "rollbackRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-formspree-1"
+}

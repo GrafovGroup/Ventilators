@@ -1,0 +1,218 @@
+{
+  "audits": [
+    {
+      "path": "/home-1.html",
+      "locale": "en-CA",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-1.html",
+      "locale": "en-CA",
+      "width": 375,
+      "scrollWidth": 375,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-1.html",
+      "locale": "fr-CA",
+      "width": 320,
+      "scrollWidth": 320,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-2.html",
+      "locale": "en-CA",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-2.html",
+      "locale": "en-CA",
+      "width": 375,
+      "scrollWidth": 375,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-2.html",
+      "locale": "fr-CA",
+      "width": 320,
+      "scrollWidth": 320,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-3.html",
+      "locale": "en-CA",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-3.html",
+      "locale": "en-CA",
+      "width": 375,
+      "scrollWidth": 375,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-4.html",
+      "locale": "en-CA",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-4.html",
+      "locale": "en-CA",
+      "width": 375,
+      "scrollWidth": 375,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-4.html",
+      "locale": "fr-CA",
+      "width": 320,
+      "scrollWidth": 320,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-5.html",
+      "locale": "en-CA",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-5.html",
+      "locale": "en-CA",
+      "width": 375,
+      "scrollWidth": 375,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-3.html",
+      "locale": "fr-CA",
+      "width": 320,
+      "scrollWidth": 320,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/home-5.html",
+      "locale": "fr-CA",
+      "width": 320,
+      "scrollWidth": 320,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "path": "/logos.html",
+      "locale": "en-CA",
+      "width": 1200,
+      "scrollWidth": 1200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "path": "/homepages.html",
+      "locale": "en-CA",
+      "width": 1200,
+      "scrollWidth": 1200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "path": "/index.html",
+      "locale": "en-CA",
+      "width": 375,
+      "scrollWidth": 375,
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "interactions": [
+    {
+      "option": 5,
+      "medicalInquiryDestination": "https://ventilators.ca/fr/demande-de-soumission/?division=medical"
+    },
+    {
+      "option": 1,
+      "language": {
+        "heading": "L’air.\nAvec précision.",
+        "lang": "fr-CA",
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "menuOpen": "true",
+      "menuClosed": "false"
+    },
+    {
+      "option": 2,
+      "language": {
+        "heading": "Le bon air.\nLe bon\npoint de départ.",
+        "lang": "fr-CA",
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "menuOpen": "true",
+      "menuClosed": "false"
+    },
+    {
+      "option": 3,
+      "language": {
+        "heading": "FAIRE CIRCULER.\nFAIRE AVANCER.",
+        "lang": "fr-CA",
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "menuOpen": "true",
+      "menuClosed": "false"
+    },
+    {
+      "option": 4,
+      "language": {
+        "heading": "Deux disciplines.\nUn point de départ clair.",
+        "lang": "fr-CA",
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "menuOpen": "true",
+      "menuClosed": "false"
+    },
+    {
+      "option": 5,
+      "language": {
+        "heading": "Commençons\npar les bons\ndétails.",
+        "lang": "fr-CA",
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "menuOpen": "true",
+      "menuClosed": "false"
+    },
+    {
+      "option": 4,
+      "divisionSwitch": {
+        "industrialHidden": true,
+        "medicalVisible": true,
+        "scrollWidth": 375,
+        "width": 375
+      }
+    }
+  ]
+}

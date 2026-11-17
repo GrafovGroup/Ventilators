@@ -1,0 +1,50 @@
+[
+  {
+    "id": "home-industrial",
+    "page": "home",
+    "src": "/images/industrial.webp",
+    "kind": "photo",
+    "source": "https://www.pexels.com/photo/massive-ventilators-of-industrial-building-5502720/",
+    "credit": "Mike van Schoonderwalt",
+    "alt": {
+      "en": "Axial fans mounted on an industrial building.",
+      "fr": "Ventilateurs axiaux fixés à un bâtiment industriel."
+    },
+    "caption": {
+      "en": "Context photograph. This is not a Ventilators.ca facility or a product offer.",
+      "fr": "Photo de contexte. Il ne s’agit pas d’un établissement de Ventilators.ca ni d’une offre de produit."
+    }
+  },
+  {
+    "id": "home-medical",
+    "page": "home",
+    "src": "/images/medical.webp",
+    "kind": "photo",
+    "source": "https://www.pexels.com/photo/equipment-at-hospital-13697732/",
+    "credit": "Jonathan Borba",
+    "alt": {
+      "en": "Medical equipment and monitors in a clinical room.",
+      "fr": "Équipement médical et moniteurs dans une salle clinique."
+    },
+    "caption": {
+      "en": "Context photograph. This is not a Ventilators.ca facility or a product offer.",
+      "fr": "Photo de contexte. Il ne s’agit pas d’un établissement de Ventilators.ca ni d’une offre de produit."
+    }
+  },
+  {
+    "id": "commercial",
+    "page": "commercial",
+    "src": "/images/commercial.webp",
+    "kind": "photo",
+    "source": "https://www.pexels.com/photo/modern-glass-facade-of-office-building-33719777/",
+    "credit": "Zulfugar Karimov",
+    "alt": {
+      "en": "Windows and facade of a multistorey commercial building.",
+      "fr": "Fenêtres et façade d’un immeuble commercial à plusieurs étages."
+    },
+    "caption": {
+      "en": "Context photograph. This is not a Ventilators.ca facility or a product offer.",
+      "fr": "Photo de contexte. Il ne s’agit pas d’un établissement de Ventilators.ca ni d’une offre de produit."
+    }
+  }
+]

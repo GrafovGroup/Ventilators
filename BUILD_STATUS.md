@@ -4,7 +4,7 @@ Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventila
 
 ## Current increment: equipment discovery and delivery performance
 
-The owner confirmed that all catalogue entries should remain inquiry-only. This increment adds EN/FR category search and division filters, retains all category links in static HTML, loads the inquiry SDK only on inquiry pages, and supplies 24 responsive variants of the eight existing photos. No product inventory, supplier authorization, compatibility claim or geographic service promise is added. Source is tested locally and ready for the next WHC release; the live release is still `2026-11-17-formspree-1` until the deployment record below is updated.
+The owner confirmed that all catalogue entries should remain inquiry-only. This increment adds EN/FR category search and division filters, retains all category links in static HTML, loads the inquiry SDK only on inquiry pages, and supplies 24 responsive variants of the eight existing photos. No product inventory, supplier authorization, compatibility claim or geographic service promise is added. Release `2026-11-17-discovery-1` is LIVE on WHC from clean source `61b2818255cbe359a75b167f05b53227d3209ae5`. All 513 public files match the tested artifact; English/French live search and form hydration pass. The previous Formspree release is retained for rollback.
 
 | Master-prompt area                                        | Current status                                           | Evidence / next requirement                                                                                                                       |
 | --------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -20,6 +20,10 @@ The owner confirmed that all catalogue entries should remain inquiry-only. This 
 | Operations                                                | PARTIAL                                                  | Versioned deployment and rollback exist; retention/response operations still need owner decisions.                                                |
 
 The sections below are historical checkpoints; their earlier delivery and launch blockers are superseded by the current evidence above.
+
+## Design alternatives requested after the release
+
+Five original logo identities and five complete bilingual homepage concepts are ready for owner comparison in `designs/2026-11-17/index.html`: Rotor, Channel, AirGrid, DualStream and Northline. Each identity includes SVG, transparent PNG, monochrome, reversed and symbol variants. All concepts have responsive navigation; DualStream switches divisions and Northline routes by division/intent. These are standalone review artifacts, excluded from `public/` and the production export. No new identity has been selected or applied to the live site. Eighteen browser/axe checks and seven interaction checks pass; no horizontal overflow remains in the tested widths.
 
 ## Historical increment: Formspree inquiry delivery
 

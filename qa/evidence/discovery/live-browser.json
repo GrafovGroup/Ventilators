@@ -1,0 +1,12 @@
+{
+  "release": "2026-11-17-discovery-1",
+  "englishSearch": "roof curb → 1 category",
+  "languageSwitch": "/en/products/ → /fr/produits/",
+  "frenchSearch": "1 catégorie trouvée",
+  "liveInquiryHydrated": true,
+  "realSubmissionsSent": 0,
+  "layout": {
+    "scrollWidth": 375,
+    "width": 375
+  }
+}
