@@ -1,6 +1,15 @@
 # WHC connection — 2026-11-17
 
-## Current release: category answers and project navigation — 2026-11-17
+## Current release: rounded blue controls and larger menus — 2026-11-17
+
+- Live document root: `/home/nvfglyl5/ventilators-release-2026-11-17-blue-ui-1`.
+- Clean runtime source: `d1d7ba616cf729bb396ec3aa287c1f5b19507319`; ZIP 5,456,488 bytes; SHA-256 `419fda9b5bb53b1e22494911f9923a6e6942cdaf6eaef00c2162a4bf6daeaeaa`.
+- All 515 public files match the artifact and all 100 live health checks pass after WHC propagation. Archive retained privately at `/home/nvfglyl5/2026-11-17-blue-ui-1.zip`; its public URL returns 404.
+- Immediate rollback: `/home/nvfglyl5/ventilators-release-2026-11-17-answers-1`. Earlier roots, including the analytics-off operations release, remain preserved.
+- Light-blue surfaces and rounded buttons apply throughout the site; desktop and mobile menu text is 20% larger. Original logo, AirGrid structure, image bytes, inquiry-only catalogue and form/consent behaviour are preserved.
+- Live desktop/mobile navigation and French form hydration verified. No DNS, mail or provider settings changed; no real inquiry sent. Evidence: `../qa/evidence/blue-ui/`. GitHub quality run `44184257373` passed.
+
+## Previous release: category answers and project navigation — 2026-11-17
 
 - Live document root: `/home/nvfglyl5/ventilators-release-2026-11-17-answers-1`.
 - Clean runtime source: `a58834b29ce53d4d39434bb2b96c6ada2182b051`; ZIP 5,456,862 bytes; SHA-256 `8516af1341390912895d09bce085996273e2130299cb82341dd729f18f02398b`.

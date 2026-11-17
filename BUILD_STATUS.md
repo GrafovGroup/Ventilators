@@ -6,7 +6,7 @@ Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventila
 
 The owner requested round buttons, friendlier light blue colours throughout the site and menu items 20% larger. Shared styles now use pale blue surfaces, navy text, rounded calls to action, finder/form controls and equal consent choices. Desktop menu text increases from 10 to 12 px (9 to 10.8 px at the compact breakpoint); mobile menu items increase from 12 to 14.4 px. The original logo, AirGrid structure, all 61 brand/image files, 80 routes and inquiry-only catalogue are preserved.
 
-Local verification passes: 32 tests, lint, TypeScript, public build/export and performance budgets; 63 responsive/accessibility records with zero violations or horizontal overflow; 20 final menu/layout checks; 14 solid-colour contrast pairs and 13 interaction records. Inquiry review and acceptance use the local mock only. Evidence: `qa/evidence/blue-ui/`. WHC publication and live verification are pending.
+Local verification passes: 32 tests, lint, TypeScript, public build/export and performance budgets; 63 responsive/accessibility records with zero violations or horizontal overflow; 20 final menu/layout checks; 14 solid-colour contrast pairs and 13 interaction records. Inquiry review and acceptance use the local mock only. Evidence: `qa/evidence/blue-ui/`. Release `2026-11-17-blue-ui-1` is LIVE on WHC from clean source `d1d7ba616cf729bb396ec3aa287c1f5b19507319`. All 515 public files match the tested artifact and all 100 live health checks pass. GitHub quality run `44184257373` passed. Live EN desktop and FR mobile navigation/form checks pass. The category-answers release remains the immediate rollback.
 
 ## Search resubmission and closeout assessment
 

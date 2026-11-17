@@ -1,6 +1,6 @@
 # Project closeout — 2026-11-17
 
-The owner-approved informational website is live on WHC as release `2026-11-17-answers-1`. The current logo, AirGrid design and inquiry-only catalogue remain in place. The implemented website can enter maintenance; full master-prompt sign-off still has the external and operational items below.
+The owner-approved informational website is live on WHC as release `2026-11-17-blue-ui-1`. The current logo, AirGrid design and inquiry-only catalogue remain in place. The implemented website can enter maintenance; full master-prompt sign-off still has the external and operational items below.
 
 ## Search resubmission
 

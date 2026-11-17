@@ -1,0 +1,89 @@
+[
+  {
+    "action": "#acd9f6",
+    "buttonRadius": "999px",
+    "collectors": 0,
+    "googleScripts": 0,
+    "navFont": "12px",
+    "overflow": false,
+    "page": "https://ventilators.ca/en/",
+    "width": 1440
+  },
+  {
+    "navFont": "14.4px",
+    "navItems": [
+      {
+        "clipped": false,
+        "height": 51.03125,
+        "text": "Industriel"
+      },
+      {
+        "clipped": false,
+        "height": 51.03125,
+        "text": "Médical"
+      },
+      {
+        "clipped": false,
+        "height": 51.03125,
+        "text": "Produits"
+      },
+      {
+        "clipped": false,
+        "height": 51.03125,
+        "text": "Services"
+      },
+      {
+        "clipped": false,
+        "height": 51.03125,
+        "text": "Secteurs"
+      },
+      {
+        "clipped": false,
+        "height": 51.03125,
+        "text": "Ressources"
+      },
+      {
+        "clipped": false,
+        "height": 51.03125,
+        "text": "À propos"
+      },
+      {
+        "clipped": false,
+        "height": 51.03125,
+        "text": "Contact"
+      },
+      {
+        "clipped": false,
+        "height": 74.0625,
+        "text": "Demander une soumission"
+      }
+    ],
+    "overflow": false,
+    "page": "https://ventilators.ca/fr/",
+    "width": 375
+  },
+  {
+    "case": "Live mobile menu Escape",
+    "expanded": "false",
+    "focus": "menu-toggle"
+  },
+  {
+    "case": "Live French inquiry after hydration",
+    "collectors": 0,
+    "fixedBar": 0,
+    "form": true,
+    "googleScripts": 0,
+    "inputRadius": "12px",
+    "overflow": false,
+    "page": "https://ventilators.ca/fr/demande-de-soumission/",
+    "submitButtons": [
+      {
+        "background": "rgb(172, 217, 246)",
+        "color": "rgb(22, 50, 74)",
+        "radius": "999px",
+        "text": "Vérifier la demande"
+      }
+    ],
+    "width": 375
+  }
+]

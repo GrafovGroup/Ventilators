@@ -1,0 +1,17 @@
+{
+  "release": "2026-11-17-blue-ui-1",
+  "sourceCommit": "d1d7ba616cf729bb396ec3aa287c1f5b19507319",
+  "sourceHasChanges": false,
+  "archive": "2026-11-17-blue-ui-1.zip",
+  "archiveBytes": 5456488,
+  "archiveSHA256": "419fda9b5bb53b1e22494911f9923a6e6942cdaf6eaef00c2162a4bf6daeaeaa",
+  "documentRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-blue-ui-1",
+  "rollbackRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-answers-1",
+  "privateArchive": "/home/nvfglyl5/2026-11-17-blue-ui-1.zip",
+  "qualityRun": "https://github.com/GrafovGroup/Ventilators/actions/runs/44184257373",
+  "qualityConclusion": "success",
+  "liveVerification": "passed",
+  "publicFilesMatched": 515,
+  "healthChecksPassed": 100,
+  "realInquiriesSent": 0
+}
