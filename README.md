@@ -6,7 +6,7 @@ The owner authorized publication of the full bilingual informational website on 
 
 ## Site-wide AirGrid design
 
-The owner selected AirGrid for the entire English/French site while retaining the original production logo. All 80 localized routes use the warm paper, charcoal and rust design. Containers are fluid with 16–64 px responsive edge spacing; readable paragraph measures remain inside the wide layouts. The root redirects directly to `/en/`, and the header keeps equivalent-page French/English switching.
+The owner selected AirGrid for the entire English/French site while retaining the original production logo. All 80 localized routes use pale blue surfaces, navy text and rounded light-blue controls. Desktop and mobile menu items are 20% larger than the original AirGrid implementation. Containers are fluid with 16–64 px responsive edge spacing; readable paragraph measures remain inside the wide layouts. The root redirects directly to `/en/`, and the header keeps equivalent-page French/English switching.
 
 ## Design alternatives
 

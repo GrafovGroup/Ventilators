@@ -1,0 +1,854 @@
+[
+  {
+    "font": "10.8px",
+    "header": [
+      {
+        "class": "brand",
+        "left": 26.2734375,
+        "right": 206.2734375
+      },
+      {
+        "class": "desktop-nav",
+        "left": 222.2734375,
+        "right": 885
+      },
+      {
+        "class": "button header-quote",
+        "left": 901,
+        "right": 1024.71875
+      }
+    ],
+    "overflow": false,
+    "url": "/en/",
+    "width": 1051
+  },
+  {
+    "font": "10.8px",
+    "header": [
+      {
+        "class": "brand",
+        "left": 26.2734375,
+        "right": 206.2734375
+      },
+      {
+        "class": "desktop-nav",
+        "left": 222.2734375,
+        "right": 836.03125
+      },
+      {
+        "class": "button header-quote",
+        "left": 852.03125,
+        "right": 1024.71875
+      }
+    ],
+    "overflow": false,
+    "url": "/fr/",
+    "width": 1051
+  },
+  {
+    "font": "10.8px",
+    "header": [
+      {
+        "class": "brand",
+        "left": 27.5,
+        "right": 207.5
+      },
+      {
+        "class": "desktop-nav",
+        "left": 223.5,
+        "right": 932.78125
+      },
+      {
+        "class": "button header-quote",
+        "left": 948.78125,
+        "right": 1072.5
+      }
+    ],
+    "overflow": false,
+    "url": "/en/",
+    "width": 1100
+  },
+  {
+    "font": "10.8px",
+    "header": [
+      {
+        "class": "brand",
+        "left": 27.5,
+        "right": 207.5
+      },
+      {
+        "class": "desktop-nav",
+        "left": 223.5,
+        "right": 883.8125
+      },
+      {
+        "class": "button header-quote",
+        "left": 899.8125,
+        "right": 1072.5
+      }
+    ],
+    "overflow": false,
+    "url": "/fr/",
+    "width": 1100
+  },
+  {
+    "font": "10.8px",
+    "header": [
+      {
+        "class": "brand",
+        "left": 30,
+        "right": 210
+      },
+      {
+        "class": "desktop-nav",
+        "left": 226,
+        "right": 1030.28125
+      },
+      {
+        "class": "button header-quote",
+        "left": 1046.28125,
+        "right": 1170
+      }
+    ],
+    "overflow": false,
+    "url": "/en/",
+    "width": 1200
+  },
+  {
+    "font": "10.8px",
+    "header": [
+      {
+        "class": "brand",
+        "left": 30,
+        "right": 210
+      },
+      {
+        "class": "desktop-nav",
+        "left": 226,
+        "right": 981.3125
+      },
+      {
+        "class": "button header-quote",
+        "left": 997.3125,
+        "right": 1170
+      }
+    ],
+    "overflow": false,
+    "url": "/fr/",
+    "width": 1200
+  },
+  {
+    "font": "12px",
+    "header": [
+      {
+        "class": "brand",
+        "left": 30.0234375,
+        "right": 240.0234375
+      },
+      {
+        "class": "desktop-nav",
+        "left": 262.0234375,
+        "right": 1005.28125
+      },
+      {
+        "class": "button header-quote",
+        "left": 1027.28125,
+        "right": 1170.96875
+      }
+    ],
+    "overflow": false,
+    "url": "/en/",
+    "width": 1201
+  },
+  {
+    "font": "12px",
+    "header": [
+      {
+        "class": "brand",
+        "left": 30.0234375,
+        "right": 240.0234375
+      },
+      {
+        "class": "desktop-nav",
+        "left": 262.0234375,
+        "right": 954.796875
+      },
+      {
+        "class": "button header-quote",
+        "left": 976.796875,
+        "right": 1174.8984375
+      }
+    ],
+    "overflow": false,
+    "url": "/fr/",
+    "width": 1201
+  },
+  {
+    "font": "12px",
+    "header": [
+      {
+        "class": "brand",
+        "left": 32,
+        "right": 242
+      },
+      {
+        "class": "desktop-nav",
+        "left": 264,
+        "right": 1082.3125
+      },
+      {
+        "class": "button header-quote",
+        "left": 1104.3125,
+        "right": 1248
+      }
+    ],
+    "overflow": false,
+    "url": "/en/",
+    "width": 1280
+  },
+  {
+    "font": "12px",
+    "header": [
+      {
+        "class": "brand",
+        "left": 32,
+        "right": 242
+      },
+      {
+        "class": "desktop-nav",
+        "left": 264,
+        "right": 1027.8984375
+      },
+      {
+        "class": "button header-quote",
+        "left": 1049.8984375,
+        "right": 1248
+      }
+    ],
+    "overflow": false,
+    "url": "/fr/",
+    "width": 1280
+  },
+  {
+    "font": "12px",
+    "header": [
+      {
+        "class": "brand",
+        "left": 36,
+        "right": 246
+      },
+      {
+        "class": "desktop-nav",
+        "left": 268,
+        "right": 1238.3125
+      },
+      {
+        "class": "button header-quote",
+        "left": 1260.3125,
+        "right": 1404
+      }
+    ],
+    "overflow": false,
+    "url": "/en/",
+    "width": 1440
+  },
+  {
+    "font": "12px",
+    "header": [
+      {
+        "class": "brand",
+        "left": 36,
+        "right": 246
+      },
+      {
+        "class": "desktop-nav",
+        "left": 268,
+        "right": 1183.8984375
+      },
+      {
+        "class": "button header-quote",
+        "left": 1205.8984375,
+        "right": 1404
+      }
+    ],
+    "overflow": false,
+    "url": "/fr/",
+    "width": 1440
+  },
+  {
+    "expanded": "true",
+    "font": "14.4px",
+    "links": [
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Industrial",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Medical",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Products",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Services",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Industries",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Resources",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "About",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Contact",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 74.0625,
+        "scrollWidth": 144,
+        "text": "Request a quote",
+        "width": 144
+      }
+    ],
+    "overflow": false,
+    "url": "/en/",
+    "width": 320
+  },
+  {
+    "expanded": "true",
+    "font": "14.4px",
+    "links": [
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Industriel",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Médical",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Produits",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Services",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Secteurs",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Ressources",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "À propos",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 51.03125,
+        "scrollWidth": 144,
+        "text": "Contact",
+        "width": 144
+      },
+      {
+        "clientWidth": 144,
+        "height": 97.09375,
+        "scrollWidth": 144,
+        "text": "Demander une soumission",
+        "width": 144
+      }
+    ],
+    "overflow": false,
+    "url": "/fr/",
+    "width": 320
+  },
+  {
+    "expanded": "true",
+    "font": "14.4px",
+    "links": [
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Industrial",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Medical",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Products",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Services",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Industries",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Resources",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "About",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Contact",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 74.0625,
+        "scrollWidth": 172,
+        "text": "Request a quote",
+        "width": 171.5
+      }
+    ],
+    "overflow": false,
+    "url": "/en/",
+    "width": 375
+  },
+  {
+    "expanded": "true",
+    "font": "14.4px",
+    "links": [
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Industriel",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Médical",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Produits",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Services",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Secteurs",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Ressources",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "À propos",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 51.03125,
+        "scrollWidth": 172,
+        "text": "Contact",
+        "width": 171.5
+      },
+      {
+        "clientWidth": 172,
+        "height": 74.0625,
+        "scrollWidth": 172,
+        "text": "Demander une soumission",
+        "width": 171.5
+      }
+    ],
+    "overflow": false,
+    "url": "/fr/",
+    "width": 375
+  },
+  {
+    "expanded": "true",
+    "font": "14.4px",
+    "links": [
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Industrial",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Medical",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Products",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Services",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Industries",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Resources",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "About",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Contact",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Request a quote",
+        "width": 352
+      }
+    ],
+    "overflow": false,
+    "url": "/en/",
+    "width": 768
+  },
+  {
+    "expanded": "true",
+    "font": "14.4px",
+    "links": [
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Industriel",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Médical",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Produits",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Services",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Secteurs",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Ressources",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "À propos",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Contact",
+        "width": 352
+      },
+      {
+        "clientWidth": 352,
+        "height": 51.03125,
+        "scrollWidth": 352,
+        "text": "Demander une soumission",
+        "width": 352
+      }
+    ],
+    "overflow": false,
+    "url": "/fr/",
+    "width": 768
+  },
+  {
+    "expanded": "true",
+    "font": "14.4px",
+    "links": [
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Industrial",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Medical",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Products",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Services",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Industries",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Resources",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "About",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Contact",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Request a quote",
+        "width": 493
+      }
+    ],
+    "overflow": false,
+    "url": "/en/",
+    "width": 1050
+  },
+  {
+    "expanded": "true",
+    "font": "14.4px",
+    "links": [
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Industriel",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Médical",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Produits",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Services",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Secteurs",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Ressources",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "À propos",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Contact",
+        "width": 493
+      },
+      {
+        "clientWidth": 493,
+        "height": 51.03125,
+        "scrollWidth": 493,
+        "text": "Demander une soumission",
+        "width": 493
+      }
+    ],
+    "overflow": false,
+    "url": "/fr/",
+    "width": 1050
+  }
+]

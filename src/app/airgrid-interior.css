@@ -277,29 +277,23 @@
   color: var(--muted);
 }
 .airgrid-site .project-cta .button {
-  color: #fff;
-  background: var(--blue);
+  color: var(--ink);
+  background: var(--action);
+  border-color: var(--control-border);
+}
+.airgrid-site .project-cta .button:hover {
+  color: var(--ink);
+  background: var(--action-hover);
   border-color: var(--blue);
 }
-.airgrid-site .button:hover,
-.airgrid-site .project-cta .button:hover {
-  color: #fff;
-  background: #8c2f1f;
-  border-color: #8c2f1f;
-}
-.airgrid-site .button-outline:hover {
-  color: var(--ink);
-  background: var(--wash);
-  border-color: var(--ink);
-}
 .airgrid-site .site-footer {
-  color: #e2e3db;
+  color: #e7f3fc;
 }
 .airgrid-site .footer-brand p,
 .airgrid-site .footer-contact .eyebrow,
 .airgrid-site .footer-contact p,
 .airgrid-site .footer-bottom {
-  color: #c3c6bd;
+  color: #bed3e4;
 }
 .airgrid-site .footer-main a:hover,
 .airgrid-site .footer-bottom a:hover {
@@ -309,10 +303,6 @@
 .airgrid-site .finder-controls {
   border: 0;
   border-block: 1px solid var(--ink);
-}
-.airgrid-site .finder-divisions button[aria-pressed='true'] {
-  background: var(--blue);
-  border-color: var(--blue);
 }
 .airgrid-site .form-grid > div,
 .airgrid-site .finder-controls > div,

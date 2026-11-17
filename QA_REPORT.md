@@ -1,5 +1,13 @@
 # QA report
 
+## Rounded blue controls and larger menu text — 2026-11-17
+
+- Lint, TypeScript, 32 existing tests, public build, all 80 route/export checks and transfer budgets pass. Maximum initial JavaScript stays at 193,763 gzip bytes. No dependencies or functional handlers changed.
+- 63 recorded responsive/accessibility checks report zero automated violations or horizontal overflow. Final menu text is independently checked at 20 English/French desktop and expanded-mobile layouts from 320 to 1440 px; all mobile links retain at least 44 px height. Desktop text is 12 px or 10.8 px at the compact breakpoint, and mobile text is 14.4 px: a 20% increase.
+- All 14 measured solid-colour text/control/focus pairs meet their respective contrast thresholds; primary button text contrast is 8.82:1. Axe incomplete contrast records still require manual interpretation; automated results are not full accessibility certification or real-device/assistive-technology review.
+- Thirteen interaction records cover equal consent styling and focus, mobile menu/Escape, French category search, validation focus, review without transmission and accepted local mocked submission. Declined analytics records zero frames or tag loads. No real inquiry was sent.
+- All 61 brand/image assets match the previous source byte-for-byte. Desktop homepage, narrow French homepage, menu, finder and consent screenshots were inspected. Evidence: `qa/evidence/blue-ui/`. Live release verification is pending.
+
 ## Search resubmission and final health check — 2026-11-17
 
 Owner-requested resubmission of `/sitemap.xml` completed through Google Search Console and Bing Webmaster Tools. Google displayed successful submission and retains Success / 80 discovered pages. Its Page indexing report is processing; Manual actions and Security issues both show no issues detected. Bing previously reported Success / 80 discovered URLs / zero sitemap errors or warnings; Re-submit was accepted and changed its status to Processing. These are sitemap/discovery results, not proof that every page is indexed. All 100 final live health checks pass. No website build, production root, consent/provider setting or inquiry delivery was changed. Evidence: `qa/evidence/search-wrapup/`; remaining handover items: `docs/CLOSEOUT.md`.

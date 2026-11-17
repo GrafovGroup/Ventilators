@@ -2,7 +2,7 @@
 
 ## Owner-selected AirGrid system — 2026-11-17
 
-AirGrid applies to every English and French page, retaining all existing production logo assets. Warm paper, charcoal and rust, bold uppercase hero headings, square calls to action and thin editorial rules provide the shared design. The homepage keeps its filled/outlined heading. Interior pages use responsive split headings, numbered editorial sections and the existing unique photography/illustrations. The original blue wordmark remains intact. See `src/app/airgrid.css`, `src/app/airgrid-interior.css` and `src/app/globals.css`.
+AirGrid applies to every English and French page, retaining all existing production logo assets. The owner's subsequent colour update replaces warm paper/charcoal/rust with ice-blue paper, navy type, pale blue calls to action and pill-shaped buttons. Bold uppercase hero headings and thin editorial rules retain the AirGrid layout. The homepage keeps its filled/outlined heading. Interior pages use responsive split headings, numbered editorial sections and the existing unique photography/illustrations. The original blue wordmark remains intact. See `src/app/airgrid.css`, `src/app/airgrid-interior.css` and `src/app/globals.css`.
 
 The root opens `/en/` directly via the WHC 301 rule, with a static refresh/link fallback. The language-choice gateway is removed; French remains one header link away. The owner explicitly requested the site-wide style and original-logo retention.
 
@@ -14,14 +14,15 @@ Favicon: `public/favicon.svg`, `public/favicon-32.png`, `public/favicon.ico`; Ap
 
 ## Tokens and typography
 
-Source: `src/app/globals.css`. Paper `#F4F3EE`; charcoal/ink `#20211F`; primary rust `#B33F29`; muted text `#565B55`; secondary surface `#EEEEE7`; rules `#C9CCC5`; error `#A62323`; focus `#A94A00`. Brand and original illustration assets retain their colours.
+Source: `src/app/globals.css`. Paper `#F7FBFE`; navy `#102F49`; ink `#16324A`; text/link blue `#165A85`; muted text `#53687A`; secondary surface `#E7F3FC`; rules `#BFD3E2`; primary action fill `#ACD9F6` (hover `#93CBEE`); control border `#37749A`; error `#A62323`; focus `#165A85`. Light blue actions always use dark navy labels. Focus on dark footer/photo backgrounds uses the light action colour; the light consent panel restores the dark focus colour. Brand and original illustration assets retain their colours.
 
-System Arial/Helvetica avoids third-party font requests. Interior desktop H1 scales up to 96px with balanced line wrapping and language-aware hyphenation. Body text is 16px and introductions 18px. Containers have no maximum width: `calc(100% - 2 * var(--gutter))`, with `--gutter: clamp(16px, 2.5vw, 64px)`. A 2560px screen has a 2432px container. Paragraphs retain readable measures within full-width multi-column layouts. Controls and images use square corners; section spacing remains responsive. Large directories use three columns above 1800px, and mobile layouts stack naturally.
+System Arial/Helvetica avoids third-party font requests. Interior desktop H1 scales up to 96px with balanced line wrapping and language-aware hyphenation. Body text is 16px and introductions 18px. Containers have no maximum width: `calc(100% - 2 * var(--gutter))`, with `--gutter: clamp(16px, 2.5vw, 64px)`. A 2560px screen has a 2432px container. Paragraphs retain readable measures within full-width multi-column layouts. Buttons, filter chips and division choices use a 999px pill radius; text inputs use 12px corners and the consent panel 16px. Images retain square corners and section spacing remains responsive. Large directories use three columns above 1800px, and mobile layouts stack naturally. Consent allow/decline buttons retain equal visual treatment.
 
 ## Components and interaction
 
 - Split photography hero with separate division and RFQ links. Photos are contextual, not product offers.
 - Responsive navigation, bilingual utility strip, footer, breadcrumbs and mobile call/RFQ actions.
+- Main navigation labels are 20% larger at the owner's request: desktop 10→12px, compact desktop 9→10.8px, expanded mobile 12→14.4px. Existing touch targets remain at least 44px.
 - Category rows emphasize specifications and inquiry preparation instead of invented stock or pricing.
 - Buttons, focus rings, form fields, radio groups, consent checkbox, alerts, inline errors and review confirmation.
 - One H1 per page; semantic landmarks; skip link; labelled controls; keyboard menu with Escape handling.

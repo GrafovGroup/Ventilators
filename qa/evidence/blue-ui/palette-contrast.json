@@ -1,0 +1,114 @@
+[
+  {
+    "case": "Primary button",
+    "foreground": "#16324a",
+    "background": "#acd9f6",
+    "ratio": 8.82,
+    "minimum": 4.5,
+    "passes": true
+  },
+  {
+    "case": "Hovered primary button",
+    "foreground": "#16324a",
+    "background": "#93cbee",
+    "ratio": 7.56,
+    "minimum": 4.5,
+    "passes": true
+  },
+  {
+    "case": "Link on paper",
+    "foreground": "#165a85",
+    "background": "#f7fbfe",
+    "ratio": 7.12,
+    "minimum": 4.5,
+    "passes": true
+  },
+  {
+    "case": "Link on blue panel",
+    "foreground": "#165a85",
+    "background": "#e7f3fc",
+    "ratio": 6.57,
+    "minimum": 4.5,
+    "passes": true
+  },
+  {
+    "case": "Body text",
+    "foreground": "#53687a",
+    "background": "#f7fbfe",
+    "ratio": 5.56,
+    "minimum": 4.5,
+    "passes": true
+  },
+  {
+    "case": "Muted text on blue panel",
+    "foreground": "#53687a",
+    "background": "#e7f3fc",
+    "ratio": 5.13,
+    "minimum": 4.5,
+    "passes": true
+  },
+  {
+    "case": "Footer text",
+    "foreground": "#bed3e4",
+    "background": "#102f49",
+    "ratio": 8.94,
+    "minimum": 4.5,
+    "passes": true
+  },
+  {
+    "case": "Control border on button",
+    "foreground": "#37749a",
+    "background": "#acd9f6",
+    "ratio": 3.39,
+    "minimum": 3,
+    "passes": true
+  },
+  {
+    "case": "Control border on page",
+    "foreground": "#37749a",
+    "background": "#f7fbfe",
+    "ratio": 4.89,
+    "minimum": 3,
+    "passes": true
+  },
+  {
+    "case": "Hover border",
+    "foreground": "#165a85",
+    "background": "#93cbee",
+    "ratio": 4.24,
+    "minimum": 3,
+    "passes": true
+  },
+  {
+    "case": "Focus on paper",
+    "foreground": "#165a85",
+    "background": "#f7fbfe",
+    "ratio": 7.12,
+    "minimum": 3,
+    "passes": true
+  },
+  {
+    "case": "Focus on blue button",
+    "foreground": "#165a85",
+    "background": "#acd9f6",
+    "ratio": 4.94,
+    "minimum": 3,
+    "passes": true
+  },
+  {
+    "case": "Focus on footer",
+    "foreground": "#acd9f6",
+    "background": "#102f49",
+    "ratio": 9.19,
+    "minimum": 3,
+    "passes": true
+  },
+  {
+    "case": "Error text",
+    "foreground": "#a62323",
+    "background": "#f7fbfe",
+    "ratio": 6.99,
+    "minimum": 4.5,
+    "passes": true
+  }
+]

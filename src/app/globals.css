@@ -2,15 +2,20 @@
 @import './airgrid-interior.css';
 
 :root {
-  --navy: #20211f;
-  --blue: #b33f29;
+  --navy: #102f49;
+  --blue: #165a85;
   --cyan: #19b8ee;
-  --ink: #20211f;
-  --muted: #565b55;
-  --line: #c9ccc5;
-  --paper: #f4f3ee;
-  --wash: #eeeee7;
-  --focus: #a94a00;
+  --ink: #16324a;
+  --muted: #53687a;
+  --line: #bfd3e2;
+  --paper: #f7fbfe;
+  --wash: #e7f3fc;
+  --focus: #165a85;
+  --action: #acd9f6;
+  --action-hover: #93cbee;
+  --control-border: #37749a;
+  --button-radius: 999px;
+  --control-radius: 12px;
   --error: #a62323;
   --gutter: clamp(16px, 2.5vw, 64px);
   --radius: 0;
@@ -102,7 +107,7 @@ p + p {
   margin-top: 16px;
 }
 ::selection {
-  background: #f0c5b8;
+  background: var(--action);
   color: var(--navy);
 }
 .container {
@@ -131,10 +136,10 @@ p + p {
   justify-content: center;
   min-height: 48px;
   padding: 14px 25px;
-  border-radius: 0;
-  border: 1px solid var(--blue);
-  background: var(--blue);
-  color: #fff;
+  border-radius: var(--button-radius);
+  border: 1px solid var(--control-border);
+  background: var(--action);
+  color: var(--ink);
   font-size: 11px;
   line-height: 1.45;
   font-weight: 700;
@@ -146,8 +151,8 @@ p + p {
     box-shadow 0.18s ease;
 }
 .button:hover {
-  background: #8c2f1f;
-  border-color: #8c2f1f;
+  background: var(--action-hover);
+  border-color: var(--blue);
   box-shadow: none;
 }
 .button-white {
@@ -167,6 +172,20 @@ p + p {
 .button-outline:hover {
   background: var(--wash);
   border-color: var(--navy);
+}
+.menu-toggle:hover,
+.finder-divisions button:hover,
+.finder-summary button:hover,
+.mobile-actions a:hover,
+.mobile-actions a:last-child:hover {
+  background: var(--action-hover);
+  color: var(--ink);
+  border-color: var(--blue);
+}
+.site-footer :focus-visible,
+.airgrid-industrial :focus-visible,
+.division-panel :focus-visible {
+  outline-color: var(--action);
 }
 .text-link {
   display: inline-block;
@@ -195,8 +214,8 @@ p + p {
   top: 8px;
 }
 .utility {
-  background: var(--navy);
-  color: #e7edf5;
+  background: var(--wash);
+  color: var(--ink);
   font-size: 11px;
   letter-spacing: 0.025em;
 }
@@ -217,10 +236,10 @@ p + p {
   min-height: 36px;
 }
 .utility a:hover {
-  color: #fff;
+  color: var(--blue);
 }
 .language {
-  border-left: 1px solid #ffffff40;
+  border-left: 1px solid var(--line);
   padding-left: 24px;
   font-weight: 700;
 }
@@ -249,7 +268,7 @@ p + p {
   display: flex;
   align-items: center;
   min-height: 44px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -269,11 +288,12 @@ p + p {
 }
 .menu-toggle {
   display: none;
-  border: 0;
-  background: none;
+  border: 1px solid var(--control-border);
+  border-radius: var(--button-radius);
+  background: var(--wash);
   color: var(--navy);
   min-height: 44px;
-  padding: 8px;
+  padding: 8px 14px;
   font-size: 12px;
   align-items: center;
   gap: 8px;
@@ -526,7 +546,7 @@ p + p {
   margin-bottom: 16px;
 }
 .project-cta .eyebrow {
-  color: #e7c5ba;
+  color: var(--action);
   font-size: 10px;
   margin-bottom: 17px;
 }
@@ -860,8 +880,8 @@ p + p {
 }
 .division-select > label {
   padding: 16px 22px;
-  border: 1px solid #85887e;
-  border-radius: var(--radius);
+  border: 1px solid var(--control-border);
+  border-radius: var(--button-radius);
   display: flex;
   align-items: center;
   gap: 12px;
@@ -870,8 +890,8 @@ p + p {
 }
 .division-select > label.selected {
   border-color: var(--blue);
-  background: var(--wash);
-  color: var(--blue);
+  background: var(--action);
+  color: var(--ink);
 }
 input[type='radio'],
 input[type='checkbox'] {
@@ -908,8 +928,8 @@ input[type='checkbox'] {
 .form-grid textarea {
   display: block;
   width: 100%;
-  border: 1px solid #85887e;
-  border-radius: var(--radius);
+  border: 1px solid var(--control-border);
+  border-radius: var(--control-radius);
   padding: 12px;
   min-height: 48px;
   background: #fff;
@@ -1034,7 +1054,7 @@ input[type='checkbox'] {
     gap: 16px;
   }
   .desktop-nav a {
-    font-size: 9px;
+    font-size: 10.8px;
   }
   .header-quote {
     font-size: 9px;
@@ -1098,7 +1118,7 @@ input[type='checkbox'] {
   }
   .mobile-nav a {
     padding: 14px 10px;
-    font-size: 12px;
+    font-size: 14.4px;
     letter-spacing: 0.07em;
     text-transform: uppercase;
   }
@@ -1392,7 +1412,7 @@ input[type='checkbox'] {
     justify-content: center;
     min-height: 44px;
     border: 1px solid var(--navy);
-    border-radius: 0;
+    border-radius: var(--button-radius);
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1401,9 +1421,9 @@ input[type='checkbox'] {
   }
   .mobile-actions a:last-child {
     flex: 1.5;
-    background: var(--blue);
-    color: #fff;
-    border-color: var(--blue);
+    background: var(--action);
+    color: var(--ink);
+    border-color: var(--control-border);
   }
   .breadcrumbs {
     font-size: 10px;
@@ -1986,8 +2006,8 @@ input[type='checkbox'] {
   width: 100%;
   min-height: 48px;
   padding: 10px 14px;
-  border: 1px solid #85887e;
-  border-radius: 2px;
+  border: 1px solid var(--control-border);
+  border-radius: var(--control-radius);
   background: #fff;
   color: var(--ink);
   font: inherit;
@@ -2010,7 +2030,8 @@ input[type='checkbox'] {
 .finder-divisions button {
   min-height: 48px;
   padding: 10px 16px;
-  border: 1px solid #85887e;
+  border: 1px solid var(--control-border);
+  border-radius: var(--button-radius);
   background: #fff;
   color: var(--navy);
   font: inherit;
@@ -2018,9 +2039,10 @@ input[type='checkbox'] {
   cursor: pointer;
 }
 .finder-divisions button[aria-pressed='true'] {
-  background: var(--navy);
-  color: #fff;
-  border-color: var(--navy);
+  background: var(--action);
+  color: var(--ink);
+  border-color: var(--blue);
+  box-shadow: inset 0 0 0 1px var(--blue);
 }
 .finder-summary {
   display: flex;
@@ -2035,9 +2057,10 @@ input[type='checkbox'] {
   font-size: 14px;
 }
 .finder-summary button {
-  background: none;
-  border: 0;
-  border-bottom: 1px solid currentColor;
+  background: var(--wash);
+  border: 1px solid var(--control-border);
+  border-radius: var(--button-radius);
+  padding: 10px 18px;
   color: var(--navy);
   cursor: pointer;
   min-height: 44px;

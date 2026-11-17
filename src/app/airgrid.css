@@ -3,24 +3,18 @@
   border-bottom: 1px solid var(--ink);
 }
 .airgrid-site .button {
-  border-radius: 0;
   gap: 12px;
   letter-spacing: 0.025em;
 }
-.airgrid-site .button:hover {
-  background: #8c2f1f;
-  border-color: #8c2f1f;
-  box-shadow: none;
-}
 .airgrid-site .utility a:hover {
-  color: #fff;
+  color: var(--blue);
   text-decoration: underline;
 }
 .airgrid-site .mobile-actions {
   background: var(--paper);
 }
 .airgrid-site .mobile-actions a {
-  border-radius: 0;
+  border-radius: var(--button-radius);
 }
 .airgrid-site .mobile-nav {
   background: var(--paper);
@@ -78,7 +72,7 @@
   position: relative;
   isolation: isolate;
   min-height: 440px;
-  background: #263b35;
+  background: var(--navy);
   color: #fff;
   overflow: hidden;
 }
@@ -92,7 +86,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, #081817e8, #08181718);
+  background: linear-gradient(90deg, #102f49eb, #102f4918);
   z-index: -1;
 }
 .airgrid-industrial-copy {
@@ -123,7 +117,7 @@
   right: 18px;
   max-width: calc(100% - 36px);
   padding: 5px 9px;
-  background: #10211be6;
+  background: #102f49e6;
   color: #fff;
   font-size: 10px;
 }
@@ -382,7 +376,7 @@
     padding-inline: 19px;
   }
   .airgrid-industrial::after {
-    background: linear-gradient(90deg, #081817de, #08181748);
+    background: linear-gradient(90deg, #102f49e6, #102f4948);
   }
   .airgrid-industrial figcaption {
     right: 12px;

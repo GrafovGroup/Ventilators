@@ -1,0 +1,161 @@
+[
+  {
+    "case": "Equal consent button styling and keyboard focus",
+    "buttons": [
+      {
+        "background": "rgb(172, 217, 246)",
+        "border": "rgb(55, 116, 154)",
+        "color": "rgb(22, 50, 74)",
+        "radius": "999px",
+        "text": "Allow analytics"
+      },
+      {
+        "background": "rgb(172, 217, 246)",
+        "border": "rgb(55, 116, 154)",
+        "color": "rgb(22, 50, 74)",
+        "radius": "999px",
+        "text": "Decline analytics"
+      }
+    ],
+    "focused": "Decline analytics",
+    "outline": "rgb(22, 90, 133)"
+  },
+  {
+    "case": "Mobile menu Escape en 320",
+    "expanded": "false",
+    "focus": "menu-toggle"
+  },
+  {
+    "case": "Mobile menu Escape fr 320",
+    "expanded": "false",
+    "focus": "menu-toggle"
+  },
+  {
+    "case": "Mobile menu Escape en 375",
+    "expanded": "false",
+    "focus": "menu-toggle"
+  },
+  {
+    "case": "Mobile menu Escape fr 375",
+    "expanded": "false",
+    "focus": "menu-toggle"
+  },
+  {
+    "case": "Mobile menu Escape en 768",
+    "expanded": "false",
+    "focus": "menu-toggle"
+  },
+  {
+    "case": "Mobile menu Escape fr 768",
+    "expanded": "false",
+    "focus": "menu-toggle"
+  },
+  {
+    "case": "Mobile menu Escape en 1050",
+    "expanded": "false",
+    "focus": "menu-toggle"
+  },
+  {
+    "case": "Mobile menu Escape fr 1050",
+    "expanded": "false",
+    "focus": "menu-toggle"
+  },
+  {
+    "case": "French finder search",
+    "results": "Industriel\n06\nSoufflantes\n\nPartez des exigences du procédé et des données de l’équipement existant pour une demande de soufflante ou de remplacement.\n\nVoir la catégorie"
+  },
+  {
+    "case": "French validation focus and error colour",
+    "errorColor": "rgb(166, 35, 35)",
+    "focus": "error-summary",
+    "overflow": false
+  },
+  {
+    "case": "French mobile review, no request before Send",
+    "delivery": {
+      "mode": "success",
+      "requests": []
+    },
+    "buttons": [
+      {
+        "background": "rgb(172, 217, 246)",
+        "color": "rgb(22, 50, 74)",
+        "label": "Envoyer la demande",
+        "radius": "999px"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(16, 47, 73)",
+        "label": "Copier le résumé",
+        "radius": "999px"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(16, 47, 73)",
+        "label": "Ouvrir un courriel",
+        "radius": "999px"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(16, 47, 73)",
+        "label": "Modifier la demande",
+        "radius": "999px"
+      }
+    ],
+    "fixedBar": 0,
+    "overflow": false
+  },
+  {
+    "case": "Local mocked acceptance; analytics declined",
+    "result": "Demande transmise.\n\nMerci. Votre demande a été acceptée pour traitement. Conservez la référence ci-dessous pour le suivi. La disponibilité de l’équipement et la portée des services restent à confirmer.\n\nRéférence de la demande:\nVCA-6e5d4b5b-e0d8-4dc1-b6d1-2a9197ce5a85\n\nPRÉPARER UNE NOUVELLE DEMANDE",
+    "delivery": {
+      "mode": "success",
+      "requests": [
+        {
+          "method": "POST",
+          "payload": {
+            "division": "medical",
+            "name": "Essai synthétique",
+            "organization": "Vérification locale",
+            "email": "test@example.invalid",
+            "phone": "",
+            "province": "QC",
+            "category": "Ventilateurs non invasifs",
+            "model": "",
+            "specification": "",
+            "quantity": "Pas encore connu",
+            "timeline": "Pas encore connu",
+            "urgency": "Non fourni",
+            "details": "Essai local des boutons arrondis. Aucun achat.",
+            "consent": "yes",
+            "category_id": "noninvasive",
+            "locale": "fr-CA",
+            "request_id": "VCA-6e5d4b5b-e0d8-4dc1-b6d1-2a9197ce5a85",
+            "consent_version": "2026-11-17-formspree-v1",
+            "consent_text": "J’ai lu l’avis de confidentialité et je consens au traitement de mes coordonnées professionnelles et de ma demande par Ventilators.ca et Formspree afin de répondre à cette demande.",
+            "consent_timestamp": "2026-11-17T21:48:57.009Z",
+            "page": "https://ventilators.ca/fr/demande-de-soumission/",
+            "_subject": "Ventilators.ca — Médical (FR)",
+            "_gotcha": "",
+            "message": "Essai local des boutons arrondis. Aucun achat."
+          }
+        }
+      ]
+    },
+    "analytics": {
+      "mode": "fresh",
+      "consent": "denied",
+      "saved": {
+        "version": 1,
+        "choice": "denied",
+        "updatedAt": 1794952126925,
+        "expiresAt": 1810504126925
+      },
+      "frames": 0,
+      "tagLoads": 0,
+      "gaCookies": [],
+      "activeElement": "Demande transmise.Merci. Votre demande a été acceptée pour traitement. Conservez",
+      "commands": []
+    }
+  }
+]
