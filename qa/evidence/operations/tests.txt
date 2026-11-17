@@ -1,0 +1,33 @@
+✔ category search combines division and every word without requiring French accents (2.78875ms)
+✔ clearing filters restores every inquiry-only category in both languages (0.311958ms)
+✔ editorial visuals have unique source identities and unique file contents (12.919209ms)
+✔ every detail page has a unique visual, translated sections and a valid inquiry path (1.323417ms)
+✔ resource checklists are generated in both languages (2.193042ms)
+✔ delivery includes full inquiry, localized choices, reply email and versioned consent (0.489208ms)
+✔ French medical requests retain division routing and French context (0.264666ms)
+✔ payload strips unrecognized fields and never accepts arbitrary routing or mail headers (0.1525ms)
+✔ delivery refuses invalid inquiries and preserves the same reference on retry (0.438208ms)
+✔ a valid industrial inquiry passes local review (0.854ms)
+✔ medical inquiry uses only medical categories (0.139084ms)
+✔ requires consent and meaningful required fields (0.093583ms)
+✔ rejects bad emails, unknown province, forged category and timeline (0.045875ms)
+✔ quantities must be bounded positive integers (0.059791ms)
+✔ enforces text limits and known division (0.038792ms)
+✔ FormData normalization trims text and ignores unrelated fields (12.39ms)
+✔ service inquiries are validated within their division and priority is bounded (0.078833ms)
+✔ EN/FR UI and editorial dictionaries have identical nonempty keys (0.9735ms)
+✔ all translated routes are unique and reciprocal (1.069458ms)
+✔ category links retain their translated division and slug (0.097708ms)
+✔ unsupported routes resolve to no page and no products are invented (0.046584ms)
+✔ public integration configuration keeps the approved endpoint and rejects pasted credentials/markup (0.941584ms)
+✔ analytics contract accepts all planned events only in valid public context (0.205416ms)
+✔ analytics contract rejects personal data, arbitrary URLs, invalid contexts and extra properties (0.109208ms)
+✔ health checks detect soft failures, indexing blocks, missing headers and incorrect language/redirects (8.448375ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 138.901958

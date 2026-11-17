@@ -1,0 +1,85 @@
+{
+  "accepted": true,
+  "analyticsScripts": [],
+  "audit": {
+    "incomplete": [],
+    "passes": 28,
+    "scrollWidth": 1280,
+    "url": "/en/request-a-quote/",
+    "viewport": 1280,
+    "violations": []
+  },
+  "delivery": {
+    "mode": "retry",
+    "requests": [
+      {
+        "method": "POST",
+        "payload": {
+          "_gotcha": "",
+          "_subject": "Ventilators.ca — Industrial (EN)",
+          "category": "Roof ventilators",
+          "category_id": "roof",
+          "consent": "yes",
+          "consent_text": "I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.",
+          "consent_timestamp": "2026-11-17T19:29:16.567Z",
+          "consent_version": "2026-11-17-formspree-v1",
+          "details": "Local mock check of roof ventilation inquiry routing and retry behavior. No email is sent.",
+          "division": "industrial",
+          "email": "qa@example.com",
+          "locale": "en-CA",
+          "message": "Local mock check of roof ventilation inquiry routing and retry behavior. No email is sent.",
+          "model": "",
+          "name": "Local QA",
+          "organization": "Local validation only",
+          "page": "https://ventilators.ca/en/request-a-quote/",
+          "phone": "",
+          "province": "ON",
+          "quantity": "2",
+          "request_id": "VCA-6bc64332-bbdb-44f5-84ab-1a1047aecf4f",
+          "specification": "",
+          "timeline": "Planning / budget",
+          "urgency": "Standard planning"
+        }
+      },
+      {
+        "method": "POST",
+        "payload": {
+          "_gotcha": "",
+          "_subject": "Ventilators.ca — Industrial (EN)",
+          "category": "Roof ventilators",
+          "category_id": "roof",
+          "consent": "yes",
+          "consent_text": "I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.",
+          "consent_timestamp": "2026-11-17T19:29:16.567Z",
+          "consent_version": "2026-11-17-formspree-v1",
+          "details": "Local mock check of roof ventilation inquiry routing and retry behavior. No email is sent.",
+          "division": "industrial",
+          "email": "qa@example.com",
+          "locale": "en-CA",
+          "message": "Local mock check of roof ventilation inquiry routing and retry behavior. No email is sent.",
+          "model": "",
+          "name": "Local QA",
+          "organization": "Local validation only",
+          "page": "https://ventilators.ca/en/request-a-quote/",
+          "phone": "",
+          "province": "ON",
+          "quantity": "2",
+          "request_id": "VCA-6bc64332-bbdb-44f5-84ab-1a1047aecf4f",
+          "specification": "",
+          "timeline": "Planning / budget",
+          "urgency": "Standard planning"
+        }
+      }
+    ]
+  },
+  "verification": [
+    {
+      "content": "ZD8XId0SIgwGg1ivWZEN7ZJ9jAA_rRKF0CrcnOBQZaM",
+      "name": "google-site-verification"
+    },
+    {
+      "content": "8540AF3FE8C8197267E84BBE602115F7",
+      "name": "msvalidate.01"
+    }
+  ]
+}

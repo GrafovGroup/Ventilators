@@ -53,7 +53,8 @@ npm run build
 npm run check:export
 npm run check:performance
 npm run format:check
-npm audit
+npm run check:audit
+npm run check:live
 ```
 
 `npm test` covers inquiry validation, localized route/content parity, resource generation and unique image sources/file hashes. `check:export` checks every exported content route, metadata, languages, JSON-LD, internal links, assets, per-page image assignments, anchors, sitemaps, the no-JavaScript inquiry fallback and 404/favicon files. `check:performance` enforces initial JavaScript (200 KB gzip), CSS (15 KB gzip) and responsive photo size budgets; these are transfer-size checks, not field Core Web Vitals. Recreate photo variants with `npm run images:build` after changing licensed originals. The inquiry SDK loads only when an inquiry form mounts. `QA_REPORT.md` distinguishes automated checks from manual browser checks and unfinished release gates.
@@ -74,9 +75,13 @@ For a local accessibility report, run `node scripts/qa-server.mjs` and open `htt
 - `public/`: local brand assets, photos and checklists.
 - `qa/evidence/`: actual screenshots and check results.
 
+## Search and operating controls
+
+[OPERATIONS.md](docs/OPERATIONS.md) documents public verification tokens, the configurable Formspree ID, the seven privacy-safe analytics event definitions, release CI, manual production health checks and operating responsibilities. Analytics are off. `npm run check:live` performs 100 read-only checks without sending an inquiry. `npm run check:audit` enforces a dated, exact exception for the unpatched development-only picomatch advisory; production dependencies audit clean at this checkpoint.
+
 ## Outstanding dependencies
 
-1. Owner approval of logo/layout, architecture and content; Canadian English/Quebec French editorial review.
+1. Canadian English/Quebec French human editorial and content review. The owner has selected the existing logo and site-wide AirGrid layout.
 2. Verified manufacturers, device data, supplier authority, medical regulatory review and industrial service qualifications.
 3. Counsel-reviewed privacy/terms, retention, consent and handling processes.
 4. Formspree quota/spam monitoring, retention and delivery operations. The owner-approved provider replaces the earlier proposed custom endpoint; provider capabilities and limits are recorded in [RFQ_ENDPOINT.md](docs/RFQ_ENDPOINT.md).

@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import { routes, alternatePath } from '../src/lib/routes';
 import { siteUrl, indexingEnabled } from '../src/lib/seo';
 import { media } from '../src/content/media';
+import { searchVerification, publicFormId } from '../src/lib/integrations';
 
 const root = resolve('out');
 const failures: string[] = [];
@@ -103,6 +104,22 @@ for (const { route, html } of htmlFiles) {
 }
 const sitemap = await readFile(resolve(root, 'sitemap.xml'), 'utf8');
 const rootPage = await readFile(resolve(root, 'index.html'), 'utf8');
+const verification = searchVerification(process.env);
+publicFormId(process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID);
+for (const html of [rootPage, ...htmlFiles.map((file) => file.html)]) {
+  for (const [name, value] of [
+    ['google-site-verification', verification?.google],
+    ['msvalidate.01', verification?.other?.['msvalidate.01']],
+  ]) {
+    if (value)
+      assert.ok(html.includes(`<meta name="${name}" content="${value}"`), `${name} token missing`);
+    else assert.ok(!html.includes(`<meta name="${name}"`), `${name} unexpectedly present`);
+  }
+  assert.ok(
+    !/googletagmanager\.com|google-analytics\.com|\bgtag\(/.test(html),
+    'analytics remain disabled',
+  );
+}
 assert.match(rootPage, /http-equiv="refresh" content="0;url=\/en\/"/i);
 assert.ok(rootPage.includes(`<link rel="canonical" href="${siteUrl}/en/"`));
 assert.ok(!rootPage.includes('gateway-actions'), 'no language selection gate');

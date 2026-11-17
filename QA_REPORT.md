@@ -1,5 +1,13 @@
 # QA report
 
+## Search setup and operating checks — 2026-11-17
+
+- 25 tests pass, including public configuration validation, rejection of PII/arbitrary URLs in future analytics payloads and health-check failure detection. Lint, type checks, public static build, all 80 exported routes and performance budgets pass.
+- 100 read-only checks against the existing live site pass (80 pages, entry redirects, 404, robots, sitemaps and 12 downloads). No real inquiry submitted.
+- Google/Bing public HTML ownership tokens obtained from the owner-authorized signed-in setup. Verification confirmation and final deployment evidence pending. Analytics remains disabled.
+- Production dependency audit: zero findings. Full audit: 14 development-only dependency paths rooted in the unpatched picomatch advisory GHSA-fc5q-39xc-vjpf. Narrow dependency policy passes with an explicit expiry of 2026-12-17; this is not a clean full audit.
+- Evidence in `qa/evidence/operations/`; operating procedures and limitations in `docs/OPERATIONS.md`.
+
 ## Site-wide AirGrid and direct homepage entry — 2026-11-17
 
 The owner requested AirGrid across the rest of the site, maximum responsive container width and removal of the language-choice gateway, keeping the current logo. All 80 localized routes share the style. Containers have no fixed maximum: at 2560px they span 2432px with 64px edge spacing; mobile edges remain at least 16px. Paragraphs keep readable measures within the widened layouts. `/` and `/index.html` redirect directly to `/en/` with query preservation; static root HTML provides a no-JavaScript refresh/link fallback.

@@ -15,7 +15,7 @@ Status as of 2026-11-17. This register tracks evidence gaps; it is not a legal o
 | Patient data                                | VERIFIED (UI control only)     | Medical form explicitly prohibits patient information; attachments unavailable                                      | Operational handling remains necessary; Formspree does not establish automatic PHI detection.                                     |
 | Unsupported content                         | VERIFIED (initial code review) | No SKUs, pricing, stock, addresses, reviews, certifications or partner logos                                        | Repeat review when real supplier content is added.                                                                                |
 | EN/FR editorial approval                    | BLOCKED                        | Paired dictionaries, localized routes and automated parity                                                          | Canadian English and Quebec French human editorial approval.                                                                      |
-| Public informational release                | VERIFIED (hosting only)        | 2026-11-17 explicit publication and subsequent Formspree integration instructions; no product offers                | 487 served files verified; rollback root preserved. Specialist gates above remain open.                                           |
+| Public informational release                | VERIFIED (hosting only)        | 2026-11-17 explicit publication and subsequent Formspree integration instructions; no product offers                | Latest AirGrid release: 511 public files verified; rollback root preserved. Specialist gates above remain open.                   |
 
 ## Future verified product evidence
 
@@ -36,3 +36,7 @@ The owner’s later launch instruction overrides the earlier blanket hold on ful
 ## Current Formspree scope — 2026-11-17
 
 The owner selected Formspree `mvkaapjj` and requested connection and testing. Its enabled notification action targets info@ventilators.ca. UI consent and privacy copy now describe the provider, submitted fields, security metadata and possible processing outside Canada. No mail/DNS changes were made. Current acceptance/delivery evidence is in QA_REPORT.md. This implementation does not establish legal approval, custom server enforcement, automatic PHI detection, durable deduplication or an agreed retention schedule; see docs/RFQ_ENDPOINT.md.
+
+## Search/operations increment — 2026-11-17
+
+Owner authorized creating free search and GA4 properties. Google/Bing ownership metadata is public and does not collect visitor data. The analytics event contract rejects PII and arbitrary URLs, but no runtime analytics adapter or tag is installed; consent/privacy review remains required before activation. The manual health check sends GET requests only and cannot establish lead delivery or inbox response. Release checks document the exact unpatched dev-only picomatch advisory, with a 2026-12-17 exception expiry; no production dependency advisory was found. See `docs/OPERATIONS.md`.

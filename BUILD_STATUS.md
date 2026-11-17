@@ -2,7 +2,11 @@
 
 Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventilators on 2026-11-17.
 
-## Current increment: site-wide AirGrid, fluid layouts and direct entry
+## Current increment: search setup and operating checks
+
+The owner reconfirmed the inquiry-only catalogue and authorized creating search/analytics properties. The next increment adds configurable public verification metadata and Formspree ID, a privacy-safe seven-event analytics contract (no runtime tracking), source-quality CI and a manual 100-probe live health command. Google/Bing public tokens are obtained; account verification and deployment are in progress. All 25 tests, the public 80-route export and transfer budgets pass; 100 pre-release live checks pass. Production dependency audit is clean; the unpatched development-only picomatch advisory has a narrow exception expiring 2026-12-17. See `docs/OPERATIONS.md`.
+
+## Previous increment: site-wide AirGrid, fluid layouts and direct entry
 
 The owner requested AirGrid across the entire website, retained the current logo, widened the containers and removed the language-choice front page. All 80 localized routes now share the design; containers expand to the viewport with responsive edge spacing. `/` and `/index.html` open `/en/` directly, and French remains available in the header. All seven brand files and unique editorial image assignments remain unchanged. Catalogue entries remain inquiry-only; form/provider/spam settings are preserved. Local code/build checks, 106 accessibility/layout audits and 12 interaction records pass. Release `2026-11-17-airgrid-site-1` is LIVE from clean source `045209015a0e1c526f9f3e5b632321ecb19437f3`. All 511 directly served public files match the artifact. The root 301 redirects, live wide/mobile interiors and inquiry language context pass. The previous AirGrid homepage release is retained for immediate rollback.
 
@@ -24,7 +28,7 @@ The owner confirmed that all catalogue entries should remain inquiry-only. This 
 | Accessibility                                             | PARTIAL                                                  | Automated and keyboard/responsive checks pass for this increment; specialist/manual assistive-technology review remains open.                     |
 | Verified product inventory                                | DEFERRED by owner                                        | Keep inquiry-only until approved manufacturer data and supplier authority exist.                                                                  |
 | Supplier, medical, legal and bilingual editorial sign-off | BLOCKED on external review                               | See `COMPLIANCE_REGISTER.md`; implementation does not supply specialist approval.                                                                 |
-| Search Console, Bing and analytics                        | NOT STARTED                                              | No ownership verification or analytics decision recorded.                                                                                         |
+| Search Console, Bing and analytics                        | IN PROGRESS                                              | Google/Bing tokens obtained; verification pending publication. Analytics event contract prepared, collection off.                                 |
 | Operations                                                | PARTIAL                                                  | Versioned deployment and rollback exist; retention/response operations still need owner decisions.                                                |
 
 The sections below are historical checkpoints; their earlier delivery and launch blockers are superseded by the current evidence above.

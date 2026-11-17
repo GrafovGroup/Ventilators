@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { isLocale, locales } from '@/content/site';
+import { searchVerification } from '@/lib/integrations';
 import '../globals.css';
 
 export const metadata: Metadata = {
+  verification: searchVerification(process.env),
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },

@@ -14,7 +14,9 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "images:build": "node scripts/generate-photo-variants.mjs",
-    "check:performance": "node --import tsx scripts/check-performance.ts"
+    "check:performance": "node --import tsx scripts/check-performance.ts",
+    "check:live": "node --import tsx scripts/check-live.ts",
+    "check:audit": "node scripts/check-audit.mjs"
   },
   "engines": {
     "node": ">=22.0.0"

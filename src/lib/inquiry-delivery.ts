@@ -1,8 +1,9 @@
 import { dictionaries, pathFor, type Locale } from '@/content/site';
 import { fields, inquiryOptions, validateInquiry, type InquiryInput } from './inquiry';
+import { publicFormId } from './integrations';
 
 // Public form identifier supplied by the owner. Never put a private API key here.
-export const formspreeId = 'mvkaapjj';
+export const formspreeId = publicFormId(process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID);
 export const consentVersion = '2026-11-17-formspree-v1';
 
 export function inquiryPayload(
