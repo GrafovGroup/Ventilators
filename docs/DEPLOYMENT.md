@@ -1,20 +1,21 @@
-# WHC.ca Pro deployment — account verification pending
+# WHC.ca Pro deployment
 
-Production target is WHC.ca Pro, per the master prompt. The local output is static; no Next.js server, server actions, middleware or runtime APIs are required. Actual WHC compatibility has NOT been verified. No remote files or DNS settings have been changed.
+Production target is WHC.ca Pro, per the master prompt. The local output is static; no Next.js server, server actions, middleware or runtime APIs are required. On 2026-11-17 the owner requested connection of the domain and hosting through WHC and selected a simple bilingual “Coming soon” page. That holding page is deployed from `deploy/coming-soon/`. The full Phase 1A site remains on the review branch, pending its launch gates. See `docs/WHC_CONNECTION.md` for the connection and rollback record.
 
 ## Environment matrix
 
-| Environment   | Origin                                             | RFQ                                         | Indexing                                                             |
-| ------------- | -------------------------------------------------- | ------------------------------------------- | -------------------------------------------------------------------- |
-| Local preview | http://localhost:3000                              | Review only                                 | noindex; robots disallow                                             |
-| WHC staging   | Owner to provision                                 | Remains unavailable until endpoint verified | noindex, robots disallow; password/access restriction if appropriate |
-| Production    | https://ventilators.ca (proposed canonical origin) | Verified separate provider required         | Enable only after Gates A–D                                          |
+| Environment      | Origin                                             | RFQ                                         | Indexing                                                             |
+| ---------------- | -------------------------------------------------- | ------------------------------------------- | -------------------------------------------------------------------- |
+| Local preview    | http://localhost:3000                              | Review only                                 | noindex; robots disallow                                             |
+| WHC holding page | https://ventilators.ca                             | No form                                     | noindex; robots disallow                                             |
+| WHC staging      | Owner to provision                                 | Remains unavailable until endpoint verified | noindex, robots disallow; password/access restriction if appropriate |
+| Production       | https://ventilators.ca (proposed canonical origin) | Verified separate provider required         | Enable only after Gates A–D                                          |
 
 Build-time public canonical origin is `NEXT_PUBLIC_SITE_URL`. Private delivery credentials belong only on the separately hosted endpoint. No deployment credentials are stored in this repository.
 
 ## Pre-deployment
 
-Confirm the actual WHC account/server stack, domain mapping and document root, static file support, directory index behavior, custom 404 handling, headers, SSL provisioning and supported secure upload/CI mechanism. Do not assume the document root is `public_html` or that SFTP/Apache directives are available. `deploy/whc.htaccess.example` is a review template only.
+WHC Pro uses cPanel and LiteSpeed. The addon domain has its own `ventilators.ca` directory under the account home, separate from the primary site's document root. Static files and the holding page's `.htaccess` directives have been verified. Uploads used authenticated cPanel File Manager. The full site's error handling, route behavior and release workflow still require WHC verification. `deploy/whc.htaccess.example` remains a template for the full site.
 
 Build and check using Node 22+:
 

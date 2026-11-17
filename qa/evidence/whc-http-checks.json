@@ -1,0 +1,57 @@
+[
+  {
+    "url": "http://ventilators.ca/",
+    "result": "301 https://ventilators.ca/ 0",
+    "exit": 0
+  },
+  {
+    "url": "http://www.ventilators.ca/",
+    "result": "301 https://ventilators.ca/ 0",
+    "exit": 0
+  },
+  {
+    "url": "https://www.ventilators.ca/",
+    "result": "301 https://ventilators.ca/ 0",
+    "exit": 0
+  },
+  {
+    "url": "https://ventilators.ca/",
+    "result": "200  0",
+    "exit": 0
+  },
+  {
+    "url": "https://ventilators.ca/logo.svg",
+    "result": "200  0",
+    "exit": 0
+  },
+  {
+    "url": "https://ventilators.ca/favicon.svg",
+    "result": "200  0",
+    "exit": 0
+  },
+  {
+    "url": "https://ventilators.ca/robots.txt",
+    "result": "200  0",
+    "exit": 0
+  },
+  {
+    "url": "https://ventilators.ca/not-a-page",
+    "result": "404  0",
+    "exit": 0
+  },
+  {
+    "url": "https://ventilators.ca/ventilators-preview-978607a.zip",
+    "result": "404  0",
+    "exit": 0
+  },
+  {
+    "url": "https://ventilators.ca/ventilators-coming-soon.zip",
+    "result": "404  0",
+    "exit": 0
+  },
+  {
+    "url": "https://ventilators.ca/ventilators-coming-soon-final.zip",
+    "result": "404  0",
+    "exit": 0
+  }
+]
