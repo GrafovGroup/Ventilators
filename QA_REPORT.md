@@ -1,5 +1,19 @@
 # QA report
 
+## Equipment discovery and performance — 2026-11-17
+
+Catalogue remains inquiry-only at the owner's direction. Tested increment: bilingual category search/filtering, responsive existing-photo variants and deferred inquiry SDK loading. No new real Formspree submissions were sent during these regression checks.
+
+- ESLint, TypeScript, 21 unit tests, public build and the 80-route export check pass. Evidence: `qa/evidence/discovery/{lint,typecheck,tests,build,export}.txt`.
+- Initial script budget: 215,201 → 191,046 gzip bytes (11.2% reduction), summed from HTML script references and including the legacy `nomodule` script. Modern-browser resource observations show the provider chunks load on the inquiry route and are absent on the directory/home samples. Deferred code is still downloaded when needed.
+- All 80 routes meet 200 KB initial JS and 15 KB CSS gzip budgets. All 24 responsive photos meet size budgets; 800-pixel derivatives are 61–76% smaller than their originals. `baseline.json` and `performance.json` document the method. Existing original photos/credits remain unchanged.
+- Nine representative axe page/width checks (320, 375, 768 and 1440 px) found no automated violations or horizontal overflow. Contrast items marked incomplete require human review. EN/FR finder tests cover division counts, accent-free French, multiple words, no results, reset focus and keyboard activation. Category → inquiry preselection passed.
+- Local EN mocked 503 → retry succeeds with one stable reference and no request during review. FR medical mock accepts one localized request after explicit send. Provider settings and payload logic are unchanged.
+- Local unthrottled browser LCP/CLS/event observations are recorded in `browser.json`. These are limited lab samples, not throttled-mobile or field Core Web Vitals certification; INP remains unverified. Screenshots cover English/French narrow finders, desktop finder and mobile/desktop home. No site console error was observed; unrelated Grammarly extension diagnostics were excluded.
+- Responsive image ownership, every srcset asset, static no-JavaScript category links and the inquiry email fallback are checked in the export. Informational routes and 30 unique editorial identities are unchanged.
+
+Deployment is pending in this checkpoint; the current live-release record will be added after public hash and browser verification.
+
 ## Spam-protection review — 2026-11-17
 
 Reviewed on owner request after the initial bilingual delivery tests. Formshield and the hidden honeypot remain active. Advanced sensitivity and classifier controls require Formspree Professional or higher and are locked on the current plan; no purchase or provider setting change was made. No custom blocking rules or project domain restriction was present. Live referrer policy and the empty, hidden honeypot were checked; no website filtering defect was found.

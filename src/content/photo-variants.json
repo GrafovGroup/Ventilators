@@ -1,0 +1,146 @@
+{
+  "/images/clinics.webp": {
+    "width": 1400,
+    "height": 1866,
+    "variants": [
+      {
+        "src": "/images/responsive/clinics-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/responsive/clinics-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/responsive/clinics-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/images/commercial.webp": {
+    "width": 1400,
+    "height": 934,
+    "variants": [
+      {
+        "src": "/images/responsive/commercial-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/responsive/commercial-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/responsive/commercial-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/images/hospitals.webp": {
+    "width": 1400,
+    "height": 934,
+    "variants": [
+      {
+        "src": "/images/responsive/hospitals-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/responsive/hospitals-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/responsive/hospitals-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/images/industrial-hub.webp": {
+    "width": 1400,
+    "height": 934,
+    "variants": [
+      {
+        "src": "/images/responsive/industrial-hub-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/responsive/industrial-hub-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/responsive/industrial-hub-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/images/industrial.webp": {
+    "width": 1400,
+    "height": 934,
+    "variants": [
+      {
+        "src": "/images/responsive/industrial-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/responsive/industrial-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/responsive/industrial-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/images/manufacturing.webp": {
+    "width": 1400,
+    "height": 934,
+    "variants": [
+      {
+        "src": "/images/responsive/manufacturing-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/responsive/manufacturing-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/responsive/manufacturing-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/images/medical.webp": {
+    "width": 1200,
+    "height": 1800,
+    "variants": [
+      {
+        "src": "/images/responsive/medical-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/responsive/medical-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/responsive/medical-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/images/warehouses.webp": {
+    "width": 1400,
+    "height": 2100,
+    "variants": [
+      {
+        "src": "/images/responsive/warehouses-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/images/responsive/warehouses-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/images/responsive/warehouses-1200.webp",
+        "width": 1200
+      }
+    ]
+  }
+}

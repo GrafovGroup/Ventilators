@@ -2,7 +2,26 @@
 
 Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventilators on 2026-11-17.
 
-## Current increment: Formspree inquiry delivery
+## Current increment: equipment discovery and delivery performance
+
+The owner confirmed that all catalogue entries should remain inquiry-only. This increment adds EN/FR category search and division filters, retains all category links in static HTML, loads the inquiry SDK only on inquiry pages, and supplies 24 responsive variants of the eight existing photos. No product inventory, supplier authorization, compatibility claim or geographic service promise is added. Source is tested locally and ready for the next WHC release; the live release is still `2026-11-17-formspree-1` until the deployment record below is updated.
+
+| Master-prompt area                                        | Current status                                           | Evidence / next requirement                                                                                                                       |
+| --------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bilingual content and navigation                          | VERIFIED                                                 | 80 localized informational routes; equivalent-page switching and inquiry context retained.                                                        |
+| Equipment discovery                                       | VERIFIED                                                 | Search, division filters, French accent normalization, empty results and keyboard focus; `qa/evidence/discovery/`.                                |
+| Unique relevant imagery                                   | VERIFIED                                                 | 30 editorial identities, no cross-page reuse; 24 derivatives belong to their original page.                                                       |
+| Mobile delivery performance                               | VERIFIED for transfer budgets; PARTIAL for field targets | Initial JS 215,201 → 191,046 gzip bytes including legacy script; responsive photo budgets pass. Lab samples are unthrottled and not field CWV.    |
+| Inquiry delivery and spam protection                      | VERIFIED for recorded tests                              | Formspree EN/FR delivery previously confirmed by owner; Formshield/honeypot remain active. New loader passed local EN retry and FR success mocks. |
+| Accessibility                                             | PARTIAL                                                  | Automated and keyboard/responsive checks pass for this increment; specialist/manual assistive-technology review remains open.                     |
+| Verified product inventory                                | DEFERRED by owner                                        | Keep inquiry-only until approved manufacturer data and supplier authority exist.                                                                  |
+| Supplier, medical, legal and bilingual editorial sign-off | BLOCKED on external review                               | See `COMPLIANCE_REGISTER.md`; implementation does not supply specialist approval.                                                                 |
+| Search Console, Bing and analytics                        | NOT STARTED                                              | No ownership verification or analytics decision recorded.                                                                                         |
+| Operations                                                | PARTIAL                                                  | Versioned deployment and rollback exist; retention/response operations still need owner decisions.                                                |
+
+The sections below are historical checkpoints; their earlier delivery and launch blockers are superseded by the current evidence above.
+
+## Historical increment: Formspree inquiry delivery
 
 The owner supplied `https://formspree.io/f/mvkaapjj` and requested integration and testing on 2026-11-17. The Next.js/React form uses the official `@formspree/react` library, preserving local review before explicit transmission. Bilingual pending, success, provider-error and retry states retain the inquiry on failure. The existing Formspree workflow sends notifications to `info@ventilators.ca`. Privacy/FAQ/consent copy and the WHC connection policy now describe this processing. Release `2026-11-17-formspree-1` is live from clean source `8ae4beb1e98996ada2013452a8044c66b61dded9`; all 487 public files match. Live EN/FR submissions were accepted by Formspree and the owner confirmed receiving both language notifications. The French synthetic test required spam review, and a labeled English follow-up was sent after an initial delay. Current test and deployment evidence is recorded in `QA_REPORT.md` and `docs/WHC_CONNECTION.md`.
 

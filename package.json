@@ -12,7 +12,9 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "check:export": "node --import tsx scripts/check-export.ts",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "images:build": "node scripts/generate-photo-variants.mjs",
+    "check:performance": "node --import tsx scripts/check-performance.ts"
   },
   "engines": {
     "node": ">=22.0.0"

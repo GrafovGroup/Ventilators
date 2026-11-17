@@ -64,6 +64,16 @@ for (const { route, html } of htmlFiles) {
       expectedImages,
       'only the unique images assigned to this page are rendered',
     );
+    for (const match of html.matchAll(/\bsrcSet="([^"]+)"/gi)) {
+      for (const candidate of match[1].split(',')) {
+        const [src, width] = candidate.trim().split(/\s+/);
+        assert.match(width, /^\d+w$/, 'responsive width descriptor');
+        assert.ok(src.startsWith('/images/responsive/'), 'local responsive image');
+        await access(urlToFile(src));
+        const original = src.replace('/responsive/', '/').replace(/-\d+\.webp$/, '.webp');
+        assert.ok(expectedImages.includes(original), 'responsive variant belongs to this page');
+      }
+    }
     const json = html.match(/<script type="application\/ld\+json">(.*?)<\/script>/)?.[1];
     assert.ok(json, 'JSON-LD present');
     const data = JSON.parse(json!);

@@ -26,6 +26,7 @@ npm run typecheck
 npm test
 VENTILATORS_PUBLIC_RELEASE=1 npm run build
 VENTILATORS_PUBLIC_RELEASE=1 npm run check:export
+npm run check:performance
 npm run format:check
 npm audit
 npm run preview

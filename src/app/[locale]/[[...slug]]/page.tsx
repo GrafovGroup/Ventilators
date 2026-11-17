@@ -1,4 +1,3 @@
-import { Suspense } from 'react';
 import { notFound } from 'next/navigation';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
@@ -9,7 +8,7 @@ import {
   CategoryPage,
   ArticlePage,
 } from '@/components/content';
-import { InquiryForm } from '@/components/inquiry-form';
+import { InquiryLoader } from '@/components/inquiry-loader';
 import { DetailArticle } from '@/components/detail-content';
 import { dictionaries, pathFor } from '@/content/site';
 import type { ArticleKey } from '@/content/pages';
@@ -50,17 +49,7 @@ export default async function Page({ params }: Props) {
           <h1>{d.form.title}</h1>
           <p className="lead">{d.form.intro}</p>
         </section>
-        <Suspense
-          fallback={
-            <div className="container notice">
-              <strong>{d.form.unavailableTitle}</strong>
-              <p>{d.form.unavailable}</p>
-              <a href="mailto:info@ventilators.ca">info@ventilators.ca</a>
-            </div>
-          }
-        >
-          <InquiryForm locale={locale} />
-        </Suspense>
+        <InquiryLoader locale={locale} />
       </>
     );
   else content = <ArticlePage locale={locale} page={page as ArticleKey} />;

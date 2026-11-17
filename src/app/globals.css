@@ -340,6 +340,12 @@ p + p {
   z-index: -2;
   transition: transform 0.6s ease;
 }
+.photo-fill {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
 .division-panel.industrial > img {
   object-position: 30% center;
 }
@@ -1960,4 +1966,117 @@ input[type='checkbox'] {
 .button:disabled {
   opacity: 0.65;
   cursor: wait;
+}
+
+/* Equipment discovery: native controls and readable results at narrow widths. */
+.category-finder {
+  padding-bottom: 80px;
+}
+.category-finder > h2 {
+  font-size: clamp(25px, 3vw, 36px);
+  margin-bottom: 28px;
+}
+.finder-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding: 28px;
+  background: var(--wash);
+  border: 1px solid var(--line);
+}
+.finder-search label,
+.finder-divisions legend {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.finder-search input {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 14px;
+  border: 1px solid #788b9e;
+  border-radius: 2px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+}
+.finder-search p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+.finder-divisions {
+  min-width: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.finder-divisions > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.finder-divisions button {
+  min-height: 48px;
+  padding: 10px 16px;
+  border: 1px solid #788b9e;
+  background: #fff;
+  color: var(--navy);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.finder-divisions button[aria-pressed='true'] {
+  background: var(--navy);
+  color: #fff;
+  border-color: var(--navy);
+}
+.finder-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  padding-block: 16px;
+}
+.finder-summary p {
+  margin: 0;
+  font-size: 14px;
+}
+.finder-summary button {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  color: var(--navy);
+  cursor: pointer;
+  min-height: 44px;
+}
+.finder-group {
+  margin-top: 32px;
+}
+.finder-group > h2 {
+  font-size: 26px;
+}
+.finder-empty {
+  padding: 32px 0;
+  max-width: 660px;
+}
+.finder-empty p {
+  margin-block: 16px 24px;
+}
+.inquiry-loading {
+  min-height: 650px;
+}
+@media (max-width: 760px) {
+  .finder-controls {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 24px;
+  }
+  .finder-divisions button {
+    padding-inline: 12px;
+  }
+  .category-finder {
+    padding-bottom: 50px;
+  }
 }

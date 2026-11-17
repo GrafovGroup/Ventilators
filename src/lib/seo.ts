@@ -1,3 +1,4 @@
+import { finderCopy } from '../content/finder';
 import type { Metadata } from 'next';
 import { articles, type ArticleKey } from '@/content/pages';
 import { dictionaries, pathFor } from '@/content/site';
@@ -37,7 +38,7 @@ export function routeMetadata(route: Route): Metadata {
         : route.page === 'quote'
           ? d.form.intro
           : route.page === 'products'
-            ? d.common.categories
+            ? finderCopy[route.locale].intro
             : articles[route.locale][route.page as ArticleKey].intro);
   const en = route.locale === 'en' ? route.path : alternatePath(route);
   const fr = route.locale === 'fr' ? route.path : alternatePath(route);

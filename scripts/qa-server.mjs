@@ -19,6 +19,11 @@ const auditScript = `<script src="/__qa/axe.min.js"></script><script>window.addE
 const server = createServer(async (req, res) => {
   try {
     const url = new URL(req.url, 'http://localhost');
+    if (url.pathname === '/__qa/performance.js') {
+      res.writeHead(200, { 'Content-Type': 'text/javascript' });
+      res.end(await readFile('scripts/qa-performance.js'));
+      return;
+    }
     if (url.pathname === '/__qa/form-delivery.js') {
       res.writeHead(200, { 'Content-Type': 'text/javascript' });
       res.end(await readFile('scripts/qa-form-delivery.js'));
@@ -37,6 +42,10 @@ const server = createServer(async (req, res) => {
     }
     if ((await stat(file)).isDirectory()) file = resolve(file, 'index.html');
     let bytes = await readFile(file);
+    if (extname(file) === '.html' && url.searchParams.has('measure'))
+      bytes = Buffer.from(
+        bytes.toString().replace('<head>', '<head><script src="/__qa/performance.js"></script>'),
+      );
     if (extname(file) === '.html' && url.searchParams.has('formtest'))
       bytes = Buffer.from(
         bytes.toString().replace('<head>', '<head><script src="/__qa/form-delivery.js"></script>'),

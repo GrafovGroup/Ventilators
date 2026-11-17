@@ -1,0 +1,318 @@
+{
+  "checks": [
+    {
+      "locale": "en",
+      "width": 375,
+      "medicalCount": 4,
+      "medicalRoofCount": 0,
+      "clearCount": 11,
+      "clearFocus": "category-search",
+      "roofCurbCount": 1
+    },
+    {
+      "journey": "English search → roof category → inquiry",
+      "division": "industrial",
+      "category": "roof"
+    },
+    {
+      "inquiry": "local EN mock",
+      "reviewRequests": 0,
+      "retryRequests": 2,
+      "sameReference": true,
+      "success": "Inquiry submitted.\n\nThank you. Your inquiry has been accepted for processing. Keep the reference below when following up. Equipment availability and service scope still need confirmation.\n\nInquiry reference:\nVCA-aefd3e51-5ca8-4485-8f89-84781b46fd27\n\nSTART A NEW INQUIRY"
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "unaccentedReanimationCount": 1,
+      "keyboardIndustrialCount": 7,
+      "vniMedicalCount": 1
+    },
+    {
+      "inquiry": "local FR mock",
+      "category": "noninvasive",
+      "locale": "fr-CA",
+      "reviewRequests": 0,
+      "sentRequests": 1,
+      "success": "Demande transmise.\n\nMerci. Votre demande a été acceptée pour traitement. Conservez la référence ci-dessous pour le suivi. La disponibilité de l’équipement et la portée des services restent à confirmer.\n\nRéférence de la demande:\nVCA-0e8bd160-a854-4557-bd20-f202a84b7175\n\nPRÉPARER UNE NOUVELLE DEMANDE"
+    }
+  ],
+  "audits": [
+    {
+      "url": "/en/products/",
+      "viewport": 375,
+      "scrollWidth": 375,
+      "passes": 26,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/request-a-quote/",
+      "viewport": 375,
+      "scrollWidth": 375,
+      "passes": 24,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/produits/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 26,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/products/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "passes": 26,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/en/products/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "passes": 26,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/",
+      "viewport": 375,
+      "scrollWidth": 375,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "passes": 24,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industrial/",
+      "viewport": 375,
+      "scrollWidth": 375,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/demande-de-soumission/",
+      "viewport": 375,
+      "scrollWidth": 375,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    }
+  ],
+  "performance": [
+    {
+      "environment": "Local browser, unthrottled; lab sample, not field Core Web Vitals",
+      "path": "/en/products/",
+      "viewport": 375,
+      "lcpMs": 172,
+      "cls": 0,
+      "longestObservedEventMs": 0,
+      "scripts": [
+        "/_next/static/chunks/1pcw6gskne7pf.js",
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/18buk-54867t0.js"
+      ],
+      "photos": []
+    },
+    {
+      "environment": "Local browser, unthrottled; lab sample, not field Core Web Vitals",
+      "path": "/en/request-a-quote/",
+      "viewport": 375,
+      "lcpMs": 328,
+      "cls": 0,
+      "longestObservedEventMs": 56,
+      "scripts": [
+        "/_next/static/chunks/1pcw6gskne7pf.js",
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/18buk-54867t0.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/3i9e__lxj94lh.js",
+        "/_next/static/chunks/2rzgejrlre438.js"
+      ],
+      "photos": []
+    },
+    {
+      "environment": "Local browser, unthrottled; lab sample, not field Core Web Vitals",
+      "path": "/en/products/",
+      "viewport": 1440,
+      "lcpMs": 208,
+      "cls": 0,
+      "longestObservedEventMs": 0,
+      "scripts": [
+        "/_next/static/chunks/1pcw6gskne7pf.js",
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/18buk-54867t0.js"
+      ],
+      "photos": []
+    },
+    {
+      "environment": "Local browser, unthrottled; lab sample, not field Core Web Vitals",
+      "path": "/en/products/",
+      "viewport": 768,
+      "lcpMs": 88,
+      "cls": 0,
+      "longestObservedEventMs": 0,
+      "scripts": [
+        "/_next/static/chunks/1pcw6gskne7pf.js",
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/18buk-54867t0.js"
+      ],
+      "photos": []
+    },
+    {
+      "environment": "Local browser, unthrottled; lab sample, not field Core Web Vitals",
+      "path": "/en/",
+      "viewport": 1440,
+      "lcpMs": 180,
+      "cls": 0,
+      "longestObservedEventMs": 0,
+      "scripts": [
+        "/_next/static/chunks/1pcw6gskne7pf.js",
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/18buk-54867t0.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js"
+      ],
+      "photos": [
+        {
+          "src": "/images/industrial.webp",
+          "currentSrc": "/images/responsive/industrial-800.webp",
+          "complete": true,
+          "renderedWidth": 663,
+          "renderedHeight": 486
+        },
+        {
+          "src": "/images/medical.webp",
+          "currentSrc": "/images/responsive/medical-800.webp",
+          "complete": true,
+          "renderedWidth": 663,
+          "renderedHeight": 486
+        }
+      ]
+    },
+    {
+      "environment": "Local browser, unthrottled; lab sample, not field Core Web Vitals",
+      "path": "/en/industrial/",
+      "viewport": 375,
+      "lcpMs": 124,
+      "cls": 0,
+      "longestObservedEventMs": 0,
+      "scripts": [
+        "/_next/static/chunks/1pcw6gskne7pf.js",
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/18buk-54867t0.js"
+      ],
+      "photos": [
+        {
+          "src": "/images/industrial-hub.webp",
+          "currentSrc": "/images/responsive/industrial-hub-480.webp",
+          "complete": true,
+          "renderedWidth": 343,
+          "renderedHeight": 257
+        }
+      ]
+    },
+    {
+      "environment": "Local browser, unthrottled; lab sample, not field Core Web Vitals",
+      "path": "/fr/demande-de-soumission/",
+      "viewport": 375,
+      "lcpMs": 128,
+      "cls": 0,
+      "longestObservedEventMs": 0,
+      "scripts": [
+        "/_next/static/chunks/1pcw6gskne7pf.js",
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/18buk-54867t0.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/3i9e__lxj94lh.js",
+        "/_next/static/chunks/2rzgejrlre438.js"
+      ],
+      "photos": []
+    },
+    {
+      "environment": "Local browser, unthrottled; lab sample, not field Core Web Vitals",
+      "path": "/en/",
+      "viewport": 375,
+      "lcpMs": 92,
+      "cls": 0,
+      "longestObservedEventMs": 0,
+      "scripts": [
+        "/_next/static/chunks/1pcw6gskne7pf.js",
+        "/_next/static/chunks/1vck8vamx9pji.js",
+        "/_next/static/chunks/092r-mewpaf3q.js",
+        "/_next/static/chunks/1_cj-8-l8b830.js",
+        "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "/_next/static/chunks/38u0by5ksr-h8.js",
+        "/_next/static/chunks/0fk3fbneeqg-m.js",
+        "/_next/static/chunks/18buk-54867t0.js"
+      ],
+      "photos": [
+        {
+          "src": "/images/industrial.webp",
+          "currentSrc": "/images/responsive/industrial-800.webp",
+          "complete": true,
+          "renderedWidth": 343,
+          "renderedHeight": 445
+        },
+        {
+          "src": "/images/medical.webp",
+          "currentSrc": "/images/responsive/medical-480.webp",
+          "complete": true,
+          "renderedWidth": 343,
+          "renderedHeight": 445
+        }
+      ]
+    }
+  ]
+}

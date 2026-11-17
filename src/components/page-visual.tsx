@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { media } from '@/content/media';
 import type { Locale } from '@/content/site';
+import { ResponsivePhoto } from './responsive-photo';
 
 export function PageVisual({
   id,
@@ -15,14 +16,23 @@ export function PageVisual({
   if (!visual) throw new Error(`Missing page visual: ${id}`);
   return (
     <figure className={`page-visual ${visual.kind}`}>
-      <Image
-        src={visual.src}
-        alt={visual.alt[locale]}
-        width={1200}
-        height={900}
-        sizes="(max-width: 760px) 100vw, 50vw"
-        priority={priority}
-      />
+      {visual.kind === 'photo' ? (
+        <ResponsivePhoto
+          src={visual.src}
+          alt={visual.alt[locale]}
+          sizes="(max-width: 760px) calc(100vw - 40px), (max-width: 1200px) 50vw, 600px"
+          priority={priority}
+        />
+      ) : (
+        <Image
+          src={visual.src}
+          alt={visual.alt[locale]}
+          width={1200}
+          height={900}
+          sizes="(max-width: 760px) 100vw, 50vw"
+          priority={priority}
+        />
+      )}
       <figcaption>{visual.caption[locale]}</figcaption>
     </figure>
   );

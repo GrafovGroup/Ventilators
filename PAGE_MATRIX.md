@@ -1,5 +1,7 @@
 # Page matrix
 
+Current discovery increment: `/en/products/` and `/fr/produits/` now include the searchable, division-filtered category directory. No routes or verified products are added. The owner confirmed on 2026-11-17 that the catalogue should remain inquiry-only. Photo derivatives retain each original page assignment.
+
 Owner authorized public informational publication on 2026-11-17. Specialist and bilingual editorial review remain pending. Preview builds default to `noindex,nofollow`; explicit public builds enable indexing.
 
 | Page                   | English route              | French route                | Purpose / primary keyword                                        | Audience                                 | Primary CTA                  | Source of truth                                   | Implementation / QA                                                 |

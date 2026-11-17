@@ -1,0 +1,31 @@
+npm notice run ventilators-ca@0.1.0 test
+npm notice run node --import tsx --test tests/*.test.ts
+✔ category search combines division and every word without requiring French accents (1.739125ms)
+✔ clearing filters restores every inquiry-only category in both languages (0.321958ms)
+✔ editorial visuals have unique source identities and unique file contents (28.274208ms)
+✔ every detail page has a unique visual, translated sections and a valid inquiry path (0.482917ms)
+✔ resource checklists are generated in both languages (2.4565ms)
+✔ delivery includes full inquiry, localized choices, reply email and versioned consent (0.476292ms)
+✔ French medical requests retain division routing and French context (0.274417ms)
+✔ payload strips unrecognized fields and never accepts arbitrary routing or mail headers (0.183917ms)
+✔ delivery refuses invalid inquiries and preserves the same reference on retry (0.741209ms)
+✔ a valid industrial inquiry passes local review (0.969291ms)
+✔ medical inquiry uses only medical categories (0.154875ms)
+✔ requires consent and meaningful required fields (0.100541ms)
+✔ rejects bad emails, unknown province, forged category and timeline (0.050792ms)
+✔ quantities must be bounded positive integers (0.06825ms)
+✔ enforces text limits and known division (0.045708ms)
+✔ FormData normalization trims text and ignores unrelated fields (8.370042ms)
+✔ service inquiries are validated within their division and priority is bounded (0.082958ms)
+✔ EN/FR UI and editorial dictionaries have identical nonempty keys (1.556959ms)
+✔ all translated routes are unique and reciprocal (2.142542ms)
+✔ category links retain their translated division and slug (0.15875ms)
+✔ unsupported routes resolve to no page and no products are invented (0.084875ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 125.04525

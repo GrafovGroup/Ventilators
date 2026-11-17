@@ -1,4 +1,6 @@
-import Image from 'next/image';
+import { ResponsivePhoto } from './responsive-photo';
+import { CategoryFinder } from './category-finder';
+import { finderCopy, categoryAliases } from '@/content/finder';
 import { dictionaries, pathFor, quotePath, type Locale, type Division } from '@/content/site';
 import { categories, categoryPath, type Category } from '@/content/catalog';
 import { articles, type ArticleKey } from '@/content/pages';
@@ -49,7 +51,7 @@ export function Home({ locale }: { locale: Locale }) {
       >
         {(['industrial', 'medical'] as const).map((division, index) => (
           <article className={`division-panel ${division}`} key={division}>
-            <Image
+            <ResponsivePhoto
               src={`/images/${division}.webp`}
               alt={
                 locale === 'en'
@@ -61,8 +63,12 @@ export function Home({ locale }: { locale: Locale }) {
                     : 'Équipement médical en milieu clinique'
               }
               fill
-              sizes="(max-width: 700px) 100vw, 50vw"
-              priority
+              sizes={
+                division === 'industrial'
+                  ? '(max-width: 700px) 700px, (max-width: 1440px) 800px, 50vw'
+                  : '(max-width: 700px) 100vw, 50vw'
+              }
+              priority={index === 0}
             />
             <div className="panel-top">
               <span className="eyebrow">
@@ -300,18 +306,25 @@ export function ProductCategories({ locale }: { locale: Locale }) {
       <section className="container article-hero">
         <p className="eyebrow">{d.nav.products}</p>
         <h1>{d.common.categories}</h1>
-        <p className="lead">
-          {locale === 'en'
-            ? 'Start with the equipment category that fits your project. These pages help prepare an inquiry; they are not a verified product catalogue.'
-            : 'Commencez par la catégorie adaptée à votre projet. Ces pages aident à préparer une demande; elles ne constituent pas un catalogue de produits vérifiés.'}
-        </p>
+        <p className="lead">{finderCopy[locale].intro}</p>
       </section>
-      {(['industrial', 'medical'] as const).map((division) => (
-        <section className="container section-space" key={division}>
-          <h2>{d.nav[division]}</h2>
-          <CategoryList locale={locale} division={division} />
-        </section>
-      ))}
+      <CategoryFinder
+        copy={finderCopy[locale]}
+        inquiryHref={quotePath(locale)}
+        entries={categories.map((category) => ({
+          id: category.id,
+          division: category.division,
+          name: category.name[locale],
+          summary: category.summary[locale],
+          href: categoryPath(locale, category),
+          searchText: [
+            category.name[locale],
+            category.summary[locale],
+            category.considerations[locale].join(' '),
+            categoryAliases[category.id]?.[locale] ?? '',
+          ].join(' '),
+        }))}
+      />
     </>
   );
 }
