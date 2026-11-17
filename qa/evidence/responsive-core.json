@@ -1,0 +1,102 @@
+[
+  {
+    "path": "/fr/",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "path": "/fr/",
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "path": "/fr/",
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "path": "/fr/",
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "path": "/fr/",
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "path": "/en/industrial/",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "path": "/en/industrial/",
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "path": "/en/industrial/",
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "path": "/en/industrial/",
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "path": "/en/industrial/",
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "path": "/fr/medical/",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "path": "/fr/medical/",
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "path": "/fr/medical/",
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "path": "/fr/medical/",
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "path": "/fr/medical/",
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "path": "/fr/demande-de-soumission/",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "path": "/fr/demande-de-soumission/",
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "path": "/fr/demande-de-soumission/",
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "path": "/fr/demande-de-soumission/",
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "path": "/fr/demande-de-soumission/",
+    "scrollWidth": 1440,
+    "width": 1440
+  }
+]

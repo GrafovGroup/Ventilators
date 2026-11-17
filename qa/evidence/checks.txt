@@ -1,0 +1,68 @@
+npm notice run ventilators-ca@0.1.0 lint
+npm notice run eslint . --max-warnings=0
+npm notice run ventilators-ca@0.1.0 typecheck
+npm notice run tsc --noEmit
+npm notice run ventilators-ca@0.1.0 test
+npm notice run node --import tsx --test tests/*.test.ts
+✔ a valid industrial inquiry passes local review (0.514875ms)
+✔ medical inquiry uses only medical categories (0.104083ms)
+✔ requires consent and meaningful required fields (0.079125ms)
+✔ rejects bad emails, unknown province, forged category and timeline (0.037416ms)
+✔ quantities must be bounded positive integers (0.050541ms)
+✔ enforces text limits and known division (0.034167ms)
+✔ FormData normalization trims text and ignores unrelated fields (6.399959ms)
+✔ EN/FR UI and editorial dictionaries have identical nonempty keys (0.673375ms)
+✔ all translated routes are unique and reciprocal (0.343708ms)
+✔ category links retain their translated division and slug (0.083625ms)
+✔ unsupported routes resolve to no page and no products are invented (0.034583ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 105.341791
+npm notice run ventilators-ca@0.1.0 build
+npm notice run next build
+▲ Next.js 16.4.6 (Turbopack)
+✓ Running next.config.ts took 14ms
+- Experiments (use with caution):
+  ✓ globalNotFound
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 154ms
+  Running TypeScript ...
+  Finished TypeScript in 469ms ...
+  Collecting page data using 9 workers ...
+  Generating static pages using 9 workers (0/57) ...
+  Generating static pages using 9 workers (14/57)
+  Generating static pages using 9 workers (28/57)
+  Generating static pages using 9 workers (42/57)
+✓ Generating static pages using 9 workers (57/57) in 245ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[locale]/[[...slug]]
+│ ├ ● /en
+│ ├ ● /en/industrial
+│ ├ ● /en/medical
+│ └ ● [+47 more paths]
+├ ○ /robots.txt
+├ ○ /sitemap-en.xml
+├ ○ /sitemap-fr.xml
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+npm notice run ventilators-ca@0.1.0 check:export
+npm notice run node --import tsx scripts/check-export.ts
+PASS: 50 localized pages; document languages, headings, unique metadata, canonical/hreflang, JSON-LD, internal links/assets/anchors, sitemap, preview robots, bilingual 404 and favicon.
+npm notice run ventilators-ca@0.1.0 format:check
+npm notice run prettier --check .
+Checking formatting...
+All matched files use Prettier code style!

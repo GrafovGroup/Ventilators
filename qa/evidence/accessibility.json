@@ -1,0 +1,66 @@
+[
+  {
+    "url": "/fr/",
+    "viewport": 1280,
+    "scrollWidth": 1280,
+    "passes": 24,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/",
+    "viewport": 1280,
+    "scrollWidth": 1280,
+    "passes": 22,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/fr/medical/",
+    "viewport": 1280,
+    "scrollWidth": 1280,
+    "passes": 22,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/en/industrial/roof-ventilators/",
+    "viewport": 1280,
+    "scrollWidth": 1280,
+    "passes": 24,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/fr/demande-de-soumission/",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "passes": 27,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/en/request-a-quote/",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "passes": 27,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/en/resources/",
+    "viewport": 1280,
+    "scrollWidth": 1280,
+    "passes": 22,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/en/",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "passes": 24,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  }
+]
