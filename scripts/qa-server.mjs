@@ -18,6 +18,12 @@ const types = {
 const auditScript = `<script src="/__qa/axe.min.js"></script><script>window.addEventListener('load',async()=>{await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));const results=await axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']}});const report={url:location.pathname,viewport:innerWidth,scrollWidth:document.documentElement.scrollWidth,passes:results.passes.length,violations:results.violations.map(v=>({id:v.id,impact:v.impact,description:v.description,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))})),incomplete:results.incomplete.map(v=>v.id)};const pre=document.createElement('pre');pre.id='qa-report';pre.style.cssText='white-space:pre-wrap;padding:24px;background:white;color:black';pre.textContent=JSON.stringify(report,null,2);document.body.appendChild(pre);});</script>`;
 const server = createServer(async (req, res) => {
   try {
+    const entry = new URL(req.url, 'http://localhost');
+    if (entry.pathname === '/' || entry.pathname === '/index.html') {
+      res.writeHead(301, { Location: '/en/' + entry.search, 'Cache-Control': 'no-store' });
+      res.end();
+      return;
+    }
     const url = new URL(req.url, 'http://localhost');
     if (url.pathname === '/__qa/performance.js') {
       res.writeHead(200, { 'Content-Type': 'text/javascript' });

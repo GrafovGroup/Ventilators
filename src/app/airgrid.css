@@ -1,51 +1,40 @@
-/* Owner-selected homepage direction. The existing brand assets remain unchanged. */
-.airgrid-home {
-  --paper: #f4f3ee;
-  --navy: #20211f;
-  --ink: #20211f;
-  --blue: #b33f29;
-  --muted: #565b55;
-  --line: #c9ccc5;
-  --wash: #eeeee7;
-  background: var(--paper);
-  color: var(--ink);
-}
-.airgrid-home .main-nav {
+/* Owner-selected AirGrid system. Existing brand assets remain unchanged. */
+.airgrid-site .main-nav {
   border-bottom: 1px solid var(--ink);
 }
-.airgrid-home .button {
+.airgrid-site .button {
   border-radius: 0;
   gap: 12px;
   letter-spacing: 0.025em;
 }
-.airgrid-home .button:hover {
+.airgrid-site .button:hover {
   background: #8c2f1f;
   border-color: #8c2f1f;
   box-shadow: none;
 }
-.airgrid-home .utility a:hover {
+.airgrid-site .utility a:hover {
   color: #fff;
   text-decoration: underline;
 }
-.airgrid-home .mobile-actions {
+.airgrid-site .mobile-actions {
   background: var(--paper);
 }
-.airgrid-home .mobile-actions a {
+.airgrid-site .mobile-actions a {
   border-radius: 0;
 }
-.airgrid-home .mobile-nav {
+.airgrid-site .mobile-nav {
   background: var(--paper);
 }
-.airgrid-home .text-link {
+.airgrid-site .text-link {
   letter-spacing: 0;
   text-transform: none;
 }
-.airgrid-home h2 {
+.airgrid-site h2 {
   font-weight: 700;
   letter-spacing: -0.045em;
   line-height: 1.08;
 }
-.airgrid-home h3 {
+.airgrid-site h3 {
   font-weight: 700;
   letter-spacing: -0.025em;
 }

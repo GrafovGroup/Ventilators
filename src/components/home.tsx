@@ -23,7 +23,7 @@ export function Home({ locale }: { locale: Locale }) {
           <ResponsivePhoto
             src={industrial.src}
             alt={industrial.alt[locale]}
-            sizes="(max-width: 700px) 700px, (max-width: 1440px) calc(100vw - 64px), 1360px"
+            sizes="(max-width: 700px) 700px, 95vw"
             fill
             priority
           />

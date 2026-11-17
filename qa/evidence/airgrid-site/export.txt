@@ -1,0 +1,3 @@
+npm notice run ventilators-ca@0.1.0 check:export
+npm notice run node --import tsx scripts/check-export.ts
+PASS: 80 localized pages; document languages, headings, unique metadata, canonical/hreflang, JSON-LD, internal links/assets/anchors, sitemap, public robots, bilingual 404 and favicon.

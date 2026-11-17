@@ -10,7 +10,9 @@ const origin = 'https://ventilators.ca';
 const results = [];
 const failures = [];
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex');
-const queue = manifest.files.filter((f) => !f.path.split('/').some((p) => p.startsWith('.')));
+const queue = manifest.files.filter(
+  (f) => f.path !== 'index.html' && !f.path.split('/').some((p) => p.startsWith('.')),
+);
 async function checkFile(file) {
   const path = file.path.endsWith('index.html') ? '/' + file.path.slice(0, -10) : '/' + file.path;
   try {
@@ -40,6 +42,10 @@ await Promise.all(
 );
 const probes = [];
 for (const [url, status, location] of [
+  [origin + '/', 301, origin + '/en/'],
+  [origin + '/index.html', 301, origin + '/en/'],
+  [origin + '/?source=entry-check', 301, origin + '/en/?source=entry-check'],
+  ['http://www.ventilators.ca/', 301, origin + '/en/'],
   ['http://ventilators.ca/en/', 301, 'https://ventilators.ca/en/'],
   ['https://www.ventilators.ca/fr/', 301, 'https://ventilators.ca/fr/'],
   [origin + '/release-check-missing/', 404, null],
@@ -84,6 +90,7 @@ const report = {
   release: manifest.release,
   sourceCommit: manifest.sourceCommit,
   filesChecked: results.length,
+  rootEntry: '301 to /en/; root HTML is a static redirect fallback, not directly served',
   allFilesMatch: failures.length === 0,
   failures,
   probes,

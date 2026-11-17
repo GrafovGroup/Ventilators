@@ -4,9 +4,9 @@ Bilingual industrial ventilation and institutional medical procurement website f
 
 The owner authorized publication of the full bilingual informational website on 2026-11-17, superseding the earlier coming-soon-only instruction. The full site is live at [ventilators.ca](https://ventilators.ca/) on WHC Pro; tested source is on `codex/phase-1a`. All equipment categories remain inquiry-only; no verified product inventory exists. The inquiry form validates and reviews details locally, then sends through the owner-supplied Formspree endpoint when the visitor selects Send inquiry. Formspree notifications are configured for **info@ventilators.ca**. See the current verification record in `QA_REPORT.md`; provider acceptance and inbox receipt are distinct checks.
 
-## Homepage design selection
+## Site-wide AirGrid design
 
-The owner selected the AirGrid homepage layout while retaining the original production logo. Both English and French homepages use the selected editorial style; all brand files and other page designs are preserved.
+The owner selected AirGrid for the entire English/French site while retaining the original production logo. All 80 localized routes use the warm paper, charcoal and rust design. Containers are fluid with 16–64 px responsive edge spacing; readable paragraph measures remain inside the wide layouts. The root redirects directly to `/en/`, and the header keeps equivalent-page French/English switching.
 
 ## Design alternatives
 
@@ -21,7 +21,7 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000/en/` or `http://localhost:3000/fr/`. The root page offers a language choice. If Node/npm are not on PATH, install the current supported Node LTS from its official distribution; no global system installation was performed during this build.
+Open `http://localhost:3000/en/` or `http://localhost:3000/fr/`. The root opens the English homepage directly; use the header to switch to French. If Node/npm are not on PATH, install the current supported Node LTS from its official distribution; no global system installation was performed during this build.
 
 To build and serve the exact static output:
 

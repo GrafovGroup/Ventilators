@@ -17,6 +17,12 @@ const types = {
 };
 const server = createServer(async (req, res) => {
   try {
+    const entry = new URL(req.url, 'http://localhost');
+    if (entry.pathname === '/' || entry.pathname === '/index.html') {
+      res.writeHead(301, { Location: '/en/' + entry.search, 'Cache-Control': 'no-store' });
+      res.end();
+      return;
+    }
     const pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
     let file = resolve(root, `.${pathname}`);
     if (file !== root && !file.startsWith(root + sep)) {

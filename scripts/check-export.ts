@@ -102,6 +102,12 @@ for (const { route, html } of htmlFiles) {
   }
 }
 const sitemap = await readFile(resolve(root, 'sitemap.xml'), 'utf8');
+const rootPage = await readFile(resolve(root, 'index.html'), 'utf8');
+assert.match(rootPage, /http-equiv="refresh" content="0;url=\/en\/"/i);
+assert.ok(rootPage.includes(`<link rel="canonical" href="${siteUrl}/en/"`));
+assert.ok(!rootPage.includes('gateway-actions'), 'no language selection gate');
+for (const { html } of htmlFiles)
+  assert.ok(html.includes('class="airgrid-site"'), 'AirGrid applies to every localized page');
 for (const locale of ['en', 'fr']) {
   const localized = await readFile(resolve(root, `sitemap-${locale}.xml`), 'utf8');
   assert.equal(

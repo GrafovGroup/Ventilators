@@ -20,7 +20,7 @@ export function PageVisual({
         <ResponsivePhoto
           src={visual.src}
           alt={visual.alt[locale]}
-          sizes="(max-width: 760px) calc(100vw - 40px), (max-width: 1200px) 50vw, 600px"
+          sizes="(max-width: 760px) 95vw, 48vw"
           priority={priority}
         />
       ) : (

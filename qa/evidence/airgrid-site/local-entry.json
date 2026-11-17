@@ -1,0 +1,20 @@
+[
+  {
+    "path": "/",
+    "status": 301,
+    "location": "/en/",
+    "pass": true
+  },
+  {
+    "path": "/index.html",
+    "status": 301,
+    "location": "/en/",
+    "pass": true
+  },
+  {
+    "path": "/?entry=qa",
+    "status": 301,
+    "location": "/en/?entry=qa",
+    "pass": true
+  }
+]

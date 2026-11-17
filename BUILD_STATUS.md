@@ -2,9 +2,13 @@
 
 Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventilators on 2026-11-17.
 
-## Current increment: AirGrid homepage with existing logo
+## Current increment: site-wide AirGrid, fluid layouts and direct entry
 
-The owner selected the AirGrid homepage style and explicitly retained the existing logo. Both localized homepages now use the bold filled/outlined headline, wide industrial photograph, warm neutral background, rust calls to action and editorial section layout. The original header/footer wordmarks, icons and social assets are byte-for-byte unchanged. Existing industrial/medical inquiry paths, category finder, resources and sector links remain connected; unique image ownership and inquiry-only catalogue status are preserved. The scope is the homepage styling; other page designs retain their existing presentation. Release `2026-11-17-airgrid-1` is LIVE on WHC from clean source `333be83e9a720c6e34e4afdf4f41af5e08fd1836`. All 513 public files match the tested artifact; live English desktop and French mobile navigation/inquiry checks pass. The discovery release is retained for immediate rollback.
+The owner requested AirGrid across the entire website, retained the current logo, widened the containers and removed the language-choice front page. All 80 localized routes now share the design; containers expand to the viewport with responsive edge spacing. `/` and `/index.html` open `/en/` directly, and French remains available in the header. All seven brand files and unique editorial image assignments remain unchanged. Catalogue entries remain inquiry-only; form/provider/spam settings are preserved. Local code/build checks, 106 accessibility/layout audits and 12 interaction records pass. Publication is pending verification below.
+
+## Previous increment: AirGrid homepage with existing logo
+
+The owner selected the AirGrid homepage style and explicitly retained the existing logo. Both localized homepages now use the bold filled/outlined headline, wide industrial photograph, warm neutral background, rust calls to action and editorial section layout. The original header/footer wordmarks, icons and social assets are byte-for-byte unchanged. Existing industrial/medical inquiry paths, category finder, resources and sector links remain connected; unique image ownership and inquiry-only catalogue status are preserved. At that checkpoint, styling was limited to the homepage; the current increment extends it site-wide. Release `2026-11-17-airgrid-1` is LIVE on WHC from clean source `333be83e9a720c6e34e4afdf4f41af5e08fd1836`. All 513 public files match the tested artifact; live English desktop and French mobile navigation/inquiry checks pass. The discovery release is retained for immediate rollback.
 
 ## Verified foundation: equipment discovery and delivery performance
 

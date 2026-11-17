@@ -1,5 +1,15 @@
 # QA report
 
+## Site-wide AirGrid and direct homepage entry — 2026-11-17
+
+The owner requested AirGrid across the rest of the site, maximum responsive container width and removal of the language-choice gateway, keeping the current logo. All 80 localized routes share the style. Containers have no fixed maximum: at 2560px they span 2432px with 64px edge spacing; mobile edges remain at least 16px. Paragraphs keep readable measures within the widened layouts. `/` and `/index.html` redirect directly to `/en/` with query preservation; static root HTML provides a no-JavaScript refresh/link fallback.
+
+- ESLint, TypeScript, 21 tests, public build and 80-route export pass. Export checks include the removed gateway and shared theme. Initial JS/CSS and 24 responsive photo transfer budgets pass; no dependencies changed.
+- 106 automated accessibility/layout checks: all 80 localized routes plus 404/500 at 320px, and eight representative routes at 768, 1440 and 2560px. Zero violations or horizontal overflow; incomplete contrast items remain listed separately. This is not full accessibility certification or field Core Web Vitals measurement.
+- Twelve interaction records cover category search, menu/Escape, equivalent-language switching, direct root entry, FAQ expansion, form validation/focus, review without submission, simulated failure/retry/success and division/category preselection across languages. The retry uses only the localhost provider mock. No real inquiries were sent.
+- All seven brand files are byte-for-byte unchanged. All 30 editorial image identities retain their unique page assignments; responsive image sizing now follows the fluid layout.
+- Evidence: `qa/evidence/airgrid-site/`, including logs, browser observations, screenshots, brand hashes, performance budget report and local redirect probes. Public deployment verification will be added after activation.
+
 ## AirGrid homepage with original logo — 2026-11-17
 
 Owner-selected option 03 styling applied to `/en/` and `/fr/`, retaining the existing production logo. New styles are scoped to the homepage wrapper; all other routes retain their original styling. Both existing homepage photographs remain uniquely assigned to that logical page. No new product claim, provider configuration, form handler or spam rule is introduced.

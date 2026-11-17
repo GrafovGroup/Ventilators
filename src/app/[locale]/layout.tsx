@@ -27,7 +27,7 @@ export default async function LocaleLayout({
   if (!isLocale(locale)) notFound();
   return (
     <html lang={locale === 'fr' ? 'fr-CA' : 'en-CA'}>
-      <body>{children}</body>
+      <body className="airgrid-site">{children}</body>
     </html>
   );
 }

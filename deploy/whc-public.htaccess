@@ -6,6 +6,8 @@ ErrorDocument 500 /500.html
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  # The main domain opens the English homepage directly; French stays in the header.
+  RewriteRule ^(?:index\.html)?$ https://ventilators.ca/en/ [R=301,L,NE]
   RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/
   RewriteCond %{HTTPS} !=on [OR]
   RewriteCond %{HTTP_HOST} !^ventilators\.ca$ [NC]

@@ -1,6 +1,6 @@
 # Page matrix
 
-Homepage design selection (2026-11-17): `/en/` and `/fr/` adopt the AirGrid visual style with the existing production logo. No route is added or removed; both division inquiry paths, resources, category discovery and six sector links remain available.
+Site-wide design selection (2026-11-17): all 80 localized pages adopt AirGrid with the existing production logo and fluid containers. `/` and `/index.html` redirect to `/en/`; the language-choice gateway is removed. All localized routes, equivalent-language links, inquiry paths, resources and category discovery remain available.
 
 Current discovery increment: `/en/products/` and `/fr/produits/` now include the searchable, division-filtered category directory. No routes or verified products are added. The owner confirmed on 2026-11-17 that the catalogue should remain inquiry-only. Photo derivatives retain each original page assignment.
 

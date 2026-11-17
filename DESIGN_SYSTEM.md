@@ -1,10 +1,10 @@
 # Design system — Precision Airflow
 
-## Owner-selected homepage variation — 2026-11-17
+## Owner-selected AirGrid system — 2026-11-17
 
-The AirGrid layout is approved for the English and French homepages while retaining all existing production logo assets. Homepage-only tokens are warm paper `#f4f3ee`, charcoal `#20211f` and rust `#b33f29`. The hero uses bold filled/outlined uppercase type and the existing industrial photograph. Square calls to action, thin editorial rules and a vertical preparation sequence carry the visual style through the page. The original blue wordmark remains intact. Other routes keep the original design tokens. See `src/app/airgrid.css` and `src/components/home.tsx`; print/forced-colour modes render solid headline text.
+AirGrid applies to every English and French page, retaining all existing production logo assets. Warm paper, charcoal and rust, bold uppercase hero headings, square calls to action and thin editorial rules provide the shared design. The homepage keeps its filled/outlined heading. Interior pages use responsive split headings, numbered editorial sections and the existing unique photography/illustrations. The original blue wordmark remains intact. See `src/app/airgrid.css`, `src/app/airgrid-interior.css` and `src/app/globals.css`.
 
-Implemented for review, 2026-11-17. Owner approval remains pending (Gate A).
+The root opens `/en/` directly via the WHC 301 rule, with a static refresh/link fallback. The language-choice gateway is removed; French remains one header link away. The owner explicitly requested the site-wide style and original-logo retention.
 
 ## Identity
 
@@ -14,9 +14,9 @@ Favicon: `public/favicon.svg`, `public/favicon-32.png`, `public/favicon.ico`; Ap
 
 ## Tokens and typography
 
-Source: `src/app/globals.css`. Navy `#082448`; primary blue `#1267DE`; cyan `#19B8EE` for decorative accents; body ink `#102E4F`; muted text `#536477`; surface `#F3F6F8`; rules `#DCE3EA`; error `#A62323`; focus `#A94A00`. Cyan is not used for small body text on white.
+Source: `src/app/globals.css`. Paper `#F4F3EE`; charcoal/ink `#20211F`; primary rust `#B33F29`; muted text `#565B55`; secondary surface `#EEEEE7`; rules `#C9CCC5`; error `#A62323`; focus `#A94A00`. Brand and original illustration assets retain their colours.
 
-System Arial/Helvetica avoids third-party font requests. Desktop H1 40–72px, H2 30–44px, H3 22–26px; body 16px; long introductions 18px; compact uppercase navigation 10–11px. Mobile H1 37–54px, body 15–16px. Maximum content width 1360px. Gutters 48/32/20/16px depending on viewport. Buttons use rounded ends; images use subtle 4px corners. Section spacing 45–90px.
+System Arial/Helvetica avoids third-party font requests. Interior desktop H1 scales up to 96px with balanced line wrapping and language-aware hyphenation. Body text is 16px and introductions 18px. Containers have no maximum width: `calc(100% - 2 * var(--gutter))`, with `--gutter: clamp(16px, 2.5vw, 64px)`. A 2560px screen has a 2432px container. Paragraphs retain readable measures within full-width multi-column layouts. Controls and images use square corners; section spacing remains responsive. Large directories use three columns above 1800px, and mobile layouts stack naturally.
 
 ## Components and interaction
 
@@ -30,7 +30,7 @@ System Arial/Helvetica avoids third-party font requests. Desktop H1 40–72px, H
 
 ## Review evidence
 
-See `QA_REPORT.md` and `qa/evidence/` for actual desktop/mobile screenshots. Browser widths: 320, 375, 768, 1024, 1440. Automated accessibility results have narrower scope than WCAG conformance; human screen-reader and real-device testing remain required.
+See `QA_REPORT.md` and `qa/evidence/` for actual desktop/mobile screenshots. Current site-wide browser checks: all 80 localized pages at 320px; representative layouts at 768, 1440 and 2560px; mobile interactions at 375px. Automated accessibility results have narrower scope than WCAG conformance; human screen-reader and real-device testing remain required.
 
 ## Phase 1B editorial imagery
 

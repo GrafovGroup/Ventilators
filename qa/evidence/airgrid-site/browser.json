@@ -1,0 +1,1366 @@
+{
+  "audits": [
+    {
+      "url": "/en/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industrial/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/medical/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/products/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 26,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/services/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industries/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/resources/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/about/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/contact/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/request-a-quote/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/faq/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 24,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/privacy/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/terms/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/accessibility/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industrial/roof-ventilators/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industrial/axial-fans/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industrial/centrifugal-fans/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industrial/exhaust-fans/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industrial/supply-fans/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industrial/blowers/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industrial/parts-and-replacements/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/medical/invasive-ventilators/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/medical/non-invasive-ventilators/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/medical/respiratory-accessories/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/medical/institutional-procurement/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/services/industrial-fan-repair/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/services/ventilation-maintenance/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/services/installation-coordination/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/services/equipment-replacement/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/services/medical-technical-support/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industries/warehouses/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industries/manufacturing/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industries/commercial-facilities/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industries/hospitals/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industries/clinics/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/industries/institutional-buyers/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/resources/industrial-specification-guide/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/resources/replacement-planning-guide/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/resources/medical-procurement-guide/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/resources/accessory-identification-guide/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/industriel/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/medical/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/produits/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 26,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/services/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/secteurs/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/ressources/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/a-propos/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/contact/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/demande-de-soumission/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/faq/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 24,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/confidentialite/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/conditions/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/accessibilite/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/industriel/ventilateurs-de-toit/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/industriel/ventilateurs-axiaux/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/industriel/ventilateurs-centrifuges/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/industriel/ventilateurs-extraction/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/industriel/ventilateurs-soufflage/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/industriel/soufflantes/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/industriel/pieces-et-remplacement/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/medical/ventilateurs-invasifs/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/medical/ventilateurs-non-invasifs/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/medical/accessoires-respiratoires/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/medical/approvisionnement-institutionnel/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/services/reparation-ventilateurs-industriels/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/services/entretien-ventilation/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/services/coordination-installation/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/services/remplacement-equipement/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/services/soutien-technique-medical/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/secteurs/entrepots/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/secteurs/fabrication/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/secteurs/batiments-commerciaux/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/secteurs/hopitaux/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/secteurs/cliniques/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/secteurs/acheteurs-institutionnels/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/ressources/guide-specifications-industrielles/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/ressources/guide-planification-remplacement/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/ressources/guide-approvisionnement-medical/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/ressources/guide-identification-accessoires/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/404.html",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 18,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/500.html",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "passes": 10,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/en/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/industriel/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/products/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "passes": 26,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/services/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/resources/industrial-specification-guide/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "passes": 25,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/confidentialite/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/faq/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "passes": 24,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/demande-de-soumission/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "passes": 23,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/en/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "passes": 24,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/industriel/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "passes": 22,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/en/products/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "passes": 26,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/fr/services/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "passes": 24,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/en/resources/industrial-specification-guide/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "passes": 24,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/fr/confidentialite/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "passes": 22,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/en/faq/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "passes": 23,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/fr/demande-de-soumission/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "passes": 22,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/en/",
+      "viewport": 2560,
+      "scrollWidth": 2560,
+      "passes": 24,
+      "violations": [],
+      "incomplete": ["color-contrast"]
+    },
+    {
+      "url": "/fr/industriel/",
+      "viewport": 2560,
+      "scrollWidth": 2560,
+      "passes": 22,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/en/products/",
+      "viewport": 2560,
+      "scrollWidth": 2560,
+      "passes": 26,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/fr/services/",
+      "viewport": 2560,
+      "scrollWidth": 2560,
+      "passes": 24,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/en/resources/industrial-specification-guide/",
+      "viewport": 2560,
+      "scrollWidth": 2560,
+      "passes": 24,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/fr/confidentialite/",
+      "viewport": 2560,
+      "scrollWidth": 2560,
+      "passes": 22,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/en/faq/",
+      "viewport": 2560,
+      "scrollWidth": 2560,
+      "passes": 23,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "url": "/fr/demande-de-soumission/",
+      "viewport": 2560,
+      "scrollWidth": 2560,
+      "passes": 22,
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "layouts": [
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 928.6328125,
+        "height": 796.6328125,
+        "left": 19.203125,
+        "right": 748.796875,
+        "top": 132,
+        "width": 729.59375,
+        "x": 19.203125,
+        "y": 132
+      },
+      "headingWeight": "900",
+      "path": "/en/",
+      "width": 768
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 189.59375,
+        "height": 57.59375,
+        "left": 19.203125,
+        "right": 748.796875,
+        "top": 132,
+        "width": 729.59375,
+        "x": 19.203125,
+        "y": 132
+      },
+      "headingWeight": "800",
+      "path": "/fr/industriel/",
+      "width": 768
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 189.59375,
+        "height": 57.59375,
+        "left": 19.203125,
+        "right": 748.796875,
+        "top": 132,
+        "width": 729.59375,
+        "x": 19.203125,
+        "y": 132
+      },
+      "headingWeight": "800",
+      "path": "/en/products/",
+      "width": 768
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 189.59375,
+        "height": 57.59375,
+        "left": 19.203125,
+        "right": 748.796875,
+        "top": 132,
+        "width": 729.59375,
+        "x": 19.203125,
+        "y": 132
+      },
+      "headingWeight": "800",
+      "path": "/fr/services/",
+      "width": 768
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 189.59375,
+        "height": 57.59375,
+        "left": 19.203125,
+        "right": 748.796875,
+        "top": 132,
+        "width": 729.59375,
+        "x": 19.203125,
+        "y": 132
+      },
+      "headingWeight": "800",
+      "path": "/en/resources/industrial-specification-guide/",
+      "width": 768
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 189.59375,
+        "height": 57.59375,
+        "left": 19.203125,
+        "right": 748.796875,
+        "top": 132,
+        "width": 729.59375,
+        "x": 19.203125,
+        "y": 132
+      },
+      "headingWeight": "800",
+      "path": "/fr/confidentialite/",
+      "width": 768
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 189.59375,
+        "height": 57.59375,
+        "left": 19.203125,
+        "right": 748.796875,
+        "top": 132,
+        "width": 729.59375,
+        "x": 19.203125,
+        "y": 132
+      },
+      "headingWeight": "800",
+      "path": "/en/faq/",
+      "width": 768
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 189.59375,
+        "height": 57.59375,
+        "left": 19.203125,
+        "right": 748.796875,
+        "top": 132,
+        "width": 729.59375,
+        "x": 19.203125,
+        "y": 132
+      },
+      "headingWeight": "800",
+      "path": "/fr/demande-de-soumission/",
+      "width": 768
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 1054.609375,
+        "height": 908.609375,
+        "left": 36,
+        "right": 1404,
+        "top": 146,
+        "width": 1368,
+        "x": 36,
+        "y": 146
+      },
+      "headingWeight": "900",
+      "path": "/en/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 36,
+        "right": 1404,
+        "top": 146,
+        "width": 1368,
+        "x": 36,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/fr/industriel/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 36,
+        "right": 1404,
+        "top": 146,
+        "width": 1368,
+        "x": 36,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/en/products/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 36,
+        "right": 1404,
+        "top": 146,
+        "width": 1368,
+        "x": 36,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/fr/services/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 36,
+        "right": 1404,
+        "top": 146,
+        "width": 1368,
+        "x": 36,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/en/resources/industrial-specification-guide/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 36,
+        "right": 1404,
+        "top": 146,
+        "width": 1368,
+        "x": 36,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/fr/confidentialite/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 36,
+        "right": 1404,
+        "top": 146,
+        "width": 1368,
+        "x": 36,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/en/faq/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 36,
+        "right": 1404,
+        "top": 146,
+        "width": 1368,
+        "x": 36,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/fr/demande-de-soumission/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 1199.578125,
+        "height": 1053.578125,
+        "left": 64,
+        "right": 2496,
+        "top": 146,
+        "width": 2432,
+        "x": 64,
+        "y": 146
+      },
+      "headingWeight": "900",
+      "path": "/en/",
+      "width": 2560
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 64,
+        "right": 2496,
+        "top": 146,
+        "width": 2432,
+        "x": 64,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/fr/industriel/",
+      "width": 2560
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 64,
+        "right": 2496,
+        "top": 146,
+        "width": 2432,
+        "x": 64,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/en/products/",
+      "width": 2560
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 64,
+        "right": 2496,
+        "top": 146,
+        "width": 2432,
+        "x": 64,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/fr/services/",
+      "width": 2560
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 64,
+        "right": 2496,
+        "top": 146,
+        "width": 2432,
+        "x": 64,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/en/resources/industrial-specification-guide/",
+      "width": 2560
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 64,
+        "right": 2496,
+        "top": 146,
+        "width": 2432,
+        "x": 64,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/fr/confidentialite/",
+      "width": 2560
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 64,
+        "right": 2496,
+        "top": 146,
+        "width": 2432,
+        "x": 64,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/en/faq/",
+      "width": 2560
+    },
+    {
+      "background": "rgb(244, 243, 238)",
+      "container": {
+        "bottom": 203.59375,
+        "height": 57.59375,
+        "left": 64,
+        "right": 2496,
+        "top": 146,
+        "width": 2432,
+        "x": 64,
+        "y": 146
+      },
+      "headingWeight": "800",
+      "path": "/fr/demande-de-soumission/",
+      "width": 2560
+    }
+  ],
+  "interactions": [
+    {
+      "name": "English category search",
+      "status": "1 category found"
+    },
+    {
+      "name": "Interior mobile menu opens",
+      "pass": true
+    },
+    {
+      "name": "Interior mobile menu closes with Escape",
+      "pass": true
+    },
+    {
+      "lang": "en-CA",
+      "name": "Category equivalent-language switch",
+      "path": "/en/medical/institutional-procurement/"
+    },
+    {
+      "h1": "MOVE AIR.MOVE FORWARD.",
+      "name": "Root opens English directly",
+      "path": "/en/",
+      "search": "?entry=qa"
+    },
+    {
+      "answer": "No. This is an inquiry-led website with no checkout. A model listing or category does not confirm price, stock or availability.",
+      "name": "FAQ expands",
+      "open": true
+    },
+    {
+      "errors": 10,
+      "focus": "error-summary",
+      "name": "Empty inquiry validation",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "name": "Review does not submit",
+      "requests": 0
+    },
+    {
+      "alert": "We could not confirm receipt.Your details are still here. You can try again, copy the summary into an email, or call us. Keep the same reference when following up to help avoid duplicates.",
+      "name": "Mock failure preserves review",
+      "review": "DivisionIndustrialFull nameAirGrid Layout TestOrganizationLocal QA OnlyWork emaillayout@example.comPhoneNot providedProvince or territoryOntarioEquipment or serviceAxial fansManufacturer / modelNot providedAirflow / capacity and unitsNot providedQuantity2Project timelinePlanning / budgetPriorityStandard planningProject detailsLocal layout and retry test only. We are preparing an inquiry for two axial fans using existing project specifications.Read the privacy noticePrivacy notice acknowledged",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "name": "Local mock retry success",
+      "success": "Inquiry submitted.Thank you. Your inquiry has been accepted for processing. Keep the reference below when following up. Equipment availability and service scope still need confirmation.Inquiry reference: VCA-c4e7a626-b130-48ed-9cbc-e4cd33db58b6Start a new inquiry",
+      "delivery": {
+        "mode": "retry",
+        "requests": [
+          {
+            "method": "POST",
+            "payload": {
+              "division": "industrial",
+              "name": "AirGrid Layout Test",
+              "organization": "Local QA Only",
+              "email": "layout@example.com",
+              "phone": "",
+              "province": "ON",
+              "category": "Axial fans",
+              "model": "",
+              "specification": "",
+              "quantity": "2",
+              "timeline": "Planning / budget",
+              "urgency": "Standard planning",
+              "details": "Local layout and retry test only. We are preparing an inquiry for two axial fans using existing project specifications.",
+              "consent": "yes",
+              "category_id": "axial",
+              "locale": "en-CA",
+              "request_id": "VCA-c4e7a626-b130-48ed-9cbc-e4cd33db58b6",
+              "consent_version": "2026-11-17-formspree-v1",
+              "consent_text": "I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.",
+              "consent_timestamp": "2026-11-17T18:58:15.436Z",
+              "page": "https://ventilators.ca/en/request-a-quote/",
+              "_subject": "Ventilators.ca — Industrial (EN)",
+              "_gotcha": "",
+              "message": "Local layout and retry test only. We are preparing an inquiry for two axial fans using existing project specifications."
+            }
+          },
+          {
+            "method": "POST",
+            "payload": {
+              "division": "industrial",
+              "name": "AirGrid Layout Test",
+              "organization": "Local QA Only",
+              "email": "layout@example.com",
+              "phone": "",
+              "province": "ON",
+              "category": "Axial fans",
+              "model": "",
+              "specification": "",
+              "quantity": "2",
+              "timeline": "Planning / budget",
+              "urgency": "Standard planning",
+              "details": "Local layout and retry test only. We are preparing an inquiry for two axial fans using existing project specifications.",
+              "consent": "yes",
+              "category_id": "axial",
+              "locale": "en-CA",
+              "request_id": "VCA-c4e7a626-b130-48ed-9cbc-e4cd33db58b6",
+              "consent_version": "2026-11-17-formspree-v1",
+              "consent_text": "I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.",
+              "consent_timestamp": "2026-11-17T18:58:15.436Z",
+              "page": "https://ventilators.ca/en/request-a-quote/",
+              "_subject": "Ventilators.ca — Industrial (EN)",
+              "_gotcha": "",
+              "message": "Local layout and retry test only. We are preparing an inquiry for two axial fans using existing project specifications."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "category": "procurement",
+      "division": "medical",
+      "form": true,
+      "name": "French category inquiry selection"
+    },
+    {
+      "category": "procurement",
+      "division": "medical",
+      "name": "Inquiry language switch retains selection",
+      "path": "/en/request-a-quote/"
+    }
+  ],
+  "console": []
+}

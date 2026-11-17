@@ -7,7 +7,7 @@ export const metadata = {
 export default function GlobalNotFound() {
   return (
     <html lang="en-CA">
-      <body>
+      <body className="airgrid-site">
         <main className="container recovery">
           <p className="eyebrow">VENTILATORS.CA / 404</p>
           <h1>Page not found.</h1>
