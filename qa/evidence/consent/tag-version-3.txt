@@ -1,0 +1,255 @@
+Browser tab: 66, Title: "Google Tag Manager", URL: "https://tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/3".
+0 AXWebArea Google Tag Manager, URL: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/3
+	1 container
+		2 container suite-top-nav
+			3 container
+				4 button Back to Home
+				5 button Back to Home
+					6 image Tag Manager
+				7 container
+					8 text  Tag Manager
+				10 button Switch products
+				11 button Help
+				12 pop up button (collapsed) Description: Open overflow menu, Secondary Actions: Expand
+				13 button Open the user account switcher panel.
+					14 image Google Account: Grafov Group (dmitry@grafovgroup.com)
+			15 container
+				16 tab group Top level navigation
+					17 tab (selectable, settable, boolean) Description: Workspace, Value: 0
+					18 tab (selected, settable, boolean) Description: Versions, Value: 1
+					19 tab (selectable, settable, boolean) Description: Admin, Value: 0
+		632 container
+			633 container
+				634 heading Ventilators.ca website, Value: 2
+					635 text Ventilators.ca website
+				636 link Description: GTM-54NXJDVG, Value: tagmanager.google.com/
+				637 heading Version 3 is Live, Value: 1
+					638 text Version 3 is Live
+				639 text Published Nov 17, 2026 by dmitry@grafovgroup.com
+			640 container
+				641 heading 1
+				642 heading Tag, Value: 4
+					643 text Tag
+				644 heading 1
+				645 heading Trigger, Value: 4
+					646 text Trigger
+				647 heading 3, Value: 1
+					648 text 3
+				649 heading Settings, Value: 4
+					650 text Settings
+				651 heading 0, Value: 1
+					652 text 0
+				653 heading Variables, Value: 4
+					654 text Variables
+			655 text Versions
+			656 table
+				657 row
+					658 cell
+						659 button Sort Version ID column Sorted in descending order
+					660 cell
+						661 button Sort Status column
+					662 cell
+						663 button Sort Name column
+					664 cell
+						665 button Sort Created column
+					666 cell
+						667 button Sort Published column
+					668 cell
+						669 button Sort Published By column
+				670 button 3 Live, Latest Initialize from consent-approved gtag config 11/17/2026 11/17/2026 dmitry@grafovgroup.com
+					671 link Description: 3, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/3
+					672 link Description: Live, Latest, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/3
+					673 link Description: Initialize from consent-approved gtag config, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/3
+					674 link Description: 11/17/2026, Help: Nov 17, 2026, 3:33:30 PM, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/3
+					675 link Description: 11/17/2026, Help: Nov 17, 2026, 3:33:30 PM, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/3
+					676 link Description: dmitry@grafovgroup.com, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/3
+					677 pop up button
+				678 button 2 Consent-only analytics: manual page views and limited cookies 11/17/2026 11/17/2026 dmitry@grafovgroup.com
+					679 link Description: 2, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/2
+					680 link tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/2
+					681 link Description: Consent-only analytics: manual page views and limited cookies, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/2
+					682 link Description: 11/17/2026, Help: Nov 17, 2026, 3:23:08 PM, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/2
+					683 link Description: 11/17/2026, Help: Nov 17, 2026, 3:23:08 PM, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/2
+					684 link Description: dmitry@grafovgroup.com, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/2
+					685 pop up button
+				686 button 1 Initial Container 11/17/2026 11/17/2026 System
+					687 link Description: 1, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/1
+					688 link tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/1
+					689 link Description: Initial Container, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/1
+					690 link Description: 11/17/2026, Help: Nov 17, 2026, 2:42:41 PM, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/1
+					691 link Description: 11/17/2026, Help: Nov 17, 2026, 2:42:41 PM, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/1
+					692 link Description: System, Value: tagmanager.google.com/#/versions/accounts/6405949064/containers/287450411/versions/1
+					693 pop up button
+		62 link Description: Terms of Service, Value: support.google.com/tagmanager/answer/7157428?hl=en
+		63 text  •
+		64 link Description: Privacy Policy, Value: google.com/intl/en/policies/privacy/
+		631 container
+			694 container
+				695 button Close screen
+				696 heading Version 3 - Initialize from consent-approved gtag config, Value: 1
+					697 text Version 3  - Initialize from consent-approved gtag config
+				698 pop up button
+				699 container
+					700 text Version Summary Published 11/17/2026, 3:33 PM by dmitry@grafovgroup.com Created 11/17/2026, 3:33 PM by dmitry@grafovgroup.com Description Replace Initialization - All Pages with the sole trigger Consent collector - gtag config initialization. Legacy config support is enabled for G-59FBT5T5V1. Remove remote parameter overrides so the collector supplies typed false values, sanitized page context and limited cookies before manual events. Keep automatic detections off and the five-month first-visit cookie cap. Website consent gating and advertising restrictions remain active. Version Items
+					701 button 1 Tag
+						702 text 1
+						703 text Tag
+					704 button 1 Trigger
+						705 text 1
+						706 text Trigger
+					707 button 3 Settings
+						708 text 3
+						709 text Settings
+					710 button 5 Variables
+						711 text 5
+						712 text Variables
+					713 text Version Changes
+					714 table
+						715 row
+							716 cell
+								717 button Sort Name column Sorted in ascending order
+							718 cell
+								719 button Sort Type column
+							720 cell
+								721 text Change
+						722 row
+							723 cell
+								724 link Consent collector - gtag config initialization
+									725 text Consent collector - gtag config initialization
+							726 cell
+								727 text Trigger
+							728 cell
+								729 text Added
+						730 row
+							731 cell
+								732 link Google Analytics G-59FBT5T5V1
+									733 text Google Analytics G-59FBT5T5V1
+							734 cell
+								735 text Tag
+							736 cell
+								737 text Modified
+					738 button Activity History
+					739 text Tags
+					740 button Add filter text
+					741 table
+						742 row
+							743 cell
+								744 button Sort Name column Sorted in ascending order
+							745 cell
+								746 button Sort Type column
+							747 cell
+								748 text Firing Triggers
+							749 cell
+								750 button Sort Last Edited column
+						751 row
+							752 cell
+								753 link Google Analytics G-59FBT5T5V1
+									754 text Google Analytics G-59FBT5T5V1
+							755 cell
+								756 text Google Analytics
+							757 cell
+								758 link Consent collector - gtag config initialization
+									759 text Consent collector - gtag config initialization
+							760 cell Nov 17, 2026, 3:31:57 PM
+								761 text 11/17/2026, 3:31 PM
+					762 text Triggers
+					763 button Add filter text
+					764 table
+						765 row
+							766 cell
+								767 button Sort Name column Sorted in ascending order
+							768 cell
+								769 button Sort Type column
+							770 cell
+								771 text Filter
+							772 cell
+								773 button Sort Tags column
+							774 cell
+								775 button Sort Last Edited column
+						776 row
+							777 cell
+								778 link Consent collector - gtag config initialization
+									779 text Consent collector - gtag config initialization
+							780 cell
+								781 text Initialization
+							782 cell
+								783 text 1
+							784 cell Nov 17, 2026, 3:31:29 PM
+								785 text 11/17/2026, 3:31 PM
+					786 text Settings
+					787 button Add filter text
+					788 table
+						789 row
+							790 cell
+								791 button Sort Name column Sorted in ascending order
+							792 cell
+								793 button Sort Last Edited column
+						794 row
+							795 cell
+								796 link Manage automatic event detection
+									797 text Manage automatic event detection
+							798 cell Nov 17, 2026, 3:19:44 PM
+								799 text 11/17/2026, 3:19 PM
+						800 row
+							801 cell
+								802 link Allow user-provided data capabilities
+									803 text Allow user-provided data capabilities
+							804 cell Nov 17, 2026, 2:42:41 PM
+								805 text 11/17/2026, 2:42 PM
+						806 row
+							807 cell
+								808 link Override cookie settings
+									809 text Override cookie settings
+							810 cell Nov 17, 2026, 3:20:52 PM
+								811 text 11/17/2026, 3:20 PM
+					812 text Variables
+					813 button Add filter text
+					814 table
+						815 row
+							816 cell
+								817 button Sort Name column Sorted in ascending order
+							818 cell
+								819 button Sort Type column
+							820 cell
+								821 button Sort Last Edited column
+						822 row
+							823 cell
+								824 text Event
+							825 cell
+								826 text Built-in Variable
+							827 cell
+								828 text —
+						829 row
+							830 cell
+								831 text Page Hostname
+							832 cell
+								833 text Built-in Variable
+							834 cell
+								835 text —
+						836 row
+							837 cell
+								838 text Page Path
+							839 cell
+								840 text Built-in Variable
+							841 cell
+								842 text —
+						843 row
+							844 cell
+								845 text Page URL
+							846 cell
+								847 text Built-in Variable
+							848 cell
+								849 text —
+						850 row
+							851 cell
+								852 text Referrer
+							853 cell
+								854 text Built-in Variable
+							855 cell
+								856 text —
+					857 text Custom Templates
+					858 text This container version has no templates
+	69 container grammarly-integration
+		487 text {"mode":"full","isActive":true,"isUserDisabled":false}
+
+The focused UI element is 18 tab (selected, settable, boolean) Description: Versions, Value: 1

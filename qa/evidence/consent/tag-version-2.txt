@@ -1,0 +1,217 @@
+- button "Back to Home":
+  - img: arrow_back
+- button "Back to Home":
+  - img "Tag Manager"
+- generic: Tag Manager
+- button "Switch products":
+- button "Help":
+  - img: help
+- button "Open overflow menu":
+  - img: more_vert
+- button "Open the user account switcher panel.":
+  - 'img "Google Account: Grafov Group (dmitry@grafovgroup.com)"'
+- navigation:
+  - tablist "Top level navigation":
+    - tab "Workspace"
+    - tab "Versions" [active] [selected]
+    - tab "Admin"
+- heading "Ventilators.ca website" [level=2]
+- link "GTM-54NXJDVG":
+  - /url: ""
+- heading "Version 2 is Live" [level=1]
+- generic: Published Nov 17, 2026 by dmitry@grafovgroup.com
+- heading "1" [level=1]
+- heading "Tag" [level=4]
+- heading "0" [level=1]
+- heading "Triggers" [level=4]
+- heading "3" [level=1]
+- heading "Settings" [level=4]
+- heading "0" [level=1]
+- heading "Variables" [level=4]
+- generic: Versions
+- table:
+  - rowgroup:
+    - row "Sort Version ID column Sorted in descending order Sort Status column Sort Name column Sort Created column Sort Published column Sort Published By column":
+      - columnheader "Sort Version ID column Sorted in descending order":
+        - button "Sort Version ID column Sorted in descending order": Version ID
+      - columnheader "Sort Status column":
+        - button "Sort Status column": Status
+      - columnheader "Sort Name column":
+        - button "Sort Name column": Name
+      - columnheader "Sort Created column":
+        - button "Sort Created column": Created
+      - columnheader "Sort Published column":
+        - button "Sort Published column": Published
+      - columnheader "Sort Published By column":
+        - button "Sort Published By column": Published By
+      - columnheader
+    - 'button "2 Live, Latest Consent-only analytics: manual page views and limited cookies 11/17/2026 11/17/2026 dmitry@grafovgroup.com"':
+      - cell "2":
+        - link "2":
+          - /url: "#/versions/accounts/6405949064/containers/287450411/versions/2"
+      - cell "Live, Latest":
+        - link "Live, Latest":
+          - /url: "#/versions/accounts/6405949064/containers/287450411/versions/2"
+      - 'cell "Consent-only analytics: manual page views and limited cookies"':
+        - 'link "Consent-only analytics: manual page views and limited cookies"':
+          - /url: "#/versions/accounts/6405949064/containers/287450411/versions/2"
+      - cell "11/17/2026":
+        - link "11/17/2026":
+          - /url: "#/versions/accounts/6405949064/containers/287450411/versions/2"
+      - cell "11/17/2026":
+        - link "11/17/2026":
+          - /url: "#/versions/accounts/6405949064/containers/287450411/versions/2"
+      - cell "dmitry@grafovgroup.com":
+        - link "dmitry@grafovgroup.com":
+          - /url: "#/versions/accounts/6405949064/containers/287450411/versions/2"
+      - cell:
+        - button
+    - button "1 Initial Container 11/17/2026 11/17/2026 System":
+      - cell "1":
+        - link "1":
+          - /url: "#/versions/accounts/6405949064/containers/287450411/versions/1"
+      - cell:
+        - link:
+          - /url: "#/versions/accounts/6405949064/containers/287450411/versions/1"
+      - cell "Initial Container":
+        - link "Initial Container":
+          - /url: "#/versions/accounts/6405949064/containers/287450411/versions/1"
+      - cell "11/17/2026":
+        - link "11/17/2026":
+          - /url: "#/versions/accounts/6405949064/containers/287450411/versions/1"
+      - cell "11/17/2026":
+        - link "11/17/2026":
+          - /url: "#/versions/accounts/6405949064/containers/287450411/versions/1"
+      - cell "System":
+        - link "System":
+          - /url: "#/versions/accounts/6405949064/containers/287450411/versions/1"
+      - cell:
+        - button
+- link "Terms of Service":
+  - /url: https://support.google.com/tagmanager/answer/7157428?hl=en
+- text: •
+- link "Privacy Policy":
+  - /url: https://www.google.com/intl/en/policies/privacy/
+- button "Close screen"
+- 'heading "Version 2 - Consent-only analytics: manual page views and limited cookies" [level=1]'
+- button
+- generic: Version Summary
+- generic: Published
+- generic: 11/17/2026, 3:23 PM by dmitry@grafovgroup.com
+- generic: Created
+- generic: 11/17/2026, 3:23 PM by dmitry@grafovgroup.com
+- generic: Description
+- generic: Disable automatic page views at tag initialization and all six automatic detection options. Disable advertising signals. Set secure first-party cookies with no renewal and a five-month container cap (13140000 seconds), below the website’s 180-day maximum. The website loads this tag only after analytics opt-in; manual events contain sanitized public routes only.
+- generic: Version Items
+- button "1 Tag":
+  - generic: "1"
+  - generic: Tag
+- button "0 Triggers":
+  - generic: "0"
+  - generic: Triggers
+- button "3 Settings":
+  - generic: "3"
+  - generic: Settings
+- button "5 Variables":
+  - generic: "5"
+  - generic: Variables
+- generic: Version Changes
+- table:
+  - rowgroup:
+    - row "Sort Name column Sorted in ascending order Sort Type column Change":
+      - columnheader "Sort Name column Sorted in ascending order":
+        - button "Sort Name column Sorted in ascending order": Name
+      - columnheader "Sort Type column":
+        - button "Sort Type column": Type
+      - columnheader "Change"
+    - row "Google Analytics G-59FBT5T5V1 Tag Modified":
+      - cell "Google Analytics G-59FBT5T5V1":
+        - generic: Google Analytics G-59FBT5T5V1
+      - cell "Tag"
+      - cell "Modified"
+    - row "Manage automatic event detection Setting Modified":
+      - cell "Manage automatic event detection":
+        - generic: Manage automatic event detection
+      - cell "Setting"
+      - cell "Modified"
+    - row "Override cookie settings Setting Added":
+      - cell "Override cookie settings":
+        - generic: Override cookie settings
+      - cell "Setting"
+      - cell "Added"
+- button "Activity History"
+- generic: Tags
+- button "Add filter text"
+- table:
+  - rowgroup:
+    - row "Sort Name column Sorted in ascending order Sort Type column Firing Triggers Sort Last Edited column":
+      - columnheader "Sort Name column Sorted in ascending order":
+        - button "Sort Name column Sorted in ascending order": Name
+      - columnheader "Sort Type column":
+        - button "Sort Type column": Type
+      - columnheader "Firing Triggers"
+      - columnheader "Sort Last Edited column":
+        - button "Sort Last Edited column": Last Edited
+    - row "Google Analytics G-59FBT5T5V1 Google Analytics Initialization - All Pages 11/17/2026, 3:22 PM":
+      - cell "Google Analytics G-59FBT5T5V1":
+        - generic: Google Analytics G-59FBT5T5V1
+      - cell "Google Analytics"
+      - cell "Initialization - All Pages":
+        - generic: Initialization - All Pages
+      - cell "11/17/2026, 3:22 PM"
+- generic: Triggers
+- text: This container version has no triggers
+- generic: Settings
+- button "Add filter text"
+- table:
+  - rowgroup:
+    - row "Sort Name column Sorted in ascending order Sort Last Edited column":
+      - columnheader "Sort Name column Sorted in ascending order":
+        - button "Sort Name column Sorted in ascending order": Name
+      - columnheader "Sort Last Edited column":
+        - button "Sort Last Edited column": Last Edited
+    - row "Manage automatic event detection 11/17/2026, 3:19 PM":
+      - cell "Manage automatic event detection":
+        - generic: Manage automatic event detection
+      - cell "11/17/2026, 3:19 PM"
+    - row "Allow user-provided data capabilities 11/17/2026, 2:42 PM":
+      - cell "Allow user-provided data capabilities":
+        - generic: Allow user-provided data capabilities
+      - cell "11/17/2026, 2:42 PM"
+    - row "Override cookie settings 11/17/2026, 3:20 PM":
+      - cell "Override cookie settings":
+        - generic: Override cookie settings
+      - cell "11/17/2026, 3:20 PM"
+- generic: Variables
+- button "Add filter text"
+- table:
+  - rowgroup:
+    - row "Sort Name column Sorted in ascending order Sort Type column Sort Last Edited column":
+      - columnheader "Sort Name column Sorted in ascending order":
+        - button "Sort Name column Sorted in ascending order": Name
+      - columnheader "Sort Type column":
+        - button "Sort Type column": Type
+      - columnheader "Sort Last Edited column":
+        - button "Sort Last Edited column": Last Edited
+    - row "Event Built-in Variable —":
+      - cell "Event"
+      - cell "Built-in Variable"
+      - cell "—"
+    - row "Page Hostname Built-in Variable —":
+      - cell "Page Hostname"
+      - cell "Built-in Variable"
+      - cell "—"
+    - row "Page Path Built-in Variable —":
+      - cell "Page Path"
+      - cell "Built-in Variable"
+      - cell "—"
+    - row "Page URL Built-in Variable —":
+      - cell "Page URL"
+      - cell "Built-in Variable"
+      - cell "—"
+    - row "Referrer Built-in Variable —":
+      - cell "Referrer"
+      - cell "Built-in Variable"
+      - cell "—"
+- generic: Custom Templates
+- text: This container version has no templates

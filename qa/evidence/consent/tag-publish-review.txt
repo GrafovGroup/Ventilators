@@ -1,0 +1,125 @@
+Browser tab: 66, Title: "Google Tag Manager", URL: "https://tagmanager.google.com/#/container/accounts/6405949064/containers/287450411/workspaces/3/tags".
+0 AXWebArea Google Tag Manager, URL: tagmanager.google.com/#/container/accounts/6405949064/containers/287450411/workspaces/3/tags
+	1 container
+		2 container suite-top-nav
+			3 container
+				4 button Back to Home
+				5 button Back to Home
+					6 image Tag Manager
+				7 container
+					8 text  Tag Manager
+				488 text field (settable) Search
+				10 button Switch products
+				11 button Help
+				12 pop up button (collapsed) Description: Open overflow menu, Secondary Actions: Expand
+				13 button Open the user account switcher panel.
+					14 image Google Account: Grafov Group (dmitry@grafovgroup.com)
+			15 container
+				16 tab group Top level navigation
+					17 tab (selected, settable, boolean) Description: Workspace, Value: 1
+					18 tab (selectable, settable, boolean) Description: Versions, Value: 0
+					19 tab (selectable, settable, boolean) Description: Admin, Value: 0
+		490 container
+			491 link Description: GTM-54NXJDVG, Value: tagmanager.google.com/
+			492 text Workspace Changes:  2
+			493 button Preview
+			494 button Submit
+		495 container
+			496 link Description: Overview, Value: tagmanager.google.com/#/container/accounts/6405949064/containers/287450411/workspaces/3
+			497 link Description: Settings, Value: tagmanager.google.com/#/container/accounts/6405949064/containers/287450411/workspaces/3/config
+			498 link Description: Tags, Value: tagmanager.google.com/#/container/accounts/6405949064/containers/287450411/workspaces/3/tags
+			499 text Show more
+		500 container
+			603 text Tags
+			604 button
+			605 button Add filter text
+			606 button New
+			607 table
+				608 row
+					609 cell
+						610 checkbox Description: Toggle selection of all table rows., Value: 0
+					611 cell
+						612 text Name
+					613 cell
+						614 text Type
+					615 cell
+						616 text Firing Triggers
+					617 cell
+						618 text Last Edited
+				619 row
+					620 cell
+						621 checkbox Description: Toggle selection of the table row., Value: 0
+					622 cell
+						623 link Description: Google Analytics G-59FBT5T5V1, Value: tagmanager.google.com/#/container/accounts/6405949064/containers/287450411/workspaces/3/tags/1
+					624 cell
+						625 text Google Analytics
+					626 cell
+						627 link Description: Consent collector - gtag config initialization, Value: tagmanager.google.com/#/container/accounts/6405949064/containers/287450411/workspaces/3/triggers/8
+					628 cell
+						629 text a few seconds ago
+		62 link Description: Terms of Service, Value: support.google.com/tagmanager/answer/7157428?hl=en
+		63 text  •
+		64 link Description: Privacy Policy, Value: google.com/intl/en/policies/privacy/
+		631 container
+			632 container
+				633 button Close screen
+				634 heading Submit Changes, Value: 1
+					635 text Submit Changes
+				636 button Publish
+					637 button Publish
+				638 container
+					689 container
+						690 button Open Grammarly.
+					639 button  Publish and Create Version Push changes to your sites
+						640 text 
+						641 text Publish and Create Version
+						642 text Push changes to your sites
+					643 button Create Version Save changes and create a new version
+						644 text Create Version
+						645 text Save changes and create a new version
+					646 checkbox Description: Suggested version summary, Value: 0
+					647 text Suggested version summary AI proposes a version name and description based on your workspace changes Version Name
+					648 text field (settable) Initialize from consent-approved gtag config
+					649 text Version Description
+					650 text entry area (settable) Replace Initialization - All Pages with the sole trigger Consent collector - gtag config initialization. Legacy config support is enabled for G-59FBT5T5V1. Remove remote parameter overrides so the collector supplies typed false values, sanitized page context and limited cookies before manual events. Keep automatic detections off and the five-month first-visit cookie cap. Website consent gating and advertising restrictions remain active.
+					651 container
+						652 text Workspace Changes
+						655 table
+							656 row
+								657 cell
+									658 button Sort Name column Sorted in ascending order
+								659 cell
+									660 button Sort Type column
+								661 cell
+									662 button Sort Change column
+								663 cell
+									664 button Sort Last Edited column
+								665 cell
+									666 button Sort User column
+							667 row
+								668 cell
+									669 link Description: Consent collector - gtag config initialization, Value: tagmanager.google.com/#/container/accounts/6405949064/containers/287450411/workspaces/3/triggers/8
+								670 cell
+									671 text Trigger
+								672 button Added
+								673 cell
+									674 container Nov 17, 2026, 3:31:29 PM
+										675 text 2 minutes ago
+								676 cell
+									677 text dmitry@grafovgroup.com
+							678 row
+								679 cell
+									680 link Description: Google Analytics G-59FBT5T5V1, Value: tagmanager.google.com/#/container/accounts/6405949064/containers/287450411/workspaces/3/tags/1
+								681 cell
+									682 text Tag
+								683 button Modified
+								684 cell
+									685 container Nov 17, 2026, 3:31:57 PM
+										686 text a minute ago
+								687 cell
+									688 text dmitry@grafovgroup.com
+					654 button Activity History
+	69 container grammarly-integration
+		487 text {"mode":"full","isActive":true,"isUserDisabled":false}
+
+The focused UI element is 650 text entry area (settable) Replace Initialization - All Pages with the sole trigger Consent collector - gtag config initialization. Legacy config support is enabled for G-59FBT5T5V1. Remove remote parameter overrides so the collector supplies typed false values, sanitized page context and limited cookies before manual events. Keep automatic detections off and the five-month first-visit cookie cap. Website consent gating and advertising restrictions remain active.

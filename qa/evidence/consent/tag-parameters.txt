@@ -1,0 +1,201 @@
+- button "Back to Home":
+  - img: arrow_back
+- button "Back to Home":
+  - img "Tag Manager"
+- generic: Tag Manager
+- search:
+  - img: search
+  - textbox "Search":
+    - /placeholder: Search workspace
+- button "Switch products":
+- button "Help":
+  - img: help
+- button "Open overflow menu":
+  - img: more_vert
+- button "Open the user account switcher panel.":
+  - 'img "Google Account: Grafov Group (dmitry@grafovgroup.com)"'
+- navigation:
+  - tablist "Top level navigation":
+    - tab "Workspace" [selected]
+    - tab "Versions"
+    - tab "Admin"
+- banner:
+  - link "GTM-54NXJDVG":
+    - /url: ""
+  - generic: "Workspace Changes: 2"
+  - button "Preview"
+  - button "Submit"
+- link "Overview":
+  - /url: "#/container/accounts/6405949064/containers/287450411/workspaces/2"
+  - text: Overview
+- link "Settings":
+  - /url: "#/container/accounts/6405949064/containers/287450411/workspaces/2/config"
+  - text: Settings
+- link "Tags":
+  - /url: "#/container/accounts/6405949064/containers/287450411/workspaces/2/tags"
+  - text: Tags
+- generic: Show more
+- generic: Tags
+- button
+- button "Add filter text"
+- button "New"
+- table:
+  - rowgroup:
+    - row "Toggle selection of all table rows. Name Type Firing Triggers Last Edited":
+      - columnheader "Toggle selection of all table rows.":
+        - checkbox "Toggle selection of all table rows."
+      - columnheader "Name"
+      - columnheader "Type"
+      - columnheader "Firing Triggers"
+      - columnheader "Last Edited"
+  - rowgroup:
+    - row "Toggle selection of the table row. Google Analytics G-59FBT5T5V1 Google Analytics Initialization - All Pages 38 minutes ago":
+      - cell "Toggle selection of the table row.":
+        - checkbox "Toggle selection of the table row."
+      - cell "Google Analytics G-59FBT5T5V1":
+        - link "Google Analytics G-59FBT5T5V1":
+          - /url: "#/container/accounts/6405949064/containers/287450411/workspaces/2/tags/1"
+      - cell "Google Analytics"
+      - cell "Initialization - All Pages":
+        - generic: Initialization - All Pages
+      - cell "38 minutes ago"
+- link "Terms of Service":
+  - /url: https://support.google.com/tagmanager/answer/7157428?hl=en
+- text: •
+- link "Privacy Policy":
+  - /url: https://www.google.com/intl/en/policies/privacy/
+- button "Close screen"
+- generic: Google Analytics G-59FBT5T5V1
+- button "Unfiled items":
+  - generic "Unfiled items"
+- button "Save"
+- button
+- region "Section":
+  - button "Exit edit mode button, click to go back to readonly mode": Tag Configuration
+  - generic: Tag Type
+  - button "Google Analytics Google Analytics":
+    - generic: Google Analytics
+    - generic: Google Analytics
+  - text: "The Google Analytics tag connects a web stream to your container, enabling:"
+  - list:
+    - listitem: Use of this container's settings from the Settings tab
+    - listitem: Faster loading for improved measurement
+    - listitem: Control of which events are automatically detected after the tag is triggered
+  - text: Measurement ID
+  - button "View more information": help_outline
+  - textbox: G-59FBT5T5V1
+  - button
+  - button "Configuration settings, Click to collapse": Configuration settings
+  - text: Set configuration parameters that update your Google Analytics tag's behavior.
+  - link "Learn more":
+    - /url: https://support.google.com/tagmanager/answer/13438166
+  - generic: Configuration Settings Variable
+  - combobox "Configuration Settings Variable":
+    - option "None" [selected]
+    - option "---------" [disabled]
+    - option "New Variable..."
+  - generic: Configuration Parameter
+  - generic: Value
+  - button "This is a known parameter."
+  - textbox: send_page_view
+  - button
+  - textbox: "false"
+  - button
+  - button "Delete":
+    - button "Delete"
+  - button "This is a known parameter."
+  - textbox: allow_google_signals
+  - button
+  - textbox: "false"
+  - button
+  - button "Delete":
+    - button "Delete"
+  - button "This is a known parameter."
+  - textbox: allow_ad_personalization_signals
+  - button
+  - textbox: "false"
+  - button
+  - button "Delete":
+    - button "Delete"
+  - button "This is a known parameter."
+  - textbox: cookie_expires
+  - button
+  - textbox: "15552000"
+  - button
+  - button "Delete":
+    - button "Delete"
+  - button "This is a known parameter."
+  - textbox: cookie_update
+  - button
+  - textbox: "false"
+  - button
+  - button "Delete":
+    - button "Delete"
+  - button "This is a known parameter."
+  - textbox: cookie_domain
+  - button
+  - textbox: ventilators.ca
+  - button
+  - button "Delete":
+    - button "Delete"
+  - button "This is a known parameter."
+  - textbox: cookie_path
+  - button
+  - textbox: /
+  - button
+  - button "Delete":
+    - button "Delete"
+  - button "This is a known parameter."
+  - textbox: cookie_flags
+  - button
+  - textbox: SameSite=Lax;Secure
+  - button
+  - button "Delete":
+    - button "Delete"
+  - button "This is a known parameter."
+  - textbox: ignore_referrer
+  - button
+  - textbox [active]: "true"
+  - button
+  - button "Delete":
+    - button "Delete"
+  - button "Add parameter"
+  - button "Shared event settings, Click to expand": Shared event settings
+  - generic "Ignore duplicate instances of on-page configuration":
+    - checkbox "Ignore duplicate instances of on-page configuration" [checked]
+    - generic: Ignore duplicate instances of on-page configuration
+  - button "Advanced Settings, Click to collapse": Advanced Settings
+  - text: Tag firing priority
+  - button "More information about tag firing priority": help_outline
+  - textbox
+  - checkbox "Enable custom tag firing schedule"
+  - generic: Enable custom tag firing schedule
+  - checkbox "Only fire this tag in published containers."
+  - generic: Only fire this tag in published containers.
+  - button "More information about only firing this tag in published conainers": help_outline
+  - generic: Tag firing options
+  - combobox "Tag firing options":
+    - option [selected]
+    - option "Unlimited"
+    - option "Once per event"
+    - option "Once per page"
+  - button "Tag Sequencing, Click to expand":
+    - text: Tag Sequencing
+    - button "View more information": help_outline
+  - button "Additional Tag Metadata, Click to expand":
+    - text: Additional Tag Metadata
+    - button "View more information": help_outline
+  - button "Click to expand":
+    - text: Consent Settings
+    - superscript: (BETA)
+    - button "View more information": help_outline
+  - text: help_outline help_outline help_outline
+  - generic "Section edit button, click to enable edit mode for this section"
+- region "Section":
+  - heading "Triggering":
+    - generic: Triggering
+  - generic: Firing Triggers
+  - button "Initialization - All Pages Initialization":
+    - generic: Initialization - All Pages
+    - generic: Initialization
+  - button "Section edit button, click to enable edit mode for this section"

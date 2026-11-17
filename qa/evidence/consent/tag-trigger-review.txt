@@ -1,0 +1,46 @@
+Browser tab: 66, Title: "Google Tag Manager", URL: "https://tagmanager.google.com/#/container/accounts/6405949064/containers/287450411/workspaces/3/tags".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 630
++			632 container
++				633 button Close screen
++				634 container
++					635 container Value: Consent collector - gtag config initialization, ID: 7-trigger.data.name
++						636 text Consent collector - gtag config initialization
++				637 button (disabled) Save
++				638 pop up button
++				639 container
++					640 text Added in this workspace
++					641 text Abandon changes
++					642 container Section
++						643 container
++							644 heading Trigger Configuration, Value: 2
++								645 text Trigger Configuration
++							646 text Trigger Type
++							647 button Initialization
++								648 text Initialization
++							649 container Support gtag('config') initialization events
++								650 container
++									651 container 8-label-trigger.data.autoEventVendorTemplate.param.supportLegacyConfigBehavior
++										652 text Support gtag('config') initialization events
++										653 button View more information
++									654 container
++										655 text Legacy Configuration Enabled Using legacy config commands may delay tag firing and impact site performance. We recommend transitioning to standard Initialization or Page View triggers for a more modern, streamlined setup.
++										656 link Description: Learn More, Value: tagmanager.google.com/#
++									657 container Listen for this container's IDs
++										658 container
++											659 container 8-label-trigger.data.autoEventVendorTemplate.param.listenForMyContainerIds
++												660 text Listen for this container's IDs
++												661 button View more information
++									662 container
++										663 container 8-label-trigger.data.autoEventVendorTemplate.param.additionalContainerIds
++											664 text Listen for additional container IDs
++											665 button View more information
++										666 text G-59FBT5T5V1
++							667 text This trigger fires on
++							668 text All Initialization Events
++						669 pop up button Section edit button, click to enable edit mode for this section
++					670 text References to this Trigger
++					671 button Google Analytics G-59FBT5T5V1 Tag
++						672 text Google Analytics G-59FBT5T5V1
++						673 text Tag
+The focused UI element is 674 container

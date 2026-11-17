@@ -1,0 +1,19 @@
+{
+  "release": "2026-11-17-consent-1",
+  "sourceCommit": "c2710c10af9956c523d9728bd78c880bd81c2148",
+  "sourceHasChanges": false,
+  "manifestFiles": 519,
+  "archiveBytes": 5298309,
+  "archiveSHA256": "54585bfe8de5cc4a4106967c8fa2d6b1294b75fc50d36f0e35c4bddbfe2940d8",
+  "documentRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-consent-1",
+  "rollbackRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-operations-1",
+  "privateArchive": "/home/nvfglyl5/2026-11-17-consent-1.zip",
+  "qualityRun": 44166666061,
+  "qualityConclusion": "success",
+  "status": "live, verified",
+  "publicFilesMatched": 515,
+  "healthChecksPassed": 100,
+  "googleTagContainer": "GTM-54NXJDVG",
+  "googleTagVersion": 3,
+  "realInquiriesSent": 0
+}

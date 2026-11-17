@@ -1,0 +1,168 @@
+- button "Back to Home":
+  - img: arrow_back
+- button "Back to Home":
+  - img "Tag Manager"
+- generic: Tag Manager
+- search:
+  - img: search
+  - textbox "Search":
+    - /placeholder: Search workspace
+- button "Switch products":
+- button "Help":
+  - img: help
+- button "Open overflow menu":
+  - img: more_vert
+- button "Open the user account switcher panel.":
+  - 'img "Google Account: Grafov Group (dmitry@grafovgroup.com)"'
+- navigation:
+  - tablist "Top level navigation":
+    - tab "Workspace" [selected]
+    - tab "Versions"
+    - tab "Admin"
+- banner:
+  - link "GTM-54NXJDVG":
+    - /url: ""
+  - generic: "Workspace Changes: 1"
+  - button "Preview"
+  - button "Submit"
+- link "Overview":
+  - /url: "#/container/accounts/6405949064/containers/287450411/workspaces/2"
+  - text: Overview
+- link "Settings":
+  - /url: "#/container/accounts/6405949064/containers/287450411/workspaces/2/config"
+  - text: Settings
+- link "Tags":
+  - /url: "#/container/accounts/6405949064/containers/287450411/workspaces/2/tags"
+  - text: Tags
+- generic: Show more
+- generic: Google destinations
+- button "Add destination"
+- table:
+  - rowgroup:
+    - row "Name Tag references View more information External account link":
+      - columnheader "Name"
+      - columnheader "Tag references"
+      - columnheader "View more information":
+        - generic "View more information": Optimized
+      - columnheader "External account link"
+  - rowgroup:
+    - row "Google Analytics web stream Ventilators.ca website G-59FBT5T5V1 1 tag Yes Linked":
+      - cell "Google Analytics web stream Ventilators.ca website G-59FBT5T5V1":
+        - img "Google Analytics web stream"
+        - generic: Ventilators.ca website
+        - generic: G-59FBT5T5V1
+      - cell "1 tag"
+      - cell "Yes"
+      - cell "Linked"
+- heading "Settings Some settings apply only to specific destinations. Learn more about destination settings View more information" [level=2]:
+  - generic: Settings
+  - text: Some settings apply only to specific destinations.
+  - link "Learn more about destination settings":
+    - /url: https://support.google.com/google-ads/answer/12131703#Configure
+  - button "View more information":
+    - generic: Applies to 1 of 1 destinations
+- list:
+  - button "Manage automatic event detection Configure which types of events should automatically be detected for measurement in associated Google destinations":
+    - generic: Manage automatic event detection
+    - generic: Configure which types of events should automatically be detected for measurement in associated Google destinations
+  - button "Configure your domains Specify a list of domains for cross-domain measurement":
+    - generic: Configure your domains
+    - generic: Specify a list of domains for cross-domain measurement
+  - button "Allow user-provided data capabilities Configure whether or not to allow user-provided data to be included in measurement for destination products that accept such data.":
+    - generic: Allow user-provided data capabilities
+    - generic: Configure whether or not to allow user-provided data to be included in measurement for destination products that accept such data.
+  - generic "Collect Universal Analytics events Collect an event each time a ga() custom event, timing, or exception call from Universal Analytics occurs on your website":
+    - generic: Collect Universal Analytics events
+    - generic: Collect an event each time a ga() custom event, timing, or exception call from Universal Analytics occurs on your website
+    - generic "Collect Universal Analytics events":
+      - checkbox "Collect Universal Analytics events"
+  - button "Extract data from your page Specify where in your web page to find event data such as conversion values or user data":
+    - generic: Extract data from your page
+    - generic: Specify where in your web page to find event data such as conversion values or user data
+  - button "Define internal traffic Define IP addresses whose traffic should be marked as internal":
+    - generic: Define internal traffic
+    - generic: Define IP addresses whose traffic should be marked as internal
+  - button "List unwanted referrals Specify domains whose traffic should not be considered to be referrals":
+    - generic: List unwanted referrals
+    - generic: Specify domains whose traffic should not be considered to be referrals
+  - button "Adjust session timeout Set how long sessions can last":
+    - generic: Adjust session timeout
+    - generic: Set how long sessions can last
+  - button "Override cookie settings Change how long cookies last and how they are updated":
+    - generic: Override cookie settings
+    - generic: Change how long cookies last and how they are updated
+  - button "Manage data transmission Configure how much advertising and analytics data Google receives before end user consent signals are sent via the consent mode API":
+    - generic: Manage data transmission
+    - generic: Configure how much advertising and analytics data Google receives before end user consent signals are sent via the consent mode API
+  - button "Override consent mode defaults Load your Google tag with end-user consent set to \"denied\" until a consent update signal is received":
+    - generic: Override consent mode defaults
+    - generic: Load your Google tag with end-user consent set to "denied" until a consent update signal is received
+  - button "Manage default consent settings for data collection Set consent default labels for end user data from the European Economic Area (EEA) used for advertising purposes":
+    - generic: Manage default consent settings for data collection
+    - generic: Set consent default labels for end user data from the European Economic Area (EEA) used for advertising purposes
+- button "Show more settings": Show less
+- link "Terms of Service":
+  - /url: https://support.google.com/tagmanager/answer/7157428?hl=en
+- text: •
+- link "Privacy Policy":
+  - /url: https://www.google.com/intl/en/policies/privacy/
+- button "Close screen"
+- heading "Override cookie settings" [level=1]
+- button "Save"
+- text: Google tags use first-party cookies for various purposes. These cookies have default expiration and update settings, but you can customize these settings by overriding them.
+- link "Learn more about cookies":
+  - /url: https://developers.google.com/tag-platform/devguides/cookies/
+  - text: Learn more
+- region "Section":
+  - button "Exit edit mode button, click to go back to readonly mode": Configuration
+  - generic "Override default cookie settings":
+    - checkbox "Override default cookie settings" [checked]
+    - generic: Override default cookie settings
+  - text: Analytics cookies
+  - button "View more information": help_outline
+  - text: Cookie expiration
+  - button "View more information": help_outline
+  - combobox "Cookie expiration View more information":
+    - option "0 (expires when browser session ends)"
+    - option "1 hour"
+    - option "1 day"
+    - option "1 week"
+    - option "1 month"
+    - option "2 months"
+    - option "3 months"
+    - option "4 months"
+    - option "5 months" [selected]
+    - option "6 months"
+    - option "7 months"
+    - option "8 months"
+    - option "9 months"
+    - option "10 months"
+    - option "11 months"
+    - option "12 months"
+    - option "13 months"
+    - option "14 months"
+    - option "15 months"
+    - option "16 months"
+    - option "17 months"
+    - option "18 months"
+    - option "19 months"
+    - option "20 months"
+    - option "21 months"
+    - option "22 months"
+    - option "23 months"
+    - option "24 months"
+    - option "25 months"
+  - text: Cookie update
+  - button "View more information": help_outline
+  - radiogroup [active]:
+    - radio "Set cookie expiration time relative to most recent visit":
+      - generic: Set cookie expiration time relative to most recent visit
+    - radio "Set cookie expiration time relative to first visit" [checked]:
+      - generic: Set cookie expiration time relative to first visit
+  - generic "Section edit button, click to enable edit mode for this section"
+- generic: Tags impacted by this setting
+- button "View more information": help_outline
+- button "Google Analytics Icon Google Analytics G-59FBT5T5V1 Google Analytics":
+  - img "Google Analytics Icon"
+  - generic: Google Analytics G-59FBT5T5V1
+  - generic: Google Analytics

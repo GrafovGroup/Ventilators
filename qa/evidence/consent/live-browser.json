@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "step": "initial",
+      "consent": "denied",
+      "frames": 0
+    },
+    {
+      "step": "declined",
+      "consent": "denied",
+      "frames": 0
+    },
+    {
+      "step": "granted",
+      "consent": "granted",
+      "frames": 1,
+      "referrerPolicy": "no-referrer"
+    },
+    {
+      "step": "withdrawn",
+      "consent": "denied",
+      "frames": 0
+    },
+    {
+      "step": "version3-grant-industrial",
+      "time": "2026-11-17T20:34:23.447Z",
+      "consent": "granted",
+      "frames": 1
+    },
+    {
+      "step": "version3-fr-hub",
+      "time": "2026-11-17T20:35:50.800Z",
+      "consent": "granted",
+      "frames": 1
+    },
+    {
+      "step": "version3-fr-category",
+      "time": "2026-11-17T20:36:09.648Z",
+      "consent": "granted",
+      "frames": 1
+    },
+    {
+      "step": "final-fr-withdrawal",
+      "time": "2026-11-17T20:36:37.201Z",
+      "consent": "denied",
+      "frames": 0,
+      "googleScripts": 0
+    }
+  ],
+  "consoleErrors": [],
+  "realInquiriesSent": 0
+}

@@ -1,5 +1,16 @@
 # WHC connection — 2026-11-17
 
+## Current release: consent and analytics — 2026-11-17
+
+- Live document root: `/home/nvfglyl5/ventilators-release-2026-11-17-consent-1`.
+- Clean runtime source: `c2710c10af9956c523d9728bd78c880bd81c2148`; ZIP 5,298,309 bytes; SHA-256 `54585bfe8de5cc4a4106967c8fa2d6b1294b75fc50d36f0e35c4bddbfe2940d8`.
+- 515 public files match the manifest; all 100 live health checks pass. Archive retained privately at `/home/nvfglyl5/2026-11-17-consent-1.zip` (public URL 404).
+- Rollback root: `/home/nvfglyl5/ventilators-release-2026-11-17-operations-1`, which keeps analytics off. Earlier roots remain intact.
+- Google tag container `GTM-54NXJDVG` version 3 supplies the configuration-command initialization trigger and privacy settings; the site loads it via measurement ID `G-59FBT5T5V1` only after opt-in. See `OPERATIONS.md` for the remote configuration dependency.
+- Domain/DNS/email and Formspree spam controls unchanged; catalogue remains inquiry-only. All seven brand files and 54 image files are unchanged. No real inquiry submitted.
+
+The following release records are historical.
+
 ## Current search/operations release
 
 WHC accepted the document-root change for release `2026-11-17-operations-1`, built from clean source `be7500c2a9bd952f6617eeb77efa7e925b701ada`. All 511 public files match the artifact, and all 100 health checks pass.
