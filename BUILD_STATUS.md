@@ -2,9 +2,15 @@
 
 Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventilators on 2026-11-17.
 
-## Current increment: Phase 1B — full-site development
+## Current increment: owner-authorized public release
 
-The owner requested continued full-site development on 2026-11-17 while keeping the WHC holding page live. This increment is local/review-branch only; do not deploy the full build or change WHC/DNS.
+On 2026-11-17 the owner instructed “lets proceed with building and also lets make the site live” and selected `info@ventilators.ca` for inquiries. This supersedes the earlier holding-page-only direction. The release includes the 80 localized informational pages, unique imagery, downloads and a local copy-and-email inquiry builder. It does not activate automatic RFQ submission, publish unverified products, or establish legal/regulatory/editorial approval.
+
+Public release preparation is in progress. See `docs/DEPLOYMENT.md` for the release process and `docs/WHC_CONNECTION.md` for the final hosting record. The following Phase 1A/1B entries are historical checkpoints, not a prohibition on this later owner-authorized release.
+
+## Historical increment: Phase 1B — full-site development
+
+The owner requested continued full-site development on 2026-11-17 while keeping the WHC holding page live. That increment was local/review-branch only; the later public launch instruction supersedes that restriction.
 
 | Phase 1B work                                     | Status   | Evidence / completion requirement                                                                                                                                                                                        |
 | ------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -49,4 +55,4 @@ Status vocabulary: NOT STARTED / IN PROGRESS / VERIFIED / BLOCKED. VERIFIED appl
 
 80 EN/FR content routes (40 equivalent page pairs), language gateway, 11 category pages per locale, five service pages, six industry pages and four procurement guides per locale, local RFQ review/edit, 12 downloadable checklists, 30 distinct editorial images, brand assets, static error recovery, metadata and three sitemaps. No full-site deployment was performed. The live WHC coming-soon HTML matches the tracked holding page byte for byte; evidence is in `qa/evidence/phase-1b/live-holding-check.json`.
 
-Verified checks do not imply approval of editorial content, medical regulatory status or operational delivery. The remaining gates are unchanged.
+Verified checks do not imply approval of editorial content, medical regulatory status or operational delivery. Specialist review and operational delivery requirements remain open. The owner-authorized informational release is separate from completing those requirements.

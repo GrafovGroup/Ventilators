@@ -1,0 +1,33 @@
+# Public static release. No runtime form endpoint is enabled.
+DirectoryIndex index.html
+Options -Indexes
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP_HOST} !^ventilators\.ca$ [NC]
+  RewriteRule ^ https://ventilators.ca%{REQUEST_URI} [R=301,L,NE]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "DENY"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  Header always set Cache-Control "no-cache"
+  Header always unset X-Robots-Tag
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'"
+  <FilesMatch "\.(webp|svg|png|ico)$">
+    Header always set Cache-Control "public, max-age=3600"
+  </FilesMatch>
+  <FilesMatch "^(404|500)\.html$">
+    Header always set X-Robots-Tag "noindex, nofollow"
+  </FilesMatch>
+</IfModule>
+
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>

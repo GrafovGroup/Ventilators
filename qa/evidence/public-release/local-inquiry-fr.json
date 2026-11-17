@@ -1,0 +1,30 @@
+{
+  "url": "http://localhost:3000/fr/demande-de-soumission/?division=medical&category=technical-support",
+  "status": "Résumé copié. Collez-le dans votre courriel.",
+  "copyContainsSummary": true,
+  "emailHref": "mailto:info@ventilators.ca?subject=Demande%20d%E2%80%99%C3%A9quipement%20ou%20de%20service%20%E2%80%94%20M%C3%A9dical",
+  "viewport": {
+    "documentWidth": 375,
+    "width": 375
+  },
+  "console": [
+    {
+      "level": "warn",
+      "message": "[DEFAULT]: WARN : Using DEFAULT root logger",
+      "timestamp": "2026-11-17T16:42:30.626Z",
+      "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/Grammarly.js"
+    },
+    {
+      "level": "warn",
+      "message": "[Telemetry.TS.AgentsExperimentationService]: WARN : Requested gate not found in ALL_GATES:  personalized_humanizer_agent_poc_gate",
+      "timestamp": "2026-11-17T16:42:30.953Z",
+      "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/Grammarly.js"
+    },
+    {
+      "level": "warn",
+      "message": "[Telemetry.TS.AgentsExperimentationService]: WARN : Requested experiment not found in ALL_EXPERIMENTS:  personalized_humanizer_v1",
+      "timestamp": "2026-11-17T16:42:30.954Z",
+      "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/Grammarly.js"
+    }
+  ]
+}

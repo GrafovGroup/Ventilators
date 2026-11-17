@@ -1,0 +1,14 @@
+2026-11-17 public release preparation
+Node 24.22.1 / Next.js 16.4.6
+ESLint: PASS, zero warnings
+TypeScript: PASS
+Unit tests: PASS, 15 tests
+VENTILATORS_PUBLIC_RELEASE=1 build: PASS, 80 localized content routes
+Public export crawl: PASS, 80 routes, metadata, canonical/hreflang, links/assets/anchors, unique page imagery, sitemap, robots, no-JavaScript fallback, 404/favicon
+Root, EN and FR metadata: index, follow
+404 and 500 metadata: noindex
+Dependency audit: 0 vulnerabilities (dependency-audit.json)
+Formatting: PASS
+Local EN inquiry: review/copy/edit PASS, summary values match, no personal fields in mailto URL, zero console warnings/errors
+Local FR inquiry at 375px: review/copy PASS, width check and console evidence in local-inquiry-fr.json
+No email sent. Inbox delivery and automatic submissions remain unverified.

@@ -7,8 +7,9 @@ export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://ventilators
   /\/$/,
   '',
 );
-// Intentionally locked until the content, compliance and deployment gates pass.
-export const indexingEnabled = false;
+// Explicit, documented build flag for the owner-authorized public release.
+// Local/review builds remain noindex by default. This never enables RFQ delivery.
+export const indexingEnabled = process.env.VENTILATORS_PUBLIC_RELEASE === '1';
 
 export function routeMetadata(route: Route): Metadata {
   const d = dictionaries[route.locale];

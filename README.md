@@ -2,7 +2,7 @@
 
 Bilingual industrial ventilation and institutional medical procurement website for Grafov Group. Source of truth: [CODEX_MASTER_PROMPT.md](CODEX_MASTER_PROMPT.md), including the approved WHC.ca Pro static-hosting decision.
 
-Phase 1B content and imagery expansion is available locally on `codex/phase-1a`. This is a review build, not a production launch. Medical categories are inquiry-only; no verified product inventory exists. RFQ forms validate and review locally but **do not send or store submissions**.
+The owner authorized publication of the full bilingual informational website on 2026-11-17, superseding the earlier coming-soon-only instruction. Release preparation is on `codex/phase-1a`; the deployment record establishes the live status. Medical categories remain inquiry-only; no verified product inventory exists. The inquiry builder validates, reviews and copies a summary locally; visitors send email themselves to **info@ventilators.ca**. Automatic submission and inbox delivery are not verified.
 
 ## Run locally
 
@@ -27,12 +27,12 @@ Next.js App Router exports to `out/` with trailing-slash directory routes. `npm 
 ## Included
 
 - Editable Precision Airflow SVG wordmarks and icon variants, SVG/PNG/ICO favicon, Apple touch icon and localized social images.
-- Responsive homepage, industrial/medical hubs, 11 useful equipment category pages per language, products, services, industries, resources, FAQ, about, contact and draft legal/accessibility pages: 80 localized content routes, including five services, six facility types and four preparation guides per language.
+- Responsive homepage, industrial/medical hubs, 11 useful equipment category pages per language, products, services, industries, resources, FAQ, about, contact and website privacy, terms and accessibility pages: 80 localized content routes, including five services, six facility types and four preparation guides per language.
 - English/French navigation and equivalent-page language switching, including division/category RFQ routing.
 - Separate division inquiry UI, optional model/capacity fields, province, quantity, timeline, priority, consent, linked validation errors and a complete editable bilingual inquiry summary. No patient information or attachments.
 - Twelve downloadable bilingual inquiry checklists, 8 locally hosted licensed photos and 22 original technical/editorial illustrations; no third-party font requests. Images are unique across distinct pages, with shared EN/FR counterparts.
 - Localized metadata, canonicals, reciprocal hreflang, main and per-language XML sitemaps, Organization/WebSite/BreadcrumbList JSON-LD and bilingual 404. No fake Product/Review schema.
-- Preview indexing deliberately disabled in code and robots.txt. Analytics and live integrations are off.
+- Preview indexing is disabled by default. The documented `VENTILATORS_PUBLIC_RELEASE=1` build flag enables public indexing without enabling form delivery. Analytics remain off.
 
 ## Verification
 
@@ -70,7 +70,7 @@ For a local accessibility report, run `node scripts/qa-server.mjs` and open `htt
 2. Verified manufacturers, device data, supplier authority, medical regulatory review and industrial service qualifications.
 3. Counsel-reviewed privacy/terms, retention, consent and handling processes.
 4. Separately hosted secure RFQ endpoint, server-side controls and verified email delivery. See [RFQ_ENDPOINT.md](docs/RFQ_ENDPOINT.md).
-5. Full-site staging/deployment checks, deep-link routing and rollback. The separate WHC coming-soon page, domain and HTTPS are already configured; see [WHC_CONNECTION.md](docs/WHC_CONNECTION.md). Do not replace it without a launch instruction.
+5. Release checks and rollback are recorded in [DEPLOYMENT.md](docs/DEPLOYMENT.md) and [WHC_CONNECTION.md](docs/WHC_CONNECTION.md). The owner has authorized replacing the coming-soon page.
 6. Real-device/screen-reader QA, representative mobile performance measurements, approved analytics/consent design, Search Console/Bing access and operational monitoring ownership.
 
 See [BUILD_STATUS.md](BUILD_STATUS.md), [PAGE_MATRIX.md](PAGE_MATRIX.md), [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md), [CONTENT_SOURCE_REGISTER.md](CONTENT_SOURCE_REGISTER.md), [COMPLIANCE_REGISTER.md](COMPLIANCE_REGISTER.md) and [QA_REPORT.md](QA_REPORT.md).

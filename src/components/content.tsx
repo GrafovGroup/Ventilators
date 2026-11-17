@@ -363,6 +363,18 @@ export function ArticlePage({ locale, page }: { locale: Locale; page: ArticleKey
               <div>
                 <h2>{section.title}</h2>
                 <p>{section.body}</p>
+                {page === 'privacy' && index === 1 && (
+                  <a
+                    className="text-link"
+                    href={
+                      locale === 'en'
+                        ? 'https://www.whc.ca/legal/privacy-policy/'
+                        : 'https://www.whc.ca/mentions-legales/politique-de-confidentialite'
+                    }
+                  >
+                    {locale === 'en' ? 'WHC privacy policy' : 'Politique de confidentialité de WHC'}
+                  </a>
+                )}
                 {section.items && (
                   <ul>
                     {section.items.map((item) => (

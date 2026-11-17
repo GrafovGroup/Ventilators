@@ -52,6 +52,7 @@ export function InquiryForm({ locale }: { locale: Locale }) {
     query.get('division') === 'medical' ? 'medical' : 'industrial',
   );
   const [errors, setErrors] = useState<InquiryErrors>({});
+  const [copyStatus, setCopyStatus] = useState<'idle' | 'copied' | 'error'>('idle');
   const [review, setReview] = useState<InquiryInput | null>(null);
   const d = dictionaries[locale];
   const t = d.form;
@@ -92,6 +93,7 @@ export function InquiryForm({ locale }: { locale: Locale }) {
     const input = readInquiry(new FormData(event.currentTarget));
     const nextErrors = validateInquiry(input);
     setErrors(nextErrors);
+    setCopyStatus('idle');
     setReview(Object.keys(nextErrors).length === 0 ? input : null);
     requestAnimationFrame(() =>
       document
@@ -316,6 +318,38 @@ export function InquiryForm({ locale }: { locale: Locale }) {
             <p className="eyebrow">{t.reviewed}</p>
             <h2 id="summary-title">{t.summary}</h2>
             <p>{t.reviewedText}</p>
+            <div className="review-actions">
+              <button
+                type="button"
+                className="button"
+                onClick={async () => {
+                  const text = [
+                    'Ventilators.ca',
+                    t.summary,
+                    ...(Object.keys(labels) as InquiryField[])
+                      .filter((field) => field !== 'consent')
+                      .map((field) => `${labels[field]}: ${reviewValue(field, review[field])}`),
+                  ].join('\n\n');
+                  try {
+                    await navigator.clipboard.writeText(text);
+                    setCopyStatus('copied');
+                  } catch {
+                    setCopyStatus('error');
+                  }
+                }}
+              >
+                {t.copy}
+              </button>
+              <a
+                className="button button-outline"
+                href={`mailto:info@ventilators.ca?subject=${encodeURIComponent(`${t.emailSubject} — ${d.nav[division]}`)}`}
+              >
+                {t.openEmail}
+              </a>
+            </div>
+            <p role="status" className="copy-status">
+              {copyStatus === 'copied' ? t.copied : copyStatus === 'error' ? t.copyError : ''}
+            </p>
             <dl className="review-fields">
               {(Object.keys(labels) as InquiryField[]).map((field) => (
                 <div key={field}>
@@ -329,6 +363,7 @@ export function InquiryForm({ locale }: { locale: Locale }) {
               className="button button-outline"
               onClick={() => {
                 setReview(null);
+                setCopyStatus('idle');
                 requestAnimationFrame(() => document.getElementById('name')?.focus());
               }}
             >

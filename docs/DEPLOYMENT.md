@@ -1,52 +1,53 @@
 # WHC.ca Pro deployment
 
-Production target is WHC.ca Pro, per the master prompt. The local output is static; no Next.js server, server actions, middleware or runtime APIs are required. On 2026-11-17 the owner requested connection of the domain and hosting through WHC and selected a simple bilingual “Coming soon” page. That holding page is deployed from `deploy/coming-soon/`. The full Phase 1A site remains on the review branch, pending its launch gates. See `docs/WHC_CONNECTION.md` for the connection and rollback record.
+The owner instructed publication of the full bilingual website on 2026-11-17 and selected `info@ventilators.ca` for inquiries. This supersedes the earlier coming-soon-only direction. The authorized release is informational: 80 localized pages, page-owned imagery, downloads, phone/email links and a local inquiry builder with review/copy. No automatic inquiry transmission, product offers or specialist approval are implied.
 
 ## Environment matrix
 
-| Environment      | Origin                                             | RFQ                                         | Indexing                                                             |
-| ---------------- | -------------------------------------------------- | ------------------------------------------- | -------------------------------------------------------------------- |
-| Local preview    | http://localhost:3000                              | Review only                                 | noindex; robots disallow                                             |
-| WHC holding page | https://ventilators.ca                             | No form                                     | noindex; robots disallow                                             |
-| WHC staging      | Owner to provision                                 | Remains unavailable until endpoint verified | noindex, robots disallow; password/access restriction if appropriate |
-| Production       | https://ventilators.ca (proposed canonical origin) | Verified separate provider required         | Enable only after Gates A–D                                          |
+| Environment           | Origin                     | Inquiry handling                                  | Indexing                               |
+| --------------------- | -------------------------- | ------------------------------------------------- | -------------------------------------- |
+| Local/review build    | localhost or review host   | Local review/copy only                            | noindex, robots disallow by default    |
+| Public WHC release    | https://ventilators.ca     | Local review/copy; visitor sends email themselves | Explicit public build permits indexing |
+| Rollback holding page | Previous WHC document root | Phone/email only                                  | noindex, robots disallow               |
 
-Build-time public canonical origin is `NEXT_PUBLIC_SITE_URL`. Private delivery credentials belong only on the separately hosted endpoint. No deployment credentials are stored in this repository.
+Static Next.js export requires no Node server on WHC. `NEXT_PUBLIC_SITE_URL` defaults to the canonical origin above. `VENTILATORS_PUBLIC_RELEASE=1` intentionally enables public metadata and robots; it never enables a delivery endpoint. Private credentials must never enter this repository or export. Existing external mail routing is preserved; delivery to the selected contact is unverified.
 
-## Pre-deployment
+## Build a release
 
-WHC Pro uses cPanel and LiteSpeed. The addon domain has its own `ventilators.ca` directory under the account home, separate from the primary site's document root. Static files and the holding page's `.htaccess` directives have been verified. Uploads used authenticated cPanel File Manager. The full site's error handling, route behavior and release workflow still require WHC verification. `deploy/whc.htaccess.example` remains a template for the full site.
-
-Build and check using Node 22+:
+Use Node 22+ with installed dependencies:
 
 ```sh
-npm ci
 npm run lint
 npm run typecheck
 npm test
-npm run build
-npm run check:export
+VENTILATORS_PUBLIC_RELEASE=1 npm run build
+VENTILATORS_PUBLIC_RELEASE=1 npm run check:export
 npm run format:check
 npm audit
+npm run preview
 ```
 
-`out/` is the deployable folder. Upload **its contents**, not source, `.env`, dependencies or `.git`. `npm run preview` serves this exact directory locally. Trailing-slash routes map to physical `index.html` files.
+The preview serves the exact `out/` output with noindex response headers. Check the bilingual inquiry validation/review/copy/edit flow, email link, responsive navigation, imagery, privacy notice and 404. No real inquiry or email should be sent during QA. Commit the tested source before packaging:
 
-## Secure release procedure
+```sh
+node scripts/package-release.mjs YYYY-MM-DD-release-name
+```
 
-1. Complete owner/editorial, legal, regulatory, supplier and verified-delivery gates. Record approval and evidence. Choose a staging subdomain and obtain least-privilege deployment credentials through secure account access.
-2. Record current DNS (including MX, SPF, DKIM and DMARC), web-root contents and active release checksum. Do not change mail records as part of website deployment.
-3. Build a versioned artifact from a tested Git commit with the correct environment origin. Store the artifact and file checksums with the release record, without secrets.
-4. Back up the active web root. Upload to a separate release directory via supported SFTP/FTPS or secure CI. Switch the document root/rename only if the host supports an atomic approach; otherwise plan a controlled replacement and rollback. Do not upload over a live site without a backup.
-5. Verify SSL chain, HTTPS and host redirects, `/`, `/en/`, `/fr/`, localized category deep links, query-string RFQ preselection, assets, downloads, icons, genuine 404 HTTP status and 404 content directly on WHC. Confirm no redirect loops or SPA fallback hiding 404s.
-6. Validate canonical origin, reciprocal hreflang, sitemaps, headers, image caching and all form delivery/failure cases on staging. Check browser mobile rendering and keyboard behavior on the deployed artifact.
-7. After sign-off, intentionally enable indexing in `src/lib/seo.ts` and reviewed hosting headers, remove draft legal text, rebuild and repeat checks. Do not flip indexing via an undocumented environment variable.
-8. Deploy production; verify actual URL and rollback readiness before announcing success. Add Search Console/Bing verification only with owner account access, then submit the approved sitemap. GA4 remains off until consent design/IDs are approved.
+The packager requires public robots.txt, copies only exported files, adds `deploy/whc-public.htaccess` and hashed-asset caching, and creates a ZIP plus SHA-256 file manifest in ignored `qa/generated/releases/`. It refuses to overwrite an existing file set. The manifest records the source commit and whether the checkout was dirty. No source, credentials or dependencies belong in the upload.
 
-## Caching, rollback and maintenance
+## WHC release and rollback
 
-Hashed `_next/static/` assets may be cached for one year with `immutable`. HTML should revalidate. Nonhashed brand/images/downloads need short caching or explicit versioning; do not mark them immutable. Confirm compression and cache behavior on WHC.
+1. Use authenticated cPanel File Manager. Prepare a new dedicated release directory outside the active document root. Upload the ZIP to its parent, extract into the release directory and inspect the resulting files, including hidden `.htaccess`.
+2. Preserve `/home/nvfglyl5/ventilators.ca`, the original holding-page root. Its exact files and artifact checksum are recorded in `docs/WHC_CONNECTION.md`. Do not touch other domains, mail records or the primary document root.
+3. In cPanel Domains → Manage `ventilators.ca`, update **New Document Root** to the new release directory. This publishes the prepared release without overwriting the holding files. Record the final path and source/artifact checksums.
+4. Verify public HTTPS, www/HTTP redirects, root and all 80 localized routes, canonical/hreflang/robots/sitemaps, assets/downloads, query preselection, and actual 404 status. Check security/cache headers and a browser inquiry review/copy cycle on the live site. Compare served file hashes to the artifact.
+5. Remove only the uploaded ZIP after extraction, or retain it outside every public root. Retain the old holding root and local release artifact for rollback. Do not publish a deployment archive.
+6. To roll back, set the domain’s document root back to `ventilators.ca`. Verify the holding-page HTML hash, HTTPS, phone/email links and noindex. The original directory is unchanged; no DNS change is needed.
 
-Rollback: keep prior artifact and web-root backup; switch back or restore the complete prior set, purge relevant host/CDN caches, then verify home, localized deep links, assets and RFQ provider configuration. Static assets should be retained through the rollback window to avoid breaking open tabs.
+Hashed `_next/static/` files use one-year immutable caching. HTML revalidates; nonhashed images use one-hour caching. Public error pages remain noindex. The CSP allows the static Next.js application and blocks native form submission; personal inquiry fields never enter a URL. Files beginning with a dot are denied.
 
-Monitoring plan: HTTPS availability and representative EN/FR deep-link checks, 404/error trends, endpoint health and delivery-failure alerts without lead data. Establish owners and retention before enabling any external monitor. Review content/product evidence monthly and technical SEO/accessibility quarterly. No monitoring or scheduled job is active yet.
+## Outstanding operations
+
+Automatic RFQ handling still requires a separately hosted secure endpoint, server-side validation, delivery verification, retention/consent review and failure handling; see `RFQ_ENDPOINT.md`. Legal, medical, supplier and bilingual editorial checks remain recorded as open in `COMPLIANCE_REGISTER.md`.
+
+Search Console/Bing verification, analytics, scheduled monitoring and monitoring ownership are not configured. Do not claim sitemap submission or email receipt. Record actual deployment verification in `QA_REPORT.md` and `WHC_CONNECTION.md` before announcing the site is live.

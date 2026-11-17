@@ -1936,3 +1936,14 @@ input[type='checkbox'] {
     max-height: 240px;
   }
 }
+.review-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+.copy-status {
+  font-size: 14px;
+  margin-top: 12px;
+  min-height: 1.6em;
+}

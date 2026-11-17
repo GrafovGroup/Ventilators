@@ -1,4 +1,10 @@
-# QA report — Phase 1B review build
+# QA report
+
+## Public release preparation — 2026-11-17
+
+The owner authorized the full informational website and selected info@ventilators.ca. Release checks and live evidence will be recorded under `qa/evidence/public-release/`. Automated delivery and inbox receipt are not verified. The following Phase 1B results are historical local checks.
+
+## Phase 1B review build
 
 Executed 2026-11-17 on macOS arm64, Node 24.22.1 and Next.js 16.4.6. These results cover the local static export. The full website has not been deployed. The separate WHC coming-soon page remains live and unchanged.
 

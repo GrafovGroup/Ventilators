@@ -2,7 +2,7 @@ import { readFile, access, readdir } from 'node:fs/promises';
 import { resolve, extname } from 'node:path';
 import assert from 'node:assert/strict';
 import { routes, alternatePath } from '../src/lib/routes';
-import { siteUrl } from '../src/lib/seo';
+import { siteUrl, indexingEnabled } from '../src/lib/seo';
 import { media } from '../src/content/media';
 
 const root = resolve('out');
@@ -37,7 +37,12 @@ for (const { route, html } of htmlFiles) {
       html.includes('hrefLang="fr-CA"') || html.includes('hreflang="fr-CA"'),
       'French hreflang',
     );
-    assert.match(html, /name="robots" content="noindex, nofollow"/);
+    assert.ok(
+      html.includes(
+        `name="robots" content="${indexingEnabled ? 'index, follow' : 'noindex, nofollow'}"`,
+      ),
+      'robots match release mode',
+    );
     assert.ok(html.includes('/favicon.svg'), 'favicon');
     if (route.page === 'quote') {
       assert.ok(
@@ -98,7 +103,10 @@ for (const locale of ['en', 'fr']) {
 }
 assert.equal((sitemap.match(/<url>/g) || []).length, routes.length);
 for (const route of routes) assert.ok(sitemap.includes(`<loc>${siteUrl}${route.path}</loc>`));
-assert.match(await readFile(resolve(root, 'robots.txt'), 'utf8'), /Disallow: \//);
+assert.match(
+  await readFile(resolve(root, 'robots.txt'), 'utf8'),
+  indexingEnabled ? /Allow: \// : /Disallow: \//,
+);
 assert.match(await readFile(resolve(root, '404.html'), 'utf8'), /Page not found/);
 assert.match(await readFile(resolve(root, '404.html'), 'utf8'), /introuvable/);
 assert.match(await readFile(resolve(root, '500.html'), 'utf8'), /indisponible/);
@@ -111,5 +119,5 @@ if (failures.length) {
   process.exitCode = 1;
 } else
   console.log(
-    `PASS: ${routes.length} localized pages; document languages, headings, unique metadata, canonical/hreflang, JSON-LD, internal links/assets/anchors, sitemap, preview robots, bilingual 404 and favicon.`,
+    `PASS: ${routes.length} localized pages; document languages, headings, unique metadata, canonical/hreflang, JSON-LD, internal links/assets/anchors, sitemap, ${indexingEnabled ? 'public' : 'preview'} robots, bilingual 404 and favicon.`,
   );

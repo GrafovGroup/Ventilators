@@ -65,3 +65,10 @@ The registry at `src/content/media.ts` contains translated alt text, captions an
 | replacement-guide         | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/replacement-guide.svg`         |
 | medical-procurement-guide | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/medical-procurement-guide.svg` |
 | accessory-guide           | Original Ventilators.ca vector artwork                                                                     | `public/images/diagrams/accessory-guide.svg`           |
+
+## Public release notices — 2026-11-17
+
+Privacy/terms copy describes the implementation and does not claim legal approval. Owner confirmed info@ventilators.ca as the inquiry contact. WHC hosts the static files; inquiry contents remain in the open page until the visitor copies them and sends an email using their own mail service. No endpoint, analytics, lead database or uploads exist.
+
+- [WHC privacy policy](https://www.whc.ca/legal/privacy-policy/) / [Politique de confidentialité](https://www.whc.ca/mentions-legales/politique-de-confidentialite): linked for hosting-provider practices.
+- [Office of the Privacy Commissioner — Meaningful consent tips](https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/appropriate-handling-of-personal-information/collecting-personal-information-and-consent/02_05_d_56_tips2/): background on clear explanations of information handling, not a determination of this site’s compliance.

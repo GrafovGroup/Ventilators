@@ -1,0 +1,9 @@
+{
+  "url": "http://localhost:3000/en/request-a-quote/?division=industrial&category=repair",
+  "status": "Summary copied. Paste it into your email.",
+  "copyContainsSummary": true,
+  "emailHref": "mailto:info@ventilators.ca?subject=Equipment%20or%20service%20inquiry%20%E2%80%94%20Industrial",
+  "noPersonalDataInEmailURL": true,
+  "console": [],
+  "editRetained": true
+}
