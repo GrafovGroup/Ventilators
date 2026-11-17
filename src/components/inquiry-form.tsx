@@ -57,6 +57,7 @@ export function InquiryForm({ locale }: { locale: Locale }) {
   const [errors, setErrors] = useState<InquiryErrors>({});
   const [copyStatus, setCopyStatus] = useState<'idle' | 'copied' | 'error'>('idle');
   const [review, setReview] = useState<InquiryInput | null>(null);
+  const [technicalOpen, setTechnicalOpen] = useState(false);
   const [delivery, sendInquiry, resetDelivery] = useForm(formspreeId);
   const [unexpectedError, setUnexpectedError] = useState(false);
   const [slow, setSlow] = useState(false);
@@ -122,6 +123,12 @@ export function InquiryForm({ locale }: { locale: Locale }) {
     const input = readInquiry(data);
     const nextErrors = validateInquiry(input);
     setErrors(nextErrors);
+    if (
+      ['model', 'specification', 'quantity', 'timeline', 'urgency'].some(
+        (field) => nextErrors[field as InquiryField],
+      )
+    )
+      setTechnicalOpen(true);
     setCopyStatus('idle');
     resetDelivery();
     setUnexpectedError(false);
@@ -170,8 +177,10 @@ export function InquiryForm({ locale }: { locale: Locale }) {
     if (field === 'category') return inquiryOptions.find((c) => c.id === value)?.name[locale];
     if (field === 'province')
       return provinces[locale][provinceCodes.indexOf(value as (typeof provinceCodes)[number])];
-    if (field === 'timeline') return t.timelines[Number(value)];
-    if (field === 'urgency') return t.urgencies[value === 'standard' ? 0 : 1];
+    if (field === 'quantity' && !value) return t.notKnown;
+    if (field === 'timeline') return value ? t.timelines[Number(value)] : t.notKnown;
+    if (field === 'urgency')
+      return value ? t.urgencies[value === 'standard' ? 0 : 1] : t.notProvided;
     if (field === 'consent') return t.acknowledged;
     return value || t.notProvided;
   }
@@ -299,64 +308,84 @@ export function InquiryForm({ locale }: { locale: Locale }) {
               {error('category')}
             </div>
             <div className="span-two">
-              {label('model', t.model, true)}
-              <input {...a11y('model')} maxLength={200} />
-              {error('model')}
-            </div>
-            <div className="span-two">
-              {label(
-                'specification',
-                division === 'industrial' ? t.capacity : t.clinicalModel,
-                true,
-              )}
-              <input
-                {...a11y('specification')}
-                key={`specification-${division}`}
-                maxLength={1000}
-              />
-              {error('specification')}
-            </div>
-            <div>
-              {label('quantity', t.quantity)}
-              <input {...a11y('quantity')} type="number" min={1} max={10000} step={1} required />
-              {error('quantity')}
-            </div>
-            <div>
-              {label('timeline', t.timeline)}
-              <select {...a11y('timeline')} defaultValue="" required>
-                <option value="">{t.select}</option>
-                {t.timelines.map((text, i) => (
-                  <option value={i} key={text}>
-                    {text}
-                  </option>
-                ))}
-              </select>
-              {error('timeline')}
-            </div>
-            <div className="span-two">
-              {label('urgency', t.urgency)}
-              <select
-                {...a11y('urgency')}
-                defaultValue=""
+              {label('details', division === 'industrial' ? t.industrialDetails : t.medicalDetails)}
+              <textarea
+                {...a11y('details')}
+                rows={4}
+                maxLength={4000}
                 required
-                aria-describedby={errors.urgency ? 'urgency-help urgency-error' : 'urgency-help'}
-              >
-                <option value="">{t.select}</option>
-                <option value="standard">{t.urgencies[0]}</option>
-                <option value="time-sensitive">{t.urgencies[1]}</option>
-              </select>
-              {error('urgency')}
-              <p id="urgency-help" className="field-help">
-                {t.urgencyHelp}
+                aria-describedby={errors.details ? 'details-help details-error' : 'details-help'}
+              />
+              {error('details')}
+              <p className="field-help" id="details-help">
+                {division === 'industrial' ? t.industrialHelp : t.medicalHelp} {t.noAttachments}
               </p>
             </div>
-            <div className="span-two">
-              {label('details', t.details)}
-              <textarea {...a11y('details')} rows={5} maxLength={4000} required />
-              {error('details')}
-              <p className="field-help">{t.noAttachments}</p>
-            </div>
           </div>
+          <details
+            className="inquiry-optional"
+            open={technicalOpen}
+            onToggle={(event) => setTechnicalOpen(event.currentTarget.open)}
+          >
+            <summary>{t.optionalDetails}</summary>
+            <p className="field-help">{t.optionalHelp}</p>
+            <div className="form-grid">
+              <div className="span-two">
+                {label('model', t.model, true)}
+                <input {...a11y('model')} maxLength={200} />
+                {error('model')}
+              </div>
+              <div className="span-two">
+                {label(
+                  'specification',
+                  division === 'industrial' ? t.capacity : t.clinicalModel,
+                  true,
+                )}
+                <input {...a11y('specification')} maxLength={1000} />
+                {error('specification')}
+              </div>
+              <div>
+                {label('quantity', t.quantity, true)}
+                <input
+                  {...a11y('quantity')}
+                  type="number"
+                  min={1}
+                  max={10000}
+                  step={1}
+                  placeholder={t.notKnown}
+                />
+                {error('quantity')}
+              </div>
+              <div>
+                {label('timeline', t.timeline, true)}
+                <select {...a11y('timeline')} defaultValue="">
+                  <option value="">{t.notKnown}</option>
+                  {t.timelines.map((text, i) => (
+                    <option value={i} key={text}>
+                      {text}
+                    </option>
+                  ))}
+                </select>
+                {error('timeline')}
+              </div>
+              <div className="span-two">
+                {label('urgency', t.urgency, true)}
+                <select
+                  {...a11y('urgency')}
+                  defaultValue=""
+                  aria-describedby={errors.urgency ? 'urgency-help urgency-error' : 'urgency-help'}
+                >
+                  <option value="">{t.notProvided}</option>
+                  <option value="standard">{t.urgencies[0]}</option>
+                  <option value="time-sensitive">{t.urgencies[1]}</option>
+                </select>
+                {error('urgency')}
+                <p id="urgency-help" className="field-help">
+                  {t.urgencyHelp}
+                </p>
+              </div>
+            </div>
+          </details>
           <div className="consent">
             <label>
               <input {...a11y('consent')} type="checkbox" value="yes" required />
@@ -389,6 +418,7 @@ export function InquiryForm({ locale }: { locale: Locale }) {
               className="button button-outline"
               onClick={() => {
                 formRef.current?.reset();
+                setTechnicalOpen(false);
                 analyticsStarted.current = false;
                 resetDelivery();
                 setReview(null);
@@ -504,6 +534,9 @@ export function InquiryForm({ locale }: { locale: Locale }) {
         )}
       </div>
       <aside className="quote-aside">
+        <h2>{t.nextTitle}</h2>
+        <p>{t.nextText}</p>
+        <hr />
         <p className="eyebrow">{d.nav.contact}</p>
         <h2>{t.support}</h2>
         <p>{t.supportText}</p>

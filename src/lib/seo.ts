@@ -1,6 +1,5 @@
-import { finderCopy } from '../content/finder';
 import type { Metadata } from 'next';
-import { articles, type ArticleKey } from '@/content/pages';
+import { pageSearchCopy, prioritySearchCopy } from '@/content/search-copy';
 import { dictionaries, pathFor } from '@/content/site';
 import { alternatePath, type Route } from './routes';
 
@@ -13,33 +12,17 @@ export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://ventilators
 export const indexingEnabled = process.env.VENTILATORS_PUBLIC_RELEASE === '1';
 
 export function routeMetadata(route: Route): Metadata {
-  const d = dictionaries[route.locale];
+  const search = route.category ? prioritySearchCopy[route.category.id]?.[route.locale] : undefined;
   const title =
     route.detail?.title[route.locale] ??
+    search?.title ??
     route.category?.name[route.locale] ??
-    (route.page === 'home'
-      ? route.locale === 'en'
-        ? 'Industrial ventilation & medical procurement in Canada'
-        : 'Ventilation industrielle et approvisionnement médical au Canada'
-      : route.page === 'quote'
-        ? d.form.title
-        : route.page === 'products'
-          ? d.common.categories
-          : route.page === 'industrial' || route.page === 'medical'
-            ? d[route.page].title
-            : articles[route.locale][route.page as ArticleKey].title);
+    pageSearchCopy[route.page][route.locale].title;
   const description =
     route.detail?.summary[route.locale] ??
+    search?.description ??
     route.category?.summary[route.locale] ??
-    (route.page === 'home'
-      ? d.home.intro
-      : route.page === 'industrial' || route.page === 'medical'
-        ? d[route.page].intro
-        : route.page === 'quote'
-          ? d.form.intro
-          : route.page === 'products'
-            ? finderCopy[route.locale].intro
-            : articles[route.locale][route.page as ArticleKey].intro);
+    pageSearchCopy[route.page][route.locale].description;
   const en = route.locale === 'en' ? route.path : alternatePath(route);
   const fr = route.locale === 'fr' ? route.path : alternatePath(route);
   return {

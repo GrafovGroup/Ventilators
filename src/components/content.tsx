@@ -3,6 +3,8 @@ import { finderCopy, categoryAliases } from '@/content/finder';
 import { dictionaries, pathFor, quotePath, type Locale, type Division } from '@/content/site';
 import { categories, categoryPath, type Category } from '@/content/catalog';
 import { articles, type ArticleKey } from '@/content/pages';
+import { buyerGuides } from '@/content/buyer-guides';
+import { CategoryBuyerGuide } from './category-buyer-guide';
 import { detailPages, detailPath } from '@/content/details';
 import { DetailIndex } from './detail-content';
 import { PageVisual } from './page-visual';
@@ -124,14 +126,33 @@ export function CategoryPage({ locale, category }: { locale: Locale; category: C
           <h1>{category.name[locale]}</h1>
           <p className="lead">{category.summary[locale]}</p>
           <span className="inquiry-badge">{d.form.status}</span>
+          <a className="button" href={quotePath(locale, category.division, category.id)}>
+            {d.common.inquiry}
+          </a>
         </div>
         <PageVisual id={category.id} locale={locale} priority />
       </section>
+      {buyerGuides[category.id] && (
+        <nav
+          className="container buyer-jump"
+          aria-label={locale === 'en' ? 'On this category page' : 'Dans cette catégorie'}
+        >
+          <a href="#category-brief">
+            {locale === 'en' ? 'Prepare your brief' : 'Préparer le dossier'}
+          </a>
+          <a href="#category-scope">
+            {locale === 'en' ? 'Understand the scope' : 'Comprendre la portée'}
+          </a>
+          <a href="#category-questions">
+            {locale === 'en' ? 'Buyer questions' : 'Questions des acheteurs'}
+          </a>
+        </nav>
+      )}
       <section className="container category-context">
         <h2>{guide.title[locale]}</h2>
         <p>{guide.body[locale]}</p>
       </section>
-      <section className="container article-grid">
+      <section className="container article-grid" id="category-brief">
         <div>
           <h2>
             {locale === 'en' ? 'What to include in your inquiry' : 'À inclure dans votre demande'}
@@ -159,6 +180,7 @@ export function CategoryPage({ locale, category }: { locale: Locale; category: C
           </a>
         </aside>
       </section>
+      <CategoryBuyerGuide category={category} locale={locale} />
       <section className="preparation">
         <div className="container preparation-grid">
           <div>

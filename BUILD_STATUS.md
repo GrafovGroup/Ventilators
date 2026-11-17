@@ -2,7 +2,11 @@
 
 Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventilators on 2026-11-17.
 
-## Current increment: optional analytics and bilingual consent
+## Current increment: search titles, category guidance and simpler inquiries
+
+Implementation complete; release validation/publication in progress. Descriptive EN/FR metadata covers the 14 main page types and six priority categories. Roof, axial, centrifugal, exhaust, respiratory accessories and institutional procurement now have original bilingual buyer guidance, scope tables, questions, source links and inquiry examples. The form keeps technical details optional, supports an unknown category per division and retains review before explicit send. Original logo, AirGrid, page-owned imagery, 80 routes, provider/spam controls, consent-gated analytics and inquiry-only inventory are preserved. See `qa/evidence/seo-ux/`.
+
+## Previous increment: optional analytics and bilingual consent
 
 Release `2026-11-17-consent-1` is LIVE on WHC from clean runtime source `c2710c10af9956c523d9728bd78c880bd81c2148`. All 515 public files match the artifact and all 100 live health checks pass. Public pages offer equal allow/decline choices in EN/FR, with footer preferences, 180-day expiry and cross-tab withdrawal. No Google collector loads before opt-in. A separate constant-URL collector accepts sanitized public-route events; inquiry contents and URL parameters are excluded. GA4 user/event retention is two months, renewal and advertising features are off. Google tag container version 3 waits for the site's explicit configuration; live GA4 receipt confirms the corrected manual page view without another automatic collector view. The catalogue remains inquiry-only with no product inventory. All 28 tests, the 80-route build/export and transfer budgets pass. See `docs/OPERATIONS.md`, `QA_REPORT.md` and `qa/evidence/consent/`.
 

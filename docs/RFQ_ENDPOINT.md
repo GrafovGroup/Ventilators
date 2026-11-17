@@ -4,17 +4,17 @@ The owner supplied and authorized endpoint `https://formspree.io/f/mvkaapjj` on 
 
 ## Visitor flow
 
-1. Enter division-specific business requirements and acknowledge the bilingual privacy notice. Browser validation checks required fields, email, bounds, quantity and category/division membership.
+1. Enter division-specific business requirements and acknowledge the bilingual privacy notice. Browser validation checks required fields, email, bounds and category/division membership. Quantity, timing and priority are optional inside an expandable technical-details section; provided quantities must be bounded positive integers. Each division offers a general routing choice when the equipment category is unknown.
 2. Review all values locally. This step transmits nothing. The request receives a `VCA-<UUID>` reference and consent timestamp.
 3. Select **Send inquiry / Envoyer la demande**. The SDK sends HTTPS JSON to the fixed Formspree endpoint. The send/edit buttons are disabled while pending, with a synchronous duplicate-click guard. After 15 seconds, a localized message explains that confirmation is still pending.
 4. A provider-accepted response shows a focused, localized success state and reference. This means accepted for processing, not proof of inbox delivery or a commercial order.
 5. A network/provider failure retains the reviewed values. Retry uses the same reference; edit, copy, email and phone remain available. Provider field errors are described using localized field names. No automatic retry runs.
 
-The inquiry lives in React/browser memory until transmission or an explicit clipboard copy. No persistent browser draft, analytics or upload is used. The no-JavaScript fallback offers phone/email. CSP blocks native form navigation and permits fetch only to the same origin and Formspree, so personal fields do not enter a URL.
+The inquiry lives in React/browser memory until transmission or an explicit clipboard copy. No persistent browser draft or upload is used. Optional analytics records only sanitized start/accepted events after visitor opt-in; inquiry contents are excluded. The no-JavaScript fallback offers phone/email. CSP blocks native form navigation and permits fetch only to the same origin and Formspree, so personal fields do not enter a URL.
 
 ## Payload and recipient
 
-`src/lib/inquiry-delivery.ts` emits an allowlist: division, name, organization, email, optional phone/model/specification, province, category label and ID, quantity, translated timeline/priority, details/message, locale, request ID, consent value/version/text/timestamp and canonical inquiry page. `_subject` is built only from trusted division/locale choices; `_gotcha` is the honeypot. Unknown fields, recipients, redirects and attachments are not forwarded by this UI. `email` supplies Formspree's notification Reply-To.
+`src/lib/inquiry-delivery.ts` emits an allowlist: division, name, organization, email, optional phone/model/specification, province, category label and ID, optional quantity and translated timeline/priority (explicitly unknown/unspecified when omitted), details/message, locale, request ID, consent value/version/text/timestamp and canonical inquiry page. `_subject` is built only from trusted division/locale choices; `_gotcha` is the honeypot. Unknown fields, recipients, redirects and attachments are not forwarded by this UI. `email` supplies Formspree's notification Reply-To.
 
 The Formspree Workflow UI was inspected: its enabled Email action targets **info@ventilators.ca**. Form Enabled, Submission Archive and Formshield were enabled. CAPTCHA was already Disabled; this integration did not alter those controls or email/DNS configuration. The public form ID is not a credential. No Stripe/payment provider is configured, even though the official SDK includes optional Stripe dependencies.
 
@@ -24,7 +24,7 @@ Formspree processes and stores submitted business details and request/security m
 
 Client validation and allowlisting are usability controls, not an independent server security boundary: callers can send directly to the public endpoint. Formspree supplies hosted validation/spam handling. The application does not claim custom server schema enforcement, a configured rate limit, durable idempotency, automatic delivery retries, a dead-letter queue, Canadian-only storage or automatic patient-information detection. The reference helps staff identify repeated inquiries but cannot prevent all duplicates after an ambiguous network failure. Patient information and attachments remain prohibited.
 
-Operational follow-up: monitor Formspree submissions/spam/quota and notification failures; define access, retention/deletion and inquiry handling with the owner. Legal and bilingual editorial review remain open. Keep marketing consent separate if marketing is ever introduced. No analytics is currently active.
+Operational follow-up: monitor Formspree submissions/spam/quota and notification failures; define access, retention/deletion and inquiry handling with the owner. Legal and bilingual editorial review remain open. Keep marketing consent separate if marketing is ever introduced. Optional analytics is controlled separately from inquiry consent; see OPERATIONS.md.
 
 ## Verification
 

@@ -1,0 +1,98 @@
+[
+  {
+    "url": "/en/industrial/roof-ventilators/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/axial-fans/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/centrifugal-fans/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/industrial/exhaust-fans/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/medical/respiratory-accessories/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/medical/institutional-procurement/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/ventilateurs-de-toit/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/ventilateurs-axiaux/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/ventilateurs-centrifuges/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/industriel/ventilateurs-extraction/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/medical/accessoires-respiratoires/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/medical/approvisionnement-institutionnel/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 27,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  }
+]

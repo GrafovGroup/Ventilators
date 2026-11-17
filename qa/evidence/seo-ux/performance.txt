@@ -1,0 +1,1 @@
+PASS: 80 routes within initial JS/CSS budgets; 24 responsive photos within size budgets. Maximum initial JS: 193709 gzip bytes.

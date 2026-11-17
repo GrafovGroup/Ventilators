@@ -21,6 +21,32 @@ const valid: InquiryInput = {
   details: 'Synthetic inquiry. No order.',
   consent: 'yes',
 };
+test('unknown values remain unknown in both languages, never planning dates or time-sensitive priorities', () => {
+  for (const [locale, division, unknown, unspecified] of [
+    ['en', 'industrial', 'Not known yet', 'Not provided'],
+    ['fr', 'medical', 'Pas encore connu', 'Non fourni'],
+  ] as const) {
+    const payload = inquiryPayload(
+      {
+        ...valid,
+        division,
+        category: `${division}-general`,
+        quantity: '',
+        timeline: '',
+        urgency: '',
+      },
+      locale,
+      reference,
+      acceptedAt,
+    );
+    assert.equal(payload.quantity, unknown);
+    assert.equal(payload.timeline, unknown);
+    assert.equal(payload.urgency, unspecified);
+    assert.equal(payload.category_id, `${division}-general`);
+    assert.equal(payload.locale, `${locale}-CA`);
+    assert.equal(payload._gotcha, '');
+  }
+});
 
 test('delivery includes full inquiry, localized choices, reply email and versioned consent', () => {
   const payload = inquiryPayload(valid, 'en', reference, acceptedAt);

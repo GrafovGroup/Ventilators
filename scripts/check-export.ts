@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import { routes, alternatePath } from '../src/lib/routes';
 import { siteUrl, indexingEnabled } from '../src/lib/seo';
 import { media } from '../src/content/media';
+import { buyerGuides } from '../src/content/buyer-guides';
 import { searchVerification, publicFormId } from '../src/lib/integrations';
 
 const root = resolve('out');
@@ -24,6 +25,21 @@ for (const { route, html } of htmlFiles) {
     const title = html.match(/<title>(.*?)<\/title>/)?.[1];
     assert.ok(title && !titles.has(title), 'unique nonempty title');
     titles.add(title!);
+    if (route.category && buyerGuides[route.category.id]) {
+      for (const id of [
+        'category-brief',
+        'category-scope',
+        'category-questions',
+        'category-example-title',
+      ])
+        assert.ok(html.includes(`id="${id}"`), `buyer guidance rendered: ${id}`);
+      assert.ok(html.includes('<caption>'), 'comparison table has a caption');
+      assert.ok(html.includes('scope="row"'), 'comparison table has row headers');
+      assert.ok(
+        html.includes(`category=${route.category.id}`),
+        'inquiry preserves category context',
+      );
+    }
     assert.match(html, /<meta name="description" content="[^"]+"/);
     assert.ok(
       html.includes(`<link rel="canonical" href="${siteUrl}${route.path}"`),

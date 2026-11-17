@@ -1,0 +1,236 @@
+[
+  {
+    "case": "English minimal review",
+    "review": "INQUIRY REVIEWED — NOTHING HAS BEEN SENT.\n\nYour inquiry summary\n\nCheck your details below, then select Send inquiry. You can edit your information first, or copy the summary and contact us by email.\n\nInquiry reference: VCA-097bda7c-33f1-462d-abf7-552938ac53b1\n\nSEND INQUIRY\n\nCOPY INQUIRY SUMMARY\nOPEN AN EMAIL\n\nDivision\nIndustrial\nFull name\nSynthetic QA Buyer\nOrganization\nLocal test only\nWork email\nqa@example.invalid\nPhone\nNot provided\nProvince or territory\nOntario\nEquipment or service\nRoof ventilators\nManufacturer / model\nNot provided\nAirflow / capacity and units\nNot provided\nQuantity\nNot known yet\nProject timeline\nNot known yet\nPriority\nNot provided\nProject details\nSynthetic roof replacement inquiry. Technical requirements are not known yet.\nRead the privacy notice\nPrivacy notice acknowledged\nEDIT INQUIRYinfo@ventilators.ca",
+    "delivery": {
+      "mode": "retry",
+      "requests": []
+    }
+  },
+  {
+    "case": "English simulated failure preserves values",
+    "text": "RECEIPT UNCONFIRMED — YOUR DETAILS ARE PRESERVED.\n\nYour inquiry summary\n\nCheck your details below, then select Send inquiry. You can edit your information first, or copy the summary and contact us by email.\n\nInquiry reference: VCA-097bda7c-33f1-462d-abf7-552938ac53b1\n\nWe could not confirm receipt.\n\nYour details are still here. You can try again, copy the summary into an email, or call us. Keep the same reference when following up to help avoid duplicates.\n\nTRY SENDING AGAIN\n\nCOPY INQUIRY SUMMARY\nOPEN AN EMAIL\n\nDivision\nIndustrial\nFull name\nSynthetic QA Buyer\nOrganization\nLocal test only\nWork email\nqa@example.invalid\nPhone\nNot provided\nProvince or territory\nOntario\nEquipment or service\nRoof ventilators\nManufacturer / model\nNot provided\nAirflow / capacity and units\nNot provided\nQuantity\nNot known yet\nProject timeline\nNot known yet\nPriority\nNot provided\nProject details\nSynthetic roof replacement inquiry. Technical requirements are not known yet.\nRead the privacy notice\nPrivacy notice acknowledged\nEDIT INQUIRYinfo@ventilators.ca"
+  },
+  {
+    "case": "English retry accepted",
+    "text": "Inquiry submitted.\n\nThank you. Your inquiry has been accepted for processing. Keep the reference below when following up. Equipment availability and service scope still need confirmation.\n\nInquiry reference:\nVCA-097bda7c-33f1-462d-abf7-552938ac53b1\n\nSTART A NEW INQUIRY",
+    "delivery": {
+      "mode": "retry",
+      "requests": [
+        {
+          "method": "POST",
+          "payload": {
+            "division": "industrial",
+            "name": "Synthetic QA Buyer",
+            "organization": "Local test only",
+            "email": "qa@example.invalid",
+            "phone": "",
+            "province": "ON",
+            "category": "Roof ventilators",
+            "model": "",
+            "specification": "",
+            "quantity": "Not known yet",
+            "timeline": "Not known yet",
+            "urgency": "Not provided",
+            "details": "Synthetic roof replacement inquiry. Technical requirements are not known yet.",
+            "consent": "yes",
+            "category_id": "roof",
+            "locale": "en-CA",
+            "request_id": "VCA-097bda7c-33f1-462d-abf7-552938ac53b1",
+            "consent_version": "2026-11-17-formspree-v1",
+            "consent_text": "I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.",
+            "consent_timestamp": "2026-11-17T20:55:18.115Z",
+            "page": "https://ventilators.ca/en/request-a-quote/",
+            "_subject": "Ventilators.ca — Industrial (EN)",
+            "_gotcha": "",
+            "message": "Synthetic roof replacement inquiry. Technical requirements are not known yet."
+          }
+        },
+        {
+          "method": "POST",
+          "payload": {
+            "division": "industrial",
+            "name": "Synthetic QA Buyer",
+            "organization": "Local test only",
+            "email": "qa@example.invalid",
+            "phone": "",
+            "province": "ON",
+            "category": "Roof ventilators",
+            "model": "",
+            "specification": "",
+            "quantity": "Not known yet",
+            "timeline": "Not known yet",
+            "urgency": "Not provided",
+            "details": "Synthetic roof replacement inquiry. Technical requirements are not known yet.",
+            "consent": "yes",
+            "category_id": "roof",
+            "locale": "en-CA",
+            "request_id": "VCA-097bda7c-33f1-462d-abf7-552938ac53b1",
+            "consent_version": "2026-11-17-formspree-v1",
+            "consent_text": "I have read the privacy notice and consent to Ventilators.ca and Formspree processing my business contact details and inquiry to respond to this request.",
+            "consent_timestamp": "2026-11-17T20:55:18.115Z",
+            "page": "https://ventilators.ca/en/request-a-quote/",
+            "_subject": "Ventilators.ca — Industrial (EN)",
+            "_gotcha": "",
+            "message": "Synthetic roof replacement inquiry. Technical requirements are not known yet."
+          }
+        }
+      ]
+    },
+    "analytics": {
+      "mode": "fresh",
+      "consent": "denied",
+      "saved": {
+        "version": 1,
+        "choice": "denied",
+        "updatedAt": 1794948907747,
+        "expiresAt": 1810500907747
+      },
+      "frames": 0,
+      "tagLoads": 0,
+      "gaCookies": [],
+      "activeElement": "Skip to contentCanada-wide inquiries(833) 696-9996info@ventilators.caFRIndustria",
+      "commands": []
+    }
+  },
+  {
+    "case": "French minimal review unknown category",
+    "review": "DEMANDE VÉRIFIÉE — RIEN N’A ÉTÉ ENVOYÉ.\n\nRésumé de votre demande\n\nVérifiez les renseignements ci-dessous, puis sélectionnez Envoyer la demande. Vous pouvez d’abord les modifier ou copier le résumé pour nous joindre par courriel.\n\nRéférence de la demande: VCA-f80168e7-541c-4587-b2d5-b682d3a5849a\n\nENVOYER LA DEMANDE\n\nCOPIER LE RÉSUMÉ\nOUVRIR UN COURRIEL\n\nDivision\nMédical\nNom complet\nAcheteuse synthétique QA\nOrganisation\nEssai local seulement\nCourriel professionnel\nqa@example.invalid\nTéléphone\nNon fourni\nProvince ou territoire\nQuébec\nÉquipement ou service\nJe ne sais pas encore — aidez-moi à orienter cette demande\nFabricant / modèle\nNon fourni\nAppareil demandé / exigences d’achat\nNon fourni\nQuantité\nPas encore connu\nÉchéancier du projet\nPas encore connu\nPriorité\nNon fourni\nDétails du projet\nDemande synthétique d’achat; quantité et échéancier à confirmer.\nLire l’avis de confidentialité\nAvis de confidentialité reconnu\nMODIFIER LA DEMANDEinfo@ventilators.ca",
+    "delivery": {
+      "mode": "success",
+      "requests": []
+    }
+  },
+  {
+    "case": "French invalid optional quantity opens disclosure",
+    "error": "Veuillez vérifier les champs indiqués.\nQuantité: Saisissez un nombre entier de 1 à 10 000.",
+    "visible": true
+  },
+  {
+    "case": "French division changes preserve entered detail",
+    "review": "DEMANDE VÉRIFIÉE — RIEN N’A ÉTÉ ENVOYÉ.\n\nRésumé de votre demande\n\nVérifiez les renseignements ci-dessous, puis sélectionnez Envoyer la demande. Vous pouvez d’abord les modifier ou copier le résumé pour nous joindre par courriel.\n\nRéférence de la demande: VCA-e3bac97a-9fee-4533-a282-c0a683aecbb7\n\nENVOYER LA DEMANDE\n\nCOPIER LE RÉSUMÉ\nOUVRIR UN COURRIEL\n\nDivision\nMédical\nNom complet\nAcheteuse synthétique QA\nOrganisation\nEssai local seulement\nCourriel professionnel\nqa@example.invalid\nTéléphone\nNon fourni\nProvince ou territoire\nQuébec\nÉquipement ou service\nJe ne sais pas encore — aidez-moi à orienter cette demande\nFabricant / modèle\nNon fourni\nAppareil demandé / exigences d’achat\nRéférence synthétique, non clinique\nQuantité\nPas encore connu\nÉchéancier du projet\nPas encore connu\nPriorité\nNon fourni\nDétails du projet\nDemande synthétique d’achat; quantité et échéancier à confirmer.\nLire l’avis de confidentialité\nAvis de confidentialité reconnu\nMODIFIER LA DEMANDEinfo@ventilators.ca"
+  },
+  {
+    "case": "French accepted mocked delivery",
+    "delivery": {
+      "mode": "success",
+      "requests": [
+        {
+          "method": "POST",
+          "payload": {
+            "division": "medical",
+            "name": "Acheteuse synthétique QA",
+            "organization": "Essai local seulement",
+            "email": "qa@example.invalid",
+            "phone": "",
+            "province": "QC",
+            "category": "Je ne sais pas encore — aidez-moi à orienter cette demande",
+            "model": "",
+            "specification": "Référence synthétique, non clinique",
+            "quantity": "Pas encore connu",
+            "timeline": "Pas encore connu",
+            "urgency": "Non fourni",
+            "details": "Demande synthétique d’achat; quantité et échéancier à confirmer.",
+            "consent": "yes",
+            "category_id": "medical-general",
+            "locale": "fr-CA",
+            "request_id": "VCA-e3bac97a-9fee-4533-a282-c0a683aecbb7",
+            "consent_version": "2026-11-17-formspree-v1",
+            "consent_text": "J’ai lu l’avis de confidentialité et je consens au traitement de mes coordonnées professionnelles et de ma demande par Ventilators.ca et Formspree afin de répondre à cette demande.",
+            "consent_timestamp": "2026-11-17T20:56:16.196Z",
+            "page": "https://ventilators.ca/fr/demande-de-soumission/",
+            "_subject": "Ventilators.ca — Médical (FR)",
+            "_gotcha": "",
+            "message": "Demande synthétique d’achat; quantité et échéancier à confirmer."
+          }
+        }
+      ]
+    },
+    "analytics": {
+      "mode": "fresh",
+      "consent": "granted",
+      "saved": {
+        "version": 1,
+        "choice": "granted",
+        "updatedAt": 1794948956848,
+        "expiresAt": 1810500956848
+      },
+      "frames": 1,
+      "tagLoads": 1,
+      "gaCookies": ["_ga", "_ga_59FBT5T5V1"],
+      "activeElement": "Demande transmise.Merci. Votre demande a été acceptée pour traitement. Conservez",
+      "commands": [
+        [
+          "consent",
+          "default",
+          {
+            "analytics_storage": "denied",
+            "ad_storage": "denied",
+            "ad_user_data": "denied",
+            "ad_personalization": "denied"
+          }
+        ],
+        [
+          "consent",
+          "update",
+          {
+            "analytics_storage": "granted"
+          }
+        ],
+        ["js", "2026-11-17T20:55:56.982Z"],
+        [
+          "config",
+          "G-59FBT5T5V1",
+          {
+            "page_location": "https://ventilators.ca/fr/demande-de-soumission/",
+            "page_referrer": "",
+            "page_title": "Ventilators.ca | /fr/demande-de-soumission/",
+            "language": "fr",
+            "send_to": "G-59FBT5T5V1",
+            "send_page_view": false,
+            "allow_google_signals": false,
+            "allow_ad_personalization_signals": false,
+            "cookie_domain": "ventilators.ca",
+            "cookie_path": "/",
+            "cookie_expires": 15552000,
+            "cookie_update": false,
+            "cookie_flags": "SameSite=Lax;Secure"
+          }
+        ],
+        [
+          "event",
+          "page_view",
+          {
+            "page_location": "https://ventilators.ca/fr/demande-de-soumission/",
+            "page_referrer": "",
+            "page_title": "Ventilators.ca | /fr/demande-de-soumission/",
+            "language": "fr",
+            "send_to": "G-59FBT5T5V1"
+          }
+        ],
+        [
+          "event",
+          "rfq_started",
+          {
+            "page_location": "https://ventilators.ca/fr/demande-de-soumission/",
+            "page_referrer": "",
+            "page_title": "Ventilators.ca | /fr/demande-de-soumission/",
+            "language": "fr",
+            "send_to": "G-59FBT5T5V1"
+          }
+        ],
+        [
+          "event",
+          "rfq_submitted",
+          {
+            "page_location": "https://ventilators.ca/fr/demande-de-soumission/",
+            "page_referrer": "",
+            "page_title": "Ventilators.ca | /fr/demande-de-soumission/",
+            "language": "fr",
+            "send_to": "G-59FBT5T5V1"
+          }
+        ]
+      ]
+    }
+  }
+]

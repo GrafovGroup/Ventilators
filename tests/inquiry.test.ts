@@ -45,10 +45,33 @@ test('rejects bad emails, unknown province, forged category and timeline', () =>
   assert.deepEqual(Object.keys(errors).sort(), ['category', 'email', 'province', 'timeline']);
 });
 test('quantities must be bounded positive integers', () => {
-  for (const quantity of ['0', '-1', '1.5', '10001', '1e3', 'NaN', ''])
+  for (const quantity of ['0', '-1', '1.5', '10001', '1e3', 'NaN'])
     assert.equal(validateInquiry({ ...valid, quantity }).quantity, 'quantityError');
   for (const quantity of ['1', '10000'])
     assert.equal(validateInquiry({ ...valid, quantity }).quantity, undefined);
+});
+test('early-stage inquiries accept unknown technical details and enforce division routing', () => {
+  for (const division of ['industrial', 'medical']) {
+    assert.deepEqual(
+      validateInquiry({
+        ...valid,
+        division,
+        category: `${division}-general`,
+        quantity: '',
+        timeline: '',
+        urgency: '',
+      }),
+      {},
+    );
+  }
+  assert.equal(
+    validateInquiry({ ...valid, category: 'medical-general' }).category,
+    'requiredError',
+  );
+  assert.equal(
+    validateInquiry({ ...valid, division: 'medical', category: 'industrial-general' }).category,
+    'requiredError',
+  );
 });
 test('enforces text limits and known division', () => {
   assert.equal(validateInquiry({ ...valid, details: 'x'.repeat(4001) }).details, 'lengthError');

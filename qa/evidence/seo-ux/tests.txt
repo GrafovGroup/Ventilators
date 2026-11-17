@@ -1,0 +1,38 @@
+✔ consent expires, malformed/future/old records fail closed, and neither choice renews on read (1.370209ms)
+✔ collector is inert on previews/top-level visits and before a valid consent-created handshake (2.144417ms)
+✔ collector config suppresses automatic/ad/referrer tracking; stop prevents queued and future events (0.600083ms)
+✔ category search combines division and every word without requiring French accents (2.314667ms)
+✔ clearing filters restores every inquiry-only category in both languages (0.311083ms)
+✔ editorial visuals have unique source identities and unique file contents (20.878167ms)
+✔ every detail page has a unique visual, translated sections and a valid inquiry path (4.355709ms)
+✔ resource checklists are generated in both languages (3.100125ms)
+✔ unknown values remain unknown in both languages, never planning dates or time-sensitive priorities (1.072875ms)
+✔ delivery includes full inquiry, localized choices, reply email and versioned consent (0.272292ms)
+✔ French medical requests retain division routing and French context (0.102292ms)
+✔ payload strips unrecognized fields and never accepts arbitrary routing or mail headers (0.097708ms)
+✔ delivery refuses invalid inquiries and preserves the same reference on retry (0.407917ms)
+✔ a valid industrial inquiry passes local review (1.548333ms)
+✔ medical inquiry uses only medical categories (1.115167ms)
+✔ requires consent and meaningful required fields (0.329208ms)
+✔ rejects bad emails, unknown province, forged category and timeline (0.065791ms)
+✔ quantities must be bounded positive integers (1.232292ms)
+✔ early-stage inquiries accept unknown technical details and enforce division routing (0.147209ms)
+✔ enforces text limits and known division (0.104625ms)
+✔ FormData normalization trims text and ignores unrelated fields (21.437584ms)
+✔ service inquiries are validated within their division and priority is bounded (0.16025ms)
+✔ EN/FR UI and editorial dictionaries have identical nonempty keys (1.900875ms)
+✔ all translated routes are unique and reciprocal (1.854375ms)
+✔ category links retain their translated division and slug (0.10725ms)
+✔ unsupported routes resolve to no page and no products are invented (0.084625ms)
+✔ public integration configuration keeps the approved endpoint and rejects pasted credentials/markup (0.773458ms)
+✔ analytics contract accepts all planned events only in valid public context (0.158459ms)
+✔ analytics contract rejects personal data, arbitrary URLs, invalid contexts and extra properties (0.102333ms)
+✔ health checks detect soft failures, indexing blocks, missing headers and incorrect language/redirects (19.451125ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 177.124834

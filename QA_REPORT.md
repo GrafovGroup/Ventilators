@@ -1,5 +1,13 @@
 # QA report
 
+## Search titles, category guidance and inquiry UX — 2026-11-17
+
+- All 30 unit tests, lint, TypeScript, public build and 80 exported-route checks pass. Maximum initial JavaScript is 193,709 gzip bytes, below the 200,000-byte budget; CSS and responsive-image budgets pass.
+- All 12 enriched category routes pass automated accessibility/layout checks at 320px with no violations or horizontal overflow. Contrast items marked incomplete still require human review; this is not full accessibility certification.
+- Local EN minimal review transmits nothing; simulated failure/retry preserves the reference and values. FR unknown-category review, edits, invalid optional quantity, auto-opening error disclosure, division changes and accepted mocked submission pass. Unknown timing never becomes a planning commitment and unknown priority never becomes time-sensitive.
+- Declined analytics has zero collector/tag loads; opted-in local mock records one page view, start and accepted-submit event with no form contents. No real inquiry was sent and no Formspree/Google account settings changed.
+- Responsive EN/FR form checks, screenshots and payload evidence are under `qa/evidence/seo-ux/`. Publication evidence follows after release verification.
+
 ## Optional analytics and bilingual consent — 2026-11-17
 
 - 28 unit tests pass, including expired/invalid consent, collector origin/parent guards, consent ordering, advertising defaults, sanitized context and stop behavior. Lint, TypeScript, the public build, all 80 route checks and performance budgets pass (maximum initial JS 193,245 gzip bytes, below 200,000).

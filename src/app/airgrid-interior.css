@@ -1,4 +1,108 @@
 /* Shared editorial layouts use the full viewport with readable text measures. */
+.airgrid-site .buyer-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  padding-block: 22px;
+  border-block: 1px solid var(--line);
+}
+.buyer-jump a,
+.buyer-sources a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.buyer-guide {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 40px clamp(24px, 5vw, 100px);
+  padding-block: 40px 70px;
+}
+.buyer-guide section,
+.buyer-guide aside {
+  min-width: 0;
+}
+.buyer-guide h2 {
+  font-size: clamp(25px, 2.1vw, 38px);
+  line-height: 1.2;
+}
+.buyer-guide h3 {
+  font-size: 20px;
+  line-height: 1.35;
+}
+.buyer-answer,
+.buyer-questions p,
+.buyer-example p {
+  max-width: 72ch;
+}
+.buyer-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+.buyer-table caption {
+  text-align: left;
+  font-weight: 700;
+  padding-block: 20px 12px;
+}
+.buyer-table th,
+.buyer-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 16px 12px;
+  border-bottom: 1px solid var(--line);
+}
+.buyer-table thead {
+  background: var(--wash);
+}
+.buyer-table tbody th {
+  width: 32%;
+}
+.buyer-questions > div {
+  padding-block: 12px;
+  border-top: 1px solid var(--line);
+}
+.buyer-example {
+  padding: clamp(20px, 3vw, 40px);
+  background: var(--wash);
+}
+.buyer-example blockquote {
+  margin: 24px 0;
+  padding-left: 18px;
+  border-left: 3px solid var(--blue);
+}
+.buyer-sources {
+  align-self: center;
+  font-size: 14px;
+  max-width: 72ch;
+}
+.buyer-sources a {
+  display: block;
+  margin-block: 12px;
+  overflow-wrap: anywhere;
+}
+.inquiry-optional {
+  margin-block: 24px;
+  border-block: 1px solid var(--line);
+  padding-block: 18px;
+}
+.inquiry-optional summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+.inquiry-optional .form-grid {
+  margin-top: 20px;
+}
+@media (max-width: 800px) {
+  .buyer-guide {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .buyer-table th,
+  .buyer-table td {
+    padding: 12px 8px;
+  }
+}
 .airgrid-site .container {
   max-width: none;
 }
@@ -211,5 +315,12 @@
   .airgrid-site .article-hero,
   .airgrid-site .article-sections > section > div {
     display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .buyer-table tbody th {
+    width: 40%;
+    hyphens: auto;
   }
 }

@@ -1,0 +1,34 @@
+[
+  {
+    "url": "/en/request-a-quote/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 29,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/fr/demande-de-soumission/",
+    "viewport": 320,
+    "scrollWidth": 320,
+    "passes": 29,
+    "violations": [],
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "url": "/en/request-a-quote/",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "passes": 29,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "url": "/fr/demande-de-soumission/",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "passes": 29,
+    "violations": [],
+    "incomplete": []
+  }
+]

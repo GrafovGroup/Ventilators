@@ -1,6 +1,17 @@
 import { categories } from '@/content/catalog';
 import { serviceOptions } from '@/content/details';
-export const inquiryOptions = [...categories, ...serviceOptions];
+export const inquiryOptions = [
+  ...categories,
+  ...serviceOptions,
+  ...(['industrial', 'medical'] as const).map((division) => ({
+    id: `${division}-general`,
+    division,
+    name: {
+      en: 'Not sure yet — help route this inquiry',
+      fr: 'Je ne sais pas encore — aidez-moi à orienter cette demande',
+    },
+  })),
+];
 
 export const provinceCodes = [
   'AB',
@@ -49,9 +60,6 @@ export function validateInquiry(input: InquiryInput): InquiryErrors {
     'email',
     'province',
     'category',
-    'quantity',
-    'timeline',
-    'urgency',
     'details',
   ] as const) {
     if (!input[field]?.trim()) errors[field] = 'requiredError';
@@ -70,10 +78,15 @@ export function validateInquiry(input: InquiryInput): InquiryErrors {
     errors.province = 'requiredError';
   if (!inquiryOptions.some((c) => c.division === input.division && c.id === input.category))
     errors.category = 'requiredError';
-  if (!/^\d+$/.test(input.quantity) || Number(input.quantity) < 1 || Number(input.quantity) > 10000)
+  if (
+    input.quantity &&
+    (!/^\d+$/.test(input.quantity) || Number(input.quantity) < 1 || Number(input.quantity) > 10000)
+  )
     errors.quantity = 'quantityError';
-  if (!['0', '1', '2', '3'].includes(input.timeline)) errors.timeline = 'requiredError';
-  if (!['standard', 'time-sensitive'].includes(input.urgency)) errors.urgency = 'requiredError';
+  if (input.timeline && !['0', '1', '2', '3'].includes(input.timeline))
+    errors.timeline = 'requiredError';
+  if (input.urgency && !['standard', 'time-sensitive'].includes(input.urgency))
+    errors.urgency = 'requiredError';
   if (input.consent !== 'yes') errors.consent = 'consentError';
   return errors;
 }

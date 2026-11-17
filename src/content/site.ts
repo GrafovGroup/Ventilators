@@ -222,6 +222,18 @@ export const dictionaries = {
       openEmail: 'Open an email',
       emailSubject: 'Equipment or service inquiry',
       notProvided: 'Not provided',
+      notKnown: 'Not known yet',
+      optionalDetails: 'Add technical details or timing (optional)',
+      optionalHelp: 'Share what you already know. You can leave the rest for follow-up.',
+      industrialDetails: 'What equipment or project do you need help with?',
+      medicalDetails: 'What are your purchasing requirements?',
+      industrialHelp:
+        'Describe the application, location and whether this is a replacement or a new project.',
+      medicalHelp:
+        'Describe the requested equipment or accessories and your organization’s purchasing needs. Do not include patient information.',
+      nextTitle: 'What happens next?',
+      nextText:
+        'Review your summary before sending. We use your request to clarify the requirements; any availability, compatibility and quotation must be confirmed separately.',
       acknowledged: 'Privacy notice acknowledged',
       details: 'Project details',
       consent:
@@ -432,6 +444,19 @@ export const dictionaries = {
       openEmail: 'Ouvrir un courriel',
       emailSubject: 'Demande d’équipement ou de service',
       notProvided: 'Non fourni',
+      notKnown: 'Pas encore connu',
+      optionalDetails: 'Ajouter des précisions techniques ou un échéancier (facultatif)',
+      optionalHelp:
+        'Indiquez ce que vous savez déjà. Les autres précisions pourront être discutées lors du suivi.',
+      industrialDetails: 'Pour quel équipement ou projet avez-vous besoin d’aide?',
+      medicalDetails: 'Quels sont vos besoins d’achat?',
+      industrialHelp:
+        'Décrivez l’application, le lieu et s’il s’agit d’un remplacement ou d’un nouveau projet.',
+      medicalHelp:
+        'Décrivez l’équipement ou les accessoires demandés et les besoins d’achat de votre organisation. N’incluez aucune donnée sur les patients.',
+      nextTitle: 'Et ensuite?',
+      nextText:
+        'Vérifiez le résumé avant l’envoi. Votre demande sert à préciser les besoins; la disponibilité, la compatibilité et toute soumission doivent être confirmées séparément.',
       acknowledged: 'Avis de confidentialité reconnu',
       details: 'Détails du projet',
       consent:
