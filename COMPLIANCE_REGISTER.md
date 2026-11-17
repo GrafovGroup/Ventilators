@@ -15,7 +15,7 @@ Status as of 2026-11-17. This register tracks evidence gaps; it is not a legal o
 | Patient data                                | VERIFIED (UI control only)     | Medical form explicitly prohibits patient information; no transmission                                         | Independent server validation and operational handling before activation; do not claim automatic PHI detection.                   |
 | Unsupported content                         | VERIFIED (initial code review) | No SKUs, pricing, stock, addresses, reviews, certifications or partner logos                                   | Repeat review when real supplier content is added.                                                                                |
 | EN/FR editorial approval                    | BLOCKED                        | Paired dictionaries, localized routes and automated parity                                                     | Canadian English and Quebec French human editorial approval.                                                                      |
-| Public informational release                | OWNER AUTHORIZED / PREPARING   | 2026-11-17 explicit instruction to make site live; no automatic delivery or product offers                     | Hosting verification and rollback record; specialist gates above remain open.                                                     |
+| Public informational release                | VERIFIED (hosting only)        | 2026-11-17 explicit instruction to make site live; no automatic delivery or product offers                     | 487 served files verified; rollback root preserved. Specialist gates above remain open.                                           |
 
 ## Future verified product evidence
 

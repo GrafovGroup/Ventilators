@@ -1,8 +1,25 @@
 # QA report
 
-## Public release preparation — 2026-11-17
+## Public release — 2026-11-17
 
-The owner authorized the full informational website and selected info@ventilators.ca. Release checks and live evidence will be recorded under `qa/evidence/public-release/`. Automated delivery and inbox receipt are not verified. The following Phase 1B results are historical local checks.
+The full informational website is LIVE on WHC at https://ventilators.ca/. Source commit `02fc4e85bf26317160275928c65be2dbc04b7040`; release `2026-11-17-public-1`. The owner explicitly authorized publication and selected info@ventilators.ca. Automatic submission and inbox receipt remain unverified.
+
+| Release check          | Result / evidence in `qa/evidence/public-release/`                                                                                                                                                                                                                                                       |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Code and build         | ESLint, TypeScript, 15 tests, public static build, 80-route export and formatting PASS; `checks.txt`                                                                                                                                                                                                     |
+| Dependency audit       | Zero vulnerabilities; `dependency-audit.json`                                                                                                                                                                                                                                                            |
+| Artifact integrity     | Clean source commit, ZIP integrity passed, 489 manifest files; `manifest.json`, `release.json`                                                                                                                                                                                                           |
+| Live HTTP integrity    | 487 publicly served files match their source SHA-256 hashes; two `.htaccess` files intentionally excluded; `live-http.json`                                                                                                                                                                              |
+| Routing and hosting    | HTTPS/www 301 redirects, all 80 content routes, actual branded 404, dotfile denial, robots allow, canonical/hreflang/sitemaps, Brotli and cache/security headers verified                                                                                                                                |
+| Upload/archive cleanup | ZIP moved outside public roots; public ZIP URL returns 404; `error-and-archive-checks.json`                                                                                                                                                                                                              |
+| Local inquiry changes  | EN/FR review/copy/edit, localized summary and no personal details in mailto URL; `local-inquiry-*.json`. French console warnings were from the Grammarly extension, not site code.                                                                                                                       |
+| Live browser           | English desktop at 1440 px; French mobile at 375 px, no horizontal overflow, images loaded, language switch and mobile navigation passed. Empty-form errors, review, clipboard copy and edit retention passed with synthetic data; `live-browser.json` and screenshots. No site console errors/warnings. |
+| Page-owned imagery     | 30 unique editorial assets retain the tested assignment and file hashes; all assets were also fetched successfully from WHC                                                                                                                                                                              |
+| Rollback               | Original holding root `/home/nvfglyl5/ventilators.ca` preserved; pre-switch hash matches tracked holding HTML; `prelaunch-holding.json`                                                                                                                                                                  |
+
+WHC initially served the prior root for roughly a minute after cPanel accepted the change. Checks were repeated once the new root became active; the final report above has zero failures. The initial propagation report is retained locally with the release artifact. No DNS/mail change, test email, automatic lead transmission, analytics or scheduled monitoring was performed.
+
+Legal, medical, supplier and human bilingual editorial review remain open. Browser checks are not full accessibility conformance, real-device validation or measured Core Web Vitals. The following Phase 1B entries document historical local checks before this public release.
 
 ## Phase 1B review build
 

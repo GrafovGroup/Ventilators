@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/2026-11-17-public-1.zip",
+    "status": 404,
+    "xRobotsTag": "noindex, nofollow"
+  },
+  {
+    "path": "/release-check-missing/",
+    "status": 404,
+    "xRobotsTag": "noindex, nofollow"
+  },
+  {
+    "path": "/404.html",
+    "status": 200,
+    "xRobotsTag": "noindex, nofollow"
+  },
+  {
+    "path": "/500.html",
+    "status": 200,
+    "xRobotsTag": "noindex, nofollow"
+  }
+]

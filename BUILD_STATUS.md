@@ -6,7 +6,7 @@ Source of truth: `CODEX_MASTER_PROMPT.md` v2.0, fetched from GrafovGroup/Ventila
 
 On 2026-11-17 the owner instructed “lets proceed with building and also lets make the site live” and selected `info@ventilators.ca` for inquiries. This supersedes the earlier holding-page-only direction. The release includes the 80 localized informational pages, unique imagery, downloads and a local copy-and-email inquiry builder. It does not activate automatic RFQ submission, publish unverified products, or establish legal/regulatory/editorial approval.
 
-Public release preparation is in progress. See `docs/DEPLOYMENT.md` for the release process and `docs/WHC_CONNECTION.md` for the final hosting record. The following Phase 1A/1B entries are historical checkpoints, not a prohibition on this later owner-authorized release.
+The full website is LIVE at https://ventilators.ca/ on WHC Pro. Release `2026-11-17-public-1` uses source commit `02fc4e85bf26317160275928c65be2dbc04b7040`. All 487 public artifact files match their deployed SHA-256 hashes, including 80 localized pages. HTTPS redirects, actual 404s, indexing, caching, images, downloads and live mobile inquiry review/copy were verified. The old holding root is intact for rollback. See `docs/DEPLOYMENT.md`, `docs/WHC_CONNECTION.md` and `qa/evidence/public-release/`. The following Phase 1A/1B entries are historical checkpoints, not a prohibition on this later owner-authorized release.
 
 ## Historical increment: Phase 1B — full-site development
 

@@ -1,0 +1,23 @@
+{
+  "url": "https://ventilators.ca/",
+  "status": 200,
+  "sha256": "16ebd3a9aae1ee2048b4b26f02b67b0d31925de77e57f3fda6f3f2b6436d6564",
+  "holdingPageMatches": true,
+  "headers": {
+    "Connection": "close",
+    "Content-Type": "text/html",
+    "Last-Modified": "Tue, 17 Nov 2026 06:44:16 GMT",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "2342",
+    "Date": "Tue, 17 Nov 2026 16:53:38 GMT",
+    "Server": "LiteSpeed",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Frame-Options": "DENY",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+    "X-Robots-Tag": "noindex, nofollow",
+    "Cache-Control": "no-cache",
+    "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+    "alt-svc": "h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000"
+  }
+}

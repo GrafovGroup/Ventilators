@@ -2,7 +2,7 @@
 
 Bilingual industrial ventilation and institutional medical procurement website for Grafov Group. Source of truth: [CODEX_MASTER_PROMPT.md](CODEX_MASTER_PROMPT.md), including the approved WHC.ca Pro static-hosting decision.
 
-The owner authorized publication of the full bilingual informational website on 2026-11-17, superseding the earlier coming-soon-only instruction. Release preparation is on `codex/phase-1a`; the deployment record establishes the live status. Medical categories remain inquiry-only; no verified product inventory exists. The inquiry builder validates, reviews and copies a summary locally; visitors send email themselves to **info@ventilators.ca**. Automatic submission and inbox delivery are not verified.
+The owner authorized publication of the full bilingual informational website on 2026-11-17, superseding the earlier coming-soon-only instruction. The full site is live at [ventilators.ca](https://ventilators.ca/) on WHC Pro; tested source is on `codex/phase-1a`. Medical categories remain inquiry-only; no verified product inventory exists. The inquiry builder validates, reviews and copies a summary locally; visitors send email themselves to **info@ventilators.ca**. Automatic submission and inbox delivery are not verified.
 
 ## Run locally
 

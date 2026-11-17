@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-11-17T17:00:47.606Z",
+  "url": "https://ventilators.ca/fr/demande-de-soumission/?division=industrial&category=roof",
+  "englishHomepageWidth": 1440,
+  "frenchHomepageWidth": 375,
+  "homepageImagesLoaded": true,
+  "languageSwitch": true,
+  "mobileNavigation": true,
+  "blankValidation": "Veuillez vérifier les champs indiqués.\nNom complet: Veuillez remplir ce champ.\nOrganisation: Veuillez remplir ce champ.\nCourriel professionnel: Veuillez remplir ce champ.\nProvince ou territoire: Veuillez remplir ce champ.\nÉquipement ou service: Veuillez remplir ce champ.\nQuantité: Saisissez un nombre entier de 1 à 10 000.\nÉchéancier du projet: Veuillez remplir ce champ.\nPriorité: Veuillez remplir ce champ.\nDétails du projet: Veuillez remplir ce champ.\nLire l’avis de confidentialité: Veuillez confirmer la lecture de l’avis.",
+  "copyStatus": "Résumé copié. Collez-le dans votre courriel.",
+  "copyMatches": true,
+  "emailHref": "mailto:info@ventilators.ca?subject=Demande%20d%E2%80%99%C3%A9quipement%20ou%20de%20service%20%E2%80%94%20Industriel",
+  "viewport": {
+    "documentWidth": 375,
+    "width": 375
+  },
+  "logs": [
+    {
+      "level": "warn",
+      "message": "[DEFAULT]: WARN : Using DEFAULT root logger",
+      "timestamp": "2026-11-17T17:00:31.561Z",
+      "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/Grammarly.js"
+    },
+    {
+      "level": "warn",
+      "message": "[Telemetry.TS.AgentsExperimentationService]: WARN : Requested gate not found in ALL_GATES:  personalized_humanizer_agent_poc_gate",
+      "timestamp": "2026-11-17T17:00:31.896Z",
+      "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/Grammarly.js"
+    },
+    {
+      "level": "warn",
+      "message": "[Telemetry.TS.AgentsExperimentationService]: WARN : Requested experiment not found in ALL_EXPERIMENTS:  personalized_humanizer_v1",
+      "timestamp": "2026-11-17T17:00:31.896Z",
+      "url": "chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen/src/js/Grammarly.js"
+    }
+  ],
+  "emailSent": false,
+  "editRetained": true
+}

@@ -1,0 +1,22 @@
+{
+  "releasedAt": "2026-11-17T16:59:50Z",
+  "release": "2026-11-17-public-1",
+  "url": "https://ventilators.ca/",
+  "sourceCommit": "02fc4e85bf26317160275928c65be2dbc04b7040",
+  "sourceTree": "4195bce76b28a9a5f0adcc64c3272f737a336f00",
+  "sourceHasChanges": false,
+  "archiveSha256": "f49d6d09bbb69aa52e0a53545edd11e25fd6627b492f24b41c00ecf75651674e",
+  "archiveBytes": 3628839,
+  "documentRoot": "/home/nvfglyl5/ventilators-release-2026-11-17-public-1",
+  "rollbackDocumentRoot": "/home/nvfglyl5/ventilators.ca",
+  "privateArchive": "/home/nvfglyl5/2026-11-17-public-1.zip",
+  "files": 489,
+  "publicFilesVerified": 487,
+  "localizedPages": 80,
+  "editorialImages": 30,
+  "mailRecipient": "info@ventilators.ca",
+  "mailDeliveryVerified": false,
+  "automaticSubmissionEnabled": false,
+  "dnsChanged": false,
+  "mailRoutingChanged": false
+}

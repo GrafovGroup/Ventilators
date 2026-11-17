@@ -2,6 +2,8 @@
 
 The owner instructed publication of the full bilingual website on 2026-11-17 and selected `info@ventilators.ca` for inquiries. This supersedes the earlier coming-soon-only direction. The authorized release is informational: 80 localized pages, page-owned imagery, downloads, phone/email links and a local inquiry builder with review/copy. No automatic inquiry transmission, product offers or specialist approval are implied.
 
+Current live release: `2026-11-17-public-1`, source `02fc4e85bf26317160275928c65be2dbc04b7040`. The active and rollback roots, archive checksum and final live checks are recorded in `WHC_CONNECTION.md` and `../qa/evidence/public-release/release.json`.
+
 ## Environment matrix
 
 | Environment           | Origin                     | Inquiry handling                                  | Indexing                               |
@@ -37,7 +39,7 @@ The packager requires public robots.txt, copies only exported files, adds `deplo
 
 ## WHC release and rollback
 
-1. Use authenticated cPanel File Manager. Prepare a new dedicated release directory outside the active document root. Upload the ZIP to its parent, extract into the release directory and inspect the resulting files, including hidden `.htaccess`.
+1. Use authenticated cPanel File Manager. Prepare a new dedicated release directory outside the active document root. Upload and extract the ZIP into the release directory, inspect the resulting files including hidden `.htaccess`, and move the ZIP outside all public roots before publication.
 2. Preserve `/home/nvfglyl5/ventilators.ca`, the original holding-page root. Its exact files and artifact checksum are recorded in `docs/WHC_CONNECTION.md`. Do not touch other domains, mail records or the primary document root.
 3. In cPanel Domains → Manage `ventilators.ca`, update **New Document Root** to the new release directory. This publishes the prepared release without overwriting the holding files. Record the final path and source/artifact checksums.
 4. Verify public HTTPS, www/HTTP redirects, root and all 80 localized routes, canonical/hreflang/robots/sitemaps, assets/downloads, query preselection, and actual 404 status. Check security/cache headers and a browser inquiry review/copy cycle on the live site. Compare served file hashes to the artifact.

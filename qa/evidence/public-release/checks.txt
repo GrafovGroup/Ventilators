@@ -12,3 +12,7 @@ Formatting: PASS
 Local EN inquiry: review/copy/edit PASS, summary values match, no personal fields in mailto URL, zero console warnings/errors
 Local FR inquiry at 375px: review/copy PASS, width check and console evidence in local-inquiry-fr.json
 No email sent. Inbox delivery and automatic submissions remain unverified.
+Live verification: PASS, 487 public files match artifact hashes; HTTPS/www redirects, branded 404, dotfile denial, robots and cache/security headers
+Archive URL: 404; 404/500 response headers: noindex
+Live browser: EN 1440px / FR 375px; language switch, menu, images, validation, copy and edit PASS; no site console errors or warnings
+Original holding root preserved; source/artifact/rollback record in release.json
